@@ -215,9 +215,147 @@ version: "2.0.0"
 - `10-final-thoughts.md` — 最终思考
 - `11-quick-reference.md` — 速查手册
 
-## Python 工具包
+## 八、Python 可执行工具包
 
-`swd/` 目录提供完整 Python API，可供 AI 或开发者调用：
+### 安装与依赖
+
+纯 Python 实现，无外部依赖（仅需 Python 3.8+）。安装方式：
+
+```bash
+# 方式1：直接引用项目路径
+import sys; sys.path.insert(0, "/path/to/storytelling-with-data-skill")
+
+# 方式2：复制 swd/ 目录和 knowledge/ 目录到你的项目中
+```
+
+### SWDSkill 统一入口类
+
+`SWDSkill` 是全部 8 大执行能力的统一入口，每个方法返回格式化的 Markdown 报告字符串。
+
+```python
+from swd import SWDSkill
+skill = SWDSkill("你的项目名称")
+```
+
+### 8 大核心模块调用方法
+
+**能力1：上下文分析** — `skill.build_context()`
+```python
+result = skill.build_context(
+    audience="产品VP",                    # 必填：主要受众
+    cta="批准200万预算",                   # 必填：行动号召
+    decision_maker="CTO",                 # 可选：决策者
+    knowledge_level="general",            # expert/general/novice
+    relationship="established",           # first_contact/established/need_credibility
+    mechanism="live_presentation",        # live_presentation/written_report/email
+    tone="serious",                       # serious/urgent/celebratory/neutral
+    three_min_story="如果只有3分钟...",     # 3分钟故事
+    big_idea="完整的Big Idea句子",         # 独特观点+利害关系+完整句子
+    big_idea_point="独特观点",
+    big_idea_stakes="利害关系",
+    supporting_data=["数据点1", "数据点2"], # 支撑数据
+    risks=["风险1"],                       # 风险/反面证据
+)
+```
+
+**能力2：图表选择** — `skill.recommend_chart()`
+```python
+result = skill.recommend_chart(
+    data_type="continuous",       # categorical/continuous/relationship/single_number
+    series_count=2,               # 数据系列数
+    category_count=12,            # 类别数
+    has_time=True,                # 是否有时间维度
+    show_part_of_whole=False,     # 是否展示部分与整体
+    category_names_long=False,    # 类别名是否较长
+    compare_two_points=False,     # 是否比较两个时间点
+    proposed_chart="pie",         # 可选：检测用户提出的图表是否应避免
+)
+```
+
+**能力3：去杂乱诊断** — `skill.diagnose_clutter()`
+```python
+result = skill.diagnose_clutter(
+    has_border=True, has_gridlines=True, has_3d=True,
+    has_diagonal_text=True, has_separate_legend=True,
+    has_trailing_zeros=True, has_data_markers=False,
+    has_background_shading=False,
+    gestalt_issues=[("proximity", "问题描述", "建议")],
+    alignment_issues=["标题居中对齐"],
+    whitespace_issues=["图表被拉伸填满"],
+)
+```
+
+**能力4：注意力引导** — `skill.plan_attention()`
+```python
+result = skill.plan_attention(
+    focus_elements=[("关键指标", 5), ("基准线", 2)],  # (元素名, 重要性1-5)
+    color_strategy="grey_plus_one",   # grey_plus_one/sequential/diverging
+    accent_color="蓝色 (#0070C0)",
+    hierarchy=[
+        (1, ["关键指标"], "大号+粗体+蓝色"),
+        (2, ["基准线"], "中号+深灰"),
+        (3, ["轴标签"], "小号+浅灰"),
+    ],
+)
+```
+
+**能力5：设计评估** — `skill.evaluate_design()`
+```python
+result = skill.evaluate_design(
+    has_title=True, has_axis_titles=True, has_action_title=True,
+    has_annotations=True, color_strategic=True,
+    alignment_clean=True, whitespace_ok=True,
+    hierarchy_clear=True, highlight_limited=True,
+    distractions_removed=True,
+)
+```
+
+**能力6：故事构建** — `skill.build_story()`
+```python
+result = skill.build_story(
+    protagonist="产品委员会",           # 必填：主角（受众）
+    imbalance="用户增长率下降",         # 必填：冲突/不平衡
+    setting="公司进入成熟期",
+    desired_balance="恢复15%月均增长",
+    evidence=["留存率下降", "竞品领先"],
+    call_to_action="批准200万优化预算",
+    narrative_flow="lead_with_ending",  # chronological/lead_with_ending
+    bing="预告", bang="主体", bongo="回顾",
+    slide_titles=["标题1", "标题2"],
+)
+```
+
+**能力7：综合诊断** — `skill.full_diagnosis()`
+```python
+result = skill.full_diagnosis(scores={
+    "context":          {"audience_clear": 4, "cta_clear": 3, "big_idea_visible": 2, "data_supports_story": 4},
+    "visual_choice":    {"chart_type_fit": 5, "avoid_bad_charts": 5, "zero_baseline": 5, "logical_order": 4},
+    "clutter":          {"no_unnecessary_elements": 3, "no_diagonal_text": 5, "whitespace_ok": 4, "no_redundancy": 3},
+    "attention":        {"preattentive_used": 2, "color_sparse": 3, "visual_hierarchy": 2, "eyes_drawn_test": 3},
+    "design_narrative": {"text_sufficient": 4, "alignment_aesthetic": 4, "narrative_structure": 3, "action_titles": 2},
+})
+```
+
+**能力8：图表改造** — `skill.makeover()`
+```python
+result = skill.makeover(
+    issues=["使用了饼图", "无标题", "彩虹色"],
+    chart_type="水平柱状图",
+    title="行动标题示例",
+    color_accent="蓝色",
+    narrative_slides=[
+        ("幻灯片标题1", "口头叙述1"),
+        ("幻灯片标题2", "口头叙述2"),
+    ],
+)
+```
+
+**知识库搜索** — `skill.search_knowledge()`
+```python
+results = skill.search_knowledge("格式塔")  # 返回 Dict[str, List[str]]
+```
+
+### 8 大核心模块一览
 
 | 模块 | 类 | 用途 |
 |---|---|---|
@@ -232,3 +370,12 @@ version: "2.0.0"
 | `config.py` | `AnalysisConfig` | 全局配置和常量 |
 | `utils.py` | `load_knowledge` | 知识库加载与搜索 |
 | `templates.py` | — | 报告模板和检查清单 |
+
+### AI Agent 调用规则
+
+1. **统一入口**：始终通过 `SWDSkill` 类调用，不直接实例化子模块
+2. **返回值**：所有方法返回 Markdown 格式字符串，可直接展示给用户
+3. **触发映射**：根据用户意图自动选择对应能力（参见上方触发条件总表）
+4. **组合调用**：综合任务按 能力一→八 顺序依次执行
+5. **知识检索**：遇到理论问题时先调用 `search_knowledge()` 查询知识库
+6. **测试验证**：运行 `python swd/tests/test_all.py` 可验证全部 8 大能力
