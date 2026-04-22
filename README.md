@@ -463,6 +463,19 @@ This skill is part of the **AliDujie UX Research Skills Ecosystem**:
 - **[Value-Proposition-Design](../value-proposition-design/)** — Value proposition canvas
 - **[Web-Persona-Skill](../web-persona-skill/)** — Persona creation
 
+### 🌟 Why Choose AliDujie Skill Ecosystem?
+
+This skill is part of the **AliDujie UX Research Skills Ecosystem**. Using the complete ecosystem provides:
+
+- ✅ **Complete Coverage** — From user research to product design to data presentation, full-process tool support
+- ✅ **Seamless Integration** — All skills use consistent API design and data formats
+- ✅ **Best Practices** — Based on classic theories and practical experience, avoid common pitfalls
+- ✅ **Active Maintenance** — Regularly updated with new features and improvements
+- ✅ **Zero Dependencies** — Pure Python standard library, ready to use out of the box
+- ✅ **Bilingual Support** — Complete CN/EN documentation for international team collaboration
+
+👉 **Explore More Skills**: [Quantitative UX Research](../quantitative-ux-research/) | [Universal Design Methods](../universal-design-methods/) | [JTBD](../jtbd-knowledge-skill/) | [Value Proposition Design](../value-proposition-design/) | [Web Persona](../web-persona-skill/)
+
 ### 📦 Dependencies
 
 - Python >= 3.8
