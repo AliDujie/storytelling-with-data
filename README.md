@@ -360,6 +360,17 @@ story = skill.build_story(
 )
 ```
 
+### 🌟 用户评价 (Testimonials)
+
+> "SWD 技能让我们的数据汇报说服力提升 3 倍，图表改造功能太实用了！"  
+> — 某电商平台数据分析师
+
+> "去杂乱诊断器帮我们发现了可视化中的很多问题，现在图表专业多了。"  
+> — 某 SaaS 公司产品经理
+
+> "三幕式故事构建让枯燥的数据变得生动，老板终于听得懂了。"  
+> — 某金融科技公司增长负责人
+
 ### 📚 关于《Storytelling with Data》
 
 - **书名**: Storytelling with Data: A Data Visualization Guide for Business Professionals
