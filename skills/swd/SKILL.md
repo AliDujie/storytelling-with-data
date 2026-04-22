@@ -1,0 +1,381 @@
+---
+name: swd
+description: 数据可视化与数据叙事技能。基于《Storytelling with Data》方法论，具备8大执行能力：上下文分析、图表选择、去杂乱诊断、注意力引导、设计评估、故事构建、综合诊断、图表改造。
+author:
+  empId: "27768"
+  nickname: "渡劫"
+version: "2.0.0"
+---
+
+# SWD (Storytelling with Data) 执行技能
+
+基于Cole Nussbaumer Knaflic《Storytelling with Data》的数据可视化方法论。
+
+## 核心方法论（SWD六课）
+
+1. **理解上下文** — Who-What-How → Big Idea → 故事板
+2. **选择合适展示** — 决策树选图表；避免饼图/3D/双Y轴
+3. **消除杂乱** — 格式塔原则 + 去杂乱六步骤
+4. **聚焦注意力** — 灰色基底 + 单一强调色 + 视觉层次
+5. **像设计师思考** — 可供性 + 可访问性 + 美学
+6. **讲述故事** — 三幕结构 + 行动标题 + Bing-Bang-Bongo
+
+**黄金法则**：探索性≠解释性（只展示珍珠不展示牡蛎）；柱状图必须零基线；颜色稀疏使用；每图必有标题和轴标题；直接标注不用图例。
+
+---
+
+## 执行能力一：上下文分析
+
+**触发**：做汇报/给谁看/受众/Big Idea
+
+**输入**：向用户收集主题、受众角色、目的、沟通形式、可用数据
+
+**执行**：
+1. **受众画像**：主要受众(具体职位)、决策者、了解程度(专家/一般/新手)、关系状态、动机
+2. **核心信息**：3分钟故事(3-5句)→Big Idea(一句话=独特观点+利害关系+完整句子)→行动号召(明确具体)
+3. **故事板**：便利贴级别的内容结构(开始→中间→结尾)
+
+**输出**：受众画像表、3分钟故事、Big Idea、支撑数据清单、风险清单、行动号召、故事板
+
+**原则**：不忽略反面数据；即使推荐错方向也能引发正确讨论；区分演示版和流通版
+
+> 深入知识：`knowledge/01-context.md`
+
+---
+
+## 执行能力二：图表选择推荐
+
+**触发**：用什么图/选图表/怎么展示数据
+
+**输入**：数据类型、系列数、类别数、是否有时间维度、是否展示部分与整体
+
+**决策树**：
+- 1-2个数字 → 简单文本（大字号+支撑文字）
+- 精确数值查找 → 表格/热力图
+- 两变量关系 → 散点图
+- 时间趋势(两点) → 坡度图；时间趋势(多点) → 折线图
+- 分类数据(类别名长/>5) → 水平柱状图；分类数据(类别名短) → 垂直柱状图
+- 起点+增减+终点 → 瀑布图
+- 部分与整体 → 100%堆叠水平柱状图
+- **永远避免**：饼图→水平柱状图；3D→2D版本；双Y轴→拆分或直接标注
+
+**输出**：推荐图表(含理由)、备选图表、设计要点、避免项提醒
+
+> 深入知识：`knowledge/02-visual-display.md`
+
+---
+
+## 执行能力三：去杂乱诊断
+
+**触发**：图太乱/太复杂/简化/去杂乱
+
+**输入**：图表截图或描述
+
+**自动检测清单**：
+- [ ] 图表边框→移除（闭合性原则）
+- [ ] 网格线→移除或浅灰细线
+- [ ] 数据标记→除非有目的否则移除
+- [ ] 尾部零(250.00)→去掉
+- [ ] 对角文本→缩写标签（阅读慢52%）
+- [ ] 独立图例→直接标注数据
+- [ ] 3D效果→永远移除
+- [ ] 背景阴影→移除
+- [ ] 居中对齐→改为左对齐
+
+**格式塔原则应用**：邻近性(间距引导)、相似性(颜色替代边框)、闭合性(移除边框)、连续性(移除Y轴线)、连接性(折线图线条)
+
+**输出**：杂乱元素清单(含严重度)、去杂乱六步骤、格式塔建议、认知负荷估算
+
+> 深入知识：`knowledge/03-clutter.md`
+
+---
+
+## 执行能力四：注意力引导规划
+
+**触发**：突出重点/颜色怎么用/注意力/焦点
+
+**输入**：哪些元素最重要、当前颜色方案、受众应该先看什么
+
+**执行**：
+1. **焦点分析**：识别所有元素→按重要性排序→评估当前强调vs期望强调的差距
+2. **颜色策略**：基色=灰色(非黑色)；强调色=蓝色首选；负面色=橙色；避免红绿同用
+3. **视觉层次**：L1(标题/关键数字)=大号+粗体+强调色；L2(数据线)=中号+深灰；L3(轴标签)=小号+浅灰
+4. **"眼睛看向哪里"诊断**：最突出元素是否=最重要元素？太多突出=没有突出
+
+**输出**：焦点分析表、颜色方案、视觉层次设计、诊断结果
+
+> 深入知识：`knowledge/04-attention.md`
+
+---
+
+## 执行能力五：设计评估
+
+**触发**：好不好看/专不专业/设计评估
+
+**三维度评估**：
+
+| 维度 | 检查项 |
+|------|--------|
+| 可供性 | 重要内容突出(≤10%)？干扰消除？视觉层次清晰？ |
+| 可访问性 | 有标题(行动标题)？有轴标题？字体易读？语言简单？有注释？ |
+| 美学 | 颜色有策略？对齐干净？白空间恰当？整体专业？ |
+
+**输出**：三维度检查结果(✅/❌)、通过率、改进建议(按优先级)
+
+> 深入知识：`knowledge/05-designer.md`
+
+---
+
+## 执行能力六：数据故事构建
+
+**触发**：怎么讲故事/叙事结构/汇报结构
+
+**输入**：主题、受众(主角)、核心冲突、数据证据、期望行动
+
+**三幕结构**：
+- **第一幕(开始)**：设定背景→介绍主角(受众)→揭示冲突→预告方向
+- **第二幕(中间)**：数据证据→外部对比→不行动后果→方案选项→推荐方案
+- **第三幕(结尾)**：行动号召→回扣开头→紧迫感
+
+**Bing-Bang-Bongo**：Bing=预告要说什么；Bang=说；Bongo=总结刚说的
+
+**水平逻辑检查**：只读标题序列应能讲完整故事；每个标题必须是行动标题
+
+**叙事流选择**：时间顺序(需建立信任)；结论先行(已有信任/时间有限)
+
+**输出**：三幕结构、BBB、标题序列(含水平逻辑检查)、叙事流建议
+
+> 深入知识：`knowledge/07-storytelling.md`
+
+---
+
+## 执行能力七：可视化综合诊断
+
+**触发**：帮我看看这个图/诊断/评分/打分
+
+**五维度100分制**（每维度20分，每项5分）：
+1. **上下文(20)**：受众明确？行动号召清晰？Big Idea 5秒可识别？数据支撑故事？
+2. **视觉选择(20)**：图表类型合适？避免问题图表？零基线？排序有逻辑？
+3. **杂乱(20)**：无多余边框/网格线？无对角文本？白空间恰当？无冗余？
+4. **注意力(20)**：前注意属性引导？颜色稀疏？视觉层次？眼睛测试通过？
+5. **设计叙事(20)**：文本充分？对齐美学？叙事结构？行动标题？
+
+**评级**：90+🟢卓越 | 70-89🟡良好 | 50-69🟠需改进 | <50🔴需重做
+
+**输出**：总分+徽章、各维度明细、Top 3改进建议
+
+---
+
+## 执行能力八：图表改造
+
+**触发**：改造/优化/改进/makeover
+
+**六步改造法**：
+1. [上下文] 明确受众和Big Idea
+2. [选择] 评估图表类型是否合适
+3. [去杂乱] 去边框/网格线/标记/尾部零/对角文本/图例
+4. [注意力] 灰色基底+强调色突出焦点
+5. [设计] 行动标题+轴标题+注释+左对齐+白空间
+6. [故事] 渐进式揭示序列
+
+**自动修复映射**：饼图→水平柱状图；3D→2D；双Y轴→拆分；无标题→行动标题；彩虹色→灰+单色；图例→直接标注；对角文本→缩写；居中→左对齐；意面图→逐一强调
+
+**输出**：问题清单、六步方案(改造前/后/原理)、设计规范、叙事幻灯片序列
+
+> 深入知识：`knowledge/08-pulling-together.md`, `knowledge/09-case-studies.md`
+
+---
+
+## 触发条件总表
+
+| 触发词/场景 | 能力 |
+|---|---|
+| 做汇报/给谁看/受众/Big Idea | 一：上下文 |
+| 用什么图/选图表/怎么展示 | 二：图表选择 |
+| 图太乱/太复杂/简化 | 三：去杂乱 |
+| 突出重点/颜色/注意力 | 四：注意力 |
+| 好不好看/专不专业 | 五：设计评估 |
+| 怎么讲故事/叙事结构 | 六：故事构建 |
+| 帮我看看/诊断/评分 | 七：综合诊断 |
+| 改造/优化/改进 | 八：图表改造 |
+| 综合数据汇报任务 | 按顺序执行一→八 |
+
+## 知识库
+
+详细知识文档位于 `knowledge/` 目录：
+- `01-context.md` — 上下文的重要性
+- `02-visual-display.md` — 选择有效的视觉展示
+- `03-clutter.md` — 杂乱是你的敌人
+- `04-attention.md` — 聚焦受众注意力
+- `05-designer.md` — 像设计师一样思考
+- `06-model-visuals.md` — 解剖模型视觉
+- `07-storytelling.md` — 叙事课
+- `08-pulling-together.md` — 融会贯通（六步实战案例）
+- `09-case-studies.md` — 案例研究
+- `10-final-thoughts.md` — 最终思考
+- `11-quick-reference.md` — 速查手册
+
+## 八、Python 可执行工具包
+
+### 安装与依赖
+
+纯 Python 实现，无外部依赖（仅需 Python 3.8+）。安装方式：
+
+```bash
+# 方式1：直接引用项目路径
+import sys; sys.path.insert(0, "/path/to/storytelling-with-data-skill")
+
+# 方式2：复制 swd/ 目录和 knowledge/ 目录到你的项目中
+```
+
+### SWDSkill 统一入口类
+
+`SWDSkill` 是全部 8 大执行能力的统一入口，每个方法返回格式化的 Markdown 报告字符串。
+
+```python
+from swd import SWDSkill
+skill = SWDSkill("你的项目名称")
+```
+
+### 8 大核心模块调用方法
+
+**能力1：上下文分析** — `skill.build_context()`
+```python
+result = skill.build_context(
+    audience="产品VP",                    # 必填：主要受众
+    cta="批准200万预算",                   # 必填：行动号召
+    decision_maker="CTO",                 # 可选：决策者
+    knowledge_level="general",            # expert/general/novice
+    relationship="established",           # first_contact/established/need_credibility
+    mechanism="live_presentation",        # live_presentation/written_report/email
+    tone="serious",                       # serious/urgent/celebratory/neutral
+    three_min_story="如果只有3分钟...",     # 3分钟故事
+    big_idea="完整的Big Idea句子",         # 独特观点+利害关系+完整句子
+    big_idea_point="独特观点",
+    big_idea_stakes="利害关系",
+    supporting_data=["数据点1", "数据点2"], # 支撑数据
+    risks=["风险1"],                       # 风险/反面证据
+)
+```
+
+**能力2：图表选择** — `skill.recommend_chart()`
+```python
+result = skill.recommend_chart(
+    data_type="continuous",       # categorical/continuous/relationship/single_number
+    series_count=2,               # 数据系列数
+    category_count=12,            # 类别数
+    has_time=True,                # 是否有时间维度
+    show_part_of_whole=False,     # 是否展示部分与整体
+    category_names_long=False,    # 类别名是否较长
+    compare_two_points=False,     # 是否比较两个时间点
+    proposed_chart="pie",         # 可选：检测用户提出的图表是否应避免
+)
+```
+
+**能力3：去杂乱诊断** — `skill.diagnose_clutter()`
+```python
+result = skill.diagnose_clutter(
+    has_border=True, has_gridlines=True, has_3d=True,
+    has_diagonal_text=True, has_separate_legend=True,
+    has_trailing_zeros=True, has_data_markers=False,
+    has_background_shading=False,
+    gestalt_issues=[("proximity", "问题描述", "建议")],
+    alignment_issues=["标题居中对齐"],
+    whitespace_issues=["图表被拉伸填满"],
+)
+```
+
+**能力4：注意力引导** — `skill.plan_attention()`
+```python
+result = skill.plan_attention(
+    focus_elements=[("关键指标", 5), ("基准线", 2)],  # (元素名, 重要性1-5)
+    color_strategy="grey_plus_one",   # grey_plus_one/sequential/diverging
+    accent_color="蓝色 (#0070C0)",
+    hierarchy=[
+        (1, ["关键指标"], "大号+粗体+蓝色"),
+        (2, ["基准线"], "中号+深灰"),
+        (3, ["轴标签"], "小号+浅灰"),
+    ],
+)
+```
+
+**能力5：设计评估** — `skill.evaluate_design()`
+```python
+result = skill.evaluate_design(
+    has_title=True, has_axis_titles=True, has_action_title=True,
+    has_annotations=True, color_strategic=True,
+    alignment_clean=True, whitespace_ok=True,
+    hierarchy_clear=True, highlight_limited=True,
+    distractions_removed=True,
+)
+```
+
+**能力6：故事构建** — `skill.build_story()`
+```python
+result = skill.build_story(
+    protagonist="产品委员会",           # 必填：主角（受众）
+    imbalance="用户增长率下降",         # 必填：冲突/不平衡
+    setting="公司进入成熟期",
+    desired_balance="恢复15%月均增长",
+    evidence=["留存率下降", "竞品领先"],
+    call_to_action="批准200万优化预算",
+    narrative_flow="lead_with_ending",  # chronological/lead_with_ending
+    bing="预告", bang="主体", bongo="回顾",
+    slide_titles=["标题1", "标题2"],
+)
+```
+
+**能力7：综合诊断** — `skill.full_diagnosis()`
+```python
+result = skill.full_diagnosis(scores={
+    "context":          {"audience_clear": 4, "cta_clear": 3, "big_idea_visible": 2, "data_supports_story": 4},
+    "visual_choice":    {"chart_type_fit": 5, "avoid_bad_charts": 5, "zero_baseline": 5, "logical_order": 4},
+    "clutter":          {"no_unnecessary_elements": 3, "no_diagonal_text": 5, "whitespace_ok": 4, "no_redundancy": 3},
+    "attention":        {"preattentive_used": 2, "color_sparse": 3, "visual_hierarchy": 2, "eyes_drawn_test": 3},
+    "design_narrative": {"text_sufficient": 4, "alignment_aesthetic": 4, "narrative_structure": 3, "action_titles": 2},
+})
+```
+
+**能力8：图表改造** — `skill.makeover()`
+```python
+result = skill.makeover(
+    issues=["使用了饼图", "无标题", "彩虹色"],
+    chart_type="水平柱状图",
+    title="行动标题示例",
+    color_accent="蓝色",
+    narrative_slides=[
+        ("幻灯片标题1", "口头叙述1"),
+        ("幻灯片标题2", "口头叙述2"),
+    ],
+)
+```
+
+**知识库搜索** — `skill.search_knowledge()`
+```python
+results = skill.search_knowledge("格式塔")  # 返回 Dict[str, List[str]]
+```
+
+### 8 大核心模块一览
+
+| 模块 | 类 | 用途 |
+|---|---|---|
+| `context.py` | `ContextBuilder` | 上下文分析：受众画像、Big Idea |
+| `chart_selector.py` | `ChartSelector` | 图表选择：决策树+避免检测 |
+| `declutter.py` | `DeclutterAnalyzer` | 去杂乱：auto_detect+格式塔 |
+| `attention.py` | `AttentionAnalyzer` | 注意力：颜色策略+眼睛诊断 |
+| `designer.py` | `DesignEvaluator` | 设计评估：三维度auto_evaluate |
+| `storyteller.py` | `StoryBuilder` | 故事构建：三幕+BBB+水平逻辑 |
+| `diagnosis.py` | `DiagnosisEngine` | 综合诊断：五维度100分制 |
+| `makeover.py` | `MakeoverEngine` | 图表改造：六步法+渐进式揭示 |
+| `config.py` | `AnalysisConfig` | 全局配置和常量 |
+| `utils.py` | `load_knowledge` | 知识库加载与搜索 |
+| `templates.py` | — | 报告模板和检查清单 |
+
+### AI Agent 调用规则
+
+1. **统一入口**：始终通过 `SWDSkill` 类调用，不直接实例化子模块
+2. **返回值**：所有方法返回 Markdown 格式字符串，可直接展示给用户
+3. **触发映射**：根据用户意图自动选择对应能力（参见上方触发条件总表）
+4. **组合调用**：综合任务按 能力一→八 顺序依次执行
+5. **知识检索**：遇到理论问题时先调用 `search_knowledge()` 查询知识库
+6. **测试验证**：运行 `python swd/tests/test_all.py` 可验证全部 8 大能力
