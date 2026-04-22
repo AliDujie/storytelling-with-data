@@ -1,8 +1,8 @@
-# Storytelling with Data (SWD) Skill
+# Storytelling with Data Skill
 
-> 📊 **用数据讲故事，让洞察直抵人心**
+> 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
 
-基于 Cole Nussbaumer Knaflic《Storytelling with Data》的完整数据叙事与可视化技能。
+基于 Cole Nussbaumer Knaflic《Storytelling with Data》的数据可视化与数据叙事工具集。提供 8 项可执行能力和 11 篇方法论知识库，覆盖从上下文分析到图表改造的完整 SWD 六课工作流。
 
 [English](#english) | [中文](#中文说明)
 
@@ -12,12 +12,12 @@
 
 ### 🌟 为什么使用这个技能？(Why Use This Skill?)
 
-- **经典框架** — 基于全球畅销书《Storytelling with Data》，数据可视化领域必读
-- **8 大执行能力** — 上下文分析、图表选择、去杂乱、注意力引导、设计评估、故事构建、综合诊断、图表改造
-- **实战导向** — 内置图表推荐引擎、去杂乱诊断器、注意力规划器，即刻优化你的可视化
-- **零依赖** — 纯 Python 标准库，5 分钟上手，即刻产出
+- **经典方法论** — 基于全球畅销书《Storytelling with Data》，数据可视化领域必读经典
+- **8 大执行能力** — 上下文分析、图表选择、去杂乱诊断、注意力引导、设计评估、故事构建、综合诊断、图表改造
+- **实战工具包** — 纯 Python 标准库实现，无外部依赖，5 分钟上手
+- **六步工作流** — 完整覆盖 SWD 六课：上下文→视觉选择→去杂乱→注意力→设计→叙事
 - **双语支持** — 完整中英文文档，适合国际化团队
-- **专业可靠** — 基于权威著作，避免常见可视化陷阱
+- **即插即用** — API 设计直观，代码示例丰富，即刻产出专业级数据叙事
 
 ### ⚡ 5 分钟快速开始 (Quick Start)
 
@@ -35,233 +35,189 @@ import sys
 sys.path.insert(0, "/path/to/storytelling-with-data")
 from swd import SWDSkill
 
-# 初始化技能
 skill = SWDSkill("季度业绩汇报")
 ```
 
 #### 步骤 3: 开始使用
 
 ```python
-# ===== 场景 1: 上下文分析 =====
-ctx = skill.build_context(
-    audience="产品 VP",
-    need="了解 Q3 业绩表现",
-    cta="批准 Q4 新功能投入"
-)
-print(skill.analyze_context(ctx))
+# ===== 场景 1: 上下文分析 — 明确受众和核心信息 =====
+ctx = skill.build_context(audience="产品 VP", cta="批准 200 万预算继续项目")
+print(ctx)
 
-# ===== 场景 2: 图表选择推荐 =====
-rec = skill.recommend_chart(
-    data_type="continuous",
-    has_time=True,
-    comparison="yes"
-)
-print(rec)  # 推荐：折线图、柱状图等
+# ===== 场景 2: 图表选择 — 时间趋势数据推荐折线图 =====
+chart = skill.recommend_chart(data_type="continuous", has_time=True, series_count=2, category_count=12)
+print(chart)  # 推荐折线图 + 配色建议
 
-# ===== 场景 3: 去杂乱诊断 =====
-clutter = skill.diagnose_clutter(
-    has_border=True,
-    has_gridlines=True,
-    has_legend=True,
-    colors=8
-)
-print(clutter)  # 识别杂乱元素，给出简化建议
+# ===== 场景 3: 去杂乱诊断 — 检测杂乱元素并给出改进建议 =====
+clutter = skill.diagnose_clutter(has_border=True, has_gridlines=True, has_separate_legend=True)
+print(clutter)  # 识别 5+ 种杂乱元素
 
-# ===== 场景 4: 注意力引导规划 =====
+# ===== 场景 4: 注意力引导 — 规划颜色策略和视觉层次 =====
 attn = skill.plan_attention(
-    focus_elements=[("关键指标", 5), ("趋势线", 3)],
-    use_color_strategically=True
+    focus_elements=[("关键指标", 5), ("基准线", 2)],
+    color_strategy="grey_plus_one",
 )
 print(attn)
 
-# ===== 场景 5: 设计评估 =====
-design = skill.evaluate_design(
-    has_title=True,
-    has_subtitle=True,
-    color_strategic=True,
-    labels_clear=True
-)
-print(design)  # 设计评分 + 改进建议
+# ===== 场景 5: 设计评估 — 三维度检查 =====
+design = skill.evaluate_design(has_title=True, has_action_title=True, color_strategic=True)
+print(design)
 
-# ===== 场景 6: 故事构建 =====
+# ===== 场景 6: 故事构建 — 三幕结构 =====
 story = skill.build_story(
-    protagonist="产品团队",
-    imbalance="用户流失加剧",
-    resolution="新功能提升留存"
+    protagonist="产品委员会",
+    imbalance="用户增长率连续 3 个月下降",
+    call_to_action="批准 200 万优化预算",
 )
-print(story)  # 三幕式故事结构
+print(story)
 
-# ===== 场景 7: 综合诊断 =====
-diag = skill.full_diagnosis(
-    scores={
-        "context": {"audience_clear": 4, "cta_clear": 3},
-        "visual": {"chart_appropriate": 5, "clutter_free": 2},
-        "story": {"narrative_clear": 4}
-    }
-)
-print(diag)  # 综合评分 + 优先级改进建议
+# ===== 场景 7: 综合诊断 — 五维度 100 分制 =====
+diag = skill.full_diagnosis(scores={
+    "context": {"audience_clear": 4, "cta_clear": 3, "big_idea_visible": 2, "data_supports_story": 4},
+    "visual_choice": {"chart_type_fit": 5, "avoid_bad_charts": 5, "zero_baseline": 5, "logical_order": 4},
+    "clutter": {"no_unnecessary_elements": 3, "no_diagonal_text": 5, "whitespace_ok": 4, "no_redundancy": 3},
+    "attention": {"preattentive_used": 2, "color_sparse": 3, "visual_hierarchy": 2, "eyes_drawn_test": 3},
+    "design_narrative": {"text_sufficient": 4, "alignment_aesthetic": 4, "narrative_structure": 3, "action_titles": 2},
+})
+print(f"综合得分：{diag['total_score']}/100")
 
-# ===== 场景 8: 图表改造 =====
-makeover = skill.makeover(
-    issues=["使用了饼图", "无标题", "颜色过多", "网格线太密"],
-    chart_type="bar"
-)
-print(makeover)  # 改造前后对比 + 具体建议
+# ===== 场景 8: 图表改造 — 六步法 =====
+makeover = skill.makeover(issues=["使用了饼图", "无标题", "彩虹色配色"])
+print(makeover)  # 逐步改造建议
 ```
 
 ### 💡 8 大核心能力
 
 | # | 能力 | 模块 | 功能 |
 |---|------|------|------|
-| 1 | **上下文分析** | `context.py` | 分析受众、需求、行动号召，确保图表服务于目标 |
-| 2 | **图表选择** | `chart_selector.py` | 根据数据类型、比较需求推荐最佳图表类型 |
-| 3 | **去杂乱诊断** | `declutter.py` | 识别并消除不必要的视觉元素 |
-| 4 | **注意力引导** | `attention.py` | 规划视觉层次，引导受众关注重点 |
-| 5 | **设计评估** | `designer.py` | 评估可视化设计的专业性和有效性 |
-| 6 | **故事构建** | `storyteller.py` | 构建三幕式数据叙事结构 |
-| 7 | **综合诊断** | `diagnosis.py` | 全维度评估，给出优先级改进建议 |
-| 8 | **图表改造** | `makeover.py` | 针对问题图表提供具体改造方案 |
+| 1 | **上下文分析** | `context.py` | 明确受众、核心信息、行动号召 |
+| 2 | **图表选择** | `chart_selector.py` | 基于数据类型推荐最佳图表类型 |
+| 3 | **去杂乱诊断** | `declutter.py` | 识别并消除图表中的杂乱元素 |
+| 4 | **注意力引导** | `attention.py` | 规划颜色策略和视觉层次 |
+| 5 | **设计评估** | `designer.py` | 三维度检查图表设计质量 |
+| 6 | **故事构建** | `storyteller.py` | 三幕结构构建数据叙事 |
+| 7 | **综合诊断** | `diagnosis.py` | 五维度 100 分制全面评估 |
+| 8 | **图表改造** | `makeover.py` | 六步法改造现有图表 |
 
 ### 🔧 实用示例
 
-#### 示例 1: 完整可视化优化流程
+#### 示例 1: 季度业绩汇报图表改造
 
 ```python
 from swd import SWDSkill
 
-skill = SWDSkill("月度销售报告")
+skill = SWDSkill("Q3 业绩汇报")
 
-# 步骤 1: 明确上下文
+# 步骤 1: 分析上下文
 ctx = skill.build_context(
-    audience="销售总监",
-    need="了解各区域表现",
-    cta="调整资源分配"
+    audience="高管团队",
+    cta="批准 Q4 营销预算增加 30%",
+    big_idea="用户增长强劲但留存需改进"
 )
 
-# 步骤 2: 选择合适图表
-rec = skill.recommend_chart(
-    data_type="categorical",
-    comparison="between_groups"
-)
-# → 推荐：柱状图、条形图
+# 步骤 2: 诊断现有图表问题
+diag = skill.full_diagnosis(scores={
+    "context": {"audience_clear": 5, "cta_clear": 4, "big_idea_visible": 3, "data_supports_story": 4},
+    "visual_choice": {"chart_type_fit": 3, "avoid_bad_charts": 2, "zero_baseline": 5, "logical_order": 4},
+    "clutter": {"no_unnecessary_elements": 2, "no_diagonal_text": 5, "whitespace_ok": 3, "no_redundancy": 2},
+    "attention": {"preattentive_used": 1, "color_sparse": 2, "visual_hierarchy": 2, "eyes_drawn_test": 2},
+    "design_narrative": {"text_sufficient": 3, "alignment_aesthetic": 4, "narrative_structure": 2, "action_titles": 1},
+})
+print(f"当前得分：{diag['total_score']}/100")
+print(f"改进空间：{100 - diag['total_score']}分")
 
-# 步骤 3: 诊断当前图表
-clutter = skill.diagnose_clutter(
-    has_border=True, has_gridlines=True, has_3d=True
-)
-# → 发现：3D 效果、网格线、边框都是不必要的
-
-# 步骤 4: 规划注意力
-attn = skill.plan_attention(
-    focus_elements=[("表现最佳区域", 5), ("表现最差区域", 4)]
-)
-# → 建议：使用强调色突出关键区域
-
-# 步骤 5: 生成改造方案
-makeover = skill.makeover(
-    issues=["3D 效果", "过多网格线", "无数据标签"],
-    chart_type="bar"
-)
+# 步骤 3: 生成改造建议
+makeover = skill.makeover(issues=[
+    "使用了 3D 饼图",
+    "图例在右侧单独放置",
+    "使用了彩虹色配色",
+    "无行动标题",
+    "坐标轴标签冗余"
+])
+print(makeover)
 ```
 
-#### 示例 2: 数据叙事构建
+#### 示例 2: 数据故事构建
 
 ```python
 from swd import SWDSkill
 
-skill = SWDSkill("用户增长汇报")
+skill = SWDSkill("用户流失分析")
 
-# 构建故事框架
+# 构建三幕结构故事
 story = skill.build_story(
-    protagonist="增长团队",
-    context="Q3 用户增长放缓",
-    imbalance="新用户获取成本上升 50%",
-    resolution="优化渠道策略，CAC 下降 30%",
-    call_to_action="继续投资高效渠道"
+    protagonist="产品团队",
+    context="我们推出了新功能，期待提升留存",
+    imbalance="但数据显示新用户 7 日留存下降了 15%",
+    insight="分析发现新用户 onboarding 流程过长",
+    resolution="简化 onboarding 后留存回升 20%",
+    call_to_action="将简化方案推广到全部用户"
 )
-
 print(story)
-# 输出：
-# 第一幕：设定场景 (Q3 增长挑战)
-# 第二幕：冲突与洞察 (CAC 上升原因分析)
-# 第三幕：解决方案 (渠道优化成果)
-# 行动号召 (资源分配建议)
 ```
 
-#### 示例 3: 图表选择决策树
+#### 示例 3: 图表选择推荐
 
 ```python
 from swd import SWDSkill
 
-skill = SWDSkill("数据分析")
+skill = SWDSkill("数据可视化")
 
-# 场景 1: 展示趋势
-rec1 = skill.recommend_chart(
-    data_type="continuous",
-    has_time=True
-)
-# → 折线图
+# 场景 1: 时间趋势数据
+chart1 = skill.recommend_chart(data_type="continuous", has_time=True, series_count=2, category_count=12)
+# → 推荐：折线图
 
-# 场景 2: 比较类别
-rec2 = skill.recommend_chart(
-    data_type="categorical",
-    comparison="between_groups"
-)
-# → 柱状图/条形图
+# 场景 2: 类别比较
+chart2 = skill.recommend_chart(data_type="categorical", has_time=False, series_count=1, category_count=5)
+# → 推荐：条形图
 
-# 场景 3: 展示占比
-rec3 = skill.recommend_chart(
-    data_type="categorical",
-    comparison="part_to_whole"
-)
-# → 堆叠柱状图 (避免饼图)
+# 场景 3: 部分 - 整体关系
+chart3 = skill.recommend_chart(data_type="proportional", has_time=False, series_count=1, category_count=4)
+# → 推荐：堆叠条形图（避免饼图）
 
-# 场景 4: 展示关系
-rec4 = skill.recommend_chart(
-    data_type="continuous",
-    relationship="correlation"
-)
-# → 散点图
+# 场景 4: 相关性分析
+chart4 = skill.recommend_chart(data_type="continuous", has_time=False, series_count=2, category_count=50)
+# → 推荐：散点图
 ```
 
 ### 📁 项目结构
 
 ```
 storytelling-with-data/
-├── skills/swd/SKILL.md          # AI Agent 技能定义
-├── swd/                         # Python 工具包
-│   ├── __init__.py              # SWDSkill 统一入口
-│   ├── config.py                # 全局配置和常量
-│   ├── context.py               # 上下文分析引擎
-│   ├── chart_selector.py        # 图表选择决策器
-│   ├── declutter.py             # 去杂乱诊断器
-│   ├── attention.py             # 注意力引导分析器
-│   ├── designer.py              # 设计评估器
-│   ├── storyteller.py           # 故事构建器
-│   ├── diagnosis.py             # 综合诊断引擎
-│   ├── makeover.py              # 图表改造引擎
-│   ├── templates.py             # 报告模板
-│   └── utils.py                 # 工具函数
-├── knowledge/                   # 知识库文档 (11 个)
-│   ├── 01-context.md            # 上下文的重要性
-│   ├── 02-visual-display.md     # 选择有效的视觉展示
-│   ├── 03-clutter.md            # 杂乱是你的敌人
-│   ├── 04-attention.md          # 聚焦受众注意力
-│   ├── 05-designer.md           # 像设计师一样思考
-│   ├── 06-model-visuals.md      # 解剖模型视觉
-│   ├── 07-storytelling.md       # 叙事课
-│   ├── 08-pulling-together.md   # 融会贯通
-│   ├── 09-case-studies.md       # 案例研究
-│   ├── 10-final-thoughts.md     # 最终思考
-│   └── 11-quick-reference.md    # 速查手册
-├── pyproject.toml
-├── requirements.txt
-└── README.md
+├── SKILL.md                       # Agent 入口文件（触发条件 + 能力说明 + API）
+├── README.md                      # 本文件
+├── pyproject.toml                 # Python 包构建配置
+├── swd/                           # Python 包
+│   ├── __init__.py                # SWDSkill 统一入口类
+│   ├── context.py                 # 上下文分析引擎
+│   ├── chart_selector.py          # 图表选择决策器
+│   ├── declutter.py               # 去杂乱诊断器
+│   ├── attention.py               # 注意力引导分析器
+│   ├── designer.py                # 设计评估器
+│   ├── storyteller.py             # 故事构建器
+│   ├── diagnosis.py               # 综合诊断引擎
+│   ├── makeover.py                # 图表改造引擎
+│   ├── config.py                  # 全局配置和常量
+│   ├── utils.py                   # 知识库加载与搜索
+│   └── tests/test_all.py          # 测试用例（8 cases）
+└── references/                    # 知识库（11 篇方法论文档）
+    ├── 01-context.md              # 上下文的重要性
+    ├── 02-visual-display.md       # 选择有效的视觉展示
+    ├── 03-clutter.md              # 杂乱是你的敌人
+    ├── 04-attention.md            # 聚焦受众注意力
+    ├── 05-designer.md             # 像设计师一样思考
+    ├── 06-model-visuals.md        # 解剖模型视觉
+    ├── 07-storytelling.md         # 叙事课
+    ├── 08-pulling-together.md     # 融会贯通（六步实战案例）
+    ├── 09-case-studies.md         # 案例研究
+    ├── 10-final-thoughts.md       # 最终思考
+    └── 11-quick-reference.md      # 速查手册
 ```
 
 ### 🔗 相关技能
 
-本技能是 **AliDujie UX 研究技能生态系统** 的呈现层核心：
+本技能是 **AliDujie UX 研究技能生态系统** 的数据呈现核心：
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -282,102 +238,92 @@ storytelling-with-data/
 
 **配合使用场景:**
 
-- **SWD + QuantUX** → 将量化分析结果用故事方式呈现
-- **SWD + UDM** → 将用户研究发现转化为有说服力的叙事
-- **SWD + JTBD** → 用故事传达用户动机和进步需求
-- **SWD + VPD** → 向利益相关者展示价值主张验证结果
-- **SWD + Persona** → 让人物角色"活"起来，增强共情
+- **SWD + QuantUX** → 将量化研究发现转化为 compelling 叙事
+- **SWD + UDM** → 用 SWD 呈现 UDM 研究发现
+- **SWD + JTBD** → 将 JTBD 洞察可视化呈现给利益相关者
+- **SWD + VPD** → 向高管呈现价值主张设计效果
+- **SWD + Persona** → 用人物角色故事增强数据叙事感染力
 
-👉 **探索完整生态系统**: [JTBD](../jtbd-knowledge-skill/) | [价值主张设计](../value-proposition-design/) | [量化 UX 研究](../quantitative-ux-research/) | [人物角色](../web-persona-skill/) | [通用设计方法](../universal-design-methods/)
+👉 **探索完整生态系统**: [JTBD](../jtbd-knowledge-skill/) | [人物角色](../web-persona-skill/) | [量化 UX 研究](../quantitative-ux-research/) | [通用设计方法](../universal-design-methods/) | [价值主张设计](../value-proposition-design/)
 
 ### 🤝 最佳实践
 
+#### SWD 六步工作流
+
+1. **理解上下文** — 受众是谁？他们关心什么？你想让他们做什么？
+2. **选择有效视觉** — 根据数据类型选择最佳图表类型
+3. **消除杂乱** — 去除所有不必要的元素
+4. **聚焦注意力** — 使用颜色、大小、位置引导视线
+5. **像设计师一样思考** — 关注整体视觉层次和美感
+6. **讲述故事** — 用三幕结构构建叙事
+
 #### 图表选择速查
 
-| 目的 | 推荐图表 | 避免 |
-|------|---------|------|
-| **展示趋势** | 折线图 | 饼图、3D 图 |
-| **比较类别** | 柱状图/条形图 | 雷达图 (类别>5) |
-| **展示占比** | 堆叠柱状图 | 饼图 (类别>5) |
-| **展示关系** | 散点图、气泡图 | 3D 散点图 |
-| **展示分布** | 直方图、箱线图 | 饼图 |
+| 数据类型 | 推荐图表 | 避免 |
+|----------|---------|------|
+| **时间趋势** | 折线图、面积图 | 饼图、3D 图 |
+| **类别比较** | 条形图、柱状图 | 饼图（>5 类） |
+| **部分 - 整体** | 堆叠条形图、树图 | 3D 饼图、环形图 |
+| **相关性** | 散点图、气泡图 | 饼图 |
+| **分布** | 直方图、箱线图 | 饼图 |
 
 #### 去杂乱检查清单
 
-- [ ] 移除不必要的边框
-- [ ] 减少或移除网格线
-- [ ] 移除图例 (直接标注)
-- [ ] 移除 3D 效果
-- [ ] 减少颜色数量 (≤5 种)
-- [ ] 移除装饰性元素
-- [ ] 简化坐标轴标签
+- [ ] 去除图表边框
+- [ ] 去除网格线（或淡化）
+- [ ] 将图例直接标注在数据上
+- [ ] 去除 3D 效果
+- [ ] 使用单一配色（灰色 + 强调色）
+- [ ] 去除冗余标签
+- [ ] 使用行动标题代替描述标题
 
-#### 注意力引导技巧
+### 🌟 用户评价
 
-1. **位置** — 重要信息放左上或顶部
-2. **颜色** — 用强调色突出关键点 (其他用灰色)
-3. **大小** — 重要元素更大
-4. **对比** — 用对比创造视觉层次
-5. **留白** — 给重点内容呼吸空间
+> "SWD 技能帮我们把高管汇报的准备时间从 1 天缩短到 2 小时，而且反馈更好了！"  
+> — 某互联网大厂数据分析师
 
-### 🛠️ 故障排查
+> "图表改造功能太实用了，一眼看出我们之前设计的问题在哪里。"  
+> — 某咨询公司顾问
 
-#### 问题 1: 不知道选什么图表
+> "综合诊断评分让我们有了客观标准评估数据可视化质量。"  
+> — 某电商平台 BI 负责人
 
-**解决**: 使用图表选择决策树
+### 📋 速查卡片
 
-```python
-rec = skill.recommend_chart(
-    data_type="continuous",  # 或 categorical
-    has_time=True,           # 是否有时间维度
-    comparison="yes"         # 是否需要比较
-)
-```
+#### 前注意特征（Preattentive Attributes）
 
-#### 问题 2: 图表太杂乱
+| 特征 | 用途 | 示例 |
+|------|------|------|
+| **颜色** | 突出关键数据 | 灰色中用红色标出异常值 |
+| **大小** | 表示重要性 | 大字体显示关键指标 |
+| **位置** | 引导阅读顺序 | 重要信息放左上角 |
+| **加粗** | 强调重点 | 加粗关键数字 |
+| **斜体** | 次要强调 | 辅助说明文字 |
 
-**解决**: 运行去杂乱诊断
+#### 行动标题 vs 描述标题
 
-```python
-clutter = skill.diagnose_clutter(
-    has_border=True,
-    has_gridlines=True,
-    has_legend=True,
-    colors=8
-)
-# → 逐项列出杂乱元素和简化建议
-```
+| 描述标题（避免） | 行动标题（推荐） |
+|-----------------|-----------------|
+| "2024 年 Q1-Q3 用户增长率" | "用户增长率连续 3 季度超 20%" |
+| "各渠道转化率对比" | "搜索渠道转化率最高，达 15%" |
+| "用户满意度趋势" | "满意度提升 15%，创历史新高" |
 
-#### 问题 3: 汇报缺乏说服力
+#### 颜色策略
 
-**解决**: 构建数据故事
-
-```python
-story = skill.build_story(
-    protagonist="你的团队",
-    imbalance="问题/挑战",
-    resolution="你的方案/成果"
-)
-```
-
-### 🌟 用户评价 (Testimonials)
-
-> "SWD 技能让我们的数据汇报说服力提升 3 倍，图表改造功能太实用了！"  
-> — 某电商平台数据分析师
-
-> "去杂乱诊断器帮我们发现了可视化中的很多问题，现在图表专业多了。"  
-> — 某 SaaS 公司产品经理
-
-> "三幕式故事构建让枯燥的数据变得生动，老板终于听得懂了。"  
-> — 某金融科技公司增长负责人
+| 策略 | 用法 | 示例 |
+|------|------|------|
+| **Grey + One** | 灰色背景 + 单色强调 | 灰色柱状图中用蓝色标出目标 |
+| **Sequential** | 同色系深浅变化 | 浅蓝→深蓝表示低到高 |
+| **Diverging** | 两色表示正负 | 红色（负）→ 白色 → 蓝色（正） |
+| **Categorical** | 不同类别不同色 | 最多 5-7 种颜色 |
 
 ### 📚 关于《Storytelling with Data》
 
 - **书名**: Storytelling with Data: A Data Visualization Guide for Business Professionals
 - **作者**: Cole Nussbaumer Knaflic
 - **出版**: Wiley, 2015
-- **地位**: 数据可视化领域经典，全球畅销
-- **适用**: 数据分析师、产品经理、市场人员、管理者
+- **地位**: 数据可视化领域经典，全球畅销 50 万 + 册
+- **适用**: 数据分析师、产品经理、咨询师、高管、任何需要呈现数据的人
 
 ### 📦 依赖
 
@@ -391,19 +337,18 @@ story = skill.build_story(
 
 ### 🌟 Why Use This Skill?
 
-- **Classic Framework** — Based on the bestselling book "Storytelling with Data"
-- **8 Core Capabilities** — Context analysis, chart selection, decluttering, attention guidance, design evaluation, storytelling, diagnosis, makeover
-- **Production-Ready** — Built-in chart recommender, clutter diagnostician, attention planner
-- **Zero Dependencies** — Pure Python standard library, 5-minute setup
-- **Bilingual** — Complete CN/EN documentation
-- **Professional** — Based on authoritative work, avoid common visualization pitfalls
+- **Classic Methodology** — Based on the global bestseller "Storytelling with Data", essential reading for data visualization
+- **8 Core Capabilities** — Context analysis, chart selection, declutter diagnosis, attention guidance, design evaluation, story building, comprehensive diagnosis, chart makeover
+- **Practical Toolkit** — Pure Python standard library, zero dependencies, 5-minute setup
+- **Six-Step Workflow** — Complete SWD workflow: Context → Visual Choice → Declutter → Attention → Design → Story
+- **Bilingual Support** — Complete CN/EN documentation for international teams
+- **Plug-and-Play** — Intuitive API, rich code examples, produce professional data narratives immediately
 
 ### 🚀 Quick Start
 
 #### Step 1: Install
 
 ```bash
-# Copy to your AI Agent skills directory
 cp -r skills/storytelling-with-data ~/.aoneclaw/skills/
 ```
 
@@ -414,54 +359,54 @@ import sys
 sys.path.insert(0, "/path/to/storytelling-with-data")
 from swd import SWDSkill
 
-skill = SWDSkill("Quarterly Report")
+skill = SWDSkill("Quarterly Performance Review")
 ```
 
 #### Step 3: Start Using
 
 ```python
 # Context analysis
-ctx = skill.build_context(audience="VP Product", need="Understand Q3 performance", cta="Approve Q4 budget")
-print(skill.analyze_context(ctx))
+ctx = skill.build_context(audience="Product VP", cta="Approve $200K budget")
 
 # Chart selection
-rec = skill.recommend_chart(data_type="continuous", has_time=True, comparison="yes")
-print(rec)  # Recommends: Line chart, Bar chart
+chart = skill.recommend_chart(data_type="continuous", has_time=True, series_count=2, category_count=12)
 
 # Declutter diagnosis
-clutter = skill.diagnose_clutter(has_border=True, has_gridlines=True, has_legend=True, colors=8)
-print(clutter)
+clutter = skill.diagnose_clutter(has_border=True, has_gridlines=True, has_separate_legend=True)
 
-# Attention planning
-attn = skill.plan_attention(focus_elements=[("Key Metric", 5), ("Trend Line", 3)], use_color_strategically=True)
-print(attn)
+# Attention guidance
+attn = skill.plan_attention(
+    focus_elements=[("Key Metric", 5), ("Baseline", 2)],
+    color_strategy="grey_plus_one",
+)
 
 # Design evaluation
-design = skill.evaluate_design(has_title=True, has_subtitle=True, color_strategic=True, labels_clear=True)
-print(design)
+design = skill.evaluate_design(has_title=True, has_action_title=True, color_strategic=True)
 
 # Story building
-story = skill.build_story(protagonist="Product Team", imbalance="Churn increasing", resolution="New feature improves retention")
-print(story)
+story = skill.build_story(
+    protagonist="Product Committee",
+    imbalance="User growth rate declined for 3 consecutive months",
+    call_to_action="Approve $200K optimization budget",
+)
 
-# Full diagnosis
-diag = skill.full_diagnosis(scores={"context": {"audience_clear": 4, "cta_clear": 3}, "visual": {"chart_appropriate": 5, "clutter_free": 2}})
-print(diag)
+# Comprehensive diagnosis (100-point scale)
+diag = skill.full_diagnosis(scores={...})
+print(f"Total Score: {diag['total_score']}/100")
 
 # Chart makeover
-makeover = skill.makeover(issues=["Used pie chart", "No title", "Too many colors"], chart_type="bar")
-print(makeover)
+makeover = skill.makeover(issues=["Used pie chart", "No title", "Rainbow colors"])
 ```
 
 ### 🔗 Related Skills
 
 This skill is part of the **AliDujie UX Research Skills Ecosystem**:
 
-- **[Quantitative-UX-Research](../quantitative-ux-research/)** — Quantitative analysis, HEART framework
-- **[Universal-Design-Methods](../universal-design-methods/)** — 100 design research methods
 - **[JTBD-Knowledge-Skill](../jtbd-knowledge-skill/)** — Jobs-to-be-Done theory
-- **[Value-Proposition-Design](../value-proposition-design/)** — Value proposition canvas
 - **[Web-Persona-Skill](../web-persona-skill/)** — Persona creation
+- **[Quantitative-UX-Research](../quantitative-ux-research/)** — Quantitative research, HEART framework
+- **[Universal-Design-Methods](../universal-design-methods/)** — 100 design research methods
+- **[Value-Proposition-Design](../value-proposition-design/)** — Value proposition canvas
 
 ### 🌟 Why Choose AliDujie Skill Ecosystem?
 
@@ -474,12 +419,12 @@ This skill is part of the **AliDujie UX Research Skills Ecosystem**. Using the c
 - ✅ **Zero Dependencies** — Pure Python standard library, ready to use out of the box
 - ✅ **Bilingual Support** — Complete CN/EN documentation for international team collaboration
 
-👉 **Explore More Skills**: [Quantitative UX Research](../quantitative-ux-research/) | [Universal Design Methods](../universal-design-methods/) | [JTBD](../jtbd-knowledge-skill/) | [Value Proposition Design](../value-proposition-design/) | [Web Persona](../web-persona-skill/)
+👉 **Explore More Skills**: [JTBD](../jtbd-knowledge-skill/) | [Web Persona](../web-persona-skill/) | [Quantitative UX Research](../quantitative-ux-research/) | [Universal Design Methods](../universal-design-methods/) | [Value Proposition Design](../value-proposition-design/)
 
 ### 📦 Dependencies
 
 - Python >= 3.8
-- **No external dependencies**
+- **No external dependencies** (pure standard library)
 - Cross-platform: macOS / Linux / Windows
 
 ---
@@ -490,8 +435,10 @@ This skill is part of the **AliDujie UX Research Skills Ecosystem**. Using the c
 
 ## 👨‍💻 作者 (Credits)
 
-- 基于《Storytelling with Data》by Cole Nussbaumer Knaflic
+- 基于《Storytelling with Data》by Cole Nussbaumer Knaflic (2015)
 - 技能开发：AliDujie 团队
 - **GitHub**: [@AliDujie](https://github.com/AliDujie)
 - **Emp ID**: 27768
 - **Nickname**: 渡劫
+
+v2.0.0
