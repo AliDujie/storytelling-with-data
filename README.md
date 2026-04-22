@@ -400,25 +400,57 @@ story = skill.build_story(
 
 ### 🚀 Quick Start
 
+#### Step 1: Install
+
+```bash
+# Copy to your AI Agent skills directory
+cp -r skills/storytelling-with-data ~/.aoneclaw/skills/
+```
+
+#### Step 2: Use as Python Package
+
 ```python
+import sys
+sys.path.insert(0, "/path/to/storytelling-with-data")
 from swd import SWDSkill
 
 skill = SWDSkill("Quarterly Report")
+```
 
+#### Step 3: Start Using
+
+```python
 # Context analysis
-ctx = skill.build_context(audience="VP", need="Understand performance", cta="Approve budget")
+ctx = skill.build_context(audience="VP Product", need="Understand Q3 performance", cta="Approve Q4 budget")
+print(skill.analyze_context(ctx))
 
 # Chart selection
-rec = skill.recommend_chart(data_type="continuous", has_time=True)
+rec = skill.recommend_chart(data_type="continuous", has_time=True, comparison="yes")
+print(rec)  # Recommends: Line chart, Bar chart
 
 # Declutter diagnosis
-clutter = skill.diagnose_clutter(has_border=True, has_gridlines=True)
+clutter = skill.diagnose_clutter(has_border=True, has_gridlines=True, has_legend=True, colors=8)
+print(clutter)
 
 # Attention planning
-attn = skill.plan_attention(focus_elements=[("Key Metric", 5)])
+attn = skill.plan_attention(focus_elements=[("Key Metric", 5), ("Trend Line", 3)], use_color_strategically=True)
+print(attn)
+
+# Design evaluation
+design = skill.evaluate_design(has_title=True, has_subtitle=True, color_strategic=True, labels_clear=True)
+print(design)
 
 # Story building
-story = skill.build_story(protagonist="Team", imbalance="Problem", resolution="Solution")
+story = skill.build_story(protagonist="Product Team", imbalance="Churn increasing", resolution="New feature improves retention")
+print(story)
+
+# Full diagnosis
+diag = skill.full_diagnosis(scores={"context": {"audience_clear": 4, "cta_clear": 3}, "visual": {"chart_appropriate": 5, "clutter_free": 2}})
+print(diag)
+
+# Chart makeover
+makeover = skill.makeover(issues=["Used pie chart", "No title", "Too many colors"], chart_type="bar")
+print(makeover)
 ```
 
 ### 🔗 Related Skills
