@@ -317,6 +317,97 @@ def test_makeover():
 
 
 # ────────────────────────────────────────────
+# 测试 9：CEO 决策方法 1 - 决策选项对比
+# ────────────────────────────────────────────
+def test_build_decision_comparison():
+    skill = SWDSkill("季度业绩汇报")
+
+    # 场景 A：使用默认选项
+    result_default = skill.build_decision_comparison()
+    assert isinstance(result_default, str), "build_decision_comparison 应返回字符串"
+    assert "CEO 决策选项对比" in result_default or "决策" in result_default, "应包含决策对比标题"
+    assert "方案" in result_default, "应包含方案选项"
+    assert "投入" in result_default or "成本" in result_default, "应包含投入维度"
+    assert "风险" in result_default, "应包含风险维度"
+    assert "回报" in result_default, "应包含回报维度"
+    assert "推荐" in result_default, "应包含推荐方案"
+
+    # 场景 B：自定义选项
+    result_custom = skill.build_decision_comparison(options=[
+        {"name": "方案 A: 快速上线", "investment": "50 万", "timeline": "4 周", "risk": "高", "return": "中", "confidence": "高"},
+        {"name": "方案 B: 稳健推进", "investment": "100 万", "timeline": "8 周", "risk": "中", "return": "高", "confidence": "中"},
+    ])
+    assert "快速上线" in result_custom, "应包含自定义方案名"
+    assert "50 万" in result_custom, "应包含自定义投入"
+    assert "决策矩阵" in result_custom, "应包含决策矩阵"
+
+    print("✅ test_build_decision_comparison passed")
+
+
+# ────────────────────────────────────────────
+# 测试 10：CEO 决策方法 2 - 执行风险可视化
+# ────────────────────────────────────────────
+def test_visualize_execution_risks():
+    skill = SWDSkill("产品上线计划")
+
+    # 场景 A：使用默认上下文
+    result_default = skill.visualize_execution_risks()
+    assert isinstance(result_default, str), "visualize_execution_risks 应返回字符串"
+    assert "执行风险" in result_default or "风险" in result_default, "应包含风险标题"
+    assert "风险矩阵" in result_default or "矩阵" in result_default, "应包含风险矩阵"
+    assert "概率" in result_default, "应包含概率维度"
+    assert "影响" in result_default, "应包含影响维度"
+    assert "缓解" in result_default or "措施" in result_default, "应包含缓解措施"
+
+    # 场景 B：自定义上下文
+    result_custom = skill.visualize_execution_risks(context={
+        "timeline": "12 周",
+        "team_size": 8,
+        "dependencies": ["技术团队", "设计团队", "市场团队"],
+    })
+    assert "12 周" in result_custom, "应包含自定义时间"
+    assert "8 人" in result_custom or "8 人" in result_custom or "团队规模" in result_custom, "应包含自定义团队规模"
+    assert "市场团队" in result_custom, "应包含自定义依赖"
+
+    print("✅ test_visualize_execution_risks passed")
+
+
+# ────────────────────────────────────────────
+# 测试 11：CEO 决策方法 3 - 决策框架生成
+# ────────────────────────────────────────────
+def test_generate_decision_framework():
+    skill = SWDSkill("战略投资决策")
+
+    # 场景 A：Go/No-Go 决策框架
+    result_gono = skill.generate_decision_framework("go_no_go")
+    assert isinstance(result_gono, str), "generate_decision_framework 应返回字符串"
+    assert "Go/No-Go" in result_gono or "决策框架" in result_gono, "应包含 Go/No-Go 框架标题"
+    assert "战略一致性" in result_gono or "标准" in result_gono, "应包含决策标准"
+    assert "阈值" in result_gono or "Threshold" in result_gono, "应包含决策阈值"
+    assert "决策记录" in result_gono or "模板" in result_gono, "应包含决策记录模板"
+
+    # 场景 B：优先级决策框架
+    result_priority = skill.generate_decision_framework("priority")
+    assert "优先级" in result_priority or "Priority" in result_priority, "应包含优先级框架"
+    assert "影响力" in result_priority, "应包含影响力标准"
+    assert "紧急性" in result_priority, "应包含紧急性标准"
+
+    # 场景 C：资源分配决策框架
+    result_resource = skill.generate_decision_framework("resource_allocation")
+    assert "资源分配" in result_resource, "应包含资源分配框架"
+    assert "机会成本" in result_resource, "应包含机会成本标准"
+    assert "预期回报" in result_resource, "应包含预期回报标准"
+
+    # 场景 D：风险接受决策框架
+    result_risk = skill.generate_decision_framework("risk_acceptance")
+    assert "风险接受" in result_risk or "风险" in result_risk, "应包含风险接受框架"
+    assert "发生概率" in result_risk, "应包含概率标准"
+    assert "缓解成本" in result_risk, "应包含缓解成本标准"
+
+    print("✅ test_generate_decision_framework passed")
+
+
+# ────────────────────────────────────────────
 # 主入口
 # ────────────────────────────────────────────
 if __name__ == "__main__":
@@ -329,6 +420,10 @@ if __name__ == "__main__":
         test_build_story,
         test_full_diagnosis,
         test_makeover,
+        # CEO 视角方法测试
+        test_build_decision_comparison,
+        test_visualize_execution_risks,
+        test_generate_decision_framework,
     ]
 
     passed = 0
@@ -344,7 +439,7 @@ if __name__ == "__main__":
     print(f"\n{'='*50}")
     print(f"测试结果: {passed} passed, {failed} failed, {len(tests)} total")
     if failed == 0:
-        print("🎉 全部 8 个测试用例通过!")
+        print("🎉 全部 {len(tests)} 个测试用例通过!")
     else:
         print(f"⚠️ 有 {failed} 个测试未通过")
         sys.exit(1)
