@@ -65,3 +65,9 @@
 > "There is a story in your data. But your tools don't know what that story is. That's where it takes you—the analyst or communicator—to bring that story visually and contextually to life."
 
 数据中有故事，但工具不知道那个故事是什么。需要你——分析师或沟通者——将故事在视觉和上下文中呈现出来。
+
+## 相关文档
+
+- [上下文的重要性](01-context.md)
+- [融会贯通](08-pulling-together.md)
+- [速查手册](11-quick-reference.md)

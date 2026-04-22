@@ -7,7 +7,7 @@ from pathlib import Path
 from dataclasses import dataclass, field
 from typing import Dict, List, Tuple
 
-KNOWLEDGE_BASE_DIR = Path(__file__).parent.parent / "knowledge"
+KNOWLEDGE_BASE_DIR = Path(__file__).parent.parent / "references"
 
 KNOWLEDGE_FILES: Dict[str, str] = {
     "context": "01-context.md",
@@ -146,6 +146,9 @@ class AnalysisConfig:
     language: str = "zh"
     color_strategy: str = "grey_plus_one"
     max_clutter_items: int = 10
+
+    def __post_init__(self) -> None:
+        self.validate()
 
     def validate(self) -> None:
         for d in self.include_dimensions:
