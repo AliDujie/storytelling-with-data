@@ -246,6 +246,55 @@ storytelling-with-data/
 
 👉 **探索完整生态系统**: [JTBD](../jtbd-knowledge-skill/) | [人物角色](../web-persona-skill/) | [量化 UX 研究](../quantitative-ux-research/) | [通用设计方法](../universal-design-methods/) | [价值主张设计](../value-proposition-design/)
 
+### 🛠️ 故障排查 (Troubleshooting)
+
+#### 问题 1: 图表推荐结果不符合预期
+
+**检查**: 数据类型参数是否正确
+
+```python
+# 时间趋势数据
+chart = skill.recommend_chart(data_type="continuous", has_time=True, series_count=2, category_count=12)
+# → 推荐：折线图 ✅
+
+# 类别比较
+chart = skill.recommend_chart(data_type="categorical", has_time=False, series_count=1, category_count=5)
+# → 推荐：条形图 ✅
+
+# 常见错误
+chart = skill.recommend_chart(data_type="time", has_time=True)  # ❌ 应该是 "continuous"
+```
+
+#### 问题 2: 综合诊断得分过低
+
+**检查各维度得分**:
+```python
+diag = skill.full_diagnosis(scores={
+    "context": {"audience_clear": 4, "cta_clear": 3, "big_idea_visible": 2, "data_supports_story": 4},
+    # ... 其他维度
+})
+
+# 如果 context 得分低 → 重新明确受众和行动号召
+# 如果 clutter 得分低 → 去除多余元素
+# 如果 attention 得分低 → 加强颜色策略
+```
+
+#### 问题 3: 图表改造建议太泛
+
+**解决**: 提供具体的现有问题
+```python
+# 泛泛 (得到的建议也泛泛)
+makeover = skill.makeover(issues=["图表不好看"])
+
+# 具体 (得到针对性建议)
+makeover = skill.makeover(issues=[
+    "使用了 3D 饼图",
+    "图例在右侧单独放置，需要来回对照",
+    "使用了彩虹色配色，没有突出重点",
+    "标题是'销售数据'，没有传达核心信息"
+])
+```
+
 ### 🤝 最佳实践
 
 #### SWD 六步工作流
@@ -316,6 +365,13 @@ storytelling-with-data/
 | **Sequential** | 同色系深浅变化 | 浅蓝→深蓝表示低到高 |
 | **Diverging** | 两色表示正负 | 红色（负）→ 白色 → 蓝色（正） |
 | **Categorical** | 不同类别不同色 | 最多 5-7 种颜色 |
+
+### 📖 扩展阅读
+
+- **《Storytelling with Data》** - Cole Nussbaumer Knaflic (2015)
+- **《The Visual Display of Quantitative Information》** - Edward Tufte (数据可视化经典)
+- **《Information Dashboard Design》** - Stephen Few (仪表盘设计)
+- **《Effective Data Visualization》** - Stephanie D.H. Evergreen (实战指南)
 
 ### 📚 关于《Storytelling with Data》
 
