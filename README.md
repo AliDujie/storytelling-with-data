@@ -501,6 +501,7 @@ This skill is part of the **AliDujie UX Research Skills Ecosystem**. Using the c
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
+| v1.6 | 2026-04-23 | 更新 Last Updated 时间戳，统一技能生态系统格式 |
 | v1.5 | 2026-04-23 | 添加版本历史、Last Updated 徽章 |
 | v1.4 | 2026-04-23 | 添加技能生态导航表、故障排查、扩展阅读 |
 | v1.3 | 2026-04-22 | 初始版本 |
