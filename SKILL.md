@@ -1,6 +1,6 @@
 ---
 name: storytelling-with-data
-description: 数据可视化与数据叙事技能，基于《Storytelling with Data》方法论。提供上下文分析、图表选择、去杂乱、注意力引导、设计评估、故事构建、综合诊断、图表改造八大能力，含 Python 可执行工具包。
+description: 数据可视化与数据叙事技能，基于《Storytelling with Data》方法论。提供上下文分析、图表选择、去杂乱、注意力引导、设计评估、故事构建、综合诊断、图表改造八大能力，以及CEO决策视角的选项对比、风险可视化与决策框架，含 Python 可执行工具包。
 ---
 
 # SWD (Storytelling with Data) Skill
@@ -44,6 +44,7 @@ description: 数据可视化与数据叙事技能，基于《Storytelling with D
 | 帮我看看这个图 / 诊断 / 评分 | 七：综合诊断 | 五维度总分 + 各维度明细 + Top 3 建议 |
 | 改造 / 优化 / 改进 / makeover | 八：图表改造 | 六步方案 + 设计规范 + 叙事幻灯片 |
 | 综合数据汇报任务 | 按顺序执行一→八 | 完整数据故事 |
+| 决策对比、风险评估、Go/No-Go、CEO 决策 | CEO 决策视角 | 决策对比 + 风险矩阵 + 决策框架 |
 
 ## 四、目录结构
 
@@ -147,6 +148,9 @@ skill = SWDSkill("Q4 季度业绩汇报", config=AnalysisConfig())
 | `full_diagnosis()` | 综合诊断 | scores 字典 | Markdown 报告 |
 | `makeover()` | 图表改造 | issues 列表 | Markdown 报告 |
 | `search_knowledge()` | 知识检索 | keyword | Dict[str, List[str]] |
+| `build_decision_comparison()` | CEO: 决策对比 | options(可选) | Markdown 报告 |
+| `visualize_execution_risks()` | CEO: 风险可视化 | context(可选) | Markdown 报告 |
+| `generate_decision_framework()` | CEO: 决策框架 | decision_type(默认go_no_go) | Markdown 报告 |
 
 ### 8.3 八大核心模块
 
@@ -282,7 +286,19 @@ result = skill.makeover(
 )
 ```
 
-### 8.4 完整使用示例
+### 8.4 CEO 视角决策分析
+
+在完成数据故事构建后，可生成商业决策级分析，帮助 CEO 基于数据做出决策：
+
+| 方法 | 输出内容 |
+|------|---------|
+| `build_decision_comparison(options)` | 多方案对比矩阵（投入/风险/回报/成功把握），推荐方案及理由 |
+| `visualize_execution_risks(context)` | 风险矩阵（概率×影响）、Top 5 风险清单、风险应对策略 |
+| `generate_decision_framework(decision_type)` | Go/No-Go / 优先级 / 资源分配 / 风险接受四类决策框架 |
+
+**默认行为**: 当用户要求综合数据汇报或涉及决策场景时，应在数据故事（能力六）之后自动附加 CEO 决策分析。
+
+### 8.5 完整使用示例
 
 #### 示例 1：季度业绩汇报（端到端）
 
@@ -317,6 +333,14 @@ story = skill.build_story(
     slide_titles=["建议投入300万优化新用户引导", "增长率连续3月降至8%",
                   "根因：首周留存骤降至32%", "A/B测试证明优化可提升12%"],
 )
+
+# CEO 决策分析（数据故事完成后自动附加）
+comparison = skill.build_decision_comparison([
+    {"name": "方案 A: 小规模优化", "investment": "100万", "timeline": "4 周", "risk": "低", "return": "中", "confidence": "高"},
+    {"name": "方案 B: 全面优化", "investment": "300万", "timeline": "8 周", "risk": "中", "return": "高", "confidence": "中"},
+])
+risks = skill.visualize_execution_risks({"timeline": "8 周", "team_size": 5, "dependencies": ["产品团队", "技术团队"]})
+framework = skill.generate_decision_framework("go_no_go")
 ```
 
 #### 示例 2：图表改造（诊断 → 改造）
@@ -344,7 +368,7 @@ makeover = skill.makeover(
 kb = skill.search_knowledge("饼图")
 ```
 
-### 8.5 AI Agent 调用规则
+### 8.6 AI Agent 调用规则
 
 | # | 规则 | 说明 |
 |---|------|------|
@@ -356,8 +380,9 @@ kb = skill.search_knowledge("饼图")
 | 6 | **渐进式** | 先诊断（能力七）再改造（能力八），不跳过诊断 |
 | 7 | **上下文先行** | 任何可视化任务先执行上下文分析（能力一） |
 | 8 | **验证闭环** | 改造后用设计评估（能力五）验证效果 |
+| 9 | **CEO 决策默认附加** | 综合汇报任务完成数据故事后，自动附加 CEO 决策对比 + 风险可视化 + 决策框架 |
 
-### 8.6 测试
+### 8.7 测试
 
 ```bash
 python swd/tests/test_all.py               # 运行全部 8 个测试
@@ -375,7 +400,7 @@ python -m pytest swd/tests/test_all.py -v   # pytest
 | `test_full_diagnosis()` | 综合诊断 | 五维度评分、总分、评级 |
 | `test_makeover()` | 图表改造 | 问题识别、改造步骤、叙事幻灯片 |
 
-### 8.7 与其他 Skill 协作
+### 8.8 与其他 Skill 协作
 
 | 协作场景 | 协作 Skill | 工作流 |
 |---------|-----------|--------|
