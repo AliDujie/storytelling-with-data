@@ -25,7 +25,7 @@
 
 ```bash
 # 复制到你的 AI Agent skills 目录
-cp -r skills/storytelling-with-data ~/.aoneclaw/skills/
+cp -r skills/storytelling-with-data ~/.openclaw/skills/
 ```
 
 #### 步骤 2: 作为 Python 包使用
@@ -405,7 +405,7 @@ makeover = skill.makeover(issues=[
 #### Step 1: Install
 
 ```bash
-cp -r skills/storytelling-with-data ~/.aoneclaw/skills/
+cp -r skills/storytelling-with-data ~/.openclaw/skills/
 ```
 
 #### Step 2: Use as Python Package
@@ -501,6 +501,7 @@ This skill is part of the **AliDujie UX Research Skills Ecosystem**. Using the c
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
+| v1.7 | 2026-04-25 | 修复安装路径拼写错误 (.aoneclaw → .openclaw)，统一格式 |
 | v1.6 | 2026-04-23 | 更新 Last Updated 时间戳，统一技能生态系统格式 |
 | v1.5 | 2026-04-23 | 添加版本历史、Last Updated 徽章 |
 | v1.4 | 2026-04-23 | 添加技能生态导航表、故障排查、扩展阅读 |
@@ -508,6 +509,6 @@ This skill is part of the **AliDujie UX Research Skills Ecosystem**. Using the c
 
 ---
 
-*Last Updated: 2026-04-23 | AliDujie Skill Ecosystem*
+*Last Updated: 2026-04-25 | AliDujie Skill Ecosystem*
 
 v2.0.0
