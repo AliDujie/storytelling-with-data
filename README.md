@@ -510,5 +510,3 @@ This skill is part of the **AliDujie UX Research Skills Ecosystem**. Using the c
 ---
 
 *Last Updated: 2026-04-25 | AliDujie Skill Ecosystem*
-
-v2.0.0
