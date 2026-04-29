@@ -244,7 +244,7 @@ storytelling-with-data/
 - **SWD + VPD** → 向高管呈现价值主张设计效果
 - **SWD + Persona** → 用人物角色故事增强数据叙事感染力
 
-👉 **探索完整生态系统**: [JTBD](../jtbd-knowledge-skill/) | [人物角色](../web-persona-skill/) | [量化 UX 研究](../quantitative-ux-research/) | [通用设计方法](../universal-design-methods/) | [价值主张设计](../value-proposition-design/)
+👉 **探索完整生态系统**: [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) | [人物角色](https://github.com/AliDujie/web-persona-skill) | [量化 UX 研究](https://github.com/AliDujie/Quantitative-UX-Research) | [通用设计方法](https://github.com/AliDujie/universal-design-methods) | [价值主张设计](https://github.com/AliDujie/value-proposition-design)
 
 ### 🛠️ 故障排查 (Troubleshooting)
 
@@ -381,6 +381,14 @@ makeover = skill.makeover(issues=[
 - **地位**: 数据可视化领域经典，全球畅销 50 万 + 册
 - **适用**: 数据分析师、产品经理、咨询师、高管、任何需要呈现数据的人
 
+### 🏷️ GitHub Topics（推荐）
+
+```
+data-visualization storytelling python-toolkit chart-design
+data-narrative declutter attention-guidance openclaw-skill
+storytelling-with-data alicloud
+```
+
 ### 📦 依赖
 
 - Python >= 3.8
@@ -458,11 +466,11 @@ makeover = skill.makeover(issues=["Used pie chart", "No title", "Rainbow colors"
 
 This skill is part of the **AliDujie UX Research Skills Ecosystem**:
 
-- **[JTBD-Knowledge-Skill](../jtbd-knowledge-skill/)** — Jobs-to-be-Done theory
-- **[Web-Persona-Skill](../web-persona-skill/)** — Persona creation
-- **[Quantitative-UX-Research](../quantitative-ux-research/)** — Quantitative research, HEART framework
-- **[Universal-Design-Methods](../universal-design-methods/)** — 100 design research methods
-- **[Value-Proposition-Design](../value-proposition-design/)** — Value proposition canvas
+- **[JTBD-Knowledge-Skill](https://github.com/AliDujie/jtbd-knowledge-skill)** — Jobs-to-be-Done theory
+- **[Web-Persona-Skill](https://github.com/AliDujie/web-persona-skill)** — Persona creation
+- **[Quantitative-UX-Research](https://github.com/AliDujie/Quantitative-UX-Research)** — Quantitative research, HEART framework
+- **[Universal-Design-Methods](https://github.com/AliDujie/universal-design-methods)** — 100 design research methods
+- **[Value-Proposition-Design](https://github.com/AliDujie/value-proposition-design)** — Value proposition canvas
 
 ### 🌟 Why Choose AliDujie Skill Ecosystem?
 
@@ -475,7 +483,15 @@ This skill is part of the **AliDujie UX Research Skills Ecosystem**. Using the c
 - ✅ **Zero Dependencies** — Pure Python standard library, ready to use out of the box
 - ✅ **Bilingual Support** — Complete CN/EN documentation for international team collaboration
 
-👉 **Explore More Skills**: [JTBD](../jtbd-knowledge-skill/) | [Web Persona](../web-persona-skill/) | [Quantitative UX Research](../quantitative-ux-research/) | [Universal Design Methods](../universal-design-methods/) | [Value Proposition Design](../value-proposition-design/)
+👉 **Explore More Skills**: [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) | [Web Persona](https://github.com/AliDujie/web-persona-skill) | [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) | [Value Proposition Design](https://github.com/AliDujie/value-proposition-design)
+
+### 🏷️ GitHub Topics (Recommended)
+
+```
+data-visualization storytelling python-toolkit chart-design
+data-narrative declutter attention-guidance openclaw-skill
+storytelling-with-data alicloud
+```
 
 ### 📦 Dependencies
 
@@ -501,6 +517,7 @@ This skill is part of the **AliDujie UX Research Skills Ecosystem**. Using the c
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
+| v2.0 | 2026-04-29 | 统一交叉引用为 GitHub 绝对链接，添加 GitHub Topics，更新 Last Updated 日期 |
 | v1.8 | 2026-04-26 | 更新 Last Updated 日期，维护技能生态一致性 |
 | v1.7 | 2026-04-25 | 修复安装路径拼写错误 (.openclaw 路径)，统一格式 |
 | v1.6 | 2026-04-23 | 更新 Last Updated 时间戳，统一技能生态系统格式 |
@@ -510,4 +527,4 @@ This skill is part of the **AliDujie UX Research Skills Ecosystem**. Using the c
 
 ---
 
-*Last Updated: 2026-04-26 | AliDujie Skill Ecosystem*
+*Last Updated: 2026-04-29 | AliDujie Skill Ecosystem*
