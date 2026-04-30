@@ -5,7 +5,13 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
-- English documentation: Core Capabilities tables, Practical Examples, Who Is This For, Troubleshooting, Best Practices, User Reviews, Extended Reading, and About sections
+- Status badges (Python version, License, Last Updated)
+
+### Changed
+- Updated README version to v2.1
+- Updated Last Updated timestamp
+
+### Added (previous): Core Capabilities tables, Practical Examples, Who Is This For, Troubleshooting, Best Practices, User Reviews, Extended Reading, and About sections
 
 ### Added
 - LICENSE file for internal use

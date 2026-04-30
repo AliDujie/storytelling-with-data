@@ -1,5 +1,9 @@
 # Storytelling with Data Skill
 
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--04--30-brightgreen.svg)
+
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
 
 基于 Cole Nussbaumer Knaflic《Storytelling with Data》的数据可视化与数据叙事工具集。提供 8 项可执行能力和 11 篇方法论知识库，覆盖从上下文分析到图表改造的完整 SWD 六课工作流。
@@ -600,7 +604,7 @@ storytelling-with-data alicloud
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
-| v2.0 | 2026-04-29 | 统一交叉引用为 GitHub 绝对链接，添加 GitHub Topics，更新 Last Updated 日期 |
+| v2.1 | 2026-04-30 | 添加 Badges、更新维护 |
 | v1.8 | 2026-04-26 | 更新 Last Updated 日期，维护技能生态一致性 |
 | v1.7 | 2026-04-25 | 修复安装路径拼写错误 (.openclaw 路径)，统一格式 |
 | v1.6 | 2026-04-23 | 更新 Last Updated 时间戳，统一技能生态系统格式 |
@@ -610,4 +614,4 @@ storytelling-with-data alicloud
 
 ---
 
-*Last Updated: 2026-04-30 | AliDujie Skill Ecosystem*
+*Last Updated: 2026-04-30 | AliDujie Skill Ecosystem | v2.1*
