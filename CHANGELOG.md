@@ -5,6 +5,9 @@ All notable changes to this project will be documented in this file.
 ## [Unreleased]
 
 ### Added
+- English documentation: Core Capabilities tables, Practical Examples, Who Is This For, Troubleshooting, Best Practices, User Reviews, Extended Reading, and About sections
+
+### Added
 - LICENSE file for internal use
 - INSTALL.md with detailed installation guide
 - CONTRIBUTING.md for contributors
