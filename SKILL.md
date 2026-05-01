@@ -1,3 +1,8 @@
+---
+name: storytelling-with-data
+version: "2.2.0"
+---
+
 # SWD (Storytelling with Data) Skill
 
 数据可视化与数据叙事技能，基于 Cole Nussbaumer Knaflic《Storytelling with Data》方法论。
