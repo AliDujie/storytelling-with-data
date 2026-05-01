@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--04--30-brightgreen.svg)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--01-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
 
@@ -332,13 +332,13 @@ makeover = skill.makeover(issues=[
 
 ### 🌟 用户评价
 
-> "SWD 技能帮我们把高管汇报的准备时间从 1 天缩短到 2 小时，而且反馈更好了！"  
+> "SWD 技能帮我们把高管汇报的准备时间从 1 天缩短到 2 小时，而且反馈更好了！"
 > — 某互联网大厂数据分析师
 
-> "图表改造功能太实用了，一眼看出我们之前设计的问题在哪里。"  
+> "图表改造功能太实用了，一眼看出我们之前设计的问题在哪里。"
 > — 某咨询公司顾问
 
-> "综合诊断评分让我们有了客观标准评估数据可视化质量。"  
+> "综合诊断评分让我们有了客观标准评估数据可视化质量。"
 > — 某电商平台 BI 负责人
 
 ### 📋 速查卡片

@@ -1,5 +1,14 @@
 # Changelog
 
+## [R22] - 2026-05-01
+
+### Fixed
+- Fixed trailing whitespace in user review quote blocks
+- Updated Last Updated badge from 2026-04-30 to 2026-05-01
+
+### Maintenance
+- Routine README maintenance: verified code examples, cross-references, and bilingual consistency
+
 ## [R21] - 2026-05-01
 
 ### Maintenance
