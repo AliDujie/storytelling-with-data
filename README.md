@@ -12,6 +12,21 @@
 
 ---
 
+### 🤔 什么时候使用这个技能？(When to Use This Skill?)
+
+| 你的场景 | 推荐技能 |
+|----------|----------|
+| 需要将研究结果转化为数据叙事、图表呈现 | ✅ **Storytelling with Data** (本技能) |
+| 需要选择研究方法、设计访谈、执行可用性测试 | → [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) |
+| 需要定量验证假设、设计 A/B 测试、计算样本量 | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) |
+| 需要理解用户"工作"、机会评分、竞争分析 | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) |
+| 需要创建人物角色、用户细分、设计指导 | → [Web Persona](https://github.com/AliDujie/web-persona-skill) |
+| 需要价值主张画布、实验验证、优先级排序 | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) |
+
+> 💡 **提示**: SWD 适合在研究完成后使用，将 UDM/QuantUX/JTBD 的发现转化为高管可读的数据叙事。
+
+---
+
 ## 中文说明
 
 ### 🌟 为什么使用这个技能？(Why Use This Skill?)
@@ -604,6 +619,7 @@ storytelling-with-data alicloud
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
+| v2.2 | 2026-05-01 | 添加 "When to Use This Skill?" 决策指南，更新维护 |
 | v2.1 | 2026-04-30 | 添加 Badges、更新维护 |
 | v1.8 | 2026-04-26 | 更新 Last Updated 日期，维护技能生态一致性 |
 | v1.7 | 2026-04-25 | 修复安装路径拼写错误 (.openclaw 路径)，统一格式 |
@@ -614,4 +630,4 @@ storytelling-with-data alicloud
 
 ---
 
-*Last Updated: 2026-05-01 | AliDujie Skill Ecosystem | v2.1*
+*Last Updated: 2026-05-01 | AliDujie Skill Ecosystem | v2.2*
