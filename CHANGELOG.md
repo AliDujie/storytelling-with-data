@@ -1,5 +1,11 @@
 # Changelog
 
+## [R21] - 2026-05-01
+
+### Maintenance
+- Routine README maintenance: verified code examples, cross-references, and bilingual consistency
+- Confirmed INSTALL.md exists and is accurate
+
 ## [R20] - 2026-05-01
 
 ### Maintenance
