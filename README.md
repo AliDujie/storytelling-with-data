@@ -598,7 +598,7 @@ This skill is part of the **AliDujie UX Research Skills Ecosystem**. Using the c
 - ✅ **Zero Dependencies** — Pure Python standard library, ready to use out of the box
 - ✅ **Bilingual Support** — Complete CN/EN documentation for international team collaboration
 
-👉 **Explore More Skills**: [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) | [Web Persona](https://github.com/AliDujie/web-persona-skill) | [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) | [Value Proposition Design](https://github.com/AliDujie/value-proposition-design)
+👉 **Explore More Skills**: [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) | [Web Persona](https://github.com/AliDujie/web-persona-skill) | [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) | [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | [Structured Thinking](https://github.com/AliDujie/Structured-Thinking-Model)
 
 ### 🏷️ GitHub Topics (Recommended)
 
