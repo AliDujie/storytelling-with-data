@@ -595,6 +595,20 @@ story = skill.build_story(
     call_to_action="Invest in onboarding redesign",
 )
 print(story.render_markdown())
+
+# Example 4: Chart makeover — transform a problematic chart
+makeover = skill.makeover_chart(
+    current_chart="pie chart with 12 slices, rainbow colors, no title, 3D effect",
+    data_type="part-to-whole",
+    recommendation="Use a horizontal bar chart sorted by value, grey bars with one highlighted color",
+)
+print(makeover)  # Step-by-step makeover plan
+
+# Example 5: Full 100-point design diagnosis
+diag = skill.full_diagnosis(
+    scores={"clarity": 6, "focus": 7, "visual_hierarchy": 5, "color": 4, "story": 3},
+)
+print(f"Total: {diag['total_score']}/100 — {diag['rating']}")
 ```
 
 ### 👥 Who Is This For?
