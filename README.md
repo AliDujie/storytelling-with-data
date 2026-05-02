@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.1-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.2-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--02-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -660,6 +660,7 @@ storytelling-with-data alicloud
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.2.2 | 2026-05-02 | Added English Quick Decision Guide table to improve cross-skill discoverability |
 | v2.2.1 | 2026-05-02 | Repo maintenance: added 3 missing CEO capability details, improved installation path consistency, added changelog to English section |
 | v2.2 | 2026-05-01 | Added "When to Use This Skill?" decision guide |
 | v2.1 | 2026-04-30 | Added badges, updated maintenance |
@@ -743,6 +744,7 @@ python3 swd/tests/test_all.py
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
+| v2.2.2 | 2026-05-02 | 仓库维护：为英文版添加 Quick Decision Guide 导航表，增强技能间交叉引用 |
 | v2.2.1 | 2026-05-02 | 仓库维护：补充 Structured-Thinking-Model 交叉引用到决策指南和相关技能列表，优化 "Explore More Skills" 页脚 |
 | v2.2 | 2026-05-01 | 添加 "When to Use This Skill?" 决策指南，更新维护 |
 | v2.1 | 2026-04-30 | 添加 Badges、更新维护 |
@@ -755,4 +757,4 @@ python3 swd/tests/test_all.py
 
 ---
 
-*Last Updated: 2026-05-02 | AliDujie Skill Ecosystem | v2.2.1*
+*Last Updated: 2026-05-02 | AliDujie Skill Ecosystem | v2.2.2*
