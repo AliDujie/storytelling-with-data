@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.0-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.1-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--02-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -684,6 +684,7 @@ JTBD (competitive analysis) → VPD (strategy canvas) → SWD (strategy presenta
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
+| v2.2.1 | 2026-05-02 | 仓库维护：补充 Structured-Thinking-Model 交叉引用到决策指南和相关技能列表，优化 "Explore More Skills" 页脚 |
 | v2.2 | 2026-05-01 | 添加 "When to Use This Skill?" 决策指南，更新维护 |
 | v2.1 | 2026-04-30 | 添加 Badges、更新维护 |
 | v1.8 | 2026-04-26 | 更新 Last Updated 日期，维护技能生态一致性 |
@@ -695,4 +696,4 @@ JTBD (competitive analysis) → VPD (strategy canvas) → SWD (strategy presenta
 
 ---
 
-*Last Updated: 2026-05-02 | AliDujie Skill Ecosystem | v2.2.0*
+*Last Updated: 2026-05-02 | AliDujie Skill Ecosystem | v2.2.1*
