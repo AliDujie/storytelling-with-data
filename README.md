@@ -478,6 +478,27 @@ storytelling-with-data alicloud
 - **Bilingual Support** — Complete CN/EN documentation for international teams
 - **Plug-and-Play** — Intuitive API, rich code examples, produce professional data narratives immediately
 
+### 🧭 Quick Decision Guide
+
+| Your Question | Recommended Skill |
+|---------------|------------------|
+| "How do I present research results clearly?" | → **Storytelling with Data** (this skill) — Data storytelling |
+| "I don't know what research to do" | → [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) — Method recommendation |
+| "I want to understand why users do this" | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) — Uncover the underlying "jobs" |
+| "I need to validate a hypothesis" | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) — A/B testing & sample size |
+| "I need to know who my users are" | → [Web Persona](https://github.com/AliDujie/web-persona-skill) — Create concrete personas |
+| "Is my product value strong enough?" | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) — Fit diagnosis |
+
+### 🎯 Features at a Glance
+
+| Feature | Description |
+|---------|-------------|
+| SWD Six-Step Workflow | Complete coverage: Context → Visual Choice → Declutter → Attention → Design → Story |
+| 8 + 3 Capabilities | 8 core + 3 CEO perspective (decision comparison, risk visualization, decision framework) |
+| 100-Point Diagnosis | Five-dimension comprehensive scoring for data visualization quality |
+| Chart Makeover | Six-step transformation of existing charts into professional narratives |
+| Zero Dependencies | Pure Python standard library, 5-minute setup |
+
 ### 🚀 Quick Start
 
 #### Step 1: Install
