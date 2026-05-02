@@ -23,6 +23,7 @@
 | 需要理解用户"工作"、机会评分、竞争分析 | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) |
 | 需要创建人物角色、用户细分、设计指导 | → [Web Persona](https://github.com/AliDujie/web-persona-skill) |
 | 需要价值主张画布、实验验证、优先级排序 | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) |
+| 需要商业分析框架、结构化思维、战略决策 | → [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) |
 
 > 💡 **提示**: SWD 适合在研究完成后使用，将 UDM/QuantUX/JTBD 的发现转化为高管可读的数据叙事。
 
@@ -584,6 +585,7 @@ This skill is part of the **AliDujie UX Research Skills Ecosystem**:
 - **[Quantitative-UX-Research](https://github.com/AliDujie/Quantitative-UX-Research)** — Quantitative research, HEART framework
 - **[Universal-Design-Methods](https://github.com/AliDujie/universal-design-methods)** — 100 design research methods
 - **[Value-Proposition-Design](https://github.com/AliDujie/value-proposition-design)** — Value proposition canvas
+- **[Structured-Thinking-Model](https://github.com/AliDujie/Structured-Thinking-Model)** — 70+ business analysis frameworks
 
 ### 🌟 Why Choose AliDujie Skill Ecosystem?
 
