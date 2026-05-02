@@ -732,6 +732,6 @@ story = swd.build_story(
 
 | Skill | 仓库 | 协作方式 |
 |-------|------|---------|
-| JTBD Knowledge Skill | fliggy-design-UR/jtbd-knowledge-skill | JTBD 研究结果 → SWD 可视化汇报 |
-| Value Proposition Design | fliggy-design-UR/value-proposition-design | VPD 画布数据 → SWD 图表展示 |
-| Quantitative UX Research | fliggy-design-UR/Quantitative-UX-Research | UXR 定量数据 → SWD 故事构建 |
+| JTBD Knowledge Skill | [AliDujie/jtbd-knowledge-skill](https://github.com/AliDujie/jtbd-knowledge-skill) | JTBD 研究结果 → SWD 可视化汇报 |
+| Value Proposition Design | [AliDujie/value-proposition-design](https://github.com/AliDujie/value-proposition-design) | VPD 画布数据 → SWD 图表展示 |
+| Quantitative UX Research | [AliDujie/Quantitative-UX-Research](https://github.com/AliDujie/Quantitative-UX-Research) | UXR 定量数据 → SWD 故事构建 |
