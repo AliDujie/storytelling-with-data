@@ -59,6 +59,8 @@
 cp -r skills/storytelling-with-data ~/.openclaw/skills/
 ```
 
+> 📖 详细安装指南请查看 [INSTALL.md](INSTALL.md)
+
 #### 步骤 2: 作为 Python 包使用
 
 ```python
@@ -506,6 +508,8 @@ storytelling-with-data alicloud
 ```bash
 cp -r storytelling-with-data /your/agent/skills/
 ```
+
+> 📖 See [INSTALL.md](INSTALL.md) for detailed installation guide
 
 #### Step 2: Use as Python Package
 
