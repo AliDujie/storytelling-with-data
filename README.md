@@ -483,7 +483,7 @@ storytelling-with-data alicloud
 #### Step 1: Install
 
 ```bash
-cp -r skills/storytelling-with-data ~/.openclaw/skills/
+cp -r storytelling-with-data /your/agent/skills/
 ```
 
 #### Step 2: Use as Python Package
@@ -537,16 +537,16 @@ makeover = skill.makeover(issues=["Used pie chart", "No title", "Rainbow colors"
 | # | Capability | Module | Description |
 |---|------------|--------|-------------|
 | 1 | **Context Analysis** | `context.py` | Clarify audience, core message, call-to-action |
-| 2 | **Chart Selection** | `chart_selector.py` | Recommend best chart type based on data characteristics |
+| 2 | **Chart Selection** | `chart_selector.py` | Recommend best chart type based on data type and purpose |
 | 3 | **Declutter Diagnosis** | `declutter.py` | Identify and eliminate visual clutter in charts |
-| 4 | **Attention Guidance** | `attention.py` | Plan color strategy and visual hierarchy |
+| 4 | **Attention Guidance** | `attention.py` | Plan color strategy and visual hierarchy (pre-attentive attributes) |
 | 5 | **Design Evaluation** | `designer.py` | Three-dimension chart design quality check |
-| 6 | **Story Building** | `storyteller.py` | Three-act structure for data narratives |
+| 6 | **Story Building** | `storyteller.py` | Three-act structure (setup → conflict → resolution) for data narratives |
 | 7 | **Comprehensive Diagnosis** | `diagnosis.py` | Five-dimension 100-point full assessment |
-| 8 | **Chart Makeover** | `makeover.py` | Six-step chart improvement methodology |
-| 9 | **CEO: Decision Comparison** | `context.py` | Multi-option comparison, recommendation, key assumptions |
-| 10 | **CEO: Risk Visualization** | `context.py` | Risk matrix, risk comparison, mitigation measures |
-| 11 | **CEO: Decision Framework** | `context.py` | Decision quality checklist, post-decision tracking, flowchart |
+| 8 | **Chart Makeover** | `makeover.py` | Six-step methodology to transform existing charts |
+| 9 | **CEO: Decision Comparison** | `context.py` | Multi-option comparison with recommendation, key assumptions, decision advice |
+| 10 | **CEO: Risk Visualization** | `context.py` | Risk matrix, risk comparison table, mitigation measures |
+| 11 | **CEO: Decision Framework** | `context.py` | Decision quality checklist, tracking metrics, decision flowchart |
 
 ### 🔧 Practical Examples
 
@@ -655,6 +655,14 @@ storytelling-with-data alicloud
 - Python >= 3.8
 - **No external dependencies** (pure standard library)
 - Cross-platform: macOS / Linux / Windows
+
+### 📋 Changelog
+
+| Version | Date | Changes |
+|---------|------|--------|
+| v2.2.1 | 2026-05-02 | Repo maintenance: added 3 missing CEO capability details, improved installation path consistency, added changelog to English section |
+| v2.2 | 2026-05-01 | Added "When to Use This Skill?" decision guide |
+| v2.1 | 2026-04-30 | Added badges, updated maintenance |
 
 ---
 
