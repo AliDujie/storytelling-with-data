@@ -710,6 +710,15 @@ JTBD (competitive analysis) → VPD (strategy canvas) → SWD (strategy presenta
 
 ---
 
+## Run Tests / 运行测试
+
+```bash
+cd /path/to/storytelling-with-data
+python3 -m pytest swd/tests/ -v
+# 或直接运行测试
+python3 swd/tests/test_all.py
+```
+
 ## 📜 许可 (License)
 
 本技能仅供内部学习和研究使用。
