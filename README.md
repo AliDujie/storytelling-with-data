@@ -3,7 +3,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-2.2.0-green.svg)](CHANGELOG.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--01-brightgreen.svg)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--02-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
 
@@ -265,6 +265,16 @@ storytelling-with-data/
 - **SWD + Persona** → 用人物角色故事增强数据叙事感染力
 
 👉 **探索完整生态系统**: [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) | [人物角色](https://github.com/AliDujie/web-persona-skill) | [量化 UX 研究](https://github.com/AliDujie/Quantitative-UX-Research) | [通用设计方法](https://github.com/AliDujie/universal-design-methods) | [价值主张设计](https://github.com/AliDujie/value-proposition-design)
+
+### 👥 适合谁？(Who Is This For?)
+
+| 角色 | 使用场景 |
+|------|----------|
+| **数据分析师** | 将原始分析转化为引人入胜的叙事 |
+| **产品经理** | 向利益相关者呈现数据驱动的决策 |
+| **UX 研究员** | 可视化研究发现以获得最大影响力 |
+| **高管** | 从清晰的演示中做出数据驱动的决策 |
+| **AI Agent** | 零依赖 Python 包，用于自动化报告 |
 
 ### 🛠️ 故障排查 (Troubleshooting)
 
@@ -604,6 +614,58 @@ storytelling-with-data alicloud
 
 ---
 
+## 🔗 Skill Ecosystem Workflow
+
+SWD is the data-presentation core of the **AliDujie UX Research Skills Ecosystem**. Here are typical workflows combining it with other skills:
+
+### 🧭 Quick Decision Guide
+
+| Your Question | Recommended Skill |
+|---------------|------------------|
+| "How do I present research results clearly?" | → **Storytelling with Data** (this skill) — Data storytelling |
+| "I don't know what research to do" | → [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) — Method recommendation |
+| "I want to understand why users do this" | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) — Uncover the underlying "jobs" |
+| "I need to validate a hypothesis" | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) — A/B testing & sample size |
+| "I need to know who my users are" | → [Web Persona](https://github.com/AliDujie/web-persona-skill) — Create concrete personas |
+| "Is my product value strong enough?" | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) — Fit diagnosis |
+
+### Workflow 1: Research → Quantitative Validation → Story
+
+```
+UDM/JTBD (qualitative insights) → QuantUX (quantitative validation) → SWD (storytelling)
+```
+
+**Scenario**: Validating user research findings
+1. Use UDM or JTBD to collect qualitative user insights
+2. Use QuantUX to design surveys, A/B tests, and calculate statistical significance
+3. Use SWD to transform validated results into compelling data narratives
+
+### Workflow 2: Dashboard Makeover → Executive Presentation
+
+```
+QuantUX (HEART metrics) → SWD (dashboard makeover) → CEO review
+```
+
+**Scenario**: Product performance review
+1. Use QuantUX to build HEART metrics and track user experience
+2. Use SWD declutter diagnosis and makeover to transform dashboards
+3. Use SWD storytelling framework to create executive-ready presentations
+
+### Workflow 3: Competitive Analysis → Strategy Story
+
+```
+JTBD (competitive analysis) → VPD (strategy canvas) → SWD (strategy presentation)
+```
+
+**Scenario**: Market positioning analysis
+1. Use JTBD to analyze competitive alternatives and switching barriers
+2. Use VPD competitive strategy canvas to identify differentiation
+3. Use SWD to create compelling competitive analysis presentations
+
+> 💡 **Tip**: SWD is best used at the end of a research workflow — after UDM, QuantUX, or JTBD have produced findings that need to be communicated to stakeholders.
+
+---
+
 ## 📜 许可 (License)
 
 本技能仅供内部学习和研究使用。
@@ -631,4 +693,4 @@ storytelling-with-data alicloud
 
 ---
 
-*Last Updated: 2026-05-01 | AliDujie Skill Ecosystem | v2.2.0*
+*Last Updated: 2026-05-02 | AliDujie Skill Ecosystem | v2.2.0*

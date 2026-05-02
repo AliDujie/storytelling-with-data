@@ -1,5 +1,14 @@
 # Changelog
 
+## [R24] - 2026-05-02
+
+### Added
+- Added "适合谁？(Who Is This For?)" table to Chinese section
+- Added English skill ecosystem workflow section with 3 typical workflows
+
+### Maintenance
+- Updated Last Updated badge to 2026-05-02
+
 ## [R23] - 2026-05-01
 
 ### Added
