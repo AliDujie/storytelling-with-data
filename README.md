@@ -108,7 +108,36 @@ makeover = skill.makeover(issues=["使用了饼图", "无标题", "彩虹色配�
 print(makeover)  # 逐步改造建议
 ```
 
-### 💡 8 大核心能力
+### 📊 CEO 决策视角扩展
+
+在数据汇报场景下，SWD 提供 3 个 CEO 级分析能力，帮助高管做出数据驱动的决策：
+
+```python
+# 方法 9: 决策选项对比 — 多方案对比 + 推荐
+decisions = skill.compare_decision_options(
+    audience="CEO",
+    cta="批准 Q1 增长计划预算",
+)
+print(decisions)  # 对比表 + 推荐方案 + 关键假设 + 决策建议
+
+# 方法 10: 执行风险可视化 — 风险矩阵
+risks = skill.visualize_execution_risks()
+print(risks)  # 风险矩阵 + 风险对比表 + 缓解措施
+
+# 方法 11: 决策框架生成 — 决策质量检查
+framework = skill.generate_decision_framework()
+print(framework)  # 检查清单 + 追踪指标 + 决策流程图
+
+# 一键生成：build_story 中包含全部 CEO 视角分析
+story = skill.build_story(
+    protagonist="CEO 和产品 VP",
+    imbalance="新用户月均增长率从 15% 降至 8%",
+    call_to_action="批准 300 万预算用于优化",
+    include_ceo_analysis=True,  # 自动附加决策对比 + 风险 + 框架
+)
+```
+
+### 💡 11 大核心能力（8 + 3 CEO 视角）
 
 | # | 能力 | 模块 | 功能 |
 |---|------|------|------|
@@ -493,7 +522,7 @@ print(f"Total Score: {diag['total_score']}/100")
 makeover = skill.makeover(issues=["Used pie chart", "No title", "Rainbow colors"])
 ```
 
-### 💡 8 Core Capabilities
+### 💡 11 Core Capabilities (8 + 3 CEO Perspective)
 
 | # | Capability | Module | Description |
 |---|------------|--------|-------------|
@@ -505,6 +534,9 @@ makeover = skill.makeover(issues=["Used pie chart", "No title", "Rainbow colors"
 | 6 | **Story Building** | `storyteller.py` | Three-act structure for data narratives |
 | 7 | **Comprehensive Diagnosis** | `diagnosis.py` | Five-dimension 100-point full assessment |
 | 8 | **Chart Makeover** | `makeover.py` | Six-step chart improvement methodology |
+| 9 | **CEO: Decision Comparison** | `context.py` | Multi-option comparison, recommendation, key assumptions |
+| 10 | **CEO: Risk Visualization** | `context.py` | Risk matrix, risk comparison, mitigation measures |
+| 11 | **CEO: Decision Framework** | `context.py` | Decision quality checklist, post-decision tracking, flowchart |
 
 ### 🔧 Practical Examples
 
