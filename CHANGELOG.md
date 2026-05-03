@@ -1,5 +1,13 @@
 # Changelog
 
+## [R25] - 2026-05-03
+
+### Added
+- Added missing Chinese 技能生态工作流 (Skill Ecosystem Workflow) section with 3 workflow patterns
+
+### Fixed
+- Fixed SKILL.md version mismatch (v2.2.3 → v2.2.5), aligned with README and pyproject.toml
+
 ## [R24] - 2026-05-02
 
 ### Added

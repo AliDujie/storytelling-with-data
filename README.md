@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.4-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.5-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--03-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -698,7 +698,7 @@ storytelling-with-data alicloud
 ### 📋 Changelog
 
 | Version | Date | Changes |
-| v2.2.4 | 2026-05-03 | Repo maintenance: added English version history table to README end, added classifiers and project.urls to pyproject.toml |
+| v2.2.5 | 2026-05-03 | Repo maintenance: added missing Chinese 技能生态工作流 section, fixed SKILL.md version mismatch (2.2.3→2.2.5), aligned all version references |
 |---------|------|--------|
 | v2.2.3 | 2026-05-03 | Repo maintenance: cross-ecosystem consistency review, verified cross-references and version alignment |
 | v2.2.2 | 2026-05-02 | Added English Quick Decision Guide table to improve cross-skill discoverability |
@@ -760,6 +760,58 @@ JTBD (competitive analysis) → VPD (strategy canvas) → SWD (strategy presenta
 
 ---
 
+## 🔗 技能生态工作流 (Skill Ecosystem Workflow)
+
+SWD 是 **AliDujie UX 研究技能生态系统** 的数据呈现核心。以下是与其他技能配合使用的典型工作流：
+
+### 🧭 快速决策指南 (Quick Decision Guide)
+
+| 你的问题 | 推荐技能 |
+|----------|----------|
+| "我怎么把研究结果讲清楚？" | → **Storytelling with Data** (本技能) — 数据叙事和图表改造 |
+| "我不知道该研究什么" | → [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) — 方法推荐帮你找到方向 |
+| "我想理解用户为什么这样做" | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) — 挖掘用户背后的"工作" |
+| "我需要验证一个假设" | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) — A/B 测试和样本量计算 |
+| "我需要知道用户是谁" | → [Web Persona](https://github.com/AliDujie/web-persona-skill) — 创建具体的人物角色 |
+| "我的产品价值够不够？" | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) — 契合度诊断 |
+
+### 工作流 1: 研究 → 定量验证 → 数据叙事
+
+```
+UDM/JTBD (定性洞察) → QuantUX (定量验证) → SWD (数据叙事)
+```
+
+**场景**: 研究结论验证
+1. 用 UDM 或 JTBD 收集定性用户洞察
+2. 用 QuantUX 设计问卷、A/B 测试，计算统计显著性
+3. 用 SWD 将验证结果转化为引人入胜的数据叙事
+
+### 工作流 2: 仪表盘改造 → 高管汇报
+
+```
+QuantUX (HEART 指标) → SWD (仪表盘改造) → CEO 汇报
+```
+
+**场景**: 产品绩效审查
+1. 用 QuantUX 构建 HEART 指标体系，追踪用户体验
+2. 用 SWD 去杂乱诊断和改造，优化现有仪表盘
+3. 用 SWD 叙事框架构建高管级汇报材料
+
+### 工作流 3: 竞争分析 → 战略叙事
+
+```
+JTBD (竞争分析) → VPD (战略画布) → SWD (战略汇报)
+```
+
+**场景**: 市场定位分析
+1. 用 JTBD 分析竞争替代方案和切换障碍
+2. 用 VPD 竞争战略画布识别差异化机会
+3. 用 SWD 创建引人入胜的竞争分析汇报
+
+> 💡 **提示**: SWD 最适合在研究工作流的末端使用——在 UDM、QuantUX 或 JTBD 产出发现后，将其传达给利益相关者。
+
+---
+
 ## Run Tests / 运行测试
 
 ```bash
@@ -784,7 +836,7 @@ python3 swd/tests/test_all.py
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
-| v2.2.4 | 2026-05-03 | 仓库维护：添加英文版版本历史表到 README 末尾，统一 pyproject.toml 元数据 |
+| v2.2.5 | 2026-05-03 | 仓库维护：添加缺失的中文版技能生态工作流章节，修复 SKILL.md 版本不一致 (2.2.3→2.2.5)，统一版本引用 |
 |------|------|------|
 | v2.2.3 | 2026-05-03 | 仓库维护：跨技能一致性审查，验证交叉引用和版本对齐 |
 | v2.2.2 | 2026-05-02 | 仓库维护：为英文版添加 Quick Decision Guide 导航表，增强技能间交叉引用 |
@@ -800,4 +852,4 @@ python3 swd/tests/test_all.py
 
 ---
 
-*Last Updated: 2026-05-03 | AliDujie Skill Ecosystem | v2.2.4*
+*Last Updated: 2026-05-03 | AliDujie Skill Ecosystem | v2.2.5*
