@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.10-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.11-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--04-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -524,37 +524,50 @@ skill = SWDSkill("Quarterly Performance Review")
 #### Step 3: Start Using
 
 ```python
-# Context analysis
+# ===== Scenario 1: Context Analysis — Define Audience & Core Message =====
 ctx = skill.build_context(audience="Product VP", cta="Approve $200K budget")
+print(ctx)
 
-# Chart selection
+# ===== Scenario 2: Chart Selection — Time Series Data → Line Chart =====
 chart = skill.recommend_chart(data_type="continuous", has_time=True, series_count=2, category_count=12)
+print(chart)  # Recommends line chart + color palette
 
-# Declutter diagnosis
+# ===== Scenario 3: Declutter Diagnosis — Identify Clutter & Suggest Improvements =====
 clutter = skill.diagnose_clutter(has_border=True, has_gridlines=True, has_separate_legend=True)
+print(clutter)  # Identifies 5+ types of clutter
 
-# Attention guidance
+# ===== Scenario 4: Attention Guidance — Plan Color Strategy & Visual Hierarchy =====
 attn = skill.plan_attention(
     focus_elements=[("Key Metric", 5), ("Baseline", 2)],
     color_strategy="grey_plus_one",
 )
+print(attn)
 
-# Design evaluation
+# ===== Scenario 5: Design Evaluation — Three-Dimension Check =====
 design = skill.evaluate_design(has_title=True, has_action_title=True, color_strategic=True)
+print(design)
 
-# Story building
+# ===== Scenario 6: Story Building — Three-Act Structure =====
 story = skill.build_story(
     protagonist="Product Committee",
     imbalance="User growth rate declined for 3 consecutive months",
     call_to_action="Approve $200K optimization budget",
 )
+print(story)
 
-# Comprehensive diagnosis (100-point scale)
-diag = skill.full_diagnosis(scores={...})
+# ===== Scenario 7: Comprehensive Diagnosis — 100-Point Scale =====
+diag = skill.full_diagnosis(scores={
+    "context": {"audience_clear": 4, "cta_clear": 3, "big_idea_visible": 2, "data_supports_story": 4},
+    "visual_choice": {"chart_type_fit": 5, "avoid_bad_charts": 5, "zero_baseline": 5, "logical_order": 4},
+    "clutter": {"no_unnecessary_elements": 3, "no_diagonal_text": 5, "whitespace_ok": 4, "no_redundancy": 3},
+    "attention": {"preattentive_used": 2, "color_sparse": 3, "visual_hierarchy": 2, "eyes_drawn_test": 3},
+    "design_narrative": {"text_sufficient": 4, "alignment_aesthetic": 4, "narrative_structure": 3, "action_titles": 2},
+})
 print(f"Total Score: {diag['total_score']}/100")
 
-# Chart makeover
+# ===== Scenario 8: Chart Makeover — Six-Step Methodology =====
 makeover = skill.makeover(issues=["Used pie chart", "No title", "Rainbow colors"])
+print(makeover)  # Step-by-step makeover
 ```
 
 ### 💡 11 Core Capabilities (8 + 3 CEO Perspective)
