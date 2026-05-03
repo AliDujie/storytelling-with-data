@@ -885,7 +885,6 @@ Phase 4: SWD 数据叙事 (本技能)
 - **三幕结构** — 好的数据叙事必须有：背景 → 冲突 → 解决方案
 - **SWD 是工作流末端** — 最佳使用时机是在 UDM/QuantUX/JTBD 产出发现后
 
-
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
@@ -911,7 +910,6 @@ Phase 4: SWD 数据叙事 (本技能)
 
 ---
 
-
 ### 💡 Pro Tips
 
 - **Context First** — Always define audience and call-to-action before choosing visuals
@@ -920,7 +918,6 @@ Phase 4: SWD 数据叙事 (本技能)
 - **Diagnosis < 60 requires makeover** — Below 60 means fundamental visualization problems
 - **Three-Act Structure** — Good data narratives need: setup → conflict → resolution
 - **SWD is the workflow end** — Best used after UDM/QuantUX/JTBD have produced findings
-
 
 ## 📋 Version History (English)
 
@@ -942,5 +939,13 @@ Phase 4: SWD 数据叙事 (本技能)
 | v1.5 | 2026-04-23 | Added version history, Last Updated badge |
 | v1.4 | 2026-04-23 | Added skill ecosystem navigation table, troubleshooting, extended reading |
 | v1.3 | 2026-04-22 | Initial release |
+
+### 👨‍💻 Credits
+
+Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (Wiley, 2015), a data visualization classic with 500K+ copies sold worldwide.
+
+**Applicable to:** Data Analysts, Product Managers, Consultants, Executives, Anyone who needs to present data effectively
+
+---
 
 *Last Updated: 2026-05-04 | AliDujie Skill Ecosystem | v2.2.12*

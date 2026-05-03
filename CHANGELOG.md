@@ -1,5 +1,11 @@
 # Changelog
 
+## [R27] - 2026-05-04
+
+### Fixed
+- Aligned pyproject.toml version with README/SKILL.md (v2.2.12)
+- Updated README last_updated badge and Last Updated timestamp
+
 ## [R26] - 2026-05-03
 
 ### Changed
