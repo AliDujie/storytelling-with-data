@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.11-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.12-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--04-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -889,6 +889,7 @@ Phase 4: SWD 数据叙事 (本技能)
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| v2.2.12 | 2026-05-04 | 仓库维护：修复 SKILL.md 版本不一致 (2.2.10→2.2.12)，对齐所有版本引用
 | v2.2.11 | 2026-05-04 | 仓库维护：修复版本历史排序（v2.2.7→v2.2.9 顺序校正），增强英文版 Quick Start 场景注释 |
 | v2.2.10 | 2026-05-04 | 仓库维护：添加完整端到端工作流章节（展示从研究到数据叙事的 6 技能协作流程） |
 | v2.2.9 | 2026-05-03 | 仓库维护：添加 Pro Tips 专业提示章节（中英双语），补充数据叙事最佳实践 |
@@ -942,4 +943,4 @@ Phase 4: SWD 数据叙事 (本技能)
 | v1.4 | 2026-04-23 | Added skill ecosystem navigation table, troubleshooting, extended reading |
 | v1.3 | 2026-04-22 | Initial release |
 
-*Last Updated: 2026-05-04 | AliDujie Skill Ecosystem | v2.2.11*
+*Last Updated: 2026-05-04 | AliDujie Skill Ecosystem | v2.2.12*
