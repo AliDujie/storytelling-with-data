@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.3-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.4-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--03-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -698,6 +698,7 @@ storytelling-with-data alicloud
 ### 📋 Changelog
 
 | Version | Date | Changes |
+| v2.2.4 | 2026-05-03 | Repo maintenance: added English version history table to README end, added classifiers and project.urls to pyproject.toml |
 |---------|------|--------|
 | v2.2.3 | 2026-05-03 | Repo maintenance: cross-ecosystem consistency review, verified cross-references and version alignment |
 | v2.2.2 | 2026-05-02 | Added English Quick Decision Guide table to improve cross-skill discoverability |
@@ -783,6 +784,7 @@ python3 swd/tests/test_all.py
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| v2.2.4 | 2026-05-03 | 仓库维护：添加英文版版本历史表到 README 末尾，统一 pyproject.toml 元数据 |
 |------|------|------|
 | v2.2.3 | 2026-05-03 | 仓库维护：跨技能一致性审查，验证交叉引用和版本对齐 |
 | v2.2.2 | 2026-05-02 | 仓库维护：为英文版添加 Quick Decision Guide 导航表，增强技能间交叉引用 |
@@ -798,4 +800,4 @@ python3 swd/tests/test_all.py
 
 ---
 
-*Last Updated: 2026-05-03 | AliDujie Skill Ecosystem | v2.2.3*
+*Last Updated: 2026-05-03 | AliDujie Skill Ecosystem | v2.2.4*
