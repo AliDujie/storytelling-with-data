@@ -2,8 +2,8 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.9-green.svg)](CHANGELOG.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--03-brightgreen.svg)
+[![Version](https://img.shields.io/badge/version-2.2.10-green.svg)](CHANGELOG.md)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--04-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
 
@@ -833,6 +833,36 @@ python3 swd/tests/test_all.py
 - **Emp ID**: 27768
 - **Nickname**: 渡劫
 
+### 🚀 完整端到端工作流：从研究到数据叙事 (End-to-End Workflow)
+
+以下是一个真实场景中，6 个技能如何协作产出高管级汇报材料的完整工作流：
+
+**场景**: SaaS 产品需要向董事会汇报 Q3 用户体验改进成果
+
+```
+Phase 1-3: 研究阶段 (由其他技能完成)
+  UDM: 用户访谈 + 可用性测试 → 发现核心痛点
+  JTBD: 机会分数分析 → 优先级排序
+  QuantUX: A/B 测试 + HEART 指标 → 量化改进效果
+  Persona: 用户细分 → 识别影响最大的用户群体
+  VPD: 价值主张验证 → 确认产品-市场契合
+
+Phase 4: SWD 数据叙事 (本技能)
+  → build_context: 受众=董事会，CTA=批准下季度 UX 预算
+  → recommend_chart: HEART 趋势 → 折线图 + 基准线
+  → diagnose_clutter: 清理原始仪表盘的 8 个杂乱元素
+  → plan_attention: 用 grey+one 突出 23% NPS 提升
+  → build_narrative: 三幕结构构建汇报故事
+
+产出: 8 页董事会级汇报材料，含 6 张改造后图表
+```
+
+> 💡 **SWD 是工作流的终点**: 用前 5 个技能的产出作为 SWD 的输入，构建 compelling 数据叙事
+
+👉 **尝试完整工作流**: [UDM](https://github.com/AliDujie/universal-design-methods) · [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) · [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) · [Persona](https://github.com/AliDujie/web-persona-skill) · [VPD](https://github.com/AliDujie/value-proposition-design)
+
+---
+
 ### 💡 Pro Tips / 专业提示
 
 - **上下文先行** — 永远先定义受众和行动号召，再选图表
@@ -846,6 +876,7 @@ python3 swd/tests/test_all.py
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| v2.2.10 | 2026-05-04 | 仓库维护：添加完整端到端工作流章节（展示从研究到数据叙事的 6 技能协作流程） |
 | v2.2.7 | 2026-05-03 | 仓库维护：修复版本历史表格格式（删除错误分隔符行），添加英文版版本历史表，统一 SKILL.md 与 README.md 版本引用
 | v2.2.9 | 2026-05-03 | 仓库维护：添加 Pro Tips 专业提示章节（中英双语），补充数据叙事最佳实践 |
 | v2.2.8 | 2026-05-03 | 仓库维护：修复英文版版本历史表格格式（删除错误分隔符行），SKILL.md 版本对齐，优化 Quick Start 代码注释 |
@@ -879,6 +910,7 @@ python3 swd/tests/test_all.py
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
+| v2.2.10 | 2026-05-04 | Repo maintenance: added end-to-end workflow section showing 6-skill collaboration from research to data storytelling |
 | v2.2.6 | 2026-05-03 | Repo maintenance: streamlined Quick Start code comment formatting, aligned SKILL.md version with README.md |
 | v2.2.9 | 2026-05-03 | Repo maintenance: added Pro Tips section (CN/EN) for data narrative best practices |
 | v2.2.8 | 2026-05-03 | Repo maintenance: fixed English changelog table formatting, aligned SKILL.md version, improved Quick Start code comments |
@@ -895,4 +927,4 @@ python3 swd/tests/test_all.py
 | v1.4 | 2026-04-23 | Added skill ecosystem navigation table, troubleshooting, extended reading |
 | v1.3 | 2026-04-22 | Initial release |
 
-*Last Updated: 2026-05-03 | AliDujie Skill Ecosystem | v2.2.9*
+*Last Updated: 2026-05-04 | AliDujie Skill Ecosystem | v2.2.10*
