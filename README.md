@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.5-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.6-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--03-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -698,6 +698,7 @@ storytelling-with-data alicloud
 ### 📋 Changelog
 
 | Version | Date | Changes |
+| v2.2.6 | 2026-05-03 | Repo maintenance: streamlined Quick Start code comment formatting, aligned SKILL.md version with README.md |
 | v2.2.5 | 2026-05-03 | Repo maintenance: added missing Chinese 技能生态工作流 section, fixed SKILL.md version mismatch (2.2.3→2.2.5), aligned all version references |
 |---------|------|--------|
 | v2.2.3 | 2026-05-03 | Repo maintenance: cross-ecosystem consistency review, verified cross-references and version alignment |
@@ -836,6 +837,7 @@ python3 swd/tests/test_all.py
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| v2.2.6 | 2026-05-03 | 仓库维护：优化英文 Quick Start 代码示例注释格式，统一 SKILL.md 与 README.md 版本引用 |
 | v2.2.5 | 2026-05-03 | 仓库维护：添加缺失的中文版技能生态工作流章节，修复 SKILL.md 版本不一致 (2.2.3→2.2.5)，统一版本引用 |
 |------|------|------|
 | v2.2.3 | 2026-05-03 | 仓库维护：跨技能一致性审查，验证交叉引用和版本对齐 |
@@ -852,4 +854,4 @@ python3 swd/tests/test_all.py
 
 ---
 
-*Last Updated: 2026-05-03 | AliDujie Skill Ecosystem | v2.2.5*
+*Last Updated: 2026-05-03 | AliDujie Skill Ecosystem | v2.2.6*
