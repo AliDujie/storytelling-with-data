@@ -889,10 +889,11 @@ Phase 4: SWD 数据叙事 (本技能)
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| v2.2.11 | 2026-05-04 | 仓库维护：修复版本历史排序（v2.2.7→v2.2.9 顺序校正），增强英文版 Quick Start 场景注释 |
 | v2.2.10 | 2026-05-04 | 仓库维护：添加完整端到端工作流章节（展示从研究到数据叙事的 6 技能协作流程） |
-| v2.2.7 | 2026-05-03 | 仓库维护：修复版本历史表格格式（删除错误分隔符行），添加英文版版本历史表，统一 SKILL.md 与 README.md 版本引用
 | v2.2.9 | 2026-05-03 | 仓库维护：添加 Pro Tips 专业提示章节（中英双语），补充数据叙事最佳实践 |
 | v2.2.8 | 2026-05-03 | 仓库维护：修复英文版版本历史表格格式（删除错误分隔符行），SKILL.md 版本对齐，优化 Quick Start 代码注释 |
+| v2.2.7 | 2026-05-03 | 仓库维护：修复版本历史表格格式（删除错误分隔符行），添加英文版版本历史表，统一 SKILL.md 与 README.md 版本引用
 | v2.2.6 | 2026-05-03 | 仓库维护：优化英文 Quick Start 代码示例注释格式，统一 SKILL.md 与 README.md 版本引用 |
 | v2.2.5 | 2026-05-03 | 仓库维护：添加缺失的中文版技能生态工作流章节，修复 SKILL.md 版本不一致 (2.2.3→2.2.5)，统一版本引用 |
 | v2.2.3 | 2026-05-03 | 仓库维护：跨技能一致性审查，验证交叉引用和版本对齐 |
@@ -923,10 +924,11 @@ Phase 4: SWD 数据叙事 (本技能)
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
-| v2.2.10 | 2026-05-04 | Repo maintenance: added end-to-end workflow section showing 6-skill collaboration from research to data storytelling |
+| v2.2.11 | 2026-05-04 | Repo maintenance: fixed changelog ordering (v2.2.6→v2.2.9 sequence corrected), enhanced English Quick Start with scenario-based comments
+| v2.2.10 | 2026-05-04 | Repo maintenance: added end-to-end workflow section showing 6-skill collaboration from research to data storytelling
+| v2.2.9 | 2026-05-03 | Repo maintenance: added Pro Tips section (CN/EN) for data narrative best practices
+| v2.2.8 | 2026-05-03 | Repo maintenance: fixed English changelog table formatting, aligned SKILL.md version, improved Quick Start code comments
 | v2.2.6 | 2026-05-03 | Repo maintenance: streamlined Quick Start code comment formatting, aligned SKILL.md version with README.md |
-| v2.2.9 | 2026-05-03 | Repo maintenance: added Pro Tips section (CN/EN) for data narrative best practices |
-| v2.2.8 | 2026-05-03 | Repo maintenance: fixed English changelog table formatting, aligned SKILL.md version, improved Quick Start code comments |
 | v2.2.5 | 2026-05-03 | Repo maintenance: added missing Chinese 技能生态工作流 section, fixed SKILL.md version mismatch (2.2.3→2.2.5), aligned all version references |
 | v2.2.3 | 2026-05-03 | Repo maintenance: cross-ecosystem consistency review, verified cross-references and version alignment |
 | v2.2.2 | 2026-05-02 | Added English Quick Decision Guide table to improve cross-skill discoverability |
@@ -940,4 +942,4 @@ Phase 4: SWD 数据叙事 (本技能)
 | v1.4 | 2026-04-23 | Added skill ecosystem navigation table, troubleshooting, extended reading |
 | v1.3 | 2026-04-22 | Initial release |
 
-*Last Updated: 2026-05-04 | AliDujie Skill Ecosystem | v2.2.10*
+*Last Updated: 2026-05-04 | AliDujie Skill Ecosystem | v2.2.11*
