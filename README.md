@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.8-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.9-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--03-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -833,10 +833,21 @@ python3 swd/tests/test_all.py
 - **Emp ID**: 27768
 - **Nickname**: 渡劫
 
+### 💡 Pro Tips / 专业提示
+
+- **上下文先行** — 永远先定义受众和行动号召，再选图表
+- **灰色 + 一色原则** — 用灰色做基底，只用一种强调色突出关键数据
+- **行动标题 > 描述标题** — "用户增长连续 3 季度超 20%" > "2024 年用户增长趋势"
+- **综合诊断 < 60 分必须改造** — 低于 60 分说明可视化存在根本问题
+- **三幕结构** — 好的数据叙事必须有：背景 → 冲突 → 解决方案
+- **SWD 是工作流末端** — 最佳使用时机是在 UDM/QuantUX/JTBD 产出发现后
+
+
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
 | v2.2.7 | 2026-05-03 | 仓库维护：修复版本历史表格格式（删除错误分隔符行），添加英文版版本历史表，统一 SKILL.md 与 README.md 版本引用
+| v2.2.9 | 2026-05-03 | 仓库维护：添加 Pro Tips 专业提示章节（中英双语），补充数据叙事最佳实践 |
 | v2.2.8 | 2026-05-03 | 仓库维护：修复英文版版本历史表格格式（删除错误分隔符行），SKILL.md 版本对齐，优化 Quick Start 代码注释 |
 | v2.2.6 | 2026-05-03 | 仓库维护：优化英文 Quick Start 代码示例注释格式，统一 SKILL.md 与 README.md 版本引用 |
 | v2.2.5 | 2026-05-03 | 仓库维护：添加缺失的中文版技能生态工作流章节，修复 SKILL.md 版本不一致 (2.2.3→2.2.5)，统一版本引用 |
@@ -855,10 +866,21 @@ python3 swd/tests/test_all.py
 ---
 
 
+### 💡 Pro Tips
+
+- **Context First** — Always define audience and call-to-action before choosing visuals
+- **Grey + One Color Rule** — Use grey as baseline, only one accent color for key data
+- **Action Titles > Descriptive Titles** — "User growth exceeded 20% for 3 quarters" > "2024 User Growth Trend"
+- **Diagnosis < 60 requires makeover** — Below 60 means fundamental visualization problems
+- **Three-Act Structure** — Good data narratives need: setup → conflict → resolution
+- **SWD is the workflow end** — Best used after UDM/QuantUX/JTBD have produced findings
+
+
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
 | v2.2.6 | 2026-05-03 | Repo maintenance: streamlined Quick Start code comment formatting, aligned SKILL.md version with README.md |
+| v2.2.9 | 2026-05-03 | Repo maintenance: added Pro Tips section (CN/EN) for data narrative best practices |
 | v2.2.8 | 2026-05-03 | Repo maintenance: fixed English changelog table formatting, aligned SKILL.md version, improved Quick Start code comments |
 | v2.2.5 | 2026-05-03 | Repo maintenance: added missing Chinese 技能生态工作流 section, fixed SKILL.md version mismatch (2.2.3→2.2.5), aligned all version references |
 | v2.2.3 | 2026-05-03 | Repo maintenance: cross-ecosystem consistency review, verified cross-references and version alignment |
@@ -873,4 +895,4 @@ python3 swd/tests/test_all.py
 | v1.4 | 2026-04-23 | Added skill ecosystem navigation table, troubleshooting, extended reading |
 | v1.3 | 2026-04-22 | Initial release |
 
-*Last Updated: 2026-05-03 | AliDujie Skill Ecosystem | v2.2.8*
+*Last Updated: 2026-05-03 | AliDujie Skill Ecosystem | v2.2.9*
