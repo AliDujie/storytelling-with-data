@@ -2,7 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.12-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.13-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--04-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -398,6 +398,20 @@ makeover = skill.makeover(issues=[
 - [ ] 去除冗余标签
 - [ ] 使用行动标题代替描述标题
 
+### ❓ 常见问题 (FAQ)
+
+**Q: SWD 和 Python 可视化库（如 matplotlib）有什么区别？**
+A: SWD 关注数据叙事原则和图表选择逻辑，而非具体绘图实现。它是方法论工具，可以指导你"该画什么图"、"如何精简"、"怎么讲故事"，适用于任何绘图工具。
+
+**Q: 综合诊断 < 60 分意味着什么？**
+A: 意味着可视化存在根本性问题（如信息混乱、重点不突出）。建议用 SWD 六步工作流从头重构：上下文→图表选择→去杂乱→注意力→设计→叙事。
+
+**Q: 可以用 SWD 改造现有仪表盘吗？**
+A: 可以。用 `diagnose_clutter()` 识别杂乱元素，用 `plan_attention()` 规划注意力引导，用 `transform_chart()` 改造现有图表。
+
+**Q: 为什么需要上下文分析？**
+A: 没有明确的受众和行动号召，再好的图表也是无效的。SWD 强调"先理解为什么再决定怎么做"。
+
 ### 🌟 用户评价
 
 > "SWD 技能帮我们把高管汇报的准备时间从 1 天缩短到 2 小时，而且反馈更好了！"
@@ -651,6 +665,20 @@ print(f"Total: {diag['total_score']}/100 — {diag['rating']}")
 4. **Tell a story** — Structure presentations with setup, conflict, and resolution
 5. **Test with real audience** — Validate that your chart communicates the intended message
 
+### ❓ FAQ
+
+**Q: How is SWD different from Python visualization libraries like matplotlib?**
+A: SWD focuses on data storytelling principles and chart selection logic, not rendering. It guides you on "what chart to use," "how to declutter," and "how to tell the story" — applicable to any visualization tool.
+
+**Q: What does a diagnosis score < 60 mean?**
+A: It means fundamental problems with your visualization (information chaos, unclear focus). Start over with the SWD six-step workflow: context → chart choice → declutter → attention → design → storytelling.
+
+**Q: Can SWD transform existing dashboards?**
+A: Yes. Use `diagnose_clutter()` to identify clutter, `plan_attention()` for visual hierarchy, and `transform_chart()` to makeover existing charts.
+
+**Q: Why is context analysis necessary?**
+A: Without a clear audience and call-to-action, even the best charts are ineffective. SWD emphasizes "understand why before deciding how."
+
 ### 🌟 User Reviews
 
 > "This skill transformed how our team presents data. The declutter diagnosis alone improved our dashboard readability by 40%." — **Lead Data Analyst, FinTech Company**
@@ -888,7 +916,7 @@ Phase 4: SWD 数据叙事 (本技能)
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
-| v2.2.12 | 2026-05-04 | 仓库维护：修复 SKILL.md 版本不一致 (2.2.10→2.2.12)，对齐所有版本引用
+| v2.2.13 | 2026-05-04 | 仓库维护：修复 SKILL.md 版本不一致 (2.2.10→2.2.12)，对齐所有版本引用
 | v2.2.11 | 2026-05-04 | 仓库维护：修复版本历史排序（v2.2.7→v2.2.9 顺序校正），增强英文版 Quick Start 场景注释 |
 | v2.2.10 | 2026-05-04 | 仓库维护：添加完整端到端工作流章节（展示从研究到数据叙事的 6 技能协作流程） |
 | v2.2.9 | 2026-05-03 | 仓库维护：添加 Pro Tips 专业提示章节（中英双语），补充数据叙事最佳实践 |
@@ -922,7 +950,7 @@ Phase 4: SWD 数据叙事 (本技能)
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
-| v2.2.12 | 2026-05-04 | Repo maintenance: fixed SKILL.md version mismatch (2.2.10→2.2.12), aligned all version references, added Credits section |
+| v2.2.13 | 2026-05-04 | Repo maintenance: fixed SKILL.md version mismatch (2.2.10→2.2.12), aligned all version references, added Credits section |
 | v2.2.11 | 2026-05-04 | Repo maintenance: fixed changelog ordering (v2.2.6→v2.2.9 sequence corrected), enhanced English Quick Start with scenario-based comments |
 | v2.2.10 | 2026-05-04 | Repo maintenance: added end-to-end workflow section showing 6-skill collaboration from research to data storytelling |
 | v2.2.9 | 2026-05-03 | Repo maintenance: added Pro Tips section (CN/EN) for data narrative best practices |
@@ -950,4 +978,4 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (Wiley, 2015), a da
 
 ---
 
-*Last Updated: 2026-05-04 | AliDujie Skill Ecosystem | v2.2.12*
+*Last Updated: 2026-05-04 | AliDujie Skill Ecosystem | v2.2.13*
