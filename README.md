@@ -976,8 +976,8 @@ Phase 4: SWD 数据叙事 (本技能)
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
-| v2.2.16 | 2026-05-04 | 仓库维护：修复版本历史表格 `| |` 格式错误，补充英文目录中端到端工作流链接
 | v2.2.17 | 2026-05-05 | Repo maintenance: added STM/UDM/Persona to collaboration tables (CN+EN), added Structured Thinking Model to ecosystem diagrams (CN+EN) |
+| v2.2.16 | 2026-05-04 | 仓库维护：修复版本历史表格 `| |` 格式错误，补充英文目录中端到端工作流链接
 | v2.2.15 | 2026-05-04 | 仓库维护：添加英文目录(Table of Contents)和5分钟快速开始检查清单；添加 5 分钟快速开始检查清单，增强英文版 Features at a Glance
 | v2.2.13 | 2026-05-04 | 仓库维护：修复 SKILL.md 版本不一致 (2.2.10→2.2.12)，对齐所有版本引用
 | v2.2.11 | 2026-05-04 | 仓库维护：修复版本历史排序（v2.2.7→v2.2.9 顺序校正），增强英文版 Quick Start 场景注释 |
