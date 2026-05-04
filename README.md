@@ -496,6 +496,23 @@ storytelling-with-data alicloud
 
 ## English
 
+### 📑 Table of Contents
+
+- [Why Use This Skill?](#-why-use-this-skill)
+- [Quick Decision Guide](#-quick-decision-guide)
+- [Features at a Glance](#-features-at-a-glance)
+- [Quick Start](#-quick-start)
+- [11 Core Capabilities](#-11-core-capabilities)
+- [Practical Examples](#-practical-examples)
+- [Who Is This For?](#-who-is-this-for)
+- [Troubleshooting](#-troubleshooting)
+- [Best Practices](#-best-practices)
+- [FAQ](#-faq)
+- [User Reviews](#-user-reviews)
+- [Extended Reading](#-extended-reading)
+- [Related Skills](#-related-skills-1)
+- [Version History](#-version-history-english)
+
 ### 🌟 Why Use This Skill?
 
 - **Classic Methodology** — Based on the global bestseller "Storytelling with Data", essential reading for data visualization
