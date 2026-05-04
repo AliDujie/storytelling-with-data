@@ -1,6 +1,10 @@
 # Changelog
 
-## v2.2.13 - 2026-05-04
+## v2.2.14 - 2026-05-04
+
+- Added 5-minute quick start checklist to README
+- Enhanced English Features at a Glance table
+- Aligned SKILL.md frontmatter version with README and pyproject.toml
 
 - Added FAQ sections (CN/EN) to README for improved discoverability
 - Added CODE_OF_CONDUCT.md to all skill repositories
