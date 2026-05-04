@@ -983,6 +983,7 @@ Phase 4: SWD 数据叙事 (本技能)
 | v2.2.7 | 2026-05-03 | Repo maintenance: fixed changelog table formatting, added English version history table, aligned SKILL.md version |
 | v2.2.6 | 2026-05-03 | Repo maintenance: streamlined Quick Start code comment formatting, aligned SKILL.md version with README.md |
 | v2.2.5 | 2026-05-03 | Repo maintenance: added missing Chinese 技能生态工作流 section, fixed SKILL.md version mismatch (2.2.3→2.2.5), aligned all version references |
+| v2.2.4 | 2026-05-03 | Repo maintenance: fixed SKILL.md version mismatch (2.2.2→2.2.4), added English version history table, added classifiers and project.urls to pyproject.toml |
 | v2.2.3 | 2026-05-03 | Repo maintenance: cross-ecosystem consistency review, verified cross-references and version alignment |
 | v2.2.2 | 2026-05-02 | Added English Quick Decision Guide table to improve cross-skill discoverability |
 | v2.2.1 | 2026-05-02 | Repo maintenance: added 3 missing CEO capability details, improved installation path consistency, added changelog to English section |
