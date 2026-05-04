@@ -702,6 +702,31 @@ This skill is based on the methodology from *"Storytelling with Data"* by Cole N
 
 This skill is part of the **AliDujie UX Research Skills Ecosystem**:
 
+```
+┌─────────────────────────────────────────────────────────────┐
+│           AliDujie Skill Ecosystem                          │
+├─────────────────────────────────────────────────────────────┤
+│   📊 Quantitative UX Research ←───→ 📖 Universal Design     │
+│    (quantitative)   triangulation       Methods             │
+│              ↑                          ↓                   │
+│              │                    🎯 JTBD Knowledge          │
+│              │                    (needs insight)            │
+│   📈 Storytelling with Data ←───→ 💎 Value Proposition      │
+│    (this skill)   presentation          Design               │
+│              ↑                          ↑                   │
+│              │                    👤 Web Persona             │
+│              └────────────────────  (personas)               │
+└─────────────────────────────────────────────────────────────┘
+```
+
+**Integration patterns:**
+
+- **SWD + QuantUX** → Present HEART metrics and A/B test results with compelling narratives
+- **SWD + UDM** → Present UDM research findings as executive-ready data stories
+- **SWD + JTBD** → Visualize JTBD insights for stakeholder presentations
+- **SWD + VPD** → Present value proposition design effectiveness to leadership
+- **SWD + Persona** → Enhance data narratives with persona-driven stories
+
 - **[JTBD-Knowledge-Skill](https://github.com/AliDujie/jtbd-knowledge-skill)** — Jobs-to-be-Done theory
 - **[Web-Persona-Skill](https://github.com/AliDujie/web-persona-skill)** — Persona creation
 - **[Quantitative-UX-Research](https://github.com/AliDujie/Quantitative-UX-Research)** — Quantitative research, HEART framework
