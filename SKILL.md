@@ -1,6 +1,6 @@
 ---
 name: storytelling-with-data
-version: "2.2.16"
+version: "2.2.17"
 description: >
   数据可视化与数据叙事技能，基于 Cole Nussbaumer Knaflic《Storytelling with Data》
   方法论。提供 8 项可执行能力和 11 篇知识库文档，覆盖上下文分析→图表选择→去杂乱→
@@ -584,6 +584,9 @@ SWD Skill 可与其他 Skill 组合使用，形成完整的数据驱动决策工
 | 价值主张数据展示 | value-proposition-design | VPD 产出画布 → SWD 可视化关键数据 → SWD 改造图表 |
 | JTBD 研究结果汇报 | jtbd-knowledge-skill | JTBD 产出分析 → SWD 上下文分析 → SWD 构建汇报故事 |
 | 竞品分析数据展示 | 竞品分析 Skill | 竞品数据 → SWD 图表选择 → SWD 注意力引导 → SWD 故事构建 |
+| 用户研究发现可视化 | universal-design-methods | UDM 研究发现 → SWD 图表选择 → SWD 数据故事 |
+| 人物角色数据展示 | web-persona-skill | Persona 角色数据 → SWD 选图表 → SWD 构建故事 |
+| 战略分析数据可视化 | structured-thinking-model | STM 分析框架 → SWD 数据可视化 → STM 决策建议 |
 
 **协作示例（JTBD + SWD）**：
 
@@ -735,3 +738,6 @@ story = swd.build_story(
 | JTBD Knowledge Skill | [AliDujie/jtbd-knowledge-skill](https://github.com/AliDujie/jtbd-knowledge-skill) | JTBD 研究结果 → SWD 可视化汇报 |
 | Value Proposition Design | [AliDujie/value-proposition-design](https://github.com/AliDujie/value-proposition-design) | VPD 画布数据 → SWD 图表展示 |
 | Quantitative UX Research | [AliDujie/Quantitative-UX-Research](https://github.com/AliDujie/Quantitative-UX-Research) | UXR 定量数据 → SWD 故事构建 |
+| Universal Design Methods | [AliDujie/universal-design-methods](https://github.com/AliDujie/universal-design-methods) | UDM 研究发现 → SWD 图表选择 → SWD 数据故事 |
+| Web Persona | [AliDujie/web-persona-skill](https://github.com/AliDujie/web-persona-skill) | Persona 角色数据 → SWD 选图表 → SWD 构建故事 |
+| Structured Thinking Model | [AliDujie/Structured-Thinking-Model](https://github.com/AliDujie/Structured-Thinking-Model) | STM 分析框架 → SWD 数据可视化 → STM 决策建议 |

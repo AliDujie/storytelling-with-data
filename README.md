@@ -2,8 +2,8 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.16-green.svg)](CHANGELOG.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--04-brightgreen.svg)
+[![Version](https://img.shields.io/badge/version-2.2.17-green.svg)](CHANGELOG.md)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--05-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
 
@@ -306,6 +306,9 @@ storytelling-with-data/
 │              ↑                          ↑                   │
 │              │                    👤 Web Persona             │
 │              └────────────────────  (人物角色)               │
+│                                         ↓                   │
+│                                    🧠 Structured Thinking   │
+│                                    Model (结构化思维)        │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -745,6 +748,9 @@ This skill is part of the **AliDujie UX Research Skills Ecosystem**:
 │              ↑                          ↑                   │
 │              │                    👤 Web Persona             │
 │              └────────────────────  (personas)               │
+│                                         ↓                   │
+│                                    🧠 Structured Thinking   │
+│                                    Model                     │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -971,6 +977,7 @@ Phase 4: SWD 数据叙事 (本技能)
 
 | 版本 | 日期 | 变更 |
 | v2.2.16 | 2026-05-04 | 仓库维护：修复版本历史表格 `| |` 格式错误，补充英文目录中端到端工作流链接
+| v2.2.17 | 2026-05-05 | Repo maintenance: added STM/UDM/Persona to collaboration tables (CN+EN), added Structured Thinking Model to ecosystem diagrams (CN+EN) |
 | v2.2.15 | 2026-05-04 | 仓库维护：添加英文目录(Table of Contents)和5分钟快速开始检查清单；添加 5 分钟快速开始检查清单，增强英文版 Features at a Glance
 | v2.2.13 | 2026-05-04 | 仓库维护：修复 SKILL.md 版本不一致 (2.2.10→2.2.12)，对齐所有版本引用
 | v2.2.11 | 2026-05-04 | 仓库维护：修复版本历史排序（v2.2.7→v2.2.9 顺序校正），增强英文版 Quick Start 场景注释 |
@@ -1037,4 +1044,5 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (Wiley, 2015), a da
 
 ---
 
-*Last Updated: 2026-05-04 | AliDujie Skill Ecosystem | v2.2.16*
+*Last Updated: 2026-05-05 | AliDujie Skill Ecosystem | v2.2.16*
+| v2.2.17 | 2026-05-05 | Repo maintenance: added STM/UDM/Persona to collaboration tables, added Structured Thinking Model to ecosystem diagrams |

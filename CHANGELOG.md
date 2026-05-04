@@ -1,5 +1,11 @@
 # Changelog
 
+## v2.2.17 - 2026-05-05
+
+- Added Structured Thinking Model (🧠) to ecosystem ASCII diagrams (CN and EN sections)
+- Added UDM, Web Persona, and STM to collaboration tables (CN and EN sections)
+- Updated version numbers, badges, and Last Updated dates
+
 ## v2.2.16 - 2026-05-04
 
 - Fixed changelog table `| |` formatting bug in README.md (both CN and EN sections)
