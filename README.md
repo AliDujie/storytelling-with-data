@@ -3,8 +3,8 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.19-green.svg)](CHANGELOG.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--05-brightgreen.svg)
+[![Version](https://img.shields.io/badge/version-2.2.20-green.svg)](CHANGELOG.md)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--06-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
 
@@ -1044,6 +1044,7 @@ Phase 4: SWD 数据叙事 (本技能)
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
+| v2.2.20 | 2026-05-06 | 仓库维护：添加 Quantitative UX Research 协作引用到技能生态工作流，优化跨技能描述一致性 |
 | v2.2.19 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, deduplicated English changelog, enhanced Quick Start scenario descriptions |
 | v2.2.17 | 2026-05-05 | Repo maintenance: added STM/UDM/Persona to collaboration tables (CN+EN), added Structured Thinking Model to ecosystem diagrams (CN+EN) |
 | v2.2.16 | 2026-05-04 | 仓库维护：修复版本历史表格 `| |` 格式错误，补充英文目录中端到端工作流链接
@@ -1083,6 +1084,7 @@ Phase 4: SWD 数据叙事 (本技能)
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.2.20 | 2026-05-06 | Repo maintenance: added Quantitative UX Research collaboration reference to ecosystem workflow, improved cross-skill description consistency |
 | v2.2.19 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, deduplicated English changelog, enhanced Quick Start scenario descriptions |
 | v2.2.17 | 2026-05-05 | Repo maintenance: added STM/UDM/Persona to collaboration tables, update ecosystem diagrams |
 | v2.2.16 | 2026-05-04 | Repo maintenance: fixed changelog table `| |` formatting, added end-to-end workflow English TOC link |
@@ -1116,4 +1118,4 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (Wiley, 2015), a da
 
 ---
 
-*Last Updated: 2026-05-05 | AliDujie Skill Ecosystem | v2.2.19*
+*Last Updated: 2026-05-06 | AliDujie Skill Ecosystem | v2.2.20*
