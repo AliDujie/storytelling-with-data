@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "storytelling-with-data-skill"
-version = "2.2.18"
+version = "2.2.19"
 description = "Storytelling with Data toolkit — professional data visualization and narrative based on Cole Nussbaumer Knaflic's framework (基于《Storytelling with Data》全书构建的专业数据可视化与数据叙事工具包)"
 readme = "README.md"
 requires-python = ">=3.8"

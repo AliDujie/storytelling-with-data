@@ -1043,8 +1043,7 @@ Phase 4: SWD 数据叙事 (本技能)
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
-| v2.2.18 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, deduplicated English changelog, enhanced Quick Start scenario descriptions |
-| v2.2.18 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, deduplicated English changelog, enhanced Quick Start scenario descriptions
+| v2.2.19 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, deduplicated English changelog, enhanced Quick Start scenario descriptions |
 | v2.2.17 | 2026-05-05 | Repo maintenance: added STM/UDM/Persona to collaboration tables (CN+EN), added Structured Thinking Model to ecosystem diagrams (CN+EN) |
 | v2.2.16 | 2026-05-04 | 仓库维护：修复版本历史表格 `| |` 格式错误，补充英文目录中端到端工作流链接
 | v2.2.15 | 2026-05-04 | 仓库维护：添加英文目录(Table of Contents)和5分钟快速开始检查清单；添加 5 分钟快速开始检查清单，增强英文版 Features at a Glance
@@ -1087,8 +1086,7 @@ Phase 4: SWD 数据叙事 (本技能)
 | v2.2.13 | 2026-05-04 | Repo maintenance: fixed SKILL.md version mismatch (2.2.10→2.2.12), aligned all version references, added Credits section |
 | v2.2.11 | 2026-05-04 | Repo maintenance: fixed changelog ordering (v2.2.6→v2.2.9 sequence corrected), enhanced English Quick Start with scenario-based comments |
 | v2.2.10 | 2026-05-04 | Repo maintenance: added end-to-end workflow section showing 6-skill collaboration from research to data storytelling |
-| v2.2.18 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, deduplicated English changelog, enhanced Quick Start scenario descriptions |
-| v2.2.18 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, deduplicated English changelog, enhanced Quick Start scenario descriptions
+| v2.2.19 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, deduplicated English changelog, enhanced Quick Start scenario descriptions |
 | v2.2.17 | 2026-05-05 | Repo maintenance: added STM/UDM/Persona to collaboration tables, update ecosystem diagrams
 | v2.2.9 | 2026-05-03 | Repo maintenance: added Pro Tips section (CN/EN) for data narrative best practices |
 | v2.2.8 | 2026-05-03 | Repo maintenance: fixed English changelog table formatting, aligned SKILL.md version, improved Quick Start code comments |
@@ -1116,4 +1114,4 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (Wiley, 2015), a da
 
 ---
 
-*Last Updated: 2026-05-05 | AliDujie Skill Ecosystem | v2.2.18*
+*Last Updated: 2026-05-05 | AliDujie Skill Ecosystem | v2.2.19*
