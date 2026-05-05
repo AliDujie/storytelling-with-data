@@ -1108,6 +1108,7 @@ Phase 4: SWD 数据叙事 (本技能)
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.2.21 | 2026-05-06 | Repo maintenance: added CONTRIBUTING reference, fixed footer version alignment |
 | v2.2.20 | 2026-05-06 | Repo maintenance: added Quantitative UX Research collaboration reference to ecosystem workflow, improved cross-skill description consistency |
 | v2.2.19 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, deduplicated English changelog, enhanced Quick Start scenario descriptions |
 | v2.2.17 | 2026-05-05 | Repo maintenance: added STM/UDM/Persona to collaboration tables, update ecosystem diagrams |
@@ -1140,6 +1141,10 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (Wiley, 2015), a da
 
 **Applicable to:** Data Analysts, Product Managers, Consultants, Executives, Anyone who needs to present data effectively
 
+### 🤝 Contributing
+
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to this project.
+
 ---
 
-*Last Updated: 2026-05-06 | AliDujie Skill Ecosystem | v2.2.20*
+*Last Updated: 2026-05-06 | AliDujie Skill Ecosystem | v2.2.21*
