@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.2.24 - 2026-05-06
+
+- Repo maintenance: fixed version badge mismatch (badge was 1 ahead of SKILL.md/pyproject.toml), aligned all version references across README/SKILL.md/pyproject.toml/CHANGELOG, verified ecosystem cross-references and bilingual consistency
+
 ## v2.2.23 - 2026-05-06
 
 - Repo maintenance: aligned pyproject.toml version (2.2.21→2.2.22) and SKILL.md version (2.2.21→2.2.22) with README badge; verified ecosystem cross-reference consistency
