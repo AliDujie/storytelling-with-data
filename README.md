@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.27-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.28-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--07-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -1074,6 +1074,7 @@ Phase 4: SWD 数据叙事 (本技能)
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
+| v2.2.28 | 2026-05-07 | Repo maintenance: added English Dependencies section, verified ecosystem cross-references |
 | v2.2.27 | 2026-05-07 | Repo maintenance: added A/B test visualization Pro Tip, enhanced QuantUX-SWD integration example |
 | v2.2.26 | 2026-05-06 | Repo maintenance: enhanced cross-skill collaboration examples with SWD-to-QuantUX data presentation workflow, verified all ecosystem cross-references |
 | v2.2.25 | 2026-05-06 | 仓库维护：更新版本至 2.2.25，验证生态交叉引用 |
@@ -1118,6 +1119,7 @@ Phase 4: SWD 数据叙事 (本技能)
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.2.28 | 2026-05-07 | Repo maintenance: added English Dependencies section, verified ecosystem cross-references |
 | v2.2.27 | 2026-05-07 | Repo maintenance: added A/B test visualization Pro Tip, enhanced QuantUX-SWD integration example |
 | v2.2.22 | 2026-05-06 | Repo maintenance: enhanced Chinese "Who Is This For" descriptions, expanded GitHub Topics, improved EN/CN topic consistency |
 | v2.2.20 | 2026-05-06 | Repo maintenance: added Quantitative UX Research collaboration reference to ecosystem workflow, improved cross-skill description consistency |
