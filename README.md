@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.25-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.26-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--06-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -1115,6 +1115,7 @@ Phase 4: SWD 数据叙事 (本技能)
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.2.26 | 2026-05-06 | Repo maintenance: enhanced cross-skill collaboration examples with SWD-to-QuantUX data presentation workflow, verified all ecosystem cross-references
 | v2.2.22 | 2026-05-06 | Repo maintenance: enhanced Chinese "Who Is This For" descriptions, expanded GitHub Topics, improved EN/CN topic consistency |
 | v2.2.20 | 2026-05-06 | Repo maintenance: added Quantitative UX Research collaboration reference to ecosystem workflow, improved cross-skill description consistency |
 | v2.2.19 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, deduplicated English changelog, enhanced Quick Start scenario descriptions |
@@ -1154,4 +1155,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-06 | AliDujie Skill Ecosystem | v2.2.25*
+*Last Updated: 2026-05-06 | AliDujie Skill Ecosystem | v2.2.26*

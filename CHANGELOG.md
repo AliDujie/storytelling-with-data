@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.2.26 - 2026-05-06
+
+- Repo maintenance: enhanced cross-skill collaboration examples with SWD-to-QuantUX data presentation workflow, verified all ecosystem cross-references, aligned all version references
+
 ## v2.2.24 - 2026-05-06
 
 - Repo maintenance: fixed version badge mismatch (badge was 1 ahead of SKILL.md/pyproject.toml), aligned all version references across README/SKILL.md/pyproject.toml/CHANGELOG, verified ecosystem cross-references and bilingual consistency
