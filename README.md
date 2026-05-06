@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.24-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.25-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--06-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -870,6 +870,7 @@ presentation-design action-titles visual-hierarchy
 | Version | Date | Changes |
 |---------|------|--------|
 | v2.2.24 | 2026-05-06 | Repo maintenance: fixed version badge mismatch (badge was 1 ahead of SKILL.md/pyproject.toml), aligned all version references, verified ecosystem cross-references and bilingual consistency |
+| v2.2.25 | 2026-05-06 | Repo maintenance: updated Last Updated timestamp, version bump to 2.2.25, verified ecosystem cross-references |
 | v2.2.6 | 2026-05-03 | Repo maintenance: streamlined Quick Start code comment formatting, aligned SKILL.md version with README.md |
 | v2.2.5 | 2026-05-03 | Repo maintenance: added missing Chinese 技能生态工作流 section, fixed SKILL.md version mismatch (2.2.3→2.2.5), aligned all version references |
 | v2.2.3 | 2026-05-03 | Repo maintenance: cross-ecosystem consistency review, verified cross-references and version alignment |
@@ -1073,6 +1074,7 @@ Phase 4: SWD 数据叙事 (本技能)
 | 版本 | 日期 | 变更 |
 |------|------|------|
 | v2.2.24 | 2026-05-06 | 仓库维护：修复版本徽章不一致（徽章比 SKILL.md/pyproject.toml 超前 1 个版本），对齐所有版本引用，验证生态交叉引用和双语一致性 |
+| v2.2.25 | 2026-05-06 | 仓库维护：更新版本至 2.2.25，验证生态交叉引用 |
 | v2.2.20 | 2026-05-06 | 仓库维护：添加 Quantitative UX Research 协作引用到技能生态工作流，优化跨技能描述一致性 |
 | v2.2.19 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, deduplicated English changelog, enhanced Quick Start scenario descriptions |
 | v2.2.17 | 2026-05-05 | Repo maintenance: added STM/UDM/Persona to collaboration tables (CN+EN), added Structured Thinking Model to ecosystem diagrams (CN+EN) |
@@ -1152,4 +1154,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-06 | AliDujie Skill Ecosystem | v2.2.24*
+*Last Updated: 2026-05-06 | AliDujie Skill Ecosystem | v2.2.25*
