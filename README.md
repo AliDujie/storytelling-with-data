@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.28-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.29-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--07-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -1114,11 +1114,13 @@ Phase 4: SWD 数据叙事 (本技能)
 - **Three-Act Structure** — Good data narratives need: setup → conflict → resolution
 - **SWD is the workflow end** — Best used after UDM/QuantUX/JTBD have produced findings
 - **A/B Test Visualization** — Use grouped bar charts for treatment vs control differences, annotate with confidence intervals to avoid misleading conclusions
+- **Full Ecosystem Workflow** — SWD is the presentation layer of the AliDujie ecosystem. After Persona defines users, JTBD reveals needs, UDM uncovers insights, QuantUX validates at scale, and VPD confirms product-market fit — SWD turns all findings into compelling executive narratives.
 
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.2.29 | 2026-05-07 | Repo maintenance: fixed footer version mismatch, added ecosystem workflow Pro Tip, bumped to v2.2.29
 | v2.2.28 | 2026-05-07 | Repo maintenance: added English Dependencies section, verified ecosystem cross-references |
 | v2.2.27 | 2026-05-07 | Repo maintenance: added A/B test visualization Pro Tip, enhanced QuantUX-SWD integration example |
 | v2.2.22 | 2026-05-06 | Repo maintenance: enhanced Chinese "Who Is This For" descriptions, expanded GitHub Topics, improved EN/CN topic consistency |
@@ -1160,4 +1162,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-07 | AliDujie Skill Ecosystem | v2.2.27*
+*Last Updated: 2026-05-07 | AliDujie Skill Ecosystem | v2.2.29*
