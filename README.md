@@ -3,8 +3,8 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.26-green.svg)](CHANGELOG.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--06-brightgreen.svg)
+[![Version](https://img.shields.io/badge/version-2.2.27-green.svg)](CHANGELOG.md)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--07-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
 
@@ -1068,12 +1068,14 @@ Phase 4: SWD 数据叙事 (本技能)
 - **综合诊断 < 60 分必须改造** — 低于 60 分说明可视化存在根本问题
 - **三幕结构** — 好的数据叙事必须有：背景 → 冲突 → 解决方案
 - **SWD 是工作流末端** — 最佳使用时机是在 UDM/QuantUX/JTBD 产出发现后
+- **A/B 测试可视化** — 用分组柱状图展示实验组和对照组差异，用置信区间标注统计显著性，避免误导性结论
 
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
-| v2.2.24 | 2026-05-06 | 仓库维护：修复版本徽章不一致（徽章比 SKILL.md/pyproject.toml 超前 1 个版本），对齐所有版本引用，验证生态交叉引用和双语一致性 |
+| v2.2.27 | 2026-05-07 | Repo maintenance: added A/B test visualization Pro Tip, enhanced QuantUX-SWD integration example |
+| v2.2.26 | 2026-05-06 | Repo maintenance: enhanced cross-skill collaboration examples with SWD-to-QuantUX data presentation workflow, verified all ecosystem cross-references |
 | v2.2.25 | 2026-05-06 | 仓库维护：更新版本至 2.2.25，验证生态交叉引用 |
 | v2.2.20 | 2026-05-06 | 仓库维护：添加 Quantitative UX Research 协作引用到技能生态工作流，优化跨技能描述一致性 |
 | v2.2.19 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, deduplicated English changelog, enhanced Quick Start scenario descriptions |
@@ -1110,12 +1112,13 @@ Phase 4: SWD 数据叙事 (本技能)
 - **Diagnosis < 60 requires makeover** — Below 60 means fundamental visualization problems
 - **Three-Act Structure** — Good data narratives need: setup → conflict → resolution
 - **SWD is the workflow end** — Best used after UDM/QuantUX/JTBD have produced findings
+- **A/B Test Visualization** — Use grouped bar charts for treatment vs control differences, annotate with confidence intervals to avoid misleading conclusions
 
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
 |---------|------|--------|
-| v2.2.26 | 2026-05-06 | Repo maintenance: enhanced cross-skill collaboration examples with SWD-to-QuantUX data presentation workflow, verified all ecosystem cross-references
+| v2.2.27 | 2026-05-07 | Repo maintenance: added A/B test visualization Pro Tip, enhanced QuantUX-SWD integration example |
 | v2.2.22 | 2026-05-06 | Repo maintenance: enhanced Chinese "Who Is This For" descriptions, expanded GitHub Topics, improved EN/CN topic consistency |
 | v2.2.20 | 2026-05-06 | Repo maintenance: added Quantitative UX Research collaboration reference to ecosystem workflow, improved cross-skill description consistency |
 | v2.2.19 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, deduplicated English changelog, enhanced Quick Start scenario descriptions |
@@ -1155,4 +1158,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-06 | AliDujie Skill Ecosystem | v2.2.26*
+*Last Updated: 2026-05-07 | AliDujie Skill Ecosystem | v2.2.27*
