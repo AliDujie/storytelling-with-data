@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.21-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.22-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--06-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -327,11 +327,11 @@ storytelling-with-data/
 
 | 角色 | 使用场景 |
 |------|----------|
-| **数据分析师** | 将原始分析转化为引人入胜的叙事 |
-| **产品经理** | 向利益相关者呈现数据驱动的决策 |
-| **UX 研究员** | 可视化研究发现以获得最大影响力 |
-| **高管** | 从清晰的演示中做出数据驱动的决策 |
-| **AI Agent** | 零依赖 Python 包，用于自动化报告 |
+| **数据分析师** | 将原始分析转化为引人入胜的数据叙事 |
+| **产品经理** | 向利益相关者呈现数据驱动的决策建议 |
+| **UX 研究员** | 可视化研究发现，让报告更具影响力 |
+| **高管** | 从清晰的演示中快速做出数据驱动决策 |
+| **AI Agent** | 零依赖 Python 包，自动化报告生成 |
 
 ### 🛠️ 故障排查 (Troubleshooting)
 
@@ -553,7 +553,8 @@ design = skill.design_assess(
 ```
 data-visualization storytelling python-toolkit chart-design
 data-narrative declutter attention-guidance openclaw-skill
-storytelling-with-data alicloud
+storytelling-with-data alicloud dashboard-makeover
+presentation-design action-titles visual-hierarchy
 ```
 
 ### 📦 依赖
@@ -854,7 +855,8 @@ This skill is part of the **AliDujie UX Research Skills Ecosystem**. Using the c
 ```
 data-visualization storytelling python-toolkit chart-design
 data-narrative declutter attention-guidance openclaw-skill
-storytelling-with-data alicloud
+storytelling-with-data alicloud dashboard-makeover
+presentation-design action-titles visual-hierarchy
 ```
 
 ### 📦 Dependencies
@@ -1108,7 +1110,7 @@ Phase 4: SWD 数据叙事 (本技能)
 
 | Version | Date | Changes |
 |---------|------|--------|
-| v2.2.21 | 2026-05-06 | Repo maintenance: added CONTRIBUTING reference, fixed footer version alignment |
+| v2.2.22 | 2026-05-06 | Repo maintenance: enhanced Chinese "Who Is This For" descriptions, expanded GitHub Topics, improved EN/CN topic consistency |
 | v2.2.20 | 2026-05-06 | Repo maintenance: added Quantitative UX Research collaboration reference to ecosystem workflow, improved cross-skill description consistency |
 | v2.2.19 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, deduplicated English changelog, enhanced Quick Start scenario descriptions |
 | v2.2.17 | 2026-05-05 | Repo maintenance: added STM/UDM/Persona to collaboration tables, update ecosystem diagrams |
@@ -1147,4 +1149,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-06 | AliDujie Skill Ecosystem | v2.2.21*
+*Last Updated: 2026-05-06 | AliDujie Skill Ecosystem | v2.2.22*
