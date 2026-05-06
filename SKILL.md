@@ -741,3 +741,15 @@ story = swd.build_story(
 | Universal Design Methods | [AliDujie/universal-design-methods](https://github.com/AliDujie/universal-design-methods) | UDM 研究发现 → SWD 图表选择 → SWD 数据故事 |
 | Web Persona | [AliDujie/web-persona-skill](https://github.com/AliDujie/web-persona-skill) | Persona 角色数据 → SWD 选图表 → SWD 构建故事 |
 | Structured Thinking Model | [AliDujie/Structured-Thinking-Model](https://github.com/AliDujie/Structured-Thinking-Model) | STM 分析框架 → SWD 数据可视化 → STM 决策建议 |
+
+## 最佳实践
+
+| # | 原则 | 说明 |
+|---|------|------|
+| 1 | 先上下文后图表 | 永远从"受众是谁、需要他们做什么"开始，而非直接选图表 |
+| 2 | 探索性 ≠ 解释性 | 只展示珍珠不展示牡蛎 | 解释性可视化才有故事 |
+| 3 | 去杂乱 | 删除一切不增加信息价值的元素：网格线、边框、背景、图例 |
+| 4 | 颜色稀疏使用 | 灰色基底 + 单色强调，一图不超过 2-3 种颜色 |
+| 5 | 柱状图必须零基线 | 非零基线的柱状图误导读者 |
+| 6 | 每图必有标题 | 标题应该是行动号召而非数据描述 |
+| 7 | 先粗糙后精致 | 先用纸笔构建故事板，确认叙事再美化
