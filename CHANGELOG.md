@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.2.33 - 2026-05-07
+
+- Repo maintenance: added "When to use SWD" decision guide to SKILL.md, added cross-skill workflow examples to README, version bump to 2.2.33
+
 ## v2.2.31 - 2026-05-07
 
 - Repo maintenance: added references/README.md index, standardized ecosystem documentation

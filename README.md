@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.32-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.33-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--07-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -1152,6 +1152,7 @@ chart_rec = swd.recommend_chart(data_type="score", has_time=True)
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
+| v2.2.33 | 2026-05-07 | 仓库维护：在 SKILL.md 中添加"什么时候使用 SWD"决策指南，在 README 中添加跨技能工作流示例，版本升级至 2.2.33 |
 | v2.2.32 | 2026-05-07 | 仓库维护：修复截断的最佳实践表格行（缺失结尾 `|`），在 SKILL.md 末尾添加 AliDujie 技能生态协作表，增强跨技能一致性 |
 | v2.2.31 | 2026-05-07 | 仓库维护：修复页脚版本不一致，添加生态系统工作流 Pro Tip，版本升级至 v2.2.31 |
 | v2.2.30 | 2026-05-07 | 仓库维护：版本升级至 v2.2.30，对齐 SKILL.md 和 pyproject.toml 版本号，对齐变更日志条目 |
@@ -1202,6 +1203,7 @@ chart_rec = swd.recommend_chart(data_type="score", has_time=True)
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.2.33 | 2026-05-07 | Repo maintenance: added "When to use SWD" decision guide to SKILL.md, added cross-skill workflow examples to README, version bump to 2.2.33 |
 | v2.2.32 | 2026-05-07 | Repo maintenance: fixed truncated best practices table row (missing closing `|`), added AliDujie 技能生态 collaboration table at end of SKILL.md, enhanced cross-skill consistency
 | v2.2.29 | 2026-05-07 | Repo maintenance: fixed footer version mismatch, added ecosystem workflow Pro Tip, bumped to v2.2.29
 | v2.2.28 | 2026-05-07 | Repo maintenance: added English Dependencies section, verified ecosystem cross-references |
@@ -1245,4 +1247,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-07 | AliDujie Skill Ecosystem | v2.2.32*
+*Last Updated: 2026-05-07 | AliDujie Skill Ecosystem | v2.2.33*

@@ -1,6 +1,6 @@
 ---
 name: storytelling-with-data
-version: "2.2.32"
+version: "2.2.33"
 description: >
   数据可视化与数据叙事技能，基于 Cole Nussbaumer Knaflic《Storytelling with Data》
   方法论。提供 8 项可执行能力和 11 篇知识库文档，覆盖上下文分析→图表选择→去杂乱→
@@ -41,6 +41,19 @@ SWD 是 **数据叙事与可视化呈现层**，在研究流程末端将各技�
 ```
 
 **SWD 的典型输入**：UDM 研究报告、QuantUX 实验数据、JTBD 机会评分、VPD 画布数据、Persona 角色统计
+
+## 🧭 快速决策：什么时候使用 SWD？
+
+| 你的需求 | 推荐技能 |
+|---------|---------|
+| 需要将研究结果转化为数据叙事、图表呈现 | ✅ **SWD（本技能）** |
+| 需要选择研究方法、设计访谈、执行可用性测试 | → [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) |
+| 需要理解用户"工作"、机会评分、竞争分析 | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) |
+| 需要定量验证假设、设计 A/B 测试、计算样本量 | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) |
+| 需要创建人物角色、用户细分、设计指导 | → [Web Persona](https://github.com/AliDujie/web-persona-skill) |
+| 需要价值主张画布、实验验证、优先级排序 | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) |
+
+> 💡 SWD 是研究流程的末端：当其他技能产出数据后，用 SWD 转化为高管可读的叙事。
 
 ## 技能入口
 
