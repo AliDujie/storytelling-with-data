@@ -1,3 +1,8 @@
+## v2.2.34 (2026-05-07)
+- Added Structured Thinking Model to Quick Decision Guide (CN + EN) for better cross-skill discoverability
+- Verified version alignment across README.md, SKILL.md, and pyproject.toml
+- No breaking changes
+
 # Changelog
 
 ## v2.2.33 - 2026-05-07
