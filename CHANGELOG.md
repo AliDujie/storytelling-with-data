@@ -1,3 +1,9 @@
+## v2.2.35 (2026-05-08)
+- Enhanced data narrative workflow examples with multi-skill pipeline integration
+- Improved chart selection guidance clarity
+- Verified version alignment across README.md, SKILL.md, and pyproject.toml
+- No breaking changes
+
 ## v2.2.34 (2026-05-07)
 - Added Structured Thinking Model to Quick Decision Guide (CN + EN) for better cross-skill discoverability
 - Verified version alignment across README.md, SKILL.md, and pyproject.toml

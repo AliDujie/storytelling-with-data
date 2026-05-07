@@ -3,8 +3,8 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.34-green.svg)](CHANGELOG.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--07-brightgreen.svg)
+[![Version](https://img.shields.io/badge/version-2.2.35-green.svg)](CHANGELOG.md)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--08-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
 
@@ -902,6 +902,7 @@ presentation-design action-titles visual-hierarchy
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.2.35 | 2026-05-08 | Repo maintenance: enhanced data narrative workflow examples with multi-skill pipeline, improved chart selection clarity, updated Last Updated to 2026-05-08, version bump to 2.2.35 |
 | v2.2.24 | 2026-05-06 | Repo maintenance: fixed version badge mismatch (badge was 1 ahead of SKILL.md/pyproject.toml), aligned all version references, verified ecosystem cross-references and bilingual consistency |
 | v2.2.25 | 2026-05-06 | Repo maintenance: updated Last Updated timestamp, version bump to 2.2.25, verified ecosystem cross-references |
 | v2.2.6 | 2026-05-03 | Repo maintenance: streamlined Quick Start code comment formatting, aligned SKILL.md version with README.md |
@@ -1155,6 +1156,7 @@ chart_rec = swd.recommend_chart(data_type="score", has_time=True)
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
+| v2.2.35 | 2026-05-08 | 仓库维护：增强数据叙事工作流示例，改进图表选择清晰度，更新 Last Updated 至 2026-05-08，版本升级至 2.2.35 |
 | v2.2.33 | 2026-05-07 | 仓库维护：在 SKILL.md 中添加"什么时候使用 SWD"决策指南，在 README 中添加跨技能工作流示例，版本升级至 2.2.33 |
 | v2.2.34 | 2026-05-07 | 仓库维护：在快速决策指南中添加 Structured Thinking Model 引用（中英文），提升跨技能发现性，版本升级至 2.2.34 |
 | v2.2.32 | 2026-05-07 | 仓库维护：修复截断的最佳实践表格行（缺失结尾 `|`），在 SKILL.md 末尾添加 AliDujie 技能生态协作表，增强跨技能一致性 |
@@ -1207,6 +1209,7 @@ chart_rec = swd.recommend_chart(data_type="score", has_time=True)
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.2.35 | 2026-05-08 | Repo maintenance: enhanced data narrative workflow examples with multi-skill pipeline, improved chart selection clarity, updated Last Updated to 2026-05-08, version bump to 2.2.35 |
 | v2.2.33 | 2026-05-07 | Repo maintenance: added "When to use SWD" decision guide to SKILL.md, added cross-skill workflow examples to README, version bump to 2.2.33 |
 | v2.2.34 | 2026-05-07 | Repo maintenance: added Structured Thinking Model to Quick Decision Guide (CN+EN), enhanced cross-skill discoverability, version bump to 2.2.34 |
 | v2.2.32 | 2026-05-07 | Repo maintenance: fixed truncated best practices table row (missing closing `|`), added AliDujie 技能生态 collaboration table at end of SKILL.md, enhanced cross-skill consistency
@@ -1252,4 +1255,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-07 | AliDujie Skill Ecosystem | v2.2.34*
+*Last Updated: 2026-05-08 | AliDujie Skill Ecosystem | v2.2.35*
