@@ -1198,6 +1198,7 @@ chart_rec = swd.recommend_chart(data_type="score", has_time=True)
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.2.32 | 2026-05-07 | Repo maintenance: fixed truncated best practices table row (missing closing `|`), added AliDujie 技能生态 collaboration table at end of SKILL.md, enhanced cross-skill consistency
 | v2.2.29 | 2026-05-07 | Repo maintenance: fixed footer version mismatch, added ecosystem workflow Pro Tip, bumped to v2.2.29
 | v2.2.28 | 2026-05-07 | Repo maintenance: added English Dependencies section, verified ecosystem cross-references |
 | v2.2.27 | 2026-05-07 | Repo maintenance: added A/B test visualization Pro Tip, enhanced QuantUX-SWD integration example |
@@ -1240,4 +1241,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-07 | AliDujie Skill Ecosystem | v2.2.31*
+*Last Updated: 2026-05-07 | AliDujie Skill Ecosystem | v2.2.32*

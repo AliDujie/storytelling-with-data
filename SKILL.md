@@ -1,6 +1,6 @@
 ---
 name: storytelling-with-data
-version: "2.2.31"
+version: "2.2.32"
 description: >
   数据可视化与数据叙事技能，基于 Cole Nussbaumer Knaflic《Storytelling with Data》
   方法论。提供 8 项可执行能力和 11 篇知识库文档，覆盖上下文分析→图表选择→去杂乱→
@@ -783,4 +783,17 @@ story = swd.build_story(
 | 4 | 颜色稀疏使用 | 灰色基底 + 单色强调，一图不超过 2-3 种颜色 |
 | 5 | 柱状图必须零基线 | 非零基线的柱状图误导读者 |
 | 6 | 每图必有标题 | 标题应该是行动号召而非数据描述 |
-| 7 | 先粗糙后精致 | 先用纸笔构建故事板，确认叙事再美化
+| 7 | 先粗糙后精致 | 先用纸笔构建故事板，确认叙事再美化 |
+
+### AliDujie 技能生态
+
+SWD 是 **AliDujie UX 研究技能生态系统** 的数据叙事与可视化呈现层，在研究流程末端将各技能的发现转化为高管可读的数据故事：
+
+| 技能 | 定位 | 协作模式 |
+|------|------|---------|
+| [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) | 方法论核心 | UDM 研究发现 → SWD 图表选择 → SWD 数据故事 |
+| [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | 需求洞察 | JTBD 洞察 → SWD 可视化汇报 |
+| [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | 定量研究 | QuantUX 数据 → SWD 图表改造 + 叙事构建 |
+| [Web Persona](https://github.com/AliDujie/web-persona-skill) | 用户角色 | Persona 数据 → SWD 选图表 → SWD 构建故事 |
+| [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | 价值验证 | VPD 产出 → SWD 数据故事 |
+| [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | 战略框架 | STM 分析框架 → SWD 数据可视化 → STM 决策建议 |
