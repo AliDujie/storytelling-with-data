@@ -1068,6 +1068,52 @@ Phase 4: SWD 数据叙事 (本技能)
 
 ---
 
+### 💻 实用集成示例 (Practical Integration Examples)
+
+#### 示例 1: QuantUX → SWD — A/B 测试结果的数据叙事
+
+```python
+from quantux import QuantUXSkill
+from swd import SWDSkill
+
+quantux = QuantUXSkill("电商平台")
+result = quantux.analyze_ab_test("新结账流程", n_a=2500, conv_a=425, n_b=2500, conv_b=500)
+
+swd = SWDSkill("电商平台")
+ctx = swd.build_context(audience="产品 VP", cta="批准全量发布新结账流程")
+story = swd.build_story(protagonist="时间敏感型买家", imbalance="旧流程导致 15% 订单流失")
+```
+
+#### 示例 2: JTBD → SWD — 从用户洞察到数据叙事
+
+```python
+from jtbd import JTBDSkill
+from swd import SWDSkill
+
+jtbd = JTBDSkill("电商平台")
+opportunity = jtbd.score_opportunity("快速完成购买", struggle=4, importance=5)
+
+swd = SWDSkill("电商平台")
+diagnosis = swd.full_diagnosis()
+print(f"叙事评分: {diagnosis['overall_score']}/100")
+```
+
+#### 示例 3: UDM → SWD — 可用性测试发现的可视化呈现
+
+```python
+from udm import UDMSkill
+from swd import SWDSkill
+
+udm = UDMSkill("电商平台")
+sus_result = udm.calculate_sus([4, 5, 3, 5, 4, 2, 5, 3, 4, 5])
+
+swd = SWDSkill("电商平台")
+ctx = swd.build_context(audience="设计团队", cta="改进结账流程设计")
+chart_rec = swd.recommend_chart(data_type="score", has_time=True)
+```
+
+> 💡 **SWD 是生态系统的"最后一英里"** — 将前面所有技能的研究成果转化为高管可读、可行动的数据叙事。
+
 ### 🌟 为什么选择 AliDujie 技能生态系统？
 
 本技能是 **AliDujie UX 研究技能生态系统** 的数据呈现核心，与其他技能无缝协作：
@@ -1194,4 +1240,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-07 | AliDujie Skill Ecosystem | v2.2.29*
+*Last Updated: 2026-05-07 | AliDujie Skill Ecosystem | v2.2.30*

@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.2.30 - 2026-05-07
+
+- Repo maintenance: aligned footer version badge with SKILL.md (v2.2.29→v2.2.30), added end-to-end ecosystem integration workflow example
+
+## v2.2.29 - 2026-05-07
+
+- Repo maintenance: fixed footer version mismatch, added ecosystem workflow Pro Tip, bumped to v2.2.29
+
+## v2.2.28 - 2026-05-07
+
+- Repo maintenance: added English Dependencies section, verified ecosystem cross-references
+
 ## v2.2.27 - 2026-05-07
 
 - Repo maintenance: added A/B test visualization Pro Tip (CN+EN), enhanced QuantUX-SWD integration example
