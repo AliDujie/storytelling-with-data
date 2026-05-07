@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.29-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.30-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--07-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -413,6 +413,22 @@ makeover = skill.makeover(issues=[
 - [ ] 去除冗余标签
 - [ ] 使用行动标题代替描述标题
 
+### 💡 专业技巧
+
+- **先写标题再作图** — 在创建任何图表之前，用一句话写出你的"核心观点"。如果一句话说不清楚，说明你还没有明确的信息
+- **3 秒规则** — 如果别人 3 秒内看不懂你的图表，就需要简化。让数据说话，而不是装饰
+- **灰色是最好的朋友** — 默认全部用灰色，然后只对想要关注的数据点使用强调色。这是 SWD 最有效的技巧
+- **直接标注，不要图例** — 在图表上直接添加上下文标注。"Q2 峰值 = 产品发布" 比单独的数字更有价值
+- **叙事匹配受众** — 高管要先看结论（BLUF），技术受众要看方法论。SWD 支持两种方式
+
+### ❌ 常见错误
+
+- **图表跟风** — 不要因为图表好看就选它。根据数据结构匹配图表类型（时间=折线，对比=条形，构成=堆叠）
+- **彩虹配色** — 使用多种明亮颜色会造成视觉混乱。使用灰色 + 一个强调色效果最好
+- **超过 5 个扇区的饼图** — 变得不可读。改用条形图或树图
+- **分离图例** — 让读者在数据和图例之间来回看会打断叙事流。直接在数据上标注
+- **只呈现数据没有行动** — 每个图表都应该推动决策。如果没有"那又怎样"，这个数据就不应该出现在演示中
+
 ### ❓ 常见问题 (FAQ)
 
 **Q: SWD 和 Python 可视化库（如 matplotlib）有什么区别？**
@@ -764,6 +780,22 @@ print(f"Total: {diag['total_score']}/100 — {diag['rating']}")
 3. **Use color strategically** — Reserve color for what matters; use grey for everything else
 4. **Tell a story** — Structure presentations with setup, conflict, and resolution
 5. **Test with real audience** — Validate that your chart communicates the intended message
+
+### 💡 Pro Tips
+
+- **Start with the headline first** — Write your "big idea" as a headline before creating any chart. If you can't state it in one sentence, you don't have a clear message yet.
+- **Use the 3-second rule** — If someone can't understand your chart in 3 seconds, it needs simplification. Lead with the data, not the decoration.
+- **Grey is your friend** — Default everything to grey, then color only the data point you want your audience to focus on. This is the single most effective SWD technique.
+- **Annotate, don't just display** — Add context annotations directly on your charts. "Q2 spike = product launch" is more valuable than a standalone number.
+- **Match narrative to audience** — Executives want the conclusion first (BLUF), technical audiences want the methodology. SWD supports both approaches.
+
+### ❌ Common Mistakes to Avoid
+
+- **Chart shopping** — Don't pick charts because they look cool. Match chart type to data structure (time = line, comparison = bar, composition = stacked).
+- **Rainbow color palettes** — Using multiple bright colors creates visual chaos. Use grey + one accent color for maximum impact.
+- **Pie charts with >5 slices** — They become unreadable. Switch to bar charts or treemaps instead.
+- **Separate legends** — Forcing readers to look back and forth between data and legend breaks the narrative flow. Label directly on the chart.
+- **Presenting data without action** — Every chart should drive a decision. If there's no "so what?", the data doesn't belong in the presentation.
 
 ### ❓ FAQ
 
