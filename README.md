@@ -1152,6 +1152,10 @@ chart_rec = swd.recommend_chart(data_type="score", has_time=True)
 
 | 版本 | 日期 | 变更 |
 |------|------|------|
+| v2.2.32 | 2026-05-07 | 仓库维护：修复截断的最佳实践表格行（缺失结尾 `|`），在 SKILL.md 末尾添加 AliDujie 技能生态协作表，增强跨技能一致性 |
+| v2.2.31 | 2026-05-07 | 仓库维护：修复页脚版本不一致，添加生态系统工作流 Pro Tip，版本升级至 v2.2.31 |
+| v2.2.30 | 2026-05-07 | 仓库维护：版本升级至 v2.2.30，对齐 SKILL.md 和 pyproject.toml 版本号，对齐变更日志条目 |
+| v2.2.29 | 2026-05-07 | 仓库维护：修复页脚版本不一致，添加生态系统工作流 Pro Tip，版本升级至 v2.2.29 |
 | v2.2.28 | 2026-05-07 | Repo maintenance: added English Dependencies section, verified ecosystem cross-references |
 | v2.2.27 | 2026-05-07 | Repo maintenance: added A/B test visualization Pro Tip, enhanced QuantUX-SWD integration example |
 | v2.2.26 | 2026-05-06 | Repo maintenance: enhanced cross-skill collaboration examples with SWD-to-QuantUX data presentation workflow, verified all ecosystem cross-references |
@@ -1159,14 +1163,14 @@ chart_rec = swd.recommend_chart(data_type="score", has_time=True)
 | v2.2.20 | 2026-05-06 | 仓库维护：添加 Quantitative UX Research 协作引用到技能生态工作流，优化跨技能描述一致性 |
 | v2.2.19 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, deduplicated English changelog, enhanced Quick Start scenario descriptions |
 | v2.2.17 | 2026-05-05 | Repo maintenance: added STM/UDM/Persona to collaboration tables (CN+EN), added Structured Thinking Model to ecosystem diagrams (CN+EN) |
-| v2.2.16 | 2026-05-04 | 仓库维护：修复版本历史表格 `| |` 格式错误，补充英文目录中端到端工作流链接
-| v2.2.15 | 2026-05-04 | 仓库维护：添加英文目录(Table of Contents)和5分钟快速开始检查清单；添加 5 分钟快速开始检查清单，增强英文版 Features at a Glance
-| v2.2.13 | 2026-05-04 | 仓库维护：修复 SKILL.md 版本不一致 (2.2.10→2.2.12)，对齐所有版本引用
+| v2.2.16 | 2026-05-04 | 仓库维护：修复版本历史表格 `| |` 格式错误，补充英文目录中端到端工作流链接 |
+| v2.2.15 | 2026-05-04 | 仓库维护：添加英文目录(Table of Contents)和5分钟快速开始检查清单；添加 5 分钟快速开始检查清单，增强英文版 Features at a Glance |
+| v2.2.13 | 2026-05-04 | 仓库维护：修复 SKILL.md 版本不一致 (2.2.10→2.2.12)，对齐所有版本引用 |
 | v2.2.11 | 2026-05-04 | 仓库维护：修复版本历史排序（v2.2.7→v2.2.9 顺序校正），增强英文版 Quick Start 场景注释 |
 | v2.2.10 | 2026-05-04 | 仓库维护：添加完整端到端工作流章节（展示从研究到数据叙事的 6 技能协作流程） |
 | v2.2.9 | 2026-05-03 | 仓库维护：添加 Pro Tips 专业提示章节（中英双语），补充数据叙事最佳实践 |
 | v2.2.8 | 2026-05-03 | 仓库维护：修复英文版版本历史表格格式（删除错误分隔符行），SKILL.md 版本对齐，优化 Quick Start 代码注释 |
-| v2.2.7 | 2026-05-03 | 仓库维护：修复版本历史表格格式（删除错误分隔符行），添加英文版版本历史表，统一 SKILL.md 与 README.md 版本引用
+| v2.2.7 | 2026-05-03 | 仓库维护：修复版本历史表格格式（删除错误分隔符行），添加英文版版本历史表，统一 SKILL.md 与 README.md 版本引用 |
 | v2.2.6 | 2026-05-03 | 仓库维护：优化英文 Quick Start 代码示例注释格式，统一 SKILL.md 与 README.md 版本引用 |
 | v2.2.5 | 2026-05-03 | 仓库维护：添加缺失的中文版技能生态工作流章节，修复 SKILL.md 版本不一致 (2.2.3→2.2.5)，统一版本引用 |
 | v2.2.3 | 2026-05-03 | 仓库维护：跨技能一致性审查，验证交叉引用和版本对齐 |
