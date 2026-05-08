@@ -1,10 +1,12 @@
-# References
+# References / 参考文档
 
 本目录存放 Storytelling with Data 技能的方法论参考文档。
 
-## 目录结构
+This directory contains methodology reference documents for the Storytelling with Data skill.
 
-| 文件 | 内容 |
+## 目录结构 / Directory Structure
+
+| 文件 / File | 内容 / Content |
 |------|------|
 | `01-context.md` | 第一课：理解上下文（受众、CTA、信息） |
 | `02-visual-display.md` | 第二课：选择合适的图表类型 |
@@ -18,10 +20,24 @@
 | `10-final-thoughts.md` | 总结与思考 |
 | `11-quick-reference.md` | 快速参考卡片 |
 
-## 使用方法
+## 使用方法 / Usage
 
 这些参考文档按照《Storytelling with Data》六课工作流组织，供 AI Agent 在执行数据可视化任务时查阅。
 
-## 来源
+These reference documents are organized following the SWD six-lesson workflow and are consulted by the AI Agent during data visualization tasks.
+
+## 🌐 技能生态关联 / Skill Ecosystem Connections
+
+SWD 是研究流程的最后一步——将其他技能的发现转化为高管可读的叙事：
+
+- **UDM → SWD**: UDM 的研究报告 → SWD 进行图表选择和故事构建
+- **QuantUX → SWD**: QuantUX 的统计结果（HEART 指标、A/B 测试） → SWD 进行可视化改造
+- **JTBD → SWD**: JTBD 的机会分数和四力分析结果 → SWD 构建数据叙事
+- **VPD → SWD**: VPD 的实验验证结果 → SWD 制作汇报演示
+- **Persona → SWD**: Persona 的用户细分数据 → SWD 进行角色画像可视化
+
+## 来源 / Source
 
 基于 Cole Nussbaumer Knaflic《Storytelling with Data》(Wiley, 2015) 的 SWD 六步工作流。
+
+Based on the SWD six-step workflow from *Storytelling with Data* by Cole Nussbaumer Knaflic (Wiley, 2015).
