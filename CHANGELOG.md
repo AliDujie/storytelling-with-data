@@ -1,4 +1,8 @@
+## v2.2.36 (2026-05-08)
 ## v2.2.35 (2026-05-08)
+
+Repo maintenance: added English "End-to-End Workflow: All 6 Skills" section with SaaS dashboard scenario and ecosystem code example, updated English TOC, enhanced cross-skill discoverability.
+
 - Enhanced data narrative workflow examples with multi-skill pipeline integration
 - Improved chart selection guidance clarity
 - Verified version alignment across README.md, SKILL.md, and pyproject.toml

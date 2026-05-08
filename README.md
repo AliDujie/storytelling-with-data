@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.35-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.36-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--08-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -598,6 +598,7 @@ presentation-design action-titles visual-hierarchy
 - [User Reviews](#-user-reviews)
 - [Extended Reading](#-extended-reading)
 - [Related Skills](#-related-skills-1)
+- [End-to-End Workflow: All 6 Skills](#-end-to-end-workflow-all-6-skills)
 - [Skill Ecosystem Workflow](#-skill-ecosystem-workflow-1)
 - [Version History](#-version-history-english)
 
@@ -965,6 +966,40 @@ JTBD (competitive analysis) → VPD (strategy canvas) → SWD (strategy presenta
 3. Use SWD to create compelling competitive analysis presentations
 
 > 💡 **Tip**: SWD is best used at the end of a research workflow — after UDM, QuantUX, or JTBD have produced findings that need to be communicated to stakeholders.
+
+### 🔄 End-to-End Workflow: All 6 Skills
+
+A complete research-to-executive-presentation workflow using the full AliDujie ecosystem:
+
+```
+Step 1          Step 2          Step 3          Step 4          Step 5          Step 6
+┌──────┐       ┌──────┐       ┌──────┐       ┌──────┐       ┌──────┐       ┌──────┐
+│Persona│  ──►  │ JTBD │  ──►  │ UDM  │  ──►  │QuantUX│  ──►  │ VPD  │  ──►  │ SWD  │
+│ 👤   │       │ 🎯   │       │ 📖   │       │ 📊   │       │ 💎   │       │ 📈   │
+│角色定义│       │需求洞察│       │定性研究│       │定量验证│       │价值验证│       │数据汇报│
+└──────┘       └──────┘       └──────┘       └──────┘       └──────┘       └──────┘
+```
+
+**Real-World Scenario: SaaS Product Launch Dashboard**
+
+1. **Persona**: Define "Data-driven Manager" and "Hands-on Analyst" user segments
+2. **JTBD**: Discover users "hire" the dashboard to "feel confident about team performance at a glance" (Opp Score: 8.5)
+3. **UDM**: Conduct stakeholder interviews + heuristic evaluation → find 5 usability issues in the dashboard
+4. **QuantUX**: HEART metrics tracking + A/B test redesigned dashboard (n=2,000) → Task Success +20%
+5. **VPD**: Value proposition canvas → "One dashboard, zero guessing" — fit score 0.88
+6. **SWD**: Transform research findings into executive deck → context analysis → declutter charts → three-act narrative → budget approved
+
+```python
+# SWD as the final step — transform all research into executive narrative
+from persona import PersonaSkill; persona = PersonaSkill("SaaS 平台")
+from jtbd import JTBDSkill; jtbd = JTBDSkill("数据看板")
+from udm import UDMSkill; udm = UDMSkill("数据看板")
+from quantux import QuantUXSkill; quantux = QuantUXSkill("数据看板")
+from vpd import VPDSkill; vpd = VPDSkill("SaaS 平台", "数据驱动型管理者")
+from swd import SWDSkill; swd = SWDSkill("Q3 产品看板改进汇报")
+
+# SWD takes findings from all previous skills → builds compelling data story
+```
 
 ---
 
