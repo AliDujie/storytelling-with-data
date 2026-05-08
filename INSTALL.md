@@ -1,17 +1,18 @@
-# Installation Guide
+# Installation Guide / 安装指南
 
-## Quick Install (5 minutes)
+## Quick Install (5 minutes) / 快速安装（5 分钟）
 
-### Option 1: Copy as AI Skill
+### Option 1: Copy as AI Skill / 方式一：作为 AI 技能安装
 
 ```bash
-# Copy to your AI Agent skills directory
-cp -r skills/storytelling-with-data ~/.aoneclaw/skills/
+# Copy to your AI Agent skills directory / 复制到你的 AI Agent 技能目录
+cp -r storytelling-with-data ~/.openclaw/skills/
 ```
 
-### Option 2: Use as Python Package
+### Option 2: Use as Python Package / 方式二：作为 Python 包使用
 
 No installation required! Just add the path in your code:
+无需安装！只需在代码中添加路径：
 
 ```python
 import sys
@@ -21,41 +22,42 @@ from swd import SWDSkill
 skill = SWDSkill("My Report")
 ```
 
-### Option 3: Install via pip (Development)
+### Option 3: Install via pip (Development) / 方式三：通过 pip 安装（开发模式）
 
 ```bash
-# Clone the repository
+# Clone the repository / 克隆仓库
 git clone https://github.com/AliDujie/storytelling-with-data.git
 cd storytelling-with-data
 
-# Install in editable mode
+# Install in editable mode / 以可编辑模式安装
 pip install -e .
 ```
 
-## System Requirements
+## System Requirements / 系统要求
 
 - **Python**: >= 3.8
 - **OS**: macOS / Linux / Windows
-- **Dependencies**: None (pure Python standard library)
+- **Dependencies**: None (pure Python standard library) / 无外部依赖（纯 Python 标准库）
 
-## Verify Installation
+## Verify Installation / 验证安装
 
 ```python
 from swd import SWDSkill
 
-# Test initialization
+# Test initialization / 测试初始化
 skill = SWDSkill("Test Report")
 
-# Test chart recommendation
+# Test chart recommendation / 测试图表推荐
 rec = skill.recommend_chart(data_type="continuous", has_time=True)
 print(f"✓ Installation successful! Chart recommendation: {rec}")
+# ✓ 安装成功！图表推荐：{rec}
 ```
 
-## Troubleshooting
+## Troubleshooting / 故障排查
 
-### Issue: Module not found
+### Issue: Module not found / 问题：找不到模块
 
-**Solution**: Ensure the path is correct
+**Solution**: Ensure the path is correct / **解决方案**：确保路径正确
 
 ```python
 import sys
@@ -63,20 +65,32 @@ import os
 sys.path.insert(0, os.path.abspath("/path/to/storytelling-with-data"))
 ```
 
-### Issue: Import error
+### Issue: Import error / 问题：导入错误
 
-**Solution**: Check Python version
+**Solution**: Check Python version / **解决方案**：检查 Python 版本
 
 ```bash
-python --version  # Should be 3.8 or higher
+python --version  # Should be 3.8 or higher / 应为 3.8 或更高版本
 ```
 
-## Next Steps
+## Related Skills / 相关技能
 
-1. Read the [README.md](./README.md) for usage examples
-2. Explore the [SKILL.md](./SKILL.md) for API documentation
-3. Check the [knowledge base](./knowledge/) for storytelling principles
+This skill is part of the AliDujie UX Research ecosystem:
+本技能是 AliDujie UX 研究生态系统的一部分：
+
+- [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) — UDM 研究结果可交给 SWD 进行数据叙事
+- [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) — QuantUX 分析结果可用 SWD 可视化
+- [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) — JTBD 分析结果可用 SWD 呈现
+- [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) — VPD 实验结果可用 SWD 数据叙事
+- [Web Persona](https://github.com/AliDujie/web-persona-skill) — Persona 数据可用 SWD 可视化呈现
+
+## Next Steps / 下一步
+
+1. Read the [README.md](./README.md) for usage examples / 阅读 README.md 了解使用示例
+2. Explore the [SKILL.md](./SKILL.md) for API documentation / 查看 SKILL.md 了解 API 文档
+3. Check the [references/](./references/) directory for methodology guides / 查看 references/ 目录了解方法论指南
 
 ---
 
 **Need help?** Open an issue on [GitHub](https://github.com/AliDujie/storytelling-with-data/issues)
+**需要帮助？** 在 [GitHub](https://github.com/AliDujie/storytelling-with-data/issues) 提交 issue
