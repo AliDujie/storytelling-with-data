@@ -3,8 +3,8 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.36-green.svg)](CHANGELOG.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--08-brightgreen.svg)
+[![Version](https://img.shields.io/badge/version-2.2.37-green.svg)](CHANGELOG.md)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026--05--09-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
 
@@ -903,6 +903,7 @@ presentation-design action-titles visual-hierarchy
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.2.37 | 2026-05-09 | Repo maintenance: fixed footer version mismatch (v2.2.35→v2.2.37), enhanced cross-skill ecosystem workflow clarity, updated ecosystem links to all 5 sibling skills, aligned version across README/SKILL.md/pyproject.toml |
 | v2.2.35 | 2026-05-08 | Repo maintenance: enhanced data narrative workflow examples with multi-skill pipeline, improved chart selection clarity, updated Last Updated to 2026-05-08, version bump to 2.2.35 |
 | v2.2.24 | 2026-05-06 | Repo maintenance: fixed version badge mismatch (badge was 1 ahead of SKILL.md/pyproject.toml), aligned all version references, verified ecosystem cross-references and bilingual consistency |
 | v2.2.25 | 2026-05-06 | Repo maintenance: updated Last Updated timestamp, version bump to 2.2.25, verified ecosystem cross-references |
@@ -1278,6 +1279,18 @@ chart_rec = swd.recommend_chart(data_type="score", has_time=True)
 | v1.4 | 2026-04-23 | Added skill ecosystem navigation table, troubleshooting, extended reading |
 | v1.3 | 2026-04-22 | Initial release |
 
+### 🚀 Next Steps / 下一步
+
+Ready to go deeper? Here's what to try next:
+
+1. **Master the SWD 6-step method** — Work through [swd/storyteller.py](swd/storyteller.py) to build complete data narratives
+2. **Start from research findings** — Use [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) or [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) to generate data, then SWD to visualize it
+3. **Understand your audience** — Feed [Web Persona](https://github.com/AliDujie/web-persona-skill) profiles into SWD's context analysis for tailored narratives
+4. **Validate your message** — Use [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) to ensure your data story resonates
+5. **Structure with JTBD** — Apply [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) to frame data stories around user goals
+
+> 💡 **Pro Tip**: Best presentations start with research → analysis → storytelling. Try: UDM (research) → QuantUX (metrics) → SWD (presentation)
+
 ### 👨‍💻 Credits
 
 Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (Wiley, 2015), a data visualization classic with 500K+ copies sold worldwide.
@@ -1290,4 +1303,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-08 | AliDujie Skill Ecosystem | v2.2.35*
+*Last Updated: 2026-05-09 | AliDujie Skill Ecosystem | v2.2.37*
