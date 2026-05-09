@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.40-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.41-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-09-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -874,6 +874,40 @@ print(f"Total: {diag['total_score']}/100 — {diag['rating']}")
 | **Executives** | Make data-informed decisions from clear presentations |
 | **AI Agents** | Zero-dependency Python package for automated reporting |
 
+### 📁 Project Structure
+
+```
+storytelling-with-data/
+├── SKILL.md                       # Agent entry file (triggers + capabilities + API)
+├── README.md                      # This file
+├── pyproject.toml                 # Python package build config
+├── swd/                           # Python package
+│   ├── __init__.py                # SWDSkill unified entry class
+│   ├── context.py                 # Context analysis engine
+│   ├── chart_selector.py          # Chart selection decision maker
+│   ├── declutter.py               # Clutter diagnosis tool
+│   ├── attention.py               # Attention guidance analyzer
+│   ├── designer.py                # Design evaluator
+│   ├── storyteller.py             # Story builder
+│   ├── diagnosis.py               # Comprehensive diagnosis engine
+│   ├── makeover.py                # Chart makeover engine
+│   ├── config.py                  # Global config and constants
+│   ├── utils.py                   # Knowledge base loader & search
+│   └── tests/test_all.py          # Test cases (8 cases)
+└── references/                    # Knowledge base (11 methodology documents)
+    ├── 01-context.md              # Understanding context
+    ├── 02-visual-display.md       # Choosing effective visuals
+    ├── 03-clutter.md              # Clutter is your enemy
+    ├── 04-attention.md            # Focus audience attention
+    ├── 05-designer.md             # Think like a designer
+    ├── 06-model-visuals.md        # Dissect model visuals
+    ├── 07-storytelling.md         # Storytelling lesson
+    ├── 08-pulling-together.md     # Putting it all together
+    ├── 09-case-studies.md         # Case studies
+    ├── 10-quick-reference.md      # Quick reference guide
+    └── 11-ceo-perspective.md      # CEO perspective extension
+```
+
 ### 🛠️ Troubleshooting
 
 | Issue | Solution |
@@ -1110,6 +1144,7 @@ presentation-design action-titles visual-hierarchy
 ### 📋 Changelog
 
 | Version | Date | Changes |
+| v2.2.41 | 2026-05-09 | Repo maintenance: added English Project Structure section for bilingual parity, enhanced documentation completeness |
 | v2.2.40 | 2026-05-09 | Repo maintenance: fixed SKILL.md version mismatch, aligned README footer version, verified ecosystem cross-references, improved changelog table ordering |
 |---------|------|--------|
 | v2.2.38 | 2026-05-09 | Repo maintenance: added English case studies section with practical code examples, enhanced bilingual content parity (CN/EN), added cross-skill integration code samples |
@@ -1401,6 +1436,8 @@ chart_rec = swd.recommend_chart(data_type="score", has_time=True)
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| v2.2.41 | 2026-05-09 | Repo maintenance: added English Project Structure section for bilingual parity, enhanced documentation completeness |
+| v2.2.41 | 2026-05-09 | 仓库维护：添加英文版项目结构，提升中英双语一致性，增强文档完整性 |
 | v2.2.40 | 2026-05-09 | 仓库维护：修复 SKILL.md 版本不一致，对齐 README 页脚版本引用，验证生态交叉引用一致性，改进版本历史表格排序 |
 |------|------|------|
 | v2.2.35 | 2026-05-08 | 仓库维护：增强数据叙事工作流示例，改进图表选择清晰度，更新 Last Updated 至 2026-05-08，版本升级至 2.2.35 |
@@ -1515,4 +1552,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-09 | AliDujie Skill Ecosystem | v2.2.40*
+*Last Updated: 2026-05-09 | AliDujie Skill Ecosystem | v2.2.41*
