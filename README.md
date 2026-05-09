@@ -4,7 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-2.2.38-green.svg)](CHANGELOG.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-09brightgreen.svg)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-09-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
 
@@ -813,6 +813,35 @@ A: Yes. Use `diagnose_clutter()` to identify clutter, `plan_attention()` for vis
 **Q: Why is context analysis necessary?**
 A: Without a clear audience and call-to-action, even the best charts are ineffective. SWD emphasizes "understand why before deciding how."
 
+
+### 📋 Cheat Sheet / Quick Reference Cards
+
+#### Preattentive Attributes
+
+| Attribute | Use | Example |
+|-----------|-----|---------|
+| **Color** | Highlight key data | Red for anomalies in a gray chart |
+| **Size** | Show importance | Large font for critical metrics |
+| **Position** | Guide reading order | Key info top-left |
+| **Bold** | Emphasize | Bold key numbers |
+| *Italic* | Secondary emphasis | Supporting annotations |
+
+#### Action Titles vs. Descriptive Titles
+
+| Descriptive Title (Avoid) | Action Title (Recommended) |
+|---------------------------|---------------------------|
+| "User Growth Rate Q1-Q3 2024" | "User Growth Exceeded 20% for 3 Consecutive Quarters" |
+| "Conversion Rate by Channel" | "Search Channel Leads Conversion at 15%" |
+| "User Satisfaction Trends" | "Satisfaction Hit All-Time High, Up 15%" |
+
+#### Color Strategy
+
+| Strategy | Usage | Example |
+|----------|-------|---------|
+| **Grey + One** | Gray background + single accent | Highlight target in blue among gray bars |
+| **Sequential** | Same hue, varying intensity | Light blue → dark blue (low to high) |
+| **Diverging** | Two colors for positive/negative | Red (negative) → white → blue (positive) |
+| **Categorical** | Different colors per category | Max 5-7 colors |
 
 ### 🏆 Case Studies
 
