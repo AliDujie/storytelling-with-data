@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.41-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.42-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-09-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -67,8 +67,11 @@
 #### 步骤 1: 安装技能
 
 ```bash
-# 复制到你的 AI Agent skills 目录
-cp -r skills/storytelling-with-data ~/.openclaw/skills/
+# 方式 A: 复制到你的 AI Agent skills 目录
+cp -r storytelling-with-data /your/agent/skills/
+
+# 方式 B: 作为 Python 包安装（支持 pip import）
+cd storytelling-with-data && pip install -e .
 ```
 
 > 📖 详细安装指南请查看 [INSTALL.md](INSTALL.md)
@@ -746,7 +749,11 @@ swd.build_context(audience="产品委员会", cta="继续投资已验证的价�
 #### Step 1: Install
 
 ```bash
+# Option A: Copy to your AI Agent skills directory
 cp -r storytelling-with-data /your/agent/skills/
+
+# Option B: Install as a Python package (enables pip import)
+cd storytelling-with-data && pip install -e .
 ```
 
 > 📖 See [INSTALL.md](INSTALL.md) for detailed installation guide
@@ -932,6 +939,14 @@ storytelling-with-data/
 - **Grey is your friend** — Default everything to grey, then color only the data point you want your audience to focus on. This is the single most effective SWD technique.
 - **Annotate, don't just display** — Add context annotations directly on your charts. "Q2 spike = product launch" is more valuable than a standalone number.
 - **Match narrative to audience** — Executives want the conclusion first (BLUF), technical audiences want the methodology. SWD supports both approaches.
+
+### ⛔ When NOT to Use This Skill
+
+- **Choosing research methods or designing studies** — Use [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) for research design
+- **Statistical analysis or A/B testing** — Use [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) for statistical rigor
+- **Understanding user needs and Jobs-to-be-Done** — Use [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) for deep need analysis
+- **Value proposition and business model analysis** — Use [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) for canvas-based analysis
+- **Creating user personas** — Use [Web Persona](https://github.com/AliDujie/web-persona-skill) for persona creation
 
 ### ❌ Common Mistakes to Avoid
 
@@ -1552,4 +1567,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-09 | AliDujie Skill Ecosystem | v2.2.41*
+*Last Updated: 2026-05-09 | AliDujie Skill Ecosystem | v2.2.42*
