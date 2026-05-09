@@ -1,3 +1,7 @@
+## v2.2.35 (2026-05-09)
+- Routine repo maintenance: verified all standard files, ecosystem link consistency, Last Updated timestamp
+- No breaking changes
+
 ## v2.2.34 (2026-05-07)
 - Added Structured Thinking Model to Quick Decision Guide (CN + EN) for better cross-skill discoverability
 - Verified version alignment across README.md, SKILL.md, and pyproject.toml
