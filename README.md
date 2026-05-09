@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.43-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.44-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-10-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -20,6 +20,22 @@
 - [ ] **综合诊断** — `skill.full_diagnosis(scores=...)` — 100 分制全面评估
 
 基于 Cole Nussbaumer Knaflic《Storytelling with Data》的数据可视化与数据叙事工具集。提供 8 项可执行能力和 11 篇方法论知识库，覆盖从上下文分析到图表改造的完整 SWD 六课工作流。
+
+---
+
+## 🌐 技能生态系统 (Skill Ecosystem)
+
+本技能是 AliDujie 用户研究技能生态系统的**数据呈现核心**，负责将研究结果转化为高管可读的数据叙事。与其他技能协同使用，效果更佳：
+
+| 技能 | 角色 | 协同场景 |
+|------|------|----------|
+| [🔍 Universal Design Methods](https://github.com/AliDujie/universal-design-methods) | 研究方法 | UDM 研究结果 → SWD 图表改造 → 叙事构建 |
+| [📊 Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | 定量验证 | QuantUX 统计结果 → SWD 可视化 → 报告呈现 |
+| [🎯 JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | 深度需求洞察 | JTBD 机会数据 → SWD 图表呈现 → 策略故事 |
+| [💎 Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | 价值设计 | VPD 实验结果 → SWD 数据故事 → 决策展示 |
+| [👤 Web Persona](https://github.com/AliDujie/web-persona-skill) | 用户画像 | Persona 数据 → SWD 角色可视化 → 团队对齐 |
+
+---
 
 [English](#english) | [中文](#中文说明)
 
@@ -868,6 +884,41 @@ diag = skill.full_diagnosis(
 )
 print(f"Total: {diag['total_score']}/100 — {diag['rating']}")
 ```
+
+### 🔄 End-to-End Ecosystem Workflow
+
+SWD is the **data presentation engine** of the ecosystem. Here's how it connects with the other 5 skills:
+
+```python
+# ===== From Research to Presentation (All 6 Skills) =====
+# Step 1: UDM discovers user pain points → Step 2: JTBD scores opportunities
+# Step 3: QuantUX validates with statistical testing → Step 4: VPD designs solution
+# Step 5: Persona segments the audience → Step 6: SWD presents to stakeholders
+
+from swd import SWDSkill
+swd = SWDSkill("Q4 Research Presentation")
+
+# Scenario: Transform QuantUX survey results into executive narrative
+ctx = swd.build_context(
+    audience="Product VP",
+    cta="Approate 2M budget for UX redesign"
+)
+chart = swd.recommend_chart(data_type="continuous", has_time=True,
+    series_count=2, category_count=12)
+story = swd.build_story(
+    protagonist="Our users",
+    imbalance="Satisfaction dropped 15% after last release"
+)
+
+# Present UDM + JTBD + QuantUX findings as a unified data story
+report = swd.build_narrative(
+    context=ctx,
+    chart_type=chart['chart_type'],
+    story_structure=story['structure']
+)
+```
+
+> 💡 **Pro Tip**: Best presentations start with research → analysis → storytelling. Try: UDM (research) → QuantUX (metrics) → SWD (presentation)
 
 ### 👥 Who Is This For?
 
