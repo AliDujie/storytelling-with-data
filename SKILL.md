@@ -662,6 +662,23 @@ story = swd.build_story(
 )
 ```
 
+**协作示例（QuantUX + SWD）**：
+
+```python
+# Step 1: QuantUX 产出 A/B 测试结果
+# ab_result = quantux.analyze_ab_test("新结账流程", n_a=2500, conv_a=425, n_b=2500, conv_b=500)
+
+# Step 2: SWD 将实验结果转化为高管叙事
+swd = SWDSkill("A/B 测试结果汇报")
+ctx = swd.build_context(audience="产品VP", cta="批准全量发布新流程")
+story = swd.build_story(
+    protagonist="产品委员会",
+    imbalance="旧流程导致 15% 订单流失",
+    evidence=["新流程转化率 20% vs 旧流程 17%, p<0.01", "NPS 提升 8 分"],
+    call_to_action="全量发布新结账流程",
+)
+```
+
 ---
 
 ## 九、最佳实践
