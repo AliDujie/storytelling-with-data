@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.38-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.39-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-09-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -578,6 +578,114 @@ presentation-design action-titles visual-hierarchy
 - Python >= 3.8
 - **无外部依赖**（纯标准库实现）
 - 兼容 macOS / Linux / Windows
+
+---
+
+
+---
+
+### 🧭 快速决策指南 (Quick Decision Guide)
+
+| 你的问题 | 推荐技能 |
+|----------|----------|
+| "研究结果怎么讲给高管听" | → **Storytelling with Data (本技能)** — 数据叙事与图表呈现 |
+| "不知道选什么研究方法" | → [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) — 方法推荐与执行 |
+| "需要定量验证假设" | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) — A/B 测试、HEART 指标、样本量计算 |
+| "想理解用户背后的「工作」" | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) — 用户"工作"挖掘、机会评分 |
+| "需要创建用户画像" | → [Web Persona](https://github.com/AliDujie/web-persona-skill) — 人物角色创建与细分 |
+| "验证价值主张够不够强" | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) — 价值主张画布、实验验证 |
+| "需要结构化商业分析框架" | → [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) — PESTEL、五力模型、决策树 |
+
+---
+
+### 🔄 完整端到端工作流：从研究到数据叙事 (End-to-End Workflow)
+
+> SWD 是用户研究工作流的最后一环 — 将研究发现转化为高管可读的故事。
+
+#### 前置步骤（输入来源）
+1. **Universal Design Methods** → 用户访谈与可用性测试发现
+2. **Quantitative UX Research** → A/B 测试结果、HEART 指标、NPS 数据
+3. **JTBD Knowledge** → 用户"工作"洞察、机会评分
+4. **Web Persona** → 角色档案、用户细分
+5. **Value Proposition Design** → 价值主张验证结果
+
+#### SWD 数据叙事流程
+6. **Storytelling with Data** → 上下文分析 → 图表选择 → 去杂乱 → 注意力引导 → 设计评估 → 故事构建
+
+```python
+# 示例：将 UDM 的定量发现转化为数据叙事
+from swd import SWDSkill
+
+skill = SWDSkill("Q4 用户体验汇报")
+skill.build_context(
+    audience="CEO 和产品 VP",
+    cta="批准 Q1 优化预算 300 万",
+    big_idea="用户满意度下降 12%，但留存策略有效"
+)
+skill.full_diagnosis(scores={...})  # 确保数据可视化质量 ≥ 80/100
+```
+
+---
+
+### 💻 实用集成示例 (Practical Integration Examples)
+
+#### 集成 1: QuantUX 数据 → SWD 叙事
+
+```python
+from quantux import QuantUXSkill
+from swd import SWDSkill
+
+# QuantUX 产出分析结果
+quant = QuantUXSkill("产品名")
+heart = quant.build_heart_framework()
+csat = quant.design_csat_survey("Q4 满意度")
+
+# SWD 转化为叙事
+swd = SWDSkill("Q4 汇报")
+swd.build_context(audience="高管", cta="批准优化预算")
+```
+
+#### 集成 2: JTBD 洞察 → SWD 故事
+
+```python
+from jtbd import JTBDSkill
+from swd import SWDSkill
+
+jtbd = JTBDSkill("产品名")
+report = jtbd.analyze(product="产品名", jobs=[{"context": "出差时", "motivation": "快速找到住处"}])
+
+# JTBD 发现 → SWD 故事核心
+swd = SWDSkill("用户洞察汇报")
+swd.build_story(
+    protagonist="产品 VP",
+    imbalance="35% 用户在预订环节流失",
+    call_to_action="投资一键预订功能"
+)
+```
+
+#### 集成 3: VPD 实验 → SWD 汇报
+
+```python
+from vpd import VPDSkill
+from swd import SWDSkill
+
+vpd = VPDSkill("产品名", "目标用户")
+experiment = vpd.design_experiment(hypothesis="...", metric="...")
+
+# 实验结果 → SWD 叙事
+swd = SWDSkill("实验结果汇报")
+swd.build_context(audience="产品委员会", cta="继续投资已验证的价值主张")
+```
+
+---
+
+### 🚀 下一步 (Next Steps)
+
+1. **快速上手** — 复制技能到你的 skills 目录，5 分钟内完成首次调用
+2. **阅读 SKILL.md** — 了解 AI Agent 触发条件和完整 API 文档
+3. **安装 INSTALL.md** — 详细的安装和配置指南
+4. **贡献** — 查看 [CONTRIBUTING.md](CONTRIBUTING.md) 了解如何参与
+5. **探索生态** — 尝试其他 5 个技能，构建完整的用户研究工作流
 
 ---
 
