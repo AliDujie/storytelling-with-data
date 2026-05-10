@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.45-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.46-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-11-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -1502,6 +1502,8 @@ chart_rec = swd.recommend_chart(data_type="score", has_time=True)
 
 | 版本 | 日期 | 变更 |
 | v2.2.45 | 2026-05-11 | 仓库维护：修复 Next Steps 中的文件路径引用，增强跨技能集成示例，改进新手入门指南，更新 Last Updated
+| v2.2.46 | 2026-05-11 | 仓库维护：添加新手快速参考卡，覆盖 8 个常见使用场景和快捷命令
+
 | v2.2.41 | 2026-05-09 | 仓库维护：添加英文版项目结构，提升中英双语一致性，增强文档完整性 |
 | v2.2.40 | 2026-05-09 | 仓库维护：修复 SKILL.md 版本不一致，对齐 README 页脚版本引用，验证生态交叉引用一致性，改进版本历史表格排序 |
 | v2.2.35 | 2026-05-08 | 仓库维护：增强数据叙事工作流示例，改进图表选择清晰度，更新 Last Updated 至 2026-05-08，版本升级至 2.2.35 |
@@ -1592,6 +1594,23 @@ chart_rec = swd.recommend_chart(data_type="score", has_time=True)
 | v1.5 | 2026-04-23 | Added version history, Last Updated badge |
 | v1.4 | 2026-04-23 | Added skill ecosystem navigation table, troubleshooting, extended reading |
 | v1.3 | 2026-04-22 | Initial release |
+
+### 🗺️ Beginner Quick Reference Card
+
+> **New to SWD? Start here.** This card covers the most common first-time use cases.
+
+| I want to… | Start with this | Quick command |
+|---|---|---|
+| Prepare a data presentation for executives | Context Analysis | `skill.build_context(audience="CEO", cta="Approve budget")` |
+| Choose the right chart for my data | Chart Selection | `skill.recommend_chart(data_type="categorical", category_count=5)` |
+| Fix a messy, cluttered chart | Clutter Diagnosis | `skill.diagnose_clutter(has_border=True, has_gridlines=True)` |
+| Make important data stand out | Attention Guidance | `skill.plan_attention(focus_elements=[("Key Metric", 5)])` |
+| Evaluate my visualization quality | Design Assessment | `skill.evaluate_design(has_title=True, has_action_title=False)` |
+| Build a complete data narrative | Story Builder | `skill.build_story(protagonist="VP", imbalance="Metrics declining")` |
+| Get a comprehensive score | Full Diagnosis | `skill.full_diagnosis(scores={...})` → `Score: 72/100` |
+| Transform a bad chart into a good one | Makeover | `skill.makeover(issues=["Used pie chart", "No title"])` |
+
+> 💡 **Most common first step**: `skill.build_context()` — define your audience and what action you need, then everything else follows.
 
 ### 🚀 Next Steps / 下一步
 
