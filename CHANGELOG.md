@@ -1,3 +1,7 @@
+## v2.2.47 (2026-05-11)
+
+Repo maintenance: added English 5-minute Quick Start checklist to improve onboarding, enhanced discoverability for English-speaking users, verified all ecosystem cross-references.
+
 ## v2.2.44 (2026-05-10)
 
 Repo maintenance: added skill ecosystem table at top of README, added end-to-end workflow example in English section.
