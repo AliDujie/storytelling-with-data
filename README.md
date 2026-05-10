@@ -1510,6 +1510,7 @@ chart_rec = swd.recommend_chart(data_type="score", has_time=True)
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| v2.2.48 | 2026-05-11 | 仓库维护：修复页脚版本不一致（v2.2.45→v2.2.47），添加缺失的「获取帮助」章节，补齐英文变更日志条目（v2.2.45–v2.2.47），确保三端版本对齐 |
 | v2.2.45 | 2026-05-11 | 仓库维护：修复 Next Steps 中的文件路径引用，增强跨技能集成示例，改进新手入门指南，更新 Last Updated
 | v2.2.46 | 2026-05-11 | 仓库维护：添加新手快速参考卡，覆盖 8 个常见使用场景和快捷命令
 
@@ -1568,6 +1569,10 @@ chart_rec = swd.recommend_chart(data_type="score", has_time=True)
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.2.48 | 2026-05-11 | Repo maintenance: fixed footer version mismatch (v2.2.45→v2.2.47), added missing "Getting Help" section, added missing changelog entries (v2.2.45–v2.2.47), ensured version alignment |
+| v2.2.47 | 2026-05-11 | Repo maintenance: added English 5-minute Quick Start checklist, enhanced discoverability for English-speaking users, verified ecosystem cross-references |
+| v2.2.46 | 2026-05-10 | Repo maintenance: added beginner quick reference card covering 8 common use cases and quick commands |
+| v2.2.45 | 2026-05-10 | Repo maintenance: fixed broken file path references, enhanced cross-skill integration examples, improved beginner onboarding guide, updated Last Updated |
 | v2.2.44 | 2026-05-10 | Repo maintenance: added English cheat sheet (chart selection matrix, action title examples, declutter checklist), updated Last Updated badge |
 | v2.2.38 | 2026-05-09 | Repo maintenance: added English case studies section with practical code examples, enhanced bilingual content parity, added cross-skill integration code samples |
 | v2.2.35 | 2026-05-08 | Repo maintenance: enhanced data narrative workflow examples with multi-skill pipeline, improved chart selection clarity, updated Last Updated to 2026-05-08, version bump to 2.2.35 |
@@ -1639,10 +1644,16 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (Wiley, 2015), a da
 
 **Applicable to:** Data Analysts, Product Managers, Consultants, Executives, Anyone who needs to present data effectively
 
+### 🆘 获取帮助 (Getting Help)
+
+- 📖 查看 [故障排查](#故障排查-troubleshooting) 部分
+- 📚 阅读 [references/](references/) 目录下的 SWD 方法论文档
+- 💬 在 [Issues](https://github.com/AliDujie/storytelling-with-data/issues) 中提问
+
 ### 🤝 Contributing
 
 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to this project.
 
 ---
 
-*Last Updated: 2026-05-11 | AliDujie Skill Ecosystem | v2.2.45*
+*Last Updated: 2026-05-11 | AliDujie Skill Ecosystem | v2.2.48*
