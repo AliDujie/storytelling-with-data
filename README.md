@@ -758,6 +758,15 @@ swd.build_context(audience="产品委员会", cta="继续投资已验证的价�
 | Chart Makeover | Six-step transformation of existing charts into professional narratives |
 | Zero Dependencies | Pure Python standard library, 5-minute setup |
 
+### ✅ 5-Minute Quick Start Checklist
+
+- [ ] **Install** — `cp -r storytelling-with-data /your/agent/skills/`
+- [ ] **Import** — `from swd import SWDSkill`
+- [ ] **Initialize** — `skill = SWDSkill("your project")`
+- [ ] **Context analysis** — `skill.build_context(audience="CEO", cta="approve budget")`
+- [ ] **Chart selection** — `skill.recommend_chart(data_type="categorical", category_count=5)`
+- [ ] **Full diagnosis** — `skill.full_diagnosis(scores={...})` → score out of 100
+
 ### 🚀 Quick Start
 
 #### Step 1: Install
