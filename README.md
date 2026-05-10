@@ -3,8 +3,8 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.44-green.svg)](CHANGELOG.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-10-brightgreen.svg)
+[![Version](https://img.shields.io/badge/version-2.2.45-green.svg)](CHANGELOG.md)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-11-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
 
@@ -1209,7 +1209,7 @@ presentation-design action-titles visual-hierarchy
 
 | Version | Date | Changes |
 |---------|------|--------|
-| v2.2.42 | 2026-05-10 | Repo maintenance: fixed English changelog table (added missing separator, removed rogue separator), updated Last Updated badge |
+| v2.2.45 | 2026-05-11 | Repo maintenance: fixed broken file path references, enhanced cross-skill integration examples, improved beginner onboarding guide, updated Last Updated |
 | v2.2.41 | 2026-05-09 | Repo maintenance: added English Project Structure section for bilingual parity, enhanced documentation completeness |
 | v2.2.40 | 2026-05-09 | Repo maintenance: fixed SKILL.md version mismatch, aligned README footer version, verified ecosystem cross-references, improved changelog table ordering |
 | v2.2.38 | 2026-05-09 | Repo maintenance: added English case studies section with practical code examples, enhanced bilingual content parity (CN/EN), added cross-skill integration code samples |
@@ -1501,7 +1501,7 @@ chart_rec = swd.recommend_chart(data_type="score", has_time=True)
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
-| v2.2.41 | 2026-05-09 | Repo maintenance: added English Project Structure section for bilingual parity, enhanced documentation completeness |
+| v2.2.45 | 2026-05-11 | 仓库维护：修复 Next Steps 中的文件路径引用，增强跨技能集成示例，改进新手入门指南，更新 Last Updated
 | v2.2.41 | 2026-05-09 | 仓库维护：添加英文版项目结构，提升中英双语一致性，增强文档完整性 |
 | v2.2.40 | 2026-05-09 | 仓库维护：修复 SKILL.md 版本不一致，对齐 README 页脚版本引用，验证生态交叉引用一致性，改进版本历史表格排序 |
 | v2.2.35 | 2026-05-08 | 仓库维护：增强数据叙事工作流示例，改进图表选择清晰度，更新 Last Updated 至 2026-05-08，版本升级至 2.2.35 |
@@ -1617,4 +1617,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-10 | AliDujie Skill Ecosystem | v2.2.44*
+*Last Updated: 2026-05-11 | AliDujie Skill Ecosystem | v2.2.45*
