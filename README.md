@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.49-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.50-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-11-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -1226,6 +1226,7 @@ presentation-design action-titles visual-hierarchy
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.2.50 | 2026-05-11 | Repo maintenance: verified English section completeness, confirmed all "When NOT to Use" and "Common Mistakes" sections present across ecosystem, verified cross-skill links, updated version badges |
 | v2.2.49 | 2026-05-11 | Repo maintenance: fixed non-existent API references (`transform_chart`→`makeover`, `build_narrative`→`build_story`, `design_assess`→`evaluate_design`), fixed typo (`Approate`→`Approve`), corrected Chinese changelog ordering and missing table cell closers, ensured version alignment across README/SKILL.md/pyproject.toml |
 | v2.2.48 | 2026-05-11 | Repo maintenance: fixed footer version mismatch (v2.2.45→v2.2.47), added missing "Getting Help" section, added missing changelog entries (v2.2.45–v2.2.47), ensured version alignment |
 | v2.2.47 | 2026-05-11 | Repo maintenance: added English 5-minute Quick Start checklist, enhanced discoverability for English-speaking users, verified ecosystem cross-references |
@@ -1462,6 +1463,7 @@ python3 swd/tests/test_all.py
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.2.50 | 2026-05-11 | Repo maintenance: verified English section completeness, confirmed all "When NOT to Use" and "Common Mistakes" sections present, verified cross-skill links, updated version badges |
 | v2.2.49 | 2026-05-11 | Repo maintenance: fixed changelog gap (v2.2.47→v2.2.49), removed duplicate sections after Credits, fixed 3 broken markdown table rows, restored Version History (English) heading |
 | v2.2.48 | 2026-05-11 | Repo maintenance: fixed footer version mismatch (v2.2.45→v2.2.47), added missing "Getting Help" section, added missing changelog entries (v2.2.45–v2.2.47), ensured version alignment |
 | v2.2.47 | 2026-05-11 | Repo maintenance: added English 5-minute Quick Start checklist, enhanced discoverability for English-speaking users, verified ecosystem cross-references |
@@ -1550,4 +1552,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-11 | AliDujie Skill Ecosystem | v2.2.49*
+*Last Updated: 2026-05-11 | AliDujie Skill Ecosystem | v2.2.50*
