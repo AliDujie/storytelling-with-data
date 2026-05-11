@@ -668,7 +668,7 @@ from jtbd import JTBDSkill
 from swd import SWDSkill
 
 jtbd = JTBDSkill("产品名")
-report = jtbd.analyze(product="产品名", jobs=[{"context": "出差时", "motivation": "快速找到住处"}])
+report = jtbd.analyze(include_ceo_analysis=True)  # Analyzes pre-configured jobs data
 
 # JTBD 发现 → SWD 故事核心
 swd = SWDSkill("用户洞察汇报")
