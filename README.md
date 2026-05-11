@@ -1409,116 +1409,6 @@ python3 swd/tests/test_all.py
 - **Emp ID**: 27768
 - **Nickname**: 渡劫
 
-### 🚀 完整端到端工作流：从研究到数据叙事 (End-to-End Workflow)
-
-以下是一个真实场景中，6 个技能如何协作产出高管级汇报材料的完整工作流：
-
-**场景**: SaaS 产品需要向董事会汇报 Q3 用户体验改进成果
-
-```
-Phase 1-3: 研究阶段 (由其他技能完成)
-  UDM: 用户访谈 + 可用性测试 → 发现核心痛点
-  JTBD: 机会分数分析 → 优先级排序
-  QuantUX: A/B 测试 + HEART 指标 → 量化改进效果
-  Persona: 用户细分 → 识别影响最大的用户群体
-  VPD: 价值主张验证 → 确认产品-市场契合
-
-Phase 4: SWD 数据叙事 (本技能)
-  → build_context: 受众=董事会，CTA=批准下季度 UX 预算
-  → recommend_chart: HEART 趋势 → 折线图 + 基准线
-  → diagnose_clutter: 清理原始仪表盘的 8 个杂乱元素
-  → plan_attention: 用 grey+one 突出 23% NPS 提升
-  → build_story: 三幕结构构建汇报故事
-
-产出: 8 页董事会级汇报材料，含 6 张改造后图表
-```
-
-> 💡 **SWD 是工作流的终点**: 用前 5 个技能的产出作为 SWD 的输入，构建 compelling 数据叙事
-
-👉 **尝试完整工作流**: [UDM](https://github.com/AliDujie/universal-design-methods) · [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) · [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) · [Persona](https://github.com/AliDujie/web-persona-skill) · [VPD](https://github.com/AliDujie/value-proposition-design)
-
----
-
-### 💻 实用集成示例 (Practical Integration Examples)
-
-#### 示例 1: QuantUX → SWD — A/B 测试结果的数据叙事
-
-```python
-from quantux import QuantUXSkill
-from swd import SWDSkill
-
-quantux = QuantUXSkill("电商平台")
-result = quantux.analyze_ab_test("新结账流程", n_a=2500, conv_a=425, n_b=2500, conv_b=500)
-
-swd = SWDSkill("电商平台")
-ctx = swd.build_context(audience="产品 VP", cta="批准全量发布新结账流程")
-story = swd.build_story(protagonist="时间敏感型买家", imbalance="旧流程导致 15% 订单流失")
-```
-
-#### 示例 2: JTBD → SWD — 从用户洞察到数据叙事
-
-```python
-from jtbd import JTBDSkill
-from swd import SWDSkill
-
-jtbd = JTBDSkill("电商平台")
-opportunity = jtbd.score_opportunity("快速完成购买", struggle=4, importance=5)
-
-swd = SWDSkill("电商平台")
-diagnosis = swd.full_diagnosis()
-print(f"叙事评分: {diagnosis['overall_score']}/100")
-```
-
-#### 示例 3: UDM → SWD — 可用性测试发现的可视化呈现
-
-```python
-from udm import UDMSkill
-from swd import SWDSkill
-
-udm = UDMSkill("电商平台")
-sus_result = udm.calculate_sus([4, 5, 3, 5, 4, 2, 5, 3, 4, 5])
-
-swd = SWDSkill("电商平台")
-ctx = swd.build_context(audience="设计团队", cta="改进结账流程设计")
-chart_rec = swd.recommend_chart(data_type="score", has_time=True)
-```
-
-> 💡 **SWD 是生态系统的"最后一英里"** — 将前面所有技能的研究成果转化为高管可读、可行动的数据叙事。
-
-### 🌟 为什么选择 AliDujie 技能生态系统？
-
-本技能是 **AliDujie UX 研究技能生态系统** 的数据呈现核心，与其他技能无缝协作：
-
-| 技能 | 角色 | 协作方式 |
-|------|------|----------|
-| [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) | 方法核心 | UDM 研究发现 → SWD 数据叙事呈现 |
-| [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | 需求洞察 | JTBD 洞察 → SWD 可视化呈现给利益相关者 |
-| [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | 定量验证 | QuantUX HEART/A/B 数据 → SWD compelling 叙事 |
-| [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | 价值设计 | VPD 画布效果 → SWD 高管汇报 |
-| [Web Persona](https://github.com/AliDujie/web-persona-skill) | 用户角色 | Persona 角色数据 → SWD 增强数据叙事 |
-
-**使用完整生态系统的优势：**
-
-- ✅ **全流程覆盖** — 从发现需求 → 研究验证 → 价值设计 → 数据呈现
-- ✅ **一致 API 设计** — 所有技能使用统一的 Skill("产品名") 入口
-- ✅ **零外部依赖** — 纯 Python 标准库实现，开箱即用
-- ✅ **双语支持** — 完整中英文文档，适合国际化团队
-- ✅ **积极维护** — 定期更新新功能和改进文档
-
-👉 **探索完整生态系统**: [UDM](https://github.com/AliDujie/universal-design-methods) · [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) · [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) · [VPD](https://github.com/AliDujie/value-proposition-design) · [Persona](https://github.com/AliDujie/web-persona-skill)
-
----
-
-### 💡 Pro Tips / 专业提示
-
-- **上下文先行** — 永远先定义受众和行动号召，再选图表
-- **灰色 + 一色原则** — 用灰色做基底，只用一种强调色突出关键数据
-- **行动标题 > 描述标题** — "用户增长连续 3 季度超 20%" > "2024 年用户增长趋势"
-- **综合诊断 < 60 分必须改造** — 低于 60 分说明可视化存在根本问题
-- **三幕结构** — 好的数据叙事必须有：背景 → 冲突 → 解决方案
-- **SWD 是工作流末端** — 最佳使用时机是在 UDM/QuantUX/JTBD 产出发现后
-- **A/B 测试可视化** — 用分组柱状图展示实验组和对照组差异，用置信区间标注统计显著性，避免误导性结论
-
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
@@ -1567,19 +1457,6 @@ chart_rec = swd.recommend_chart(data_type="score", has_time=True)
 | v1.4 | 2026-04-23 | 添加技能生态导航表、故障排查、扩展阅读 |
 | v1.3 | 2026-04-22 | 初始版本 |
 
----
-
-### 💡 Pro Tips
-
-- **Context First** — Always define audience and call-to-action before choosing visuals
-- **Grey + One Color Rule** — Use grey as baseline, only one accent color for key data
-- **Action Titles > Descriptive Titles** — "User growth exceeded 20% for 3 quarters" > "2024 User Growth Trend"
-- **Diagnosis < 60 requires makeover** — Below 60 means fundamental visualization problems
-- **Three-Act Structure** — Good data narratives need: setup → conflict → resolution
-- **SWD is the workflow end** — Best used after UDM/QuantUX/JTBD have produced findings
-- **A/B Test Visualization** — Use grouped bar charts for treatment vs control differences, annotate with confidence intervals to avoid misleading conclusions
-- **Full Ecosystem Workflow** — SWD is the presentation layer of the AliDujie ecosystem. After Persona defines users, JTBD reveals needs, UDM uncovers insights, QuantUX validates at scale, and VPD confirms product-market fit — SWD turns all findings into compelling executive narratives.
-
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
@@ -1593,8 +1470,8 @@ chart_rec = swd.recommend_chart(data_type="score", has_time=True)
 | v2.2.35 | 2026-05-08 | Repo maintenance: enhanced data narrative workflow examples with multi-skill pipeline, improved chart selection clarity, updated Last Updated to 2026-05-08, version bump to 2.2.35 |
 | v2.2.33 | 2026-05-07 | Repo maintenance: added "When to use SWD" decision guide to SKILL.md, added cross-skill workflow examples to README, version bump to 2.2.33 |
 | v2.2.34 | 2026-05-07 | Repo maintenance: added Structured Thinking Model to Quick Decision Guide (CN+EN), enhanced cross-skill discoverability, version bump to 2.2.34 |
-| v2.2.32 | 2026-05-07 | Repo maintenance: fixed truncated best practices table row (missing closing `|`), added AliDujie 技能生态 collaboration table at end of SKILL.md, enhanced cross-skill consistency
-| v2.2.29 | 2026-05-07 | Repo maintenance: fixed footer version mismatch, added ecosystem workflow Pro Tip, bumped to v2.2.29
+| v2.2.32 | 2026-05-07 | Repo maintenance: fixed truncated best practices table row (missing closing `|`), added AliDujie 技能生态 collaboration table at end of SKILL.md, enhanced cross-skill consistency |
+| v2.2.29 | 2026-05-07 | Repo maintenance: fixed footer version mismatch, added ecosystem workflow Pro Tip, bumped to v2.2.29 |
 | v2.2.28 | 2026-05-07 | Repo maintenance: added English Dependencies section, verified ecosystem cross-references |
 | v2.2.27 | 2026-05-07 | Repo maintenance: added A/B test visualization Pro Tip, enhanced QuantUX-SWD integration example |
 | v2.2.22 | 2026-05-06 | Repo maintenance: enhanced Chinese "Who Is This For" descriptions, expanded GitHub Topics, improved EN/CN topic consistency |
@@ -1602,7 +1479,7 @@ chart_rec = swd.recommend_chart(data_type="score", has_time=True)
 | v2.2.19 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, deduplicated English changelog, enhanced Quick Start scenario descriptions |
 | v2.2.17 | 2026-05-05 | Repo maintenance: added STM/UDM/Persona to collaboration tables, update ecosystem diagrams |
 | v2.2.16 | 2026-05-04 | Repo maintenance: fixed changelog table `| |` formatting, added end-to-end workflow English TOC link |
-| v2.2.15 | 2026-05-04 | Repo maintenance: added English TOC and 5-min checklist; added 5-minute quick start checklist, enhanced English Features at a Glance
+| v2.2.15 | 2026-05-04 | Repo maintenance: added English TOC and 5-min checklist; added 5-minute quick start checklist, enhanced English Features at a Glance |
 | v2.2.13 | 2026-05-04 | Repo maintenance: fixed SKILL.md version mismatch (2.2.10→2.2.12), aligned all version references, added Credits section |
 | v2.2.11 | 2026-05-04 | Repo maintenance: fixed changelog ordering (v2.2.6→v2.2.9 sequence corrected), enhanced English Quick Start with scenario-based comments |
 | v2.2.10 | 2026-05-04 | Repo maintenance: added end-to-end workflow section showing 6-skill collaboration from research to data storytelling |
