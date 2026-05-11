@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.48-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.49-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-11-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -457,7 +457,7 @@ A: SWD 关注数据叙事原则和图表选择逻辑，而非具体绘图实现�
 A: 意味着可视化存在根本性问题（如信息混乱、重点不突出）。建议用 SWD 六步工作流从头重构：上下文→图表选择→去杂乱→注意力→设计→叙事。
 
 **Q: 可以用 SWD 改造现有仪表盘吗？**
-A: 可以。用 `diagnose_clutter()` 识别杂乱元素，用 `plan_attention()` 规划注意力引导，用 `transform_chart()` 改造现有图表。
+A: 可以。用 `diagnose_clutter()` 识别杂乱元素，用 `plan_attention()` 规划注意力引导，用 `makeover()` 改造现有图表。
 
 **Q: 为什么需要上下文分析？**
 A: 没有明确的受众和行动号召，再好的图表也是无效的。SWD 强调"先理解为什么再决定怎么做"。
@@ -535,7 +535,7 @@ clutter = skill.diagnose_clutter(has_border=True, has_gridlines=True, has_separa
 # → 识别 5+ 种杂乱元素
 
 # 步骤 3: 改造关键图表
-makeover = skill.transform_chart(chart_type="pie", issue="太多类别")
+makeover = skill.makeover(issues=["使用了饼图", "类别太多"])
 # → 推荐改为条形图 + 直接标注
 
 # 步骤 4: 构建数据叙事
@@ -572,10 +572,9 @@ attention = skill.plan_attention(
 )
 
 # 设计评估 + 改进建议
-design = skill.design_assess(
-    visual_hierarchy="weak",
-    whitespace="insufficient",
-    alignment="inconsistent"
+design = skill.evaluate_design(
+    has_title=True, has_action_title=False,
+    color_strategic=False, alignment_clean=True,
 )
 ```
 
@@ -910,7 +909,7 @@ swd = SWDSkill("Q4 Research Presentation")
 # Scenario: Transform QuantUX survey results into executive narrative
 ctx = swd.build_context(
     audience="Product VP",
-    cta="Approate 2M budget for UX redesign"
+    cta="Approve 2M budget for UX redesign"
 )
 chart = swd.recommend_chart(data_type="continuous", has_time=True,
     series_count=2, category_count=12)
@@ -920,11 +919,20 @@ story = swd.build_story(
 )
 
 # Present UDM + JTBD + QuantUX findings as a unified data story
-report = swd.build_narrative(
-    context=ctx,
-    chart_type=chart['chart_type'],
-    story_structure=story['structure']
+# Build compelling narrative from all research inputs
+story = swd.build_story(
+    protagonist="Our users",
+    imbalance="Satisfaction dropped 15% after last release"
 )
+# Run full 100-point diagnosis before presenting
+diag = swd.full_diagnosis(scores={
+    "context": {"audience_clear": 4, "cta_clear": 4, "big_idea_visible": 3, "data_supports_story": 4},
+    "visual_choice": {"chart_type_fit": 4, "avoid_bad_charts": 5, "zero_baseline": 5, "logical_order": 4},
+    "clutter": {"no_unnecessary_elements": 3, "no_diagonal_text": 5, "whitespace_ok": 4, "no_redundancy": 3},
+    "attention": {"preattentive_used": 3, "color_sparse": 4, "visual_hierarchy": 3, "eyes_drawn_test": 3},
+    "design_narrative": {"text_sufficient": 4, "alignment_aesthetic": 4, "narrative_structure": 3, "action_titles": 3},
+})
+print(f"Total: {diag['total_score']}/100")
 ```
 
 > 💡 **Pro Tip**: Best presentations start with research → analysis → storytelling. Try: UDM (research) → QuantUX (metrics) → SWD (presentation)
@@ -1023,7 +1031,7 @@ A: SWD focuses on data storytelling principles and chart selection logic, not re
 A: It means fundamental problems with your visualization (information chaos, unclear focus). Start over with the SWD six-step workflow: context → chart choice → declutter → attention → design → storytelling.
 
 **Q: Can SWD transform existing dashboards?**
-A: Yes. Use `diagnose_clutter()` to identify clutter, `plan_attention()` for visual hierarchy, and `transform_chart()` to makeover existing charts.
+A: Yes. Use `diagnose_clutter()` to identify clutter, `plan_attention()` for visual hierarchy, and `makeover()` to transform existing charts.
 
 **Q: Why is context analysis necessary?**
 A: Without a clear audience and call-to-action, even the best charts are ineffective. SWD emphasizes "understand why before deciding how."
@@ -1076,7 +1084,7 @@ ctx = skill.build_context(audience="Product VP", cta="Approve $200K budget")
 clutter = skill.diagnose_clutter(has_border=True, has_gridlines=True, has_separate_legend=True)
 # → Identified 5+ types of clutter
 
-# Step 3: Transform key charts
+# Step 3: Makeover key charts
 makeover = skill.makeover(issues=["Used 3D pie chart", "Separate legend", "Rainbow colors"])
 # → Recommends horizontal bar chart + direct labels + grey+one color
 
@@ -1218,7 +1226,11 @@ presentation-design action-titles visual-hierarchy
 
 | Version | Date | Changes |
 |---------|------|--------|
-| v2.2.45 | 2026-05-11 | Repo maintenance: fixed broken file path references, enhanced cross-skill integration examples, improved beginner onboarding guide, updated Last Updated |
+| v2.2.49 | 2026-05-11 | Repo maintenance: fixed non-existent API references (`transform_chart`→`makeover`, `build_narrative`→`build_story`, `design_assess`→`evaluate_design`), fixed typo (`Approate`→`Approve`), corrected Chinese changelog ordering and missing table cell closers, ensured version alignment across README/SKILL.md/pyproject.toml |
+| v2.2.48 | 2026-05-11 | Repo maintenance: fixed footer version mismatch (v2.2.45→v2.2.47), added missing "Getting Help" section, added missing changelog entries (v2.2.45–v2.2.47), ensured version alignment |
+| v2.2.47 | 2026-05-11 | Repo maintenance: added English 5-minute Quick Start checklist, enhanced discoverability for English-speaking users, verified ecosystem cross-references |
+| v2.2.46 | 2026-05-10 | Repo maintenance: added beginner quick reference card covering 8 common use cases and quick commands |
+| v2.2.45 | 2026-05-10 | Repo maintenance: fixed broken file path references, enhanced cross-skill integration examples, improved beginner onboarding guide, updated Last Updated |
 | v2.2.41 | 2026-05-09 | Repo maintenance: added English Project Structure section for bilingual parity, enhanced documentation completeness |
 | v2.2.40 | 2026-05-09 | Repo maintenance: fixed SKILL.md version mismatch, aligned README footer version, verified ecosystem cross-references, improved changelog table ordering |
 | v2.2.38 | 2026-05-09 | Repo maintenance: added English case studies section with practical code examples, enhanced bilingual content parity (CN/EN), added cross-skill integration code samples |
@@ -1416,7 +1428,7 @@ Phase 4: SWD 数据叙事 (本技能)
   → recommend_chart: HEART 趋势 → 折线图 + 基准线
   → diagnose_clutter: 清理原始仪表盘的 8 个杂乱元素
   → plan_attention: 用 grey+one 突出 23% NPS 提升
-  → build_narrative: 三幕结构构建汇报故事
+  → build_story: 三幕结构构建汇报故事
 
 产出: 8 页董事会级汇报材料，含 6 张改造后图表
 ```
@@ -1510,15 +1522,18 @@ chart_rec = swd.recommend_chart(data_type="score", has_time=True)
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| v2.2.49 | 2026-05-11 | 仓库维护：修复不存在的 API 引用（`transform_chart`→`makeover`、`build_narrative`→`build_story`、`design_assess`→`evaluate_design`），修复拼写错误（`Approate`→`Approve`），修正中文变更日志排序和缺失的表格单元格闭合符，确保三端版本对齐 |
 | v2.2.48 | 2026-05-11 | 仓库维护：修复页脚版本不一致（v2.2.45→v2.2.47），添加缺失的「获取帮助」章节，补齐英文变更日志条目（v2.2.45–v2.2.47），确保三端版本对齐 |
-| v2.2.45 | 2026-05-11 | 仓库维护：修复 Next Steps 中的文件路径引用，增强跨技能集成示例，改进新手入门指南，更新 Last Updated
-| v2.2.46 | 2026-05-11 | 仓库维护：添加新手快速参考卡，覆盖 8 个常见使用场景和快捷命令
+| v2.2.47 | 2026-05-11 | 仓库维护：添加英文版 5 分钟快速开始检查清单，提升英文用户可发现性，验证生态交叉引用 |
+| v2.2.46 | 2026-05-11 | 仓库维护：添加新手快速参考卡，覆盖 8 个常见使用场景和快捷命令 |
+| v2.2.45 | 2026-05-11 | 仓库维护：修复 Next Steps 中的文件路径引用，增强跨技能集成示例，改进新手入门指南，更新 Last Updated |
+| v2.2.44 | 2026-05-10 | 仓库维护：添加英文速查卡片（图表选择矩阵、行动标题示例、去杂乱检查清单），更新 Last Updated 徽章 |
 
 | v2.2.41 | 2026-05-09 | 仓库维护：添加英文版项目结构，提升中英双语一致性，增强文档完整性 |
 | v2.2.40 | 2026-05-09 | 仓库维护：修复 SKILL.md 版本不一致，对齐 README 页脚版本引用，验证生态交叉引用一致性，改进版本历史表格排序 |
 | v2.2.35 | 2026-05-08 | 仓库维护：增强数据叙事工作流示例，改进图表选择清晰度，更新 Last Updated 至 2026-05-08，版本升级至 2.2.35 |
-| v2.2.33 | 2026-05-07 | 仓库维护：在 SKILL.md 中添加"什么时候使用 SWD"决策指南，在 README 中添加跨技能工作流示例，版本升级至 2.2.33 |
 | v2.2.34 | 2026-05-07 | 仓库维护：在快速决策指南中添加 Structured Thinking Model 引用（中英文），提升跨技能发现性，版本升级至 2.2.34 |
+| v2.2.33 | 2026-05-07 | 仓库维护：在 SKILL.md 中添加"什么时候使用 SWD"决策指南，在 README 中添加跨技能工作流示例，版本升级至 2.2.33 |
 | v2.2.32 | 2026-05-07 | 仓库维护：修复截断的最佳实践表格行（缺失结尾 `|`），在 SKILL.md 末尾添加 AliDujie 技能生态协作表，增强跨技能一致性 |
 | v2.2.31 | 2026-05-07 | 仓库维护：修复页脚版本不一致，添加生态系统工作流 Pro Tip，版本升级至 v2.2.31 |
 | v2.2.30 | 2026-05-07 | 仓库维护：版本升级至 v2.2.30，对齐 SKILL.md 和 pyproject.toml 版本号，对齐变更日志条目 |
@@ -1656,4 +1671,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-11 | AliDujie Skill Ecosystem | v2.2.48*
+*Last Updated: 2026-05-11 | AliDujie Skill Ecosystem | v2.2.49*
