@@ -1461,6 +1461,7 @@ python3 swd/tests/test_all.py
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.2.49 | 2026-05-11 | Repo maintenance: fixed changelog gap (v2.2.47→v2.2.49), removed duplicate sections after Credits, fixed 3 broken markdown table rows, restored Version History (English) heading |
 | v2.2.48 | 2026-05-11 | Repo maintenance: fixed footer version mismatch (v2.2.45→v2.2.47), added missing "Getting Help" section, added missing changelog entries (v2.2.45–v2.2.47), ensured version alignment |
 | v2.2.47 | 2026-05-11 | Repo maintenance: added English 5-minute Quick Start checklist, enhanced discoverability for English-speaking users, verified ecosystem cross-references |
 | v2.2.46 | 2026-05-10 | Repo maintenance: added beginner quick reference card covering 8 common use cases and quick commands |
