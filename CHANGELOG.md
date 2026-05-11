@@ -1,4 +1,4 @@
-## v2.2.49 (2026-05-11)
+## v2.2.50 (2026-05-11)
 
 Repo maintenance: fixed non-existent API references (`transform_chart`→`makeover`, `build_narrative`→`build_story`, `design_assess`→`evaluate_design`), fixed typo (`Approate`→`Approve`), corrected Chinese changelog ordering and missing table cell closers, ensured version alignment across README/SKILL.md/pyproject.toml.
 
