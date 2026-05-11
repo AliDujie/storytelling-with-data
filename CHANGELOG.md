@@ -1,3 +1,7 @@
+## v2.2.53 (2026-05-12)
+
+Repo maintenance: added "Quick Chart Makeover: Before & After" section with practical examples in English README, enhanced data visualization guidance.
+
 ## v2.2.52 (2026-05-12)
 
 Repo maintenance: updated README footer date (2026-05-11→2026-05-12), version bump, verified ecosystem cross-references and version alignment across README/SKILL.md/pyproject.toml.

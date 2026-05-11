@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.52-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.53-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-12-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -1007,6 +1007,21 @@ storytelling-with-data/
 - **Annotate, don't just display** — Add context annotations directly on your charts. "Q2 spike = product launch" is more valuable than a standalone number.
 - **Match narrative to audience** — Executives want the conclusion first (BLUF), technical audiences want the methodology. SWD supports both approaches.
 
+### 🔄 Quick Chart Makeover: Before & After
+
+Here's how SWD transforms common chart problems into clear narratives:
+
+| ❌ Before | ✅ After | SWD Principle |
+|-----------|---------|---------------|
+| Pie chart with 12 slices | Bar chart sorted by value | Comparison > composition for many categories |
+| 3D bar chart with gridlines | Flat bars, no gridlines | Remove non-data ink (declutter) |
+| Rainbow-colored legend bars | Grey bars, highlight the key one | Direct attention to the story |
+| Line chart with 8 unlabeled lines | 3 key lines + annotations | Reduce complexity, add context |
+| "Q4 Revenue: $2.4M" as standalone text | Chart + annotation: "↑ 23% vs target" | Show trend, not just numbers |
+| Slide with 5 charts and no title | Single chart + action title: "We missed Q4 target because of churn" | One chart, one message |
+
+> 💡 **Quick fix**: Run `skill.diagnose_clutter()` on any existing chart description to get a specific improvement checklist.
+
 ### ⛔ When NOT to Use This Skill
 
 - **Choosing research methods or designing studies** — Use [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) for research design
@@ -1544,4 +1559,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.2.52*
+*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.2.53*
