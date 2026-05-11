@@ -1,3 +1,7 @@
+## v2.2.54 (2026-05-12)
+
+Repo maintenance: fixed `__init__.py` version mismatch (1.0.0→2.2.54), verified all Python module exports are importable, confirmed ecosystem cross-references.
+
 ## v2.2.53 (2026-05-12)
 
 Repo maintenance: added "Quick Chart Makeover: Before & After" section with practical examples in English README, enhanced data visualization guidance.

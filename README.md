@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.53-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.54-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-12-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -1559,4 +1559,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.2.53*
+*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.2.54*
