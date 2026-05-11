@@ -1236,8 +1236,8 @@ presentation-design action-titles visual-hierarchy
 | v2.2.38 | 2026-05-09 | Repo maintenance: added English case studies section with practical code examples, enhanced bilingual content parity (CN/EN), added cross-skill integration code samples |
 | v2.2.37 | 2026-05-09 | Repo maintenance: fixed footer version mismatch (v2.2.35→v2.2.37), enhanced cross-skill ecosystem workflow clarity, updated ecosystem links to all 5 sibling skills, aligned version across README/SKILL.md/pyproject.toml |
 | v2.2.35 | 2026-05-08 | Repo maintenance: enhanced data narrative workflow examples with multi-skill pipeline, improved chart selection clarity, updated Last Updated to 2026-05-08, version bump to 2.2.35 |
-| v2.2.24 | 2026-05-06 | Repo maintenance: fixed version badge mismatch (badge was 1 ahead of SKILL.md/pyproject.toml), aligned all version references, verified ecosystem cross-references and bilingual consistency |
 | v2.2.25 | 2026-05-06 | Repo maintenance: updated Last Updated timestamp, version bump to 2.2.25, verified ecosystem cross-references |
+| v2.2.24 | 2026-05-06 | Repo maintenance: fixed version badge mismatch (badge was 1 ahead of SKILL.md/pyproject.toml), aligned all version references, verified ecosystem cross-references and bilingual consistency |
 | v2.2.6 | 2026-05-03 | Repo maintenance: streamlined Quick Start code comment formatting, aligned SKILL.md version with README.md |
 | v2.2.5 | 2026-05-03 | Repo maintenance: added missing Chinese 技能生态工作流 section, fixed SKILL.md version mismatch (2.2.3→2.2.5), aligned all version references |
 | v2.2.3 | 2026-05-03 | Repo maintenance: cross-ecosystem consistency review, verified cross-references and version alignment |
@@ -1412,6 +1412,7 @@ python3 swd/tests/test_all.py
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+|------|------|------|
 | v2.2.49 | 2026-05-11 | 仓库维护：修复不存在的 API 引用（`transform_chart`→`makeover`、`build_narrative`→`build_story`、`design_assess`→`evaluate_design`），修复拼写错误（`Approate`→`Approve`），修正中文变更日志排序和缺失的表格单元格闭合符，确保三端版本对齐 |
 | v2.2.48 | 2026-05-11 | 仓库维护：修复页脚版本不一致（v2.2.45→v2.2.47），添加缺失的「获取帮助」章节，补齐英文变更日志条目（v2.2.45–v2.2.47），确保三端版本对齐 |
 | v2.2.47 | 2026-05-11 | 仓库维护：添加英文版 5 分钟快速开始检查清单，提升英文用户可发现性，验证生态交叉引用 |
