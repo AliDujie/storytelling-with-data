@@ -2,6 +2,9 @@
 
 Repo maintenance: fixed ecosystem workflow jtbd.analyze() API call in README.
 
+- Fixed README footer version mismatch (v2.2.50→v2.2.51) to align with SKILL.md/badge
+- Added "Next Skill to Try" column to English "Who Is This For?" table with ecosystem cross-references
+
 ## v2.2.50 (2026-05-11)
 
 Repo maintenance: fixed non-existent API references (`transform_chart`→`makeover`, `build_narrative`→`build_story`, `design_assess`→`evaluate_design`), fixed typo (`Approate`→`Approve`), corrected Chinese changelog ordering and missing table cell closers, ensured version alignment across README/SKILL.md/pyproject.toml.
