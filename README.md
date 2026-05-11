@@ -940,13 +940,13 @@ print(f"Total: {diag['total_score']}/100")
 
 ### 👥 Who Is This For?
 
-| Role | How This Skill Helps |
-|------|---------------------|
-| **Data Analysts** | Turn raw analysis into compelling narratives |
-| **Product Managers** | Present data-driven decisions to stakeholders |
-| **UX Researchers** | Visualize research findings for maximum impact |
-| **Executives** | Make data-informed decisions from clear presentations |
-| **AI Agents** | Zero-dependency Python package for automated reporting |
+| Role | How This Skill Helps | Next Skill to Try |
+|------|---------------------|-------------------|
+| **Data Analysts** | Turn raw analysis into compelling narratives | → [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) for generating data |
+| **Product Managers** | Present data-driven decisions to stakeholders | → [VPD](https://github.com/AliDujie/value-proposition-design) for value framing |
+| **UX Researchers** | Visualize research findings for maximum impact | → [UDM](https://github.com/AliDujie/universal-design-methods) for conducting research |
+| **Executives** | Make data-informed decisions from clear presentations | → [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) for strategic context |
+| **AI Agents** | Zero-dependency Python package for automated reporting | → Any of the 5 companion skills for full workflow |
 
 ### 📁 Project Structure
 
@@ -1544,4 +1544,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-11 | AliDujie Skill Ecosystem | v2.2.50*
+*Last Updated: 2026-05-11 | AliDujie Skill Ecosystem | v2.2.51*
