@@ -720,6 +720,7 @@ swd.build_context(audience="产品委员会", cta="继续投资已验证的价�
 - [Best Practices](#-best-practices)
 - [FAQ](#-faq)
 - [User Reviews](#-user-reviews)
+- [Getting Help](#-getting-help)
 - [Extended Reading](#-extended-reading)
 - [Related Skills](#-related-skills-1)
 - [End-to-End Workflow: All 6 Skills](#-end-to-end-workflow-all-6-skills)
@@ -1222,33 +1223,6 @@ presentation-design action-titles visual-hierarchy
 - **No external dependencies** (pure standard library)
 - Cross-platform: macOS / Linux / Windows
 
-### 📋 Changelog
-
-| Version | Date | Changes |
-|---------|------|--------|
-| v2.2.50 | 2026-05-11 | Repo maintenance: verified English section completeness, confirmed all "When NOT to Use" and "Common Mistakes" sections present across ecosystem, verified cross-skill links, updated version badges |
-| v2.2.49 | 2026-05-11 | Repo maintenance: fixed non-existent API references (`transform_chart`→`makeover`, `build_narrative`→`build_story`, `design_assess`→`evaluate_design`), fixed typo (`Approate`→`Approve`), corrected Chinese changelog ordering and missing table cell closers, ensured version alignment across README/SKILL.md/pyproject.toml |
-| v2.2.48 | 2026-05-11 | Repo maintenance: fixed footer version mismatch (v2.2.45→v2.2.47), added missing "Getting Help" section, added missing changelog entries (v2.2.45–v2.2.47), ensured version alignment |
-| v2.2.47 | 2026-05-11 | Repo maintenance: added English 5-minute Quick Start checklist, enhanced discoverability for English-speaking users, verified ecosystem cross-references |
-| v2.2.46 | 2026-05-10 | Repo maintenance: added beginner quick reference card covering 8 common use cases and quick commands |
-| v2.2.45 | 2026-05-10 | Repo maintenance: fixed broken file path references, enhanced cross-skill integration examples, improved beginner onboarding guide, updated Last Updated |
-| v2.2.41 | 2026-05-09 | Repo maintenance: added English Project Structure section for bilingual parity, enhanced documentation completeness |
-| v2.2.40 | 2026-05-09 | Repo maintenance: fixed SKILL.md version mismatch, aligned README footer version, verified ecosystem cross-references, improved changelog table ordering |
-| v2.2.38 | 2026-05-09 | Repo maintenance: added English case studies section with practical code examples, enhanced bilingual content parity (CN/EN), added cross-skill integration code samples |
-| v2.2.37 | 2026-05-09 | Repo maintenance: fixed footer version mismatch (v2.2.35→v2.2.37), enhanced cross-skill ecosystem workflow clarity, updated ecosystem links to all 5 sibling skills, aligned version across README/SKILL.md/pyproject.toml |
-| v2.2.35 | 2026-05-08 | Repo maintenance: enhanced data narrative workflow examples with multi-skill pipeline, improved chart selection clarity, updated Last Updated to 2026-05-08, version bump to 2.2.35 |
-| v2.2.25 | 2026-05-06 | Repo maintenance: updated Last Updated timestamp, version bump to 2.2.25, verified ecosystem cross-references |
-| v2.2.24 | 2026-05-06 | Repo maintenance: fixed version badge mismatch (badge was 1 ahead of SKILL.md/pyproject.toml), aligned all version references, verified ecosystem cross-references and bilingual consistency |
-| v2.2.6 | 2026-05-03 | Repo maintenance: streamlined Quick Start code comment formatting, aligned SKILL.md version with README.md |
-| v2.2.5 | 2026-05-03 | Repo maintenance: added missing Chinese 技能生态工作流 section, fixed SKILL.md version mismatch (2.2.3→2.2.5), aligned all version references |
-| v2.2.3 | 2026-05-03 | Repo maintenance: cross-ecosystem consistency review, verified cross-references and version alignment |
-| v2.2.2 | 2026-05-02 | Added English Quick Decision Guide table to improve cross-skill discoverability |
-| v2.2.1 | 2026-05-02 | Repo maintenance: added 3 missing CEO capability details, improved installation path consistency, added changelog to English section |
-| v2.2 | 2026-05-01 | Added "When to Use This Skill?" decision guide |
-| v2.1 | 2026-04-30 | Added badges, updated maintenance |
-
----
-
 ## 🔗 Skill Ecosystem Workflow
 
 SWD is the data-presentation core of the **AliDujie UX Research Skills Ecosystem**. Here are typical workflows combining it with other skills:
@@ -1470,7 +1444,10 @@ python3 swd/tests/test_all.py
 | v2.2.46 | 2026-05-10 | Repo maintenance: added beginner quick reference card covering 8 common use cases and quick commands |
 | v2.2.45 | 2026-05-10 | Repo maintenance: fixed broken file path references, enhanced cross-skill integration examples, improved beginner onboarding guide, updated Last Updated |
 | v2.2.44 | 2026-05-10 | Repo maintenance: added English cheat sheet (chart selection matrix, action title examples, declutter checklist), updated Last Updated badge |
+| v2.2.41 | 2026-05-09 | Repo maintenance: added English Project Structure section for bilingual parity, enhanced documentation completeness |
+| v2.2.40 | 2026-05-09 | Repo maintenance: fixed SKILL.md version mismatch, aligned README footer version, verified ecosystem cross-references, improved changelog table ordering |
 | v2.2.38 | 2026-05-09 | Repo maintenance: added English case studies section with practical code examples, enhanced bilingual content parity, added cross-skill integration code samples |
+| v2.2.37 | 2026-05-09 | Repo maintenance: enhanced cross-skill ecosystem workflow clarity, updated ecosystem links to all 5 sibling skills, aligned version across README/SKILL.md/pyproject.toml |
 | v2.2.35 | 2026-05-08 | Repo maintenance: enhanced data narrative workflow examples with multi-skill pipeline, improved chart selection clarity, updated Last Updated to 2026-05-08, version bump to 2.2.35 |
 | v2.2.33 | 2026-05-07 | Repo maintenance: added "When to use SWD" decision guide to SKILL.md, added cross-skill workflow examples to README, version bump to 2.2.33 |
 | v2.2.34 | 2026-05-07 | Repo maintenance: added Structured Thinking Model to Quick Decision Guide (CN+EN), enhanced cross-skill discoverability, version bump to 2.2.34 |
@@ -1478,6 +1455,7 @@ python3 swd/tests/test_all.py
 | v2.2.29 | 2026-05-07 | Repo maintenance: fixed footer version mismatch, added ecosystem workflow Pro Tip, bumped to v2.2.29 |
 | v2.2.28 | 2026-05-07 | Repo maintenance: added English Dependencies section, verified ecosystem cross-references |
 | v2.2.27 | 2026-05-07 | Repo maintenance: added A/B test visualization Pro Tip, enhanced QuantUX-SWD integration example |
+| v2.2.24 | 2026-05-06 | Repo maintenance: fixed version badge mismatch (badge was 1 ahead of SKILL.md/pyproject.toml), aligned all version references, verified ecosystem cross-references and bilingual consistency |
 | v2.2.22 | 2026-05-06 | Repo maintenance: enhanced Chinese "Who Is This For" descriptions, expanded GitHub Topics, improved EN/CN topic consistency |
 | v2.2.20 | 2026-05-06 | Repo maintenance: added Quantitative UX Research collaboration reference to ecosystem workflow, improved cross-skill description consistency |
 | v2.2.19 | 2026-05-05 | Repo maintenance: aligned SKILL.md + pyproject.toml versions, deduplicated English changelog, enhanced Quick Start scenario descriptions |
@@ -1545,6 +1523,20 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (Wiley, 2015), a da
 - 📖 查看 [故障排查](#故障排查-troubleshooting) 部分
 - 📚 阅读 [references/](references/) 目录下的 SWD 方法论文档
 - 💬 在 [Issues](https://github.com/AliDujie/storytelling-with-data/issues) 中提问
+
+### 🆘 Getting Help
+
+- 📖 Check the [Troubleshooting](#-troubleshooting) section for common issues
+- 📚 Read the SWD methodology guides in [references/](references/)
+- 💬 Open an issue on [GitHub](https://github.com/AliDujie/storytelling-with-data/issues)
+
+### 📖 Extended Reading
+
+| Book | Author | Related Capability |
+|------|--------|--------------------|
+| *Storytelling with Data* | Cole Nussbaumer Knaflic | Full SWD methodology — the 6-lesson framework |
+| *Say It with Charts* | Gene Zelazny | Chart selection and design |
+| *The Wall Street Journal Guide to Information Graphics* | Dona M. Wong | Business data visualization best practices |
 
 ### 🤝 Contributing
 
