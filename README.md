@@ -3,10 +3,19 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.56-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.57-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-12-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
+
+```text
+┌─────────┐    ┌──────────┐    ┌─────┐    ┌──────────┐    ┌─────┐    ┌─────┐
+│ Persona │ →  │   JTBD   │ →  │ UDM │ →  │ QuantUX  │ →  │ VPD │ →  │ SWD │
+│ 角色定义 │    │ 需求洞察  │    │ 研究方法 │    │ 定量验证  │    │ 价值设计│    │ 数据叙事 │
+└─────────┘    └──────────┘    └─────┘    └──────────┘    └─────┘    └─────┘
+```
+
+**SWD is the presentation layer** — transforming research findings from every other skill into executive-ready data narratives. Use it last in your research workflow.
 
 ### ✅ 5 分钟快速开始检查清单
 
@@ -89,6 +98,9 @@
 - **六步工作流** — 完整覆盖 SWD 六课：上下文→视觉选择→去杂乱→注意力→设计→叙事
 - **双语支持** — 完整中英文文档，适合国际化团队
 - **即插即用** — API 设计直观，代码示例丰富，即刻产出专业级数据叙事
+- **高管认可** — 基于 Cole Nussbaumer Knaflic 的经典方法论，500K+ 册销量，全球企业数据团队标配
+- **从数据到决策** — 不只是美化图表，而是构建完整的叙事逻辑：背景→冲突→解决方案→行动呼吁
+- **全场景适配** — 适用于 A/B 测试报告、用户研究汇报、OKR 评审、投资决策、竞品分析等所有数据呈现场景
 
 ### ⚡ 5 分钟快速开始 (Quick Start)
 
