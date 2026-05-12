@@ -45,12 +45,13 @@
 | [🎯 JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | 深度需求洞察 | JTBD 机会数据 → SWD 图表呈现 → 策略故事 |
 | [💎 Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | 价值设计 | VPD 实验结果 → SWD 数据故事 → 决策展示 |
 | [👤 Web Persona](https://github.com/AliDujie/web-persona-skill) | 用户画像 | Persona 数据 → SWD 角色可视化 → 团队对齐 |
+| [🧠 Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | 战略分析 | STM 分析结果 → SWD 叙事构建 → 高管汇报 |
 
 ---
 
 ### 🔗 Ecosystem Quick Start / 生态系统快速上手
 
-SWD 是 6 技能工作流的**数据呈现层**——在所有研究完成后使用，将发现转化为高管可读的叙事。
+SWD 是 7 技能工作流的**数据呈现层**——在所有研究完成后使用，将发现转化为高管可读的叙事。
 
 ```
 Persona → JTBD → UDM → QuantUX → VPD → SWD (← 你在这里)
@@ -82,6 +83,13 @@ story = swd.build_story(
     call_to_action="投入 50 万优化核心路径"
 )
 ```
+
+> 💡 **Try it now / 立即尝试**:
+> ```python
+> from swd import SWDSkill
+> skill = SWDSkill("你的项目")
+> print(skill.diagnose_clutter(has_gridlines=True, has_legend=True))  # 立即诊断你的图表
+> ```
 
 > 💡 **提示**: SWD 是工作流的最后一步——先用其他 5 个技能收集数据，再用 SWD 讲好故事。
 
@@ -799,7 +807,7 @@ swd.build_context(audience="产品委员会", cta="继续投资已验证的价�
 - [Getting Help](#-getting-help)
 - [Extended Reading](#-extended-reading)
 - [Related Skills](#-related-skills-1)
-- [End-to-End Workflow: All 6 Skills](#-end-to-end-workflow-all-6-skills)
+- [End-to-End Workflow: All 7 Skills](#-end-to-end-workflow-all-6-skills)
 - [Skill Ecosystem Workflow](#-skill-ecosystem-workflow-1)
 - [Version History](#-version-history-english)
 
@@ -989,7 +997,7 @@ print(f"Total: {diag['total_score']}/100 — {diag['rating']}")
 SWD is the **data presentation engine** of the ecosystem. Here's how it connects with the other 5 skills:
 
 ```python
-# ===== From Research to Presentation (All 6 Skills) =====
+# ===== From Research to Presentation (All 7 Skills) =====
 # Step 1: UDM discovers user pain points → Step 2: JTBD scores opportunities
 # Step 3: QuantUX validates with statistical testing → Step 4: VPD designs solution
 # Step 5: Persona segments the audience → Step 6: SWD presents to stakeholders
@@ -1379,7 +1387,7 @@ JTBD (competitive analysis) → VPD (strategy canvas) → SWD (strategy presenta
 
 > 💡 **Tip**: SWD is best used at the end of a research workflow — after UDM, QuantUX, or JTBD have produced findings that need to be communicated to stakeholders.
 
-### 🔄 End-to-End Workflow: All 6 Skills
+### 🔄 End-to-End Workflow: All 7 Skills
 
 A complete research-to-executive-presentation workflow using the full AliDujie ecosystem:
 
@@ -1694,7 +1702,7 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (Wiley, 2015), a da
 
 ### 🌐 Explore the Full AliDujie UX Research Ecosystem
 
-This skill is part of a **6-skill UX research ecosystem** — each covers a different phase of the research lifecycle. Combine them for end-to-end workflows:
+This skill is part of a **7-skill UX research ecosystem** — each covers a different phase of the research lifecycle. Combine them for end-to-end workflows:
 
 | Skill | Role | When to Use |
 |-------|------|-------------|
