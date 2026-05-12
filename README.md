@@ -807,7 +807,7 @@ swd.build_context(audience="产品委员会", cta="继续投资已验证的价�
 - [Getting Help](#-getting-help)
 - [Extended Reading](#-extended-reading)
 - [Related Skills](#-related-skills-1)
-- [End-to-End Workflow: All 7 Skills](#-end-to-end-workflow-all-6-skills)
+- [End-to-End Workflow: All 7 Skills](#-end-to-end-workflow-all-7-skills)
 - [Skill Ecosystem Workflow](#-skill-ecosystem-workflow-1)
 - [Version History](#-version-history-english)
 
@@ -1680,13 +1680,7 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (Wiley, 2015), a da
 
 **Applicable to:** Data Analysts, Product Managers, Consultants, Executives, Anyone who needs to present data effectively
 
-### 🆘 获取帮助 (Getting Help)
-
-- 📖 查看 [故障排查](#故障排查-troubleshooting) 部分
-- 📚 阅读 [references/](references/) 目录下的 SWD 方法论文档
-- 💬 在 [Issues](https://github.com/AliDujie/storytelling-with-data/issues) 中提问
-
-### 🆘 Getting Help
+### 🆘 Getting Help / 获取帮助
 
 - 📖 Check the [Troubleshooting](#-troubleshooting) section for common issues
 - 📚 Read the SWD methodology guides in [references/](references/)
