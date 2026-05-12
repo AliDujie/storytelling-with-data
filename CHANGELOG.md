@@ -1,3 +1,7 @@
+## v2.2.58 (2026-05-13)
+
+Repo maintenance: added ruff badge to README, added Chinese "为什么选择 AliDujie 技能生态系统" promotional section, verified version alignment across all files, updated last-updated date.
+
 ## v2.2.55 (2026-05-12)
 
 Repo maintenance: added "Power Workflow: From Research Data to Executive Presentation" code example in English README; removed duplicate "最佳实践" section from SKILL.md.

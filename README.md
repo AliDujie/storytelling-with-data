@@ -3,9 +3,10 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.57-green.svg)](CHANGELOG.md)
+[![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![Version](https://img.shields.io/badge/version-2.2.58-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-12-brightgreen.svg)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-13-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
 
@@ -1488,6 +1489,28 @@ python3 swd/tests/test_all.py
 - **Emp ID**: 27768
 - **Nickname**: 渡劫
 
+### 🌟 为什么选择 AliDujie 技能生态系统？
+
+本技能是 **AliDujie UX 研究技能生态系统** 的数据叙事层，与其他技能无缝协作：
+
+| 技能 | 角色 | 协作方式 |
+|------|------|----------|
+| [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) | 方法论核心 | UDM 研究发现 → SWD 图表选择 → SWD 数据故事 |
+| [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | 需求洞察 | JTBD 洞察 → SWD 可视化汇报 |
+| [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | 定量研究 | QuantUX 数据 → SWD 图表改造 + 叙事构建 |
+| [Web Persona](https://github.com/AliDujie/web-persona-skill) | 用户角色 | Persona 数据 → SWD 选图表 → SWD 构建故事 |
+| [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | 价值验证 | VPD 产出 → SWD 数据故事 |
+
+**使用完整生态系统的优势：**
+
+- ✅ **全流程覆盖** — 从发现需求 → 角色创建 → 研究验证 → 价值设计 → 数据呈现
+- ✅ **一致 API 设计** — 所有技能使用统一的 Skill("产品名") 入口
+- ✅ **零外部依赖** — 纯 Python 标准库实现，开箱即用
+- ✅ **双语支持** — 完整中英文文档，适合国际化团队
+- ✅ **积极维护** — 定期更新新功能和改进文档
+
+👉 **探索完整生态系统**: [UDM](https://github.com/AliDujie/universal-design-methods) · [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) · [Persona](https://github.com/AliDujie/web-persona-skill) · [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) · [VPD](https://github.com/AliDujie/value-proposition-design)
+
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
@@ -1675,4 +1698,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.2.57*
+*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.2.58*
