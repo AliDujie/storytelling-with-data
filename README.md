@@ -4,6 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/version-2.2.57-green.svg)](CHANGELOG.md)
+[![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-12-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -45,6 +46,43 @@
 | [👤 Web Persona](https://github.com/AliDujie/web-persona-skill) | 用户画像 | Persona 数据 → SWD 角色可视化 → 团队对齐 |
 
 ---
+
+### 🔗 Ecosystem Quick Start / 生态系统快速上手
+
+SWD 是 6 技能工作流的**数据呈现层**——在所有研究完成后使用，将发现转化为高管可读的叙事。
+
+```
+Persona → JTBD → UDM → QuantUX → VPD → SWD (← 你在这里)
+```
+
+**组合调用示例：**
+```python
+# 假设你已经用 UDM/QuantUX/JTBD 完成了研究，现在用 SWD 呈现结果
+from swd import SWDSkill
+swd = SWDSkill("季度研究汇报")
+
+# Step 1: 定义受众和核心信息
+context = swd.build_context(
+    audience="产品VP和CEO",
+    cta="批准 UX 优化预算",
+    big_idea="用户流失源于 3 个核心痛点"
+)
+
+# Step 2: 选择合适的图表类型
+chart = swd.recommend_chart(data_type="comparison", category_count=3)
+
+# Step 3: 去杂乱诊断
+clean = swd.diagnose_clutter(has_gridlines=True, has_separate_legend=True)
+
+# Step 4: 构建数据故事
+story = swd.build_story(
+    protagonist="产品团队",
+    imbalance="用户流失率 Q3 比 Q2 增长 15%",
+    call_to_action="投入 50 万优化核心路径"
+)
+```
+
+> 💡 **提示**: SWD 是工作流的最后一步——先用其他 5 个技能收集数据，再用 SWD 讲好故事。
 
 [English](#english) | [中文](#中文说明)
 
@@ -1637,4 +1675,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.2.56*
+*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.2.57*
