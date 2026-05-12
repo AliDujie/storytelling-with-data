@@ -19,12 +19,13 @@ This directory contains methodology reference documents for the Storytelling wit
 | `09-case-studies.md` | 案例研究 |
 | `10-final-thoughts.md` | 总结与思考 |
 | `11-quick-reference.md` | 快速参考卡片 |
+| `12-cross-skill-presentation.md` | SWD 跨技能呈现指南（各技能 → SWD 数据叙事映射表） |
 
 ## 使用方法 / Usage
 
-这些参考文档按照《Storytelling with Data》六课工作流组织，供 AI Agent 在执行数据可视化任务时查阅。
+这些参考文档按照《Storytelling with Data》六课工作流组织。`12-cross-skill-presentation.md` 提供各技能产出物如何映射到 SWD 叙事结构的完整指南。
 
-These reference documents are organized following the SWD six-lesson workflow and are consulted by the AI Agent during data visualization tasks.
+These reference documents are organized following the SWD six-lesson workflow. `12-cross-skill-presentation.md` provides complete guides on how outputs from other skills map to SWD narrative structures.
 
 ## 🌐 技能生态关联 / Skill Ecosystem Connections
 

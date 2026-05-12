@@ -1,3 +1,6 @@
+## v2.2.59 (2026-05-13)
+
+- Repo maintenance: added cross-skill presentation guide reference doc (12-cross-skill-presentation.md), updated references README
 ## v2.2.58 (2026-05-13)
 
 Repo maintenance: added ruff badge to README, added Chinese "为什么选择 AliDujie 技能生态系统" promotional section, verified version alignment across all files, updated last-updated date.

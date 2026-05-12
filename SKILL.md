@@ -1,6 +1,6 @@
 ---
 name: storytelling-with-data
-version: "2.2.58"
+version: "2.2.59"
 description: >
   数据可视化与数据叙事技能，基于 Cole Nussbaumer Knaflic《Storytelling with Data》
   方法论。提供 8 项可执行能力和 11 篇知识库文档，覆盖上下文分析→图表选择→去杂乱→
@@ -63,6 +63,32 @@ SWD 是 **数据叙事与可视化呈现层**，在研究流程末端将各技�
 - **零学习成本** — 纯 Python 标准库，无外部依赖，`from swd import SWDSkill` 即可使用
 - **六步工作流** — 完整覆盖 SWD 六课：上下文→视觉选择→去杂乱→注意力→设计→叙事
 - **生态末端** — 接收 UDM/QuantUX/JTBD/VPD/Persona 的研究发现，输出高管可读的数据故事
+
+## ⚡ 快速上手 (Quick Start)
+
+```python
+from swd import SWDSkill
+
+swd = SWDSkill("你的项目名")
+
+# 上下文分析
+context = swd.build_context(audience="产品 VP", cta="批准优化预算")
+
+# 图表推荐
+chart = swd.recommend_chart(data_type="comparison", category_count=3)
+
+# 去杂乱诊断
+clean = swd.diagnose_clutter(has_gridlines=True, has_legend=True)
+
+# 构建数据故事
+story = swd.build_story(
+    protagonist="产品团队",
+    imbalance="用户流失率增长 15%",
+    call_to_action="投入 50 万优化核心路径"
+)
+```
+
+> 💡 **5 分钟上手**: `from swd import SWDSkill` → 纯标准库，零依赖，开箱即用。
 
 ## 技能入口
 
