@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.55-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.56-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-12-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -68,6 +68,18 @@
 | 100 分制诊断 | 五维度综合评分，客观评估数据可视化质量 |
 | 图表改造 | 六步法改造现有图表，逐步输出专业级叙事 |
 | 双语支持 | 完整中英文文档和代码示例 |
+
+### 🌍 实战场景指南
+
+| 你的场景 | 调用方式 | 输出结果 |
+|----------|---------|----------|
+| "图表太乱了" | `diagnose_clutter("bar", clutter=["网格线", "图例"])` | 去杂乱操作建议 |
+| "该用什么图表类型？" | `recommend_chart("比较", has_time=False)` | 最佳图表类型及理由 |
+| "需要向高管汇报" | `build_story(protagonist="产品团队", imbalance=..., resolution=...)` | 三幕叙事结构 |
+| "评估仪表盘质量" | `full_diagnosis({"clarity": 60, "attention": 70, ...})` | 100 分制评分 + 改进计划 |
+| "改造现有图表" | `makeover(issues=["饼图", "缺少上下文"])` | 逐步改造指南 |
+
+> 💡 **提示**: 始终先用 `build_context()` — 了解受众和目标是决定一切的前提。
 
 ### 🌟 为什么使用这个技能？(Why Use This Skill?)
 
@@ -853,6 +865,20 @@ makeover = skill.makeover(issues=["Used pie chart", "No title", "Rainbow colors"
 print(makeover)  # Step-by-step makeover
 ```
 
+### 🌍 Real-World Scenario Guide
+
+> **Need to present data?** Here are common scenarios and exactly how to use this skill.
+
+| Scenario | What to Call | Expected Output |
+|----------|-------------|----------------|
+| "My chart looks cluttered" | `diagnose_clutter("bar", clutter=["gridlines", "legend"])` | Actionable debloat recommendations |
+| "Which chart type for my data?" | `recommend_chart("comparison", has_time=False)` | Best chart type with rationale |
+| "I need to present to executives" | `build_story(protagonist="Product Team", imbalance=..., resolution=...)` | 3-act narrative structure |
+| "Score my dashboard quality" | `full_diagnosis({"clarity": 60, "attention": 70, ...})` | 100-point score with improvement plan |
+| "Transform my existing chart" | `makeover(issues=["pie chart", "no context"])` | Step-by-step makeover guide |
+
+**Quick Tip:** Always start with `build_context()` — knowing your audience and call-to-action determines everything else.
+
 ### 💡 11 Core Capabilities (8 + 3 CEO Perspective)
 
 | # | Capability | Module | Description |
@@ -1599,4 +1625,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.2.55*
+*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.2.56*
