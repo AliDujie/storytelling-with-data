@@ -1,3 +1,7 @@
+## v2.2.55 (2026-05-12)
+
+Repo maintenance: added "Power Workflow: From Research Data to Executive Presentation" code example in English README; removed duplicate "最佳实践" section from SKILL.md.
+
 ## v2.2.54 (2026-05-12)
 
 Repo maintenance: fixed `__init__.py` version mismatch (1.0.0→2.2.54), verified all Python module exports are importable, confirmed ecosystem cross-references.

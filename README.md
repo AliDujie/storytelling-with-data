@@ -3,7 +3,7 @@
 [![Ecosystem](https://img.shields.io/badge/AliDujie-Ecosystem-7B68EE.svg)](https://github.com/AliDujie)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-2.2.54-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.55-green.svg)](CHANGELOG.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-12-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
@@ -1540,6 +1540,33 @@ Ready to go deeper? Here's what to try next:
 
 > 💡 **Pro Tip**: Best presentations start with research → analysis → storytelling. Try: UDM (research) → QuantUX (metrics) → SWD (presentation)
 
+### ⚡ Power Workflow: From Research Data to Executive Presentation
+
+```python
+from swd import SWDSkill
+from quantux import QuantUXSkill
+
+# 1. QuantUX: Run A/B test analysis
+quant = QuantUXSkill("电商 App")
+ab_result = quant.analyze_ab_test(conversions_a=120, total_a=1000, conversions_b=145, total_b=1000)
+
+# 2. SWD: Build the data narrative
+swd = SWDSkill("A/B 测试汇报")
+ctx = swd.build_context(audience="高管团队", cta="批准新设计上线")
+
+# 3. SWD: Chart makeover
+before = "柱状图展示两组数据，带网格线和图例"
+after = swd.diagnose_clutter(chart_type="bar", clutter_level="high")
+# → Actionable debloating recommendations
+
+# 4. SWD: Full story with beginning, middle, end
+story = swd.build_story(protagonist="用户",
+    imbalance="旧设计转化率低于行业基准",
+    resolution="新设计提升 20.8% 转化率 (p=0.03)")
+
+# → From raw data to compelling executive narrative
+```
+
 ### 👨‍💻 Credits
 
 Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (Wiley, 2015), a data visualization classic with 500K+ copies sold worldwide.
@@ -1572,4 +1599,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.2.54*
+*Last Updated: 2026-05-12 | AliDujie Skill Ecosystem | v2.2.55*
