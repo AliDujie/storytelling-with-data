@@ -836,3 +836,14 @@ SWD 是 **AliDujie UX 研究技能生态系统** 的数据叙事与可视化呈�
 | [Web Persona](https://github.com/AliDujie/web-persona-skill) | 用户角色 | Persona 数据 → SWD 选图表 → SWD 构建故事 |
 | [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | 价值验证 | VPD 产出 → SWD 数据故事 |
 | [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | 战略框架 | STM 分析框架 → SWD 数据可视化 → STM 决策建议 |
+
+### 🔗 扩展生态 (Extended Ecosystem)
+
+SWD 数据叙事能力可与管理层技能结合，将数据洞察转化为高管决策：
+
+| 扩展技能 | 协作场景 |
+|---------|----------|
+| [CEO Advisor](https://github.com/AliDujie/ceo-advisor) | SWD 数据故事 → CEO 战略决策与董事会汇报 |
+| [CPO Advisor](https://github.com/AliDujie/cpo-advisor) | SWD 产品数据 → CPO 产品组合战略 |
+| [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | SWD 市场数据 → CMO 品牌与增长策略 |
+| [CTO Advisor](https://github.com/AliDujie/cto-advisor) | SWD 技术指标 → CTO 技术战略决策 |
