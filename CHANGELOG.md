@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v2.2.62 (2026-05-14)
+
+- Repo maintenance: added "Why Teams Choose SWD" comparison tables (CN/EN) with specific before/after impact data, enhanced promotional content in "Why Use This Skill?" sections
+
 ## v2.2.59 (2026-05-13)
 
 - Repo maintenance: added cross-skill presentation guide reference doc (12-cross-skill-presentation.md), updated references README
