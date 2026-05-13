@@ -13,7 +13,7 @@ description: >
 
 ## 🌐 AliDujie 技能生态系统
 
-SWD 是 **数据叙事与可视化呈现层**，在研究流程末端将各技能的发现转化为高管可读的数据故事：
+SWD 是 **数据叙事与可视化呈现层**，在研究流程中后端将各技能的发现转化为高管可读的数据故事，最终由 STM 进行战略分析：
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -35,6 +35,11 @@ SWD 是 **数据叙事与可视化呈现层**，在研究流程末端将各技�
 │   │                                              ┌──────────┐│
 │   │                                              │ SWD 本技能││
 │   │                                              │📈数据叙事 ││
+│   │                                              └────┬─────┘│
+│   │                                                   │      │
+│   │                                              ┌────▼─────┐│
+│   │                                              │ STM Skill ││
+│   │                                              │🧠战略分析 ││
 │   │                                              └──────────┘│
 │   └─────────────────────────────────────────────────────────┘  │
 └─────────────────────────────────────────────────────────────┘
@@ -52,6 +57,7 @@ SWD 是 **数据叙事与可视化呈现层**，在研究流程末端将各技�
 | 需要定量验证假设、设计 A/B 测试、计算样本量 | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) |
 | 需要创建人物角色、用户细分、设计指导 | → [Web Persona](https://github.com/AliDujie/web-persona-skill) |
 | 需要价值主张画布、实验验证、优先级排序 | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) |
+| 需要结构化商业分析框架 | → [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) |
 
 > 💡 SWD 是研究流程的末端：当其他技能产出数据后，用 SWD 转化为高管可读的叙事。
 
