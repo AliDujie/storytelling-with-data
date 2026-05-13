@@ -6,7 +6,7 @@
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 [![Version](https://img.shields.io/badge/version-2.2.62-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-13-brightgreen.svg)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-14-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
 
