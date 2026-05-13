@@ -4,9 +4,9 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.2.59-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.60-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-13-brightgreen.svg)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-14-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
 
@@ -1587,7 +1587,7 @@ python3 swd/tests/test_all.py
 | v2.2.45 | 2026-05-11 | 仓库维护：修复 Next Steps 中的文件路径引用，增强跨技能集成示例，改进新手入门指南，更新 Last Updated |
 | v2.2.44 | 2026-05-10 | 仓库维护：添加英文速查卡片（图表选择矩阵、行动标题示例、去杂乱检查清单），更新 Last Updated 徽章 |
 
-| v2.2.41 | 2026-05-09 | 仓库维护：添加英文版项目结构，提升中英双语一致性，增强文档完整性 |
+v2.2.41 | 2026-05-09 | 仓库维护：添加英文版项目结构，提升中英双语一致性，增强文档完整性 |
 | v2.2.40 | 2026-05-09 | 仓库维护：修复 SKILL.md 版本不一致，对齐 README 页脚版本引用，验证生态交叉引用一致性，改进版本历史表格排序 |
 | v2.2.35 | 2026-05-08 | 仓库维护：增强数据叙事工作流示例，改进图表选择清晰度，更新 Last Updated 至 2026-05-08，版本升级至 2.2.35 |
 | v2.2.34 | 2026-05-07 | 仓库维护：在快速决策指南中添加 Structured Thinking Model 引用（中英文），提升跨技能发现性，版本升级至 2.2.34 |
@@ -1629,6 +1629,7 @@ python3 swd/tests/test_all.py
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.2.60 | 2026-05-14 | Repo maintenance: version bump, updated last_updated badge, fixed changelog table formatting, aligned README+SKILL.md+pyproject.toml versions |
 | v2.2.50 | 2026-05-11 | Repo maintenance: verified English section completeness, confirmed all "When NOT to Use" and "Common Mistakes" sections present, verified cross-skill links, updated version badges |
 | v2.2.49 | 2026-05-11 | Repo maintenance: fixed changelog gap (v2.2.47→v2.2.49), removed duplicate sections after Credits, fixed 3 broken markdown table rows, restored Version History (English) heading |
 | v2.2.48 | 2026-05-11 | Repo maintenance: fixed footer version mismatch (v2.2.45→v2.2.47), added missing "Getting Help" section, added missing changelog entries (v2.2.45–v2.2.47), ensured version alignment |
@@ -1773,4 +1774,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-13 | AliDujie Skill Ecosystem | v2.2.59*
+*Last Updated: 2026-05-13 | AliDujie Skill Ecosystem | v2.2.60*
