@@ -33,6 +33,27 @@
 基于 Cole Nussbaumer Knaflic《Storytelling with Data》的数据可视化与数据叙事工具集。提供 8 项可执行能力和 11 篇方法论知识库，覆盖从上下文分析到图表改造的完整 SWD 六课工作流。
 
 ---
+## 📑 目录 / Table of Contents
+
+- [中文说明](#中文说明)
+  - [🌐 技能生态系统](#-技能生态系统-skill-ecosystem)
+  - [🌟 为什么使用这个技能？](#-为什么使用这个技能why-use-this-skill)
+  - [⚡ 5 分钟快速开始](#-5-分钟快速开始-quick-start)
+  - [💡 8 大核心能力](#-8-大核心能力)
+  - [🔧 实用示例](#-实用示例)
+  - [📁 项目结构](#-项目结构)
+  - [👥 这个技能适合谁？](#-这个技能适合谁who-is-this-for)
+  - [🛠️ 疑难解答](#-疑难解答-troubleshooting)
+  - [🆘 获取帮助](#-获取帮助-getting-help)
+  - [🔗 相关技能](#-相关技能)
+- [English](#english)
+  - [🌟 Why Use This Skill?](#-why-use-this-skill)
+  - [🚀 Quick Start](#-quick-start)
+  - [🔗 Related Skills](#-related-skills-1)
+- [🤝 参与贡献](#-参与贡献-contributing)
+- [📜 许可](#-许可-license)
+- [🔗 技能生态工作流](#-技能生态工作流-skill-ecosystem-workflow)
+
 
 ## 🌐 技能生态系统 (Skill Ecosystem)
 
@@ -788,6 +809,38 @@ swd.build_context(audience="产品委员会", cta="继续投资已验证的价�
 3. **安装 INSTALL.md** — 详细的安装和配置指南
 4. **贡献** — 查看 [CONTRIBUTING.md](CONTRIBUTING.md) 了解如何参与
 5. **探索生态** — 尝试其他 5 个技能，构建完整的用户研究工作流
+
+### 👥 这个技能适合谁？(Who Is This For?)
+
+| 角色 | 这个技能如何帮助 | 下一步尝试 |
+|------|-----------------|-----------|
+| **数据分析师** | 将原始分析转化为引人入胜的数据叙事 | → [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) 数据生成 |
+| **产品经理** | 向利益相关者展示数据驱动的决策 | → [VPD](https://github.com/AliDujie/value-proposition-design) 价值框架 |
+| **UX 研究员** | 将研究发现可视化为最大影响力呈现 | → [UDM](https://github.com/AliDujie/universal-design-methods) 研究方法 |
+| **营销团队** | 用数据故事支持营销策略 | → [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) 需求洞察 |
+| **创业者** | 向投资人展示关键指标和趋势 | → [VPD](https://github.com/AliDujie/value-proposition-design) 价值验证 |
+
+---
+
+### 🛠️ 疑难解答 (Troubleshooting)
+
+| 问题 | 解决方案 |
+|------|---------|
+| 图表推荐看起来不对 | 提供更多上下文: 数据类型、时间维度、系列数量 |
+| 去杂乱分数太高 | 审查每个标记元素——有些杂乱是为了强调而有意为之 |
+| 故事结构平淡 | 确保你的"不平衡"清楚说明值得解决的问题 |
+| 色彩策略不生效 | 尝试 `grey_plus_one` 做单焦点，`sequential` 做对比 |
+
+---
+
+### 🆘 获取帮助 (Getting Help)
+
+- 📖 **详细安装指南**: [INSTALL.md](INSTALL.md)
+- 🐛 **报告问题**: [GitHub Issues](https://github.com/AliDujie/storytelling-with-data/issues)
+- 💬 **讨论与反馈**: 在项目仓库发起 Discussion
+- 📝 **贡献指南**: [CONTRIBUTING.md](CONTRIBUTING.md)
+- 🔄 **版本历史**: [CHANGELOG.md](CHANGELOG.md)
+
 
 ---
 
