@@ -4,7 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.2.62-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.63-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-14-brightgreen.svg)
 
@@ -1605,7 +1605,7 @@ python3 swd/tests/test_all.py
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
-|------|------|------|| 2.2.61 | 2026-05-13 | 仓库维护：修复变更日志重复条目，清理独立的 Changelog 章节，增强版本历史表格一致性 |
+|------|------|------|| 2.2.63 | 2026-05-14 | 仓库维护：版本升级，对齐 README/徽章/SKILL.md/pyproject.toml 版本，更新 Last Updated 至 2026-05-14 |
 
 | v2.2.49 | 2026-05-11 | 仓库维护：修复不存在的 API 引用（`transform_chart`→`makeover`、`build_narrative`→`build_story`、`design_assess`→`evaluate_design`），修复拼写错误（`Approate`→`Approve`），修正中文变更日志排序和缺失的表格单元格闭合符，确保三端版本对齐 |
 | v2.2.48 | 2026-05-11 | 仓库维护：修复页脚版本不一致（v2.2.45→v2.2.47），添加缺失的「获取帮助」章节，补齐英文变更日志条目（v2.2.45–v2.2.47），确保三端版本对齐 |
@@ -1655,7 +1655,7 @@ v2.2.41 | 2026-05-09 | 仓库维护：添加英文版项目结构，提升中英
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
-|---------|------|--------|| v2.2.61 | 2026-05-13 | Repo maintenance: deduplicated changelog entries, removed standalone Changelog section, enhanced changelog table consistency |
+|---------|------|--------|| v2.2.63 | 2026-05-14 | Repo maintenance: version bump, aligned README badge/SKILL.md/pyproject.toml versions, updated Last Updated to 2026-05-14 |
 
 | v2.2.60 | 2026-05-14 | Repo maintenance: version bump, updated last_updated badge, fixed changelog table formatting, aligned README+SKILL.md+pyproject.toml versions |
 | v2.2.50 | 2026-05-11 | Repo maintenance: verified English section completeness, confirmed all "When NOT to Use" and "Common Mistakes" sections present, verified cross-skill links, updated version badges |
@@ -1802,4 +1802,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-14 | AliDujie Skill Ecosystem | v2.2.62*
+*Last Updated: 2026-05-14 | AliDujie Skill Ecosystem | v2.2.63*
