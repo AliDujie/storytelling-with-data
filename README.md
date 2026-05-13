@@ -365,7 +365,7 @@ storytelling-with-data/
 │   ├── config.py                  # 全局配置和常量
 │   ├── utils.py                   # 知识库加载与搜索
 │   └── tests/test_all.py          # 测试用例（8 cases）
-└── references/                    # 知识库（11 篇方法论文档）
+└── references/                    # 知识库（13 篇方法论文档）
     ├── 01-context.md              # 上下文的重要性
     ├── 02-visual-display.md       # 选择有效的视觉展示
     ├── 03-clutter.md              # 杂乱是你的敌人
@@ -376,7 +376,9 @@ storytelling-with-data/
     ├── 08-pulling-together.md     # 融会贯通（六步实战案例）
     ├── 09-case-studies.md         # 案例研究
     ├── 10-final-thoughts.md       # 最终思考
-    └── 11-quick-reference.md      # 速查手册
+    ├── 11-quick-reference.md      # 速查手册
+    ├── 12-cross-skill-presentation.md  # 跨技能数据叙事工作流
+    └── README.md                  # 知识库索引
 ```
 
 ### 🔗 相关技能
@@ -1066,7 +1068,7 @@ storytelling-with-data/
 │   ├── config.py                  # Global config and constants
 │   ├── utils.py                   # Knowledge base loader & search
 │   └── tests/test_all.py          # Test cases (8 cases)
-└── references/                    # Knowledge base (11 methodology documents)
+└── references/                    # Knowledge base (13 methodology documents)
     ├── 01-context.md              # Understanding context
     ├── 02-visual-display.md       # Choosing effective visuals
     ├── 03-clutter.md              # Clutter is your enemy
@@ -1076,8 +1078,10 @@ storytelling-with-data/
     ├── 07-storytelling.md         # Storytelling lesson
     ├── 08-pulling-together.md     # Putting it all together
     ├── 09-case-studies.md         # Case studies
-    ├── 10-quick-reference.md      # Quick reference guide
-    └── 11-ceo-perspective.md      # CEO perspective extension
+    ├── 10-final-thoughts.md       # Final thoughts
+    ├── 11-quick-reference.md      # Quick reference guide
+    ├── 12-cross-skill-presentation.md  # Cross-skill data presentation workflows
+    └── README.md                  # Knowledge base index
 ```
 
 ### 🛠️ Troubleshooting
