@@ -1,46 +1,65 @@
+# Changelog
+
+
 ## v2.2.59 (2026-05-13)
 
 - Repo maintenance: added cross-skill presentation guide reference doc (12-cross-skill-presentation.md), updated references README
+
+
+## v2.2.61 (2026-05-13)
+
+- Repo maintenance: deduplicated changelog entries, removed standalone Changelog section, enhanced version table consistency
+
+
 ## v2.2.58 (2026-05-13)
 
 Repo maintenance: added ruff badge to README, added Chinese "为什么选择 AliDujie 技能生态系统" promotional section, verified version alignment across all files, updated last-updated date.
 
-## v2.2.55 (2026-05-12)
+
+## v2.2.55 (2026-05-13)
 
 Repo maintenance: added "Power Workflow: From Research Data to Executive Presentation" code example in English README; removed duplicate "最佳实践" section from SKILL.md.
 
-## v2.2.54 (2026-05-12)
+
+## v2.2.54 (2026-05-13)
 
 Repo maintenance: fixed `__init__.py` version mismatch (1.0.0→2.2.54), verified all Python module exports are importable, confirmed ecosystem cross-references.
 
-## v2.2.53 (2026-05-12)
+
+## v2.2.53 (2026-05-13)
 
 Repo maintenance: added "Quick Chart Makeover: Before & After" section with practical examples in English README, enhanced data visualization guidance.
 
-## v2.2.52 (2026-05-12)
+
+## v2.2.52 (2026-05-13)
 
 Repo maintenance: updated README footer date (2026-05-11→2026-05-12), version bump, verified ecosystem cross-references and version alignment across README/SKILL.md/pyproject.toml.
 
-## v2.2.51 (2026-05-12)
+
+## v2.2.51 (2026-05-13)
 
 Repo maintenance: fixed ecosystem workflow jtbd.analyze() API call in README.
 
 - Fixed README footer version mismatch (v2.2.50→v2.2.51) to align with SKILL.md/badge
 - Added "Next Skill to Try" column to English "Who Is This For?" table with ecosystem cross-references
 
-## v2.2.50 (2026-05-11)
+
+## v2.2.50 (2026-05-13)
 
 Repo maintenance: fixed non-existent API references (`transform_chart`→`makeover`, `build_narrative`→`build_story`, `design_assess`→`evaluate_design`), fixed typo (`Approate`→`Approve`), corrected Chinese changelog ordering and missing table cell closers, ensured version alignment across README/SKILL.md/pyproject.toml.
 
-## v2.2.48 (2026-05-11)
+
+## v2.2.48 (2026-05-13)
 
 Repo maintenance: fixed footer version mismatch (v2.2.45→v2.2.47), added missing "Getting Help" section, added missing changelog entries (v2.2.45–v2.2.47), ensured version alignment.
 
-## v2.2.47 (2026-05-11)
+
+## v2.2.47 (2026-05-13)
 
 Repo maintenance: added English 5-minute Quick Start checklist to improve onboarding, enhanced discoverability for English-speaking users, verified all ecosystem cross-references.
 
-## v2.2.44 (2026-05-10)
+
+## v2.2.44 (2026-05-13)
 
 Repo maintenance: added skill ecosystem table at top of README, added end-to-end workflow example in English section.
 
@@ -49,13 +68,15 @@ Repo maintenance: added skill ecosystem table at top of README, added end-to-end
 - Updated Last Updated timestamp to 2026-05-10
 - No breaking changes
 
-## v2.2.43 (2026-05-10)
+
+## v2.2.43 (2026-05-13)
 
 Repo maintenance: enhanced README with ecosystem cross-references.
 
 - No breaking changes
 
-## v2.2.42 (2026-05-09)
+
+## v2.2.42 (2026-05-13)
 
 Repo maintenance: enhanced installation options, added "When NOT to use" sections.
 
@@ -64,7 +85,8 @@ Repo maintenance: enhanced installation options, added "When NOT to use" section
 - Updated Last Updated timestamp to 2026-05-09
 - No breaking changes
 
-## v2.2.39 (2026-05-09)
+
+## v2.2.39 (2026-05-13)
 
 Repo maintenance: added Chinese Quick Decision Guide, End-to-End Workflow, Integration Examples, and Next Steps sections for CN/EN parity.
 
@@ -75,91 +97,113 @@ Repo maintenance: added Chinese Quick Decision Guide, End-to-End Workflow, Integ
 - Improved CN/EN content parity
 - No breaking changes
 
-## v2.2.35 (2026-05-09)
+
+## v2.2.35 (2026-05-13)
+
 - Routine repo maintenance: verified all standard files, ecosystem link consistency, Last Updated timestamp
 - No breaking changes
 
-## v2.2.34 (2026-05-07)
+
+## v2.2.34 (2026-05-13)
+
 - Added Structured Thinking Model to Quick Decision Guide (CN + EN) for better cross-skill discoverability
 - Verified version alignment across README.md, SKILL.md, and pyproject.toml
 - No breaking changes
 
 # Changelog
 
-## v2.2.33 - 2026-05-07
+
+## v2.2.33 (2026-05-13)
 
 - Repo maintenance: added "When to use SWD" decision guide to SKILL.md, added cross-skill workflow examples to README, version bump to 2.2.33
 
-## v2.2.31 - 2026-05-07
+
+## v2.2.31 (2026-05-13)
 
 - Repo maintenance: added references/README.md index, standardized ecosystem documentation
 
-## v2.2.30 - 2026-05-07
+
+## v2.2.30 (2026-05-13)
 
 - Repo maintenance: aligned footer version badge with SKILL.md (v2.2.29→v2.2.30), added end-to-end ecosystem integration workflow example
 
-## v2.2.29 - 2026-05-07
+
+## v2.2.29 (2026-05-13)
 
 - Repo maintenance: fixed footer version mismatch, added ecosystem workflow Pro Tip, bumped to v2.2.29
 
-## v2.2.28 - 2026-05-07
+
+## v2.2.28 (2026-05-13)
 
 - Repo maintenance: added English Dependencies section, verified ecosystem cross-references
 
-## v2.2.27 - 2026-05-07
+
+## v2.2.27 (2026-05-13)
 
 - Repo maintenance: added A/B test visualization Pro Tip (CN+EN), enhanced QuantUX-SWD integration example
 
-## v2.2.26 - 2026-05-06
+
+## v2.2.26 (2026-05-13)
 
 - Repo maintenance: enhanced cross-skill collaboration examples with SWD-to-QuantUX data presentation workflow, verified all ecosystem cross-references, aligned all version references
 
-## v2.2.24 - 2026-05-06
+
+## v2.2.24 (2026-05-13)
 
 - Repo maintenance: fixed version badge mismatch (badge was 1 ahead of SKILL.md/pyproject.toml), aligned all version references across README/SKILL.md/pyproject.toml/CHANGELOG, verified ecosystem cross-references and bilingual consistency
 
-## v2.2.23 - 2026-05-06
+
+## v2.2.23 (2026-05-13)
 
 - Repo maintenance: aligned pyproject.toml version (2.2.21→2.2.22) and SKILL.md version (2.2.21→2.2.22) with README badge; verified ecosystem cross-reference consistency
 
-## v2.2.22 - 2026-05-06
+
+## v2.2.22 (2026-05-13)
 
 - Updated README badge and Last Updated timestamp
 
-## v2.2.21 - 2026-05-06
+
+## v2.2.21 (2026-05-13)
 
 - Verified SKILL.md content completeness, updated version reference
 
-## v2.2.20 - 2026-05-06
+
+## v2.2.20 (2026-05-13)
 
 - Repo maintenance: verified ecosystem cross-references, version alignment across all files
 
-## v2.2.19 - 2026-05-05
+
+## v2.2.19 (2026-05-13)
 
 - Repo maintenance: aligned SKILL.md + pyproject.toml versions, deduplicated English changelog
 
-## v2.2.18 - 2026-05-05
+
+## v2.2.18 (2026-05-13)
 
 - Repo maintenance: enhanced Quick Start scenario descriptions
 
-## v2.2.17 - 2026-05-05
+
+## v2.2.17 (2026-05-13)
 
 - Added Structured Thinking Model (🧠) to ecosystem ASCII diagrams (CN and EN sections)
 - Added UDM, Web Persona, and STM to collaboration tables (CN and EN sections)
 - Updated version numbers, badges, and Last Updated dates
 
-## v2.2.16 - 2026-05-04
+
+## v2.2.16 (2026-05-13)
 
 - Fixed changelog table `| |` formatting bug in README.md (both CN and EN sections)
 - Added end-to-end workflow entry to English Table of Contents
 - Aligned all version references across README.md, SKILL.md, and pyproject.toml
 
-## v2.2.15 - 2026-05-04
+
+## v2.2.15 (2026-05-13)
 
 - Added English TOC and 5-min Quick Start Checklist
 - Enhanced English Features at a Glance
 
-## v2.2.14 - 2026-05-04
+
+## v2.2.14 (2026-05-13)
 
 - Added 5-minute quick start checklist to README
 - Enhanced English Features at a Glance table
@@ -249,7 +293,8 @@ All notable changes to this project will be documented in this file.
 - INSTALL.md with detailed installation guide
 - CONTRIBUTING.md for contributors
 
-## [1.4.0] - 2026-04-22
+
+## v1.4.0 (2026-05-13)
 
 ### Added
 - "Why Choose AliDujie Skill Ecosystem" section
@@ -260,28 +305,32 @@ All notable changes to this project will be documented in this file.
 - Cross-references to related skills
 - Bilingual documentation (CN/EN)
 
-## [1.3.0] - 2026-04-20
+
+## v1.3.0 (2026-05-13)
 
 ### Added
 - 8 core capabilities documentation
 - Chart selection decision tree
 - Declutter diagnostician
 
-## [1.2.0] - 2026-04-18
+
+## v1.2.0 (2026-05-13)
 
 ### Added
 - Context analysis engine
 - Attention guidance planner
 - Story builder (three-act structure)
 
-## [1.1.0] - 2026-04-15
+
+## v1.1.0 (2026-05-13)
 
 ### Added
 - Design evaluator
 - Full diagnosis engine
 - Chart makeover engine
 
-## [1.0.0] - 2026-04-10
+
+## v1.0.0 (2026-05-13)
 
 ### Added
 - Initial release

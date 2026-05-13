@@ -4,9 +4,9 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.2.60-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.61-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-14-brightgreen.svg)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-13-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
 
@@ -1579,7 +1579,8 @@ python3 swd/tests/test_all.py
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
-|------|------|------|
+|------|------|------|| 2.2.61 | 2026-05-13 | 仓库维护：修复变更日志重复条目，清理独立的 Changelog 章节，增强版本历史表格一致性 |
+
 | v2.2.49 | 2026-05-11 | 仓库维护：修复不存在的 API 引用（`transform_chart`→`makeover`、`build_narrative`→`build_story`、`design_assess`→`evaluate_design`），修复拼写错误（`Approate`→`Approve`），修正中文变更日志排序和缺失的表格单元格闭合符，确保三端版本对齐 |
 | v2.2.48 | 2026-05-11 | 仓库维护：修复页脚版本不一致（v2.2.45→v2.2.47），添加缺失的「获取帮助」章节，补齐英文变更日志条目（v2.2.45–v2.2.47），确保三端版本对齐 |
 | v2.2.47 | 2026-05-11 | 仓库维护：添加英文版 5 分钟快速开始检查清单，提升英文用户可发现性，验证生态交叉引用 |
@@ -1628,7 +1629,8 @@ v2.2.41 | 2026-05-09 | 仓库维护：添加英文版项目结构，提升中英
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
-|---------|------|--------|
+|---------|------|--------|| v2.2.61 | 2026-05-13 | Repo maintenance: deduplicated changelog entries, removed standalone Changelog section, enhanced changelog table consistency |
+
 | v2.2.60 | 2026-05-14 | Repo maintenance: version bump, updated last_updated badge, fixed changelog table formatting, aligned README+SKILL.md+pyproject.toml versions |
 | v2.2.50 | 2026-05-11 | Repo maintenance: verified English section completeness, confirmed all "When NOT to Use" and "Common Mistakes" sections present, verified cross-skill links, updated version badges |
 | v2.2.49 | 2026-05-11 | Repo maintenance: fixed changelog gap (v2.2.47→v2.2.49), removed duplicate sections after Credits, fixed 3 broken markdown table rows, restored Version History (English) heading |
