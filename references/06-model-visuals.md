@@ -115,3 +115,15 @@
 - [选择有效的视觉展示](02-visual-display.md)
 - [聚焦受众注意力](04-attention.md)
 - [像设计师一样思考](05-designer.md)
+
+## 🔗 跨技能协作 (Cross-Skill Collaboration)
+
+数据可视化技能处于研究工作流的最后阶段，将其他技能的发现转化为可行动的叙事：
+
+| 技能 | 协同方式 |
+|------|----------|
+| [🔍 Universal Design Methods](https://github.com/AliDujie/universal-design-methods) | UDM 研究数据 → SWD 图表转化 → 数据故事 |
+| [📊 Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | QuantUX 统计指标 → SWD 可视化设计 |
+| [🎯 JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | JTBD 机会数据 → SWD 竞争对比图 |
+| [💎 Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | VPD 实验结果 → SWD 决策仪表板 |
+| [👤 Web Persona](https://github.com/AliDujie/web-persona-skill) | Persona 数据 → SWD 角色画像可视化 |

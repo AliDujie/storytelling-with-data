@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v2.2.67 (2026-05-14)
+
+- Repo maintenance: add cross-skill reference sections to key reference docs (01-context.md, 06-model-visuals.md, 07-storytelling.md), expand ecosystem collaboration coverage
+
 ## v2.2.66 (2026-05-14)
 
 - Repo maintenance: version bump; all 6 skill repos audited for badge ordering consistency (Python → License standard)

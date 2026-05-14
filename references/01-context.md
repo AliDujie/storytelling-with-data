@@ -101,3 +101,14 @@
 - [叙事课](07-storytelling.md)
 - [融会贯通](08-pulling-together.md)
 - [速查手册](11-quick-reference.md)
+
+## 🔗 跨技能协作 (Cross-Skill Collaboration)
+
+SWD 处于工作流末端，负责将前面所有技能的发现转化为高管可读的叙事：
+
+| 技能 | 协同方式 |
+|------|----------|
+| [🔍 Universal Design Methods](https://github.com/AliDujie/universal-design-methods) | UDM 研究结果 → SWD 数据故事构建 |
+| [📊 Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | QuantUX 统计结果 → SWD 图表设计 |
+| [🎯 JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | JTBD 洞察 → SWD 竞争故事 |
+| [💎 Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | VPD 实验结果 → SWD 决策报告 |
