@@ -4,7 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.2.68-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.66-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-14-brightgreen.svg)
 
@@ -48,15 +48,8 @@
   - [🔗 相关技能](#-相关技能)
 - [English](#english)
   - [🌟 Why Use This Skill?](#-why-use-this-skill)
-  - [🎯 Features at a Glance](#-features-at-a-glance)
-  - [🧭 Quick Decision Guide](#-quick-decision-guide)
-  - [✅ 5-Minute Quick Start Checklist](#-5-minute-quick-start-checklist)
   - [🚀 Quick Start](#-quick-start)
-  - [💡 11 Core Capabilities (8 + 3 CEO View)](#-11-core-capabilities8--3-ceo-view)
-  - [💡 Practical Examples](#-practical-examples)
-  - [👥 Who Is This For?](#-who-is-this-for)
   - [🔗 Related Skills](#-related-skills-1)
-  - [End-to-End Workflow: All 7 Skills](#-end-to-end-ecosystem-workflow)
 - [🤝 参与贡献](#-参与贡献-contributing)
 - [📜 许可](#-许可-license)
 - [🔗 技能生态工作流](#-技能生态工作流-skill-ecosystem-workflow)
@@ -861,18 +854,8 @@ swd.build_context(audience="产品委员会", cta="继续投资已验证的价�
 - 📝 **贡献指南**: [CONTRIBUTING.md](CONTRIBUTING.md)
 - 🔄 **版本历史**: [CHANGELOG.md](CHANGELOG.md)
 
+
 ---
-
-### 🔗 探索更多技能 (Explore More Skills)
-
-本技能是 **AliDujie UX 研究技能生态系统** 的一部分，与其他 6 个技能协同工作，覆盖从用户研究到数据呈现的完整工作流：
-
-- [👤 Web Persona](https://github.com/AliDujie/web-persona-skill) — 人物角色创建（工作流起点）
-- [🎯 JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) — 深度需求洞察
-- [🔍 Universal Design Methods](https://github.com/AliDujie/universal-design-methods) — 研究方法
-- [📊 Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) — 定量验证
-- [💎 Value Proposition Design](https://github.com/AliDujie/value-proposition-design) — 价值主张设计
-- [🧠 Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) — 战略分析框架
 
 ## English
 
@@ -1440,17 +1423,7 @@ presentation-design action-titles visual-hierarchy
 
 SWD is the data-presentation core of the **AliDujie UX Research Skills Ecosystem**. Here are typical workflows combining it with other skills:
 
-### 🧭 Quick Decision Guide
-
-| Your Question | Recommended Skill |
-|---------------|------------------|
-| "How do I present research results clearly?" | → **Storytelling with Data** (this skill) — Data storytelling |
-| "I don't know what research to do" | → [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) — Method recommendation |
-| "I want to understand why users do this" | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) — Uncover the underlying "jobs" |
-| "I need to validate a hypothesis" | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) — A/B testing & sample size |
-| "I need to know who my users are" | → [Web Persona](https://github.com/AliDujie/web-persona-skill) — Create concrete personas |
-| "Is my product value strong enough?" | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) — Fit diagnosis |
-| "I need a structured framework for analysis" | → [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) — PESTEL, Five Forces, decision trees |
+> 💡 **Quick Decision**: See the [Quick Decision Guide](#-quick-decision-guide) above to choose the right skill.
 
 ### Workflow 1: Research → Quantitative Validation → Story
 
@@ -1527,17 +1500,7 @@ from swd import SWDSkill; swd = SWDSkill("Q3 产品看板改进汇报")
 
 SWD 是 **AliDujie UX 研究技能生态系统** 的数据呈现核心。以下是与其他技能配合使用的典型工作流：
 
-### 🧭 快速决策指南 (Quick Decision Guide)
-
-| 你的问题 | 推荐技能 |
-|----------|----------|
-| "我怎么把研究结果讲清楚？" | → **Storytelling with Data** (本技能) — 数据叙事和图表改造 |
-| "我不知道该研究什么" | → [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) — 方法推荐帮你找到方向 |
-| "我想理解用户为什么这样做" | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) — 挖掘用户背后的"工作" |
-| "我需要验证一个假设" | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) — A/B 测试和样本量计算 |
-| "我需要知道用户是谁" | → [Web Persona](https://github.com/AliDujie/web-persona-skill) — 创建具体的人物角色 |
-| "我的产品价值够不够？" | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) — 契合度诊断 |
-| "我需要一个结构化的分析框架" | → [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) — PESTEL、五力模型、决策树 |
+> 💡 **快速决策**: 参见上方 [快速决策指南](#-快速决策指南-quick-decision-guide) 选择适合的技能。
 
 ### 工作流 1: 研究 → 定量验证 → 数据叙事
 
@@ -1622,11 +1585,8 @@ python3 swd/tests/test_all.py
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
-|------|------|------|
-| 2.2.66 | 2026-05-14 | 仓库维护：修复变更日志表格格式（分隔符与数据行合并问题），验证生态交叉引用完整性
-| 2.2.65 | 2026-05-14 | 仓库维护：同步版本徽章/页脚到 pyproject.toml (v2.2.65)，修复中文 TOC 能力数量 (8→11)，修复 ruff target-version
-| 2.2.64 | 2026-05-14 | 仓库维护：修复 TOC 锚点链接，版本升级至 v2.2.64
-| 2.2.63 | 2026-05-14 | 仓库维护：版本升级，对齐 README/徽章/SKILL.md/pyproject.toml 版本，更新 Last Updated 至 2026-05-14 |
+| 2.2.66 | 2026-05-14 | 仓库维护：删除技能生态工作流章节中重复的快速决策指南表（中英文各一处），提升文档简洁性和可读性 |
+|------|------|------|| 2.2.63 | 2026-05-14 | 仓库维护：版本升级，对齐 README/徽章/SKILL.md/pyproject.toml 版本，更新 Last Updated 至 2026-05-14 |
 
 | v2.2.49 | 2026-05-11 | 仓库维护：修复不存在的 API 引用（`transform_chart`→`makeover`、`build_narrative`→`build_story`、`design_assess`→`evaluate_design`），修复拼写错误（`Approate`→`Approve`），修正中文变更日志排序和缺失的表格单元格闭合符，确保三端版本对齐 |
 | v2.2.48 | 2026-05-11 | 仓库维护：修复页脚版本不一致（v2.2.45→v2.2.47），添加缺失的「获取帮助」章节，补齐英文变更日志条目（v2.2.45–v2.2.47），确保三端版本对齐 |
@@ -1676,13 +1636,8 @@ v2.2.41 | 2026-05-09 | 仓库维护：添加英文版项目结构，提升中英
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
-|---------|------|--------|
-| v2.2.68 | 2026-05-14 | Repo maintenance: added cross-skill references to 03-clutter.md, 09-case-studies.md |
-| v2.2.67 | 2026-05-14 | Repo maintenance: added cross-skill references to 01-context.md, 06-model-visuals.md, 07-storytelling.md |
-| v2.2.66 | 2026-05-14 | Repo maintenance: fixed changelog table formatting (merged separator + data rows), verified ecosystem cross-reference completeness
-| v2.2.65 | 2026-05-14 | Repo maintenance: synced version badges/footers to pyproject.toml (v2.2.65), fixed CN TOC capability count (8→11), fixed ruff target-version
-| v2.2.64 | 2026-05-14 | Repo maintenance: fixed TOC anchor link, version bump to v2.2.64
-| v2.2.63 | 2026-05-14 | Repo maintenance: version bump, aligned README badge/SKILL.md/pyproject.toml versions, updated Last Updated to 2026-05-14 |
+| v2.2.66 | 2026-05-14 | Repo maintenance: removed duplicate Quick Decision Guide tables from CN and EN ecosystem workflow sections, improved documentation conciseness and readability |
+|---------|------|--------|| v2.2.63 | 2026-05-14 | Repo maintenance: version bump, aligned README badge/SKILL.md/pyproject.toml versions, updated Last Updated to 2026-05-14 |
 
 | v2.2.60 | 2026-05-14 | Repo maintenance: version bump, updated last_updated badge, fixed changelog table formatting, aligned README+SKILL.md+pyproject.toml versions |
 | v2.2.50 | 2026-05-11 | Repo maintenance: verified English section completeness, confirmed all "When NOT to Use" and "Common Mistakes" sections present, verified cross-skill links, updated version badges |
@@ -1829,4 +1784,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-14 | AliDujie Skill Ecosystem | v2.2.68*
+*Last Updated: 2026-05-14 | AliDujie Skill Ecosystem | v2.2.66*
