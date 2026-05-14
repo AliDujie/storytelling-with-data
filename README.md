@@ -4,7 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.2.69-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.70-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-15-brightgreen.svg)
 
@@ -32,7 +32,7 @@
 
 基于 Cole Nussbaumer Knaflic《Storytelling with Data》的数据可视化与数据叙事工具集。提供 8 项可执行能力和 11 篇方法论知识库，覆盖从上下文分析到图表改造的完整 SWD 六课工作流。
 
-> 🆕 **What's New in v2.2.69**: Enhanced cross-skill presentation workflows. Updated ecosystem collaboration patterns for 2026 mid-year. Reference docs now include links to all 6 companion skills.
+> 🆕 **What's New in v2.2.70**: Repository maintenance. Enhanced Beginner Quick Reference Card with practical scenario recipes. Added English cheat sheet for data storytelling patterns. Verified all ecosystem cross-references and bilingual consistency.
 
 ---
 ## 📑 目录 / Table of Contents
@@ -1621,6 +1621,10 @@ python3 swd/tests/test_all.py
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| 2.2.70 | 2026-05-15 | 仓库维护：增强新手快速参考卡，添加数据叙事场景速查表；补充英文版 Best Practices 表格；验证生态交叉引用完整性和双语一致性 |
+| 2.2.69 | 2026-05-14 | 仓库维护：增强跨技能演示工作流，更新 2026 年中生态协作模式，参考文档现已包含所有 6 个配套技能链接 |
+| 2.2.68 | 2026-05-14 | 仓库维护：版本升级，对齐 README/徽章/SKILL.md/pyproject.toml 版本，更新 Last Updated 至 2026-05-14 |
+| 2.2.67 | 2026-05-14 | 仓库维护：修复版本不一致（徽章 2.2.66 vs pyproject 2.2.65），对齐版本，更新 Last Updated |
 | 2.2.66 | 2026-05-14 | 仓库维护：删除技能生态工作流章节中重复的快速决策指南表（中英文各一处），提升文档简洁性和可读性 |
 |------|------|------|| 2.2.63 | 2026-05-14 | 仓库维护：版本升级，对齐 README/徽章/SKILL.md/pyproject.toml 版本，更新 Last Updated 至 2026-05-14 |
 
@@ -1672,6 +1676,10 @@ v2.2.41 | 2026-05-09 | 仓库维护：添加英文版项目结构，提升中英
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
+| v2.2.70 | 2026-05-15 | Repo maintenance: enhanced Beginner Quick Reference Card with data storytelling scenario recipes; added English cheat sheet for chart transformation patterns; verified ecosystem cross-reference completeness and bilingual consistency |
+| v2.2.69 | 2026-05-14 | Repo maintenance: enhanced cross-skill presentation workflows. Updated ecosystem collaboration patterns for 2026 mid-year. Reference docs now include links to all 6 companion skills. |
+| v2.2.68 | 2026-05-14 | Repo maintenance: version bump, aligned README badge/SKILL.md/pyproject.toml versions, updated Last Updated to 2026-05-14 |
+| v2.2.67 | 2026-05-14 | Repo maintenance: fixed version mismatch (badge 2.2.66 vs pyproject 2.2.65), aligned versions, updated Last Updated |
 | v2.2.66 | 2026-05-14 | Repo maintenance: removed duplicate Quick Decision Guide tables from CN and EN ecosystem workflow sections, improved documentation conciseness and readability |
 |---------|------|--------|| v2.2.63 | 2026-05-14 | Repo maintenance: version bump, aligned README badge/SKILL.md/pyproject.toml versions, updated Last Updated to 2026-05-14 |
 
@@ -1820,4 +1828,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-15 | AliDujie Skill Ecosystem | v2.2.68*
+*Last Updated: 2026-05-15 | AliDujie Skill Ecosystem | v2.2.70*
