@@ -4,9 +4,9 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.2.68-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.69-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
-![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-14-brightgreen.svg)
+![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-15-brightgreen.svg)
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
 
@@ -32,7 +32,7 @@
 
 基于 Cole Nussbaumer Knaflic《Storytelling with Data》的数据可视化与数据叙事工具集。提供 8 项可执行能力和 11 篇方法论知识库，覆盖从上下文分析到图表改造的完整 SWD 六课工作流。
 
-> 🆕 **What's New in v2.2.68**: Cross-skill references added to clutter diagnosis and case study reference docs. Enhanced ecosystem collaboration workflows with all companion skills.
+> 🆕 **What's New in v2.2.69**: Enhanced cross-skill presentation workflows. Updated ecosystem collaboration patterns for 2026 mid-year. Reference docs now include links to all 6 companion skills.
 
 ---
 ## 📑 目录 / Table of Contents
