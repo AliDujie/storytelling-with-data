@@ -61,6 +61,55 @@ SWD 是 **数据叙事与可视化呈现层**，在研究流程中后端将各�
 
 > 💡 SWD 是研究流程的末端：当其他技能产出数据后，用 SWD 转化为高管可读的叙事。
 
+### 💼 为什么团队选择 SWD
+
+| 挑战 | 没有 SWD | 使用 SWD |
+|------|----------|----------|
+| 图表选择 | 柱状图还是折线图？猜 | 基于数据类型即时推荐 |
+| 高管汇报 | 满墙图表，没有故事线 | 三幕叙事 + 明确行动呼吁 |
+| 色彩策略 | 彩虹般无意义的颜色 | 灰色 + 一个战略色引导注意力 |
+| 质量评估 | 主观意见 | 5 维度 100 分制评分 |
+| 利益相关者认可 | "再多看点数据"——无尽迭代 | "你希望我做什么？"——清晰决策 |
+
+### 🔗 Ecosystem Quick Start / 生态系统快速上手
+
+SWD 是 7 技能工作流的**数据呈现层**——在所有研究完成后使用，将发现转化为高管可读的叙事。
+
+```python
+# Step 1: 定义受众和核心信息
+from swd import SWDSkill
+swd = SWDSkill("季度研究汇报")
+context = swd.build_context(audience="产品VP和CEO", cta="批准 UX 优化预算")
+
+# Step 2: 选择合适的图表类型
+chart = swd.recommend_chart(data_type="comparison", category_count=3)
+
+# Step 3: 去杂乱诊断
+clean = swd.diagnose_clutter(has_gridlines=True, has_separate_legend=True)
+
+# Step 4: 构建数据故事
+story = swd.build_story(protagonist="产品团队", imbalance="用户流失率增长 15%", call_to_action="投入 50 万优化核心路径")
+```
+
+> 💡 **Try it now / 立即尝试**:
+> ```python
+> from swd import SWDSkill
+> skill = SWDSkill("你的项目")
+> print(skill.diagnose_clutter(has_gridlines=True, has_legend=True))
+> ```
+
+### ✅ 5 分钟快速开始检查清单
+
+- [ ] **安装** — `cp -r storytelling-with-data /your/agent/skills/`
+- [ ] **导入** — `from swd import SWDSkill`
+- [ ] **初始化** — `skill = SWDSkill("你的项目")`
+- [ ] **上下文分析** — `skill.build_context(audience=..., cta=...)`
+- [ ] **图表选择** — `skill.recommend_chart(data_type=..., has_time=...)`
+- [ ] **去杂乱诊断** — `skill.diagnose_clutter(...)`
+- [ ] **构建故事** — `skill.build_story(protagonist=..., imbalance=...)`
+
+[English](#english) | [中文](#中文说明)
+
 ## 🌟 为什么选择 SWD？
 
 - **经典方法论** — 基于 Cole Nussbaumer Knaflic《Storytelling with Data》，数据可视化领域全球畅销书
