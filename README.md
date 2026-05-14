@@ -4,7 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.2.66-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.68-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-14-brightgreen.svg)
 
@@ -31,6 +31,8 @@
 - [ ] **综合诊断** — `skill.full_diagnosis(scores=...)` — 100 分制全面评估
 
 基于 Cole Nussbaumer Knaflic《Storytelling with Data》的数据可视化与数据叙事工具集。提供 8 项可执行能力和 11 篇方法论知识库，覆盖从上下文分析到图表改造的完整 SWD 六课工作流。
+
+> 🆕 **What's New in v2.2.68**: Cross-skill references added to clutter diagnosis and case study reference docs. Enhanced ecosystem collaboration workflows with all companion skills.
 
 ---
 ## 📑 目录 / Table of Contents
@@ -1384,6 +1386,40 @@ This skill is part of the **AliDujie UX Research Skills Ecosystem**:
 - **SWD + VPD** → Present value proposition design effectiveness to leadership
 - **SWD + Persona** → Enhance data narratives with persona-driven stories
 
+#### 💡 Cross-Skill Quick Recipes
+
+```python
+# Recipe: Turn research findings into an executive presentation
+from swd import SWDSkill
+
+swd = SWDSkill("Q1 UX Research Report")
+
+# Step 1: Define the decision you need
+context = swd.build_context(
+    audience="VP of Product and CEO",
+    cta="Approve $200K UX redesign budget",
+    big_idea="3 design fixes will reduce churn by 15%"
+)
+
+# Step 2: Pick the right chart for each data point
+bar = swd.recommend_chart(data_type="comparison", category_count=5)
+line = swd.recommend_chart(data_type="trend", has_time=True)
+
+# Step 3: Diagnose and clean up existing charts
+diagnosis = swd.diagnose_clutter(
+    has_gridlines=True, has_separate_legend=True,
+    uses_3d=True, has_chartjunk=True
+)
+
+# Step 4: Build the narrative arc
+story = swd.build_story(
+    protagonist="Design team",
+    imbalance="User satisfaction dropped 12% this quarter",
+    call_to_action="Fund the redesign sprint"
+)
+print(f"Overall score: {swd.full_diagnosis(story)['score']}/100")
+```
+
 - **[JTBD-Knowledge-Skill](https://github.com/AliDujie/jtbd-knowledge-skill)** — Jobs-to-be-Done theory
 - **[Web-Persona-Skill](https://github.com/AliDujie/web-persona-skill)** — Persona creation
 - **[Quantitative-UX-Research](https://github.com/AliDujie/Quantitative-UX-Research)** — Quantitative research, HEART framework
@@ -1784,4 +1820,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-14 | AliDujie Skill Ecosystem | v2.2.66*
+*Last Updated: 2026-05-15 | AliDujie Skill Ecosystem | v2.2.68*
