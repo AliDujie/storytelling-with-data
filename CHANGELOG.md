@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v2.2.68 (2026-05-14)
+
+- Repo maintenance: add cross-skill reference sections to 03-clutter.md and 09-case-studies.md, expand ecosystem collaboration coverage
+
 ## v2.2.67 (2026-05-14)
 
 - Repo maintenance: add cross-skill reference sections to key reference docs (01-context.md, 06-model-visuals.md, 07-storytelling.md), expand ecosystem collaboration coverage

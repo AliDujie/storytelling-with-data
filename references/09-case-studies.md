@@ -100,3 +100,15 @@
 
 - [叙事课](07-storytelling.md)
 - [融会贯通](08-pulling-together.md)
+
+## 🔗 跨技能协作 (Cross-Skill Collaboration)
+
+案例改造与生态系统技能的协同：
+
+| 技能 | 协同方式 |
+|------|----------|
+| [📊 Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | QuantUX A/B 测试结果 → SWD 案例改造 |
+| [🔍 Universal Design Methods](https://github.com/AliDujie/universal-design-methods) | UDM 研究发现 → SWD 故事化展示 |
+| [🎯 JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | JTBD 竞争分析 → SWD 可视化对比 |
+| [💎 Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | VPD 实验结果 → SWD 案例包装 |
+| [👤 Web Persona](https://github.com/AliDujie/web-persona-skill) | Persona 故事 → SWD 叙事主角 |

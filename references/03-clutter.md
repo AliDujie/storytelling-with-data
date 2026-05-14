@@ -122,3 +122,15 @@
 - [聚焦受众注意力](04-attention.md)
 - [像设计师一样思考](05-designer.md)
 - [速查手册](11-quick-reference.md)
+
+## 🔗 跨技能协作 (Cross-Skill Collaboration)
+
+去杂乱与生态系统技能的协同：
+
+| 技能 | 协同方式 |
+|------|----------|
+| [📊 Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | QuantUX 分析结果 → SWD 去杂乱呈现 |
+| [🔍 Universal Design Methods](https://github.com/AliDujie/universal-design-methods) | UDM 研究发现 → SWD 简化展示 |
+| [🎯 JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | JTBD 数据可视化 → 避免图表杂乱 |
+| [💎 Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | VPD 画布结果 → 简洁展示给高管 |
+| [👤 Web Persona](https://github.com/AliDujie/web-persona-skill) | Persona 角色卡 → 去杂乱设计 |

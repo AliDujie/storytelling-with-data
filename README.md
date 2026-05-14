@@ -4,7 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.2.67-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.68-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-14-brightgreen.svg)
 
@@ -1677,6 +1677,8 @@ v2.2.41 | 2026-05-09 | 仓库维护：添加英文版项目结构，提升中英
 
 | Version | Date | Changes |
 |---------|------|--------|
+| v2.2.68 | 2026-05-14 | Repo maintenance: added cross-skill references to 03-clutter.md, 09-case-studies.md |
+| v2.2.67 | 2026-05-14 | Repo maintenance: added cross-skill references to 01-context.md, 06-model-visuals.md, 07-storytelling.md |
 | v2.2.66 | 2026-05-14 | Repo maintenance: fixed changelog table formatting (merged separator + data rows), verified ecosystem cross-reference completeness
 | v2.2.65 | 2026-05-14 | Repo maintenance: synced version badges/footers to pyproject.toml (v2.2.65), fixed CN TOC capability count (8→11), fixed ruff target-version
 | v2.2.64 | 2026-05-14 | Repo maintenance: fixed TOC anchor link, version bump to v2.2.64
@@ -1827,4 +1829,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-14 | AliDujie Skill Ecosystem | v2.2.67*
+*Last Updated: 2026-05-14 | AliDujie Skill Ecosystem | v2.2.68*
