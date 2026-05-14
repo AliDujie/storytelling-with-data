@@ -4,7 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.2.63-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.65-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-14-brightgreen.svg)
 
@@ -39,7 +39,7 @@
   - [🌐 技能生态系统](#-技能生态系统-skill-ecosystem)
   - [🌟 为什么使用这个技能？](#-为什么使用这个技能why-use-this-skill)
   - [⚡ 5 分钟快速开始](#-5-分钟快速开始-quick-start)
-  - [💡 8 大核心能力](#-8-大核心能力)
+  - [💡 11 大核心能力（8 + 3 CEO 视角）](#-11-大核心能力8--3-ceo-视角)
   - [🔧 实用示例](#-实用示例)
   - [📁 项目结构](#-项目结构)
   - [👥 这个技能适合谁？](#-这个技能适合谁who-is-this-for)
@@ -1802,4 +1802,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-14 | AliDujie Skill Ecosystem | v2.2.63*
+*Last Updated: 2026-05-14 | AliDujie Skill Ecosystem | v2.2.65*

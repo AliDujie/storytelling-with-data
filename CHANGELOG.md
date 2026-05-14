@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v2.2.65 (2026-05-14)
+
+- Repo maintenance: sync README version badges/footers to pyproject.toml (2.2.63→2.2.64), fix CN TOC capability count (8→11), update changelog
+
 ## v2.2.64 (2026-05-14)
 
 - Repo maintenance: fix broken TOC anchor link (#-end-to-end-workflow-all-7-skills → #-end-to-end-ecosystem-workflow)
