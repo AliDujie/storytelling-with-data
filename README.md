@@ -1622,7 +1622,11 @@ python3 swd/tests/test_all.py
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
-|------|------|------|| 2.2.63 | 2026-05-14 | 仓库维护：版本升级，对齐 README/徽章/SKILL.md/pyproject.toml 版本，更新 Last Updated 至 2026-05-14 |
+|------|------|------|
+| 2.2.66 | 2026-05-14 | 仓库维护：修复变更日志表格格式（分隔符与数据行合并问题），验证生态交叉引用完整性
+| 2.2.65 | 2026-05-14 | 仓库维护：同步版本徽章/页脚到 pyproject.toml (v2.2.65)，修复中文 TOC 能力数量 (8→11)，修复 ruff target-version
+| 2.2.64 | 2026-05-14 | 仓库维护：修复 TOC 锚点链接，版本升级至 v2.2.64
+| 2.2.63 | 2026-05-14 | 仓库维护：版本升级，对齐 README/徽章/SKILL.md/pyproject.toml 版本，更新 Last Updated 至 2026-05-14 |
 
 | v2.2.49 | 2026-05-11 | 仓库维护：修复不存在的 API 引用（`transform_chart`→`makeover`、`build_narrative`→`build_story`、`design_assess`→`evaluate_design`），修复拼写错误（`Approate`→`Approve`），修正中文变更日志排序和缺失的表格单元格闭合符，确保三端版本对齐 |
 | v2.2.48 | 2026-05-11 | 仓库维护：修复页脚版本不一致（v2.2.45→v2.2.47），添加缺失的「获取帮助」章节，补齐英文变更日志条目（v2.2.45–v2.2.47），确保三端版本对齐 |
@@ -1672,7 +1676,11 @@ v2.2.41 | 2026-05-09 | 仓库维护：添加英文版项目结构，提升中英
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
-|---------|------|--------|| v2.2.63 | 2026-05-14 | Repo maintenance: version bump, aligned README badge/SKILL.md/pyproject.toml versions, updated Last Updated to 2026-05-14 |
+|---------|------|--------|
+| v2.2.66 | 2026-05-14 | Repo maintenance: fixed changelog table formatting (merged separator + data rows), verified ecosystem cross-reference completeness
+| v2.2.65 | 2026-05-14 | Repo maintenance: synced version badges/footers to pyproject.toml (v2.2.65), fixed CN TOC capability count (8→11), fixed ruff target-version
+| v2.2.64 | 2026-05-14 | Repo maintenance: fixed TOC anchor link, version bump to v2.2.64
+| v2.2.63 | 2026-05-14 | Repo maintenance: version bump, aligned README badge/SKILL.md/pyproject.toml versions, updated Last Updated to 2026-05-14 |
 
 | v2.2.60 | 2026-05-14 | Repo maintenance: version bump, updated last_updated badge, fixed changelog table formatting, aligned README+SKILL.md+pyproject.toml versions |
 | v2.2.50 | 2026-05-11 | Repo maintenance: verified English section completeness, confirmed all "When NOT to Use" and "Common Mistakes" sections present, verified cross-skill links, updated version badges |
