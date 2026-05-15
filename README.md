@@ -4,9 +4,11 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.2.80-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.81-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-16-brightgreen.svg)
+
+> 🆕 **What's New in v2.2.81**: Repository maintenance v2.2.81. Added What's New callout to README header. Verified ecosystem cross-references and bilingual consistency. All reference docs linked and cross-skill recipes intact.
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
 
@@ -1564,6 +1566,41 @@ story = swd.build_story(
     call_to_action="Fund the redesign sprint"
 )
 print(f"Overall score: {swd.full_diagnosis(story)['score']}/100")
+```
+
+```python
+# Recipe: Board-ready quarterly review from QuantUX data
+from swd import SWDSkill; from quantux import QuantUXSkill
+
+quantux = QuantUXSkill("SaaS Platform")
+heart = quantux.build_heart_framework()  # Get HEART metrics
+
+swd = SWDSkill("Q2 Platform Health Report")
+story = swd.build_story(
+    protagonist="Engineering leadership",
+    imbalance="Happiness metrics declined 8% despite feature velocity increase",
+    call_to_action="Shift 20% of sprint capacity to UX debt"
+)
+# → Generates a board-ready narrative with data-backed recommendations
+```
+
+```python
+# Recipe: JTBD insights → Persona narrative
+from swd import SWDSkill; from jtbd import JTBDSkill; from persona import PersonaSkill
+
+jtbd = JTBDSkill("travel app")
+jobs = jtbd.create_job_stories(job_statement="Help me find authentic local experiences")
+
+persona = PersonaSkill("travel app")
+persona.add_persona("CulturalExplorer", "authenticity-seeking traveler", "primary")
+
+swd = SWDSkill("Local Experiences Opportunity")
+story = swd.build_story(
+    protagonist="Product team",
+    imbalance="Users searching for 'local experiences' but finding tourist traps",
+    call_to_action="Build a curated local guide feature"
+)
+# → Translates JTBD insight into a persona-driven data story
 ```
 
 - **[JTBD-Knowledge-Skill](https://github.com/AliDujie/jtbd-knowledge-skill)** — Jobs-to-be-Done theory
