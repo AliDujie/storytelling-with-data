@@ -1,6 +1,6 @@
 ---
 name: storytelling-with-data
-version: "2.2.76"
+version: "2.2.77"
 description: >
   数据可视化与数据叙事技能，基于 Cole Nussbaumer Knaflic《Storytelling with Data》
   方法论。提供 8 项可执行能力和 11 篇知识库文档，覆盖上下文分析→图表选择→去杂乱→
@@ -856,6 +856,14 @@ story = swd.build_story(
 - [ ] 水平逻辑通过（只读标题能讲完整故事）
 - [ ] 垂直逻辑通过（每张幻灯片内容支撑标题）
 - [ ] 区分了演示版和流通版
+
+### ⛔ 何时不使用 SWD
+
+- **选择研究方法或设计访谈** — 使用 [Universal Design Methods](https://github.com/AliDujie/universal-design-methods)
+- **统计分析或 A/B 测试** — 使用 [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research)
+- **理解用户 Jobs-to-be-Done** — 使用 [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill)
+- **创建人物角色** — 使用 [Web Persona](https://github.com/AliDujie/web-persona-skill)
+- **价值主张画布分析** — 使用 [Value Proposition Design](https://github.com/AliDujie/value-proposition-design)
 
 ---
 
