@@ -4,7 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.2.78-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.79-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-16-brightgreen.svg)
 
@@ -93,7 +93,7 @@ full = swd.full_diagnosis(scores)
 
 基于 Cole Nussbaumer Knaflic《Storytelling with Data》的数据可视化与数据叙事工具集。提供 8 项可执行能力和 11 篇方法论知识库，覆盖从上下文分析到图表改造的完整 SWD 六课工作流。
 
-> 🆕 **What's New in v2.2.78**: Repository maintenance v2.2.78. Synced Python __version__ with SKILL.md. Added data storytelling recipe example. Verified ecosystem cross-references and bilingual consistency. Refreshed last-updated date.
+> 🆕 **What's New in v2.2.79**: Repository maintenance 2.2.79. v2.2.79: add SWD six-lesson reference guides to README (CN+EN), link all reference files. Verified ecosystem cross-references and bilingual consistency. Refreshed last-updated date.
 
 ---
 ## 📑 目录 / Table of Contents
@@ -689,6 +689,23 @@ A: 没有明确的受众和行动号召，再好的图表也是无效的。SWD �
 - **《The Visual Display of Quantitative Information》** - Edward Tufte (数据可视化经典)
 - **《Information Dashboard Design》** - Stephen Few (仪表盘设计)
 - **《Effective Data Visualization》** - Stephanie D.H. Evergreen (实战指南)
+
+#### 📂 SWD 六课参考指南
+
+| 课 | 指南 | 重点 |
+|---|------|------|
+| 1 | [上下文分析](references/01-context.md) | 了解你的受众，定义故事 |
+| 2 | [视觉展示](references/02-visual-display.md) | 选择正确的图表 |
+| 3 | [去杂乱](references/03-clutter.md) | 去除不必要的元素 |
+| 4 | [注意力引导](references/04-attention.md) | 引导受众视线 |
+| 5 | [设计思维](references/05-designer.md) | 像设计师一样思考 |
+| 6 | [模型可视化](references/06-model-visuals.md) | 构建视觉模板 |
+| 7 | [故事构建](references/07-storytelling.md) | 构建叙事结构 |
+| 8 | [综合案例](references/08-pulling-together.md) | 完整案例走查 |
+| 📊 | [实战案例](references/09-case-studies.md) | 真实世界示例 |
+| 💡 | [总结](references/10-final-thoughts.md) | 核心要点 |
+| 🔖 | [快速参考](references/11-quick-reference.md) | 速查表 |
+| 🔗 | [跨技能呈现](references/12-cross-skill-presentation.md) | SWD + 生态系统工作流
 
 ### 📚 关于《Storytelling with Data》
 
@@ -1462,6 +1479,23 @@ print(f"Presentation Quality: {diag['total_score']}/100")  # → 74/100, Good
 - **"Factfulness"** — Hans Rosling, data-driven perspective on global trends
 - **"Dear Data"** — Livia Pozzi and Stefanie Posavec, creative data visualization
 
+#### 📂 SWD Six-Lesson Reference Guides
+
+| Lesson | Guide | Focus |
+|--------|-------|-------|
+| 1 | [Context](references/01-context.md) | Understand your audience and define the story |
+| 2 | [Visual Display](references/02-visual-display.md) | Choose the right chart for your data |
+| 3 | [Clutter](references/03-clutter.md) | Remove the unnecessary |
+| 4 | [Attention](references/04-attention.md) | Direct the audience's eye |
+| 5 | [Designer Mindset](references/05-designer.md) | Think like a designer |
+| 6 | [Model Visuals](references/06-model-visuals.md) | Build visual templates |
+| 7 | [Storytelling](references/07-storytelling.md) | Structure your narrative |
+| 8 | [Pulling It Together](references/08-pulling-together.md) | Complete case study walkthrough |
+| 📊 | [Case Studies](references/09-case-studies.md) | Real-world examples |
+| 💡 | [Final Thoughts](references/10-final-thoughts.md) | Key takeaways |
+| 🔖 | [Quick Reference](references/11-quick-reference.md) | Cheat sheet |
+| 🔗 | [Cross-Skill Presentation](references/12-cross-skill-presentation.md) | SWD + ecosystem workflows |
+
 ### 📚 About This Skill
 
 This skill is based on the methodology from *"Storytelling with Data"* by Cole Nussbaumer Knaflic, a Google data visualization expert. The book has sold millions of copies worldwide and is essential reading for anyone who communicates with data.
@@ -1941,4 +1975,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-15 | AliDujie Skill Ecosystem | v2.2.77*
+*Last Updated: 2026-05-16 | AliDujie Skill Ecosystem | v2.2.77*
