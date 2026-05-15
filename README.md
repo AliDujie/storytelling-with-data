@@ -4,7 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.2.72-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.73-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-15-brightgreen.svg)
 
@@ -19,6 +19,67 @@
 
 **SWD is the presentation layer** — transforming research findings from every other skill into executive-ready data narratives. Use it last in your research workflow.
 
+
+### 🔀 Cross-Skill Recipes (跨技能配方)
+
+| Recipe | Input | SWD Action | Output |
+|--------|-------|-----------|--------|
+| **Research Report** | UDM findings + QuantUX stats | Context → Story → Visualize | Executive-ready narrative |
+| **Persona Showcase** | Persona data | Data visualization → Team alignment | Shared understanding |
+| **VPD Results** | Canvas data + Experiment results | Story structure → Charts | Decision support deck |
+| **JTBD Opportunities** | Job scores + Four forces | Comparison charts → Trend story | Investment pitch |
+| **Quarterly Digest** | All skills' outputs | Full diagnosis → Narrative | Quarterly report |
+
+#### Recipe: Turn UDM Findings into Executive Story
+
+```python
+from swd import SWDSkill
+
+# Context: You have UDM research findings with 3 key pain points
+swd = SWDSkill("用户体验研究报告")
+
+# Step 1: Build context for your audience
+context = swd.build_context(
+    audience="产品VP和工程总监",
+    cta="批准UX优化预算",
+    big_idea="3个核心痛点导致25%用户流失"
+)
+
+# Step 2: Choose right charts for each finding
+ch1 = swd.recommend_chart(data_type="comparison", category_count=3)  # Bar chart
+ch2 = swd.recommend_chart(data_type="distribution", has_time=True)   # Line chart
+
+# Step 3: Build 3-act story
+story = swd.build_story(
+    protagonist="产品团队",
+    imbalance="用户流失率从Q2 8%上升到Q3 12%",
+    call_to_action="投入50万优化核心路径",
+    structure="three_act"
+)
+```
+
+#### Recipe: QuantUX Data Visualization
+
+```python
+from swd import SWDSkill
+
+swd = SWDSkill("A/B测试结果报告")
+
+# Step 1: Diagnose clutter before presenting
+diagnosis = swd.diagnose_clutter(
+    has_gridlines=True,
+    has_separate_legend=True,
+    has_3d_effects=False,
+    color_count=6  # Too many!
+)
+# → Returns: "Remove gridlines, embed legend, reduce to 2 colors"
+
+# Step 2: Full 100-point diagnostic
+scores = {"context": 85, "clutter": 40, "focus": 60, "story": 70, "visual": 75}
+full = swd.full_diagnosis(scores)
+# → Overall: 66/100 — Priority fix: reduce clutter (40/100)
+```
+
 ### ✅ 5 分钟快速开始检查清单
 
 - [ ] **安装** — `cp -r storytelling-with-data /your/agent/skills/`
@@ -32,7 +93,7 @@
 
 基于 Cole Nussbaumer Knaflic《Storytelling with Data》的数据可视化与数据叙事工具集。提供 8 项可执行能力和 11 篇方法论知识库，覆盖从上下文分析到图表改造的完整 SWD 六课工作流。
 
-> 🆕 **What's New in v2.2.72**: Repository maintenance. Updated version alignment across all files (SKILL.md, pyproject.toml, README badge, footer). Enhanced ecosystem cross-reference workflow descriptions. Added 'Why Teams Choose SWD' promotional table verification. Verified all ecosystem cross-references and bilingual consistency. Repository maintenance. Enhanced Beginner Quick Reference Card with practical scenario recipes. Added English cheat sheet for data storytelling patterns. Verified all ecosystem cross-references and bilingual consistency.
+> 🆕 **What's New in v2.2.73**: Repository maintenance v2.2.73. Filled changelog gaps for v2.2.69-v2.2.72. Updated What's New callout. Verified all ecosystem cross-references. Refreshed last-updated date. Enhanced README structure with improved navigation cues.
 
 ---
 ## 📑 目录 / Table of Contents
@@ -1880,4 +1941,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-15 | AliDujie Skill Ecosystem | v2.2.72*
+*Last Updated: 2026-05-15 | AliDujie Skill Ecosystem | v2.2.73*

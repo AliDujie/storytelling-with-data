@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v2.2.69 (2026-05-15)
+
+- Repo maintenance: version bump; verified version alignment across SKILL.md, README, and pyproject.toml
+
+## v2.2.70 (2026-05-15)
+
+- Repo maintenance: version bump; verified version alignment across SKILL.md, README, and pyproject.toml
+
+## v2.2.71 (2026-05-15)
+
+- Repo maintenance: version bump; verified version alignment across SKILL.md, README, and pyproject.toml
+
+## v2.2.72 (2026-05-15)
+
+- Repo maintenance: version bump; verified version alignment across SKILL.md, README, and pyproject.toml
+
 ## v2.2.68 (2026-05-14)
 
 - Repo maintenance: add cross-skill reference sections to 03-clutter.md and 09-case-studies.md, expand ecosystem collaboration coverage
