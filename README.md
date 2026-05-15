@@ -4,7 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.2.71-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.72-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-15-brightgreen.svg)
 
@@ -32,7 +32,7 @@
 
 基于 Cole Nussbaumer Knaflic《Storytelling with Data》的数据可视化与数据叙事工具集。提供 8 项可执行能力和 11 篇方法论知识库，覆盖从上下文分析到图表改造的完整 SWD 六课工作流。
 
-> 🆕 **What's New in v2.2.70**: Repository maintenance. Enhanced Beginner Quick Reference Card with practical scenario recipes. Added English cheat sheet for data storytelling patterns. Verified all ecosystem cross-references and bilingual consistency.
+> 🆕 **What's New in v2.2.72**: Repository maintenance. Updated version alignment across all files (SKILL.md, pyproject.toml, README badge, footer). Enhanced ecosystem cross-reference workflow descriptions. Added 'Why Teams Choose SWD' promotional table verification. Verified all ecosystem cross-references and bilingual consistency. Repository maintenance. Enhanced Beginner Quick Reference Card with practical scenario recipes. Added English cheat sheet for data storytelling patterns. Verified all ecosystem cross-references and bilingual consistency.
 
 ---
 ## 📑 目录 / Table of Contents
@@ -1880,4 +1880,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-15 | AliDujie Skill Ecosystem | v2.2.70*
+*Last Updated: 2026-05-15 | AliDujie Skill Ecosystem | v2.2.72*
