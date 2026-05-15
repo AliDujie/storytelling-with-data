@@ -4,7 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.2.79-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.80-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-16-brightgreen.svg)
 
@@ -93,7 +93,7 @@ full = swd.full_diagnosis(scores)
 
 基于 Cole Nussbaumer Knaflic《Storytelling with Data》的数据可视化与数据叙事工具集。提供 8 项可执行能力和 11 篇方法论知识库，覆盖从上下文分析到图表改造的完整 SWD 六课工作流。
 
-> 🆕 **What's New in v2.2.79**: Repository maintenance 2.2.79. v2.2.79: add SWD six-lesson reference guides to README (CN+EN), link all reference files. Verified ecosystem cross-references and bilingual consistency. Refreshed last-updated date.
+> 🆕 **What's New in v2.2.80**: Repository maintenance 2.2.79. v2.2.79: add SWD six-lesson reference guides to README (CN+EN), link all reference files. Verified ecosystem cross-references and bilingual consistency. Refreshed last-updated date.
 
 ---
 ## 📑 目录 / Table of Contents
@@ -1767,6 +1767,7 @@ python3 swd/tests/test_all.py
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| 2.2.80 | 2026-05-16 | 仓库维护：版本升级，验证生态交叉引用完整性和双语一致性 |
 | 2.2.70 | 2026-05-15 | 仓库维护：增强新手快速参考卡，添加数据叙事场景速查表；补充英文版 Best Practices 表格；验证生态交叉引用完整性和双语一致性 |
 | 2.2.69 | 2026-05-14 | 仓库维护：增强跨技能演示工作流，更新 2026 年中生态协作模式，参考文档现已包含所有 6 个配套技能链接 |
 | 2.2.68 | 2026-05-14 | 仓库维护：版本升级，对齐 README/徽章/SKILL.md/pyproject.toml 版本，更新 Last Updated 至 2026-05-14 |
@@ -1975,4 +1976,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-16 | AliDujie Skill Ecosystem | v2.2.77*
+*Last Updated: 2026-05-16 | AliDujie Skill Ecosystem | v2.2.80*
