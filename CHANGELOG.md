@@ -1,5 +1,14 @@
 # Changelog
 
+## v2.2.82 (2026-05-16)
+
+- Repo maintenance: enhanced English Features at a Glance with additional detail
+- Improved What's New callout formatting
+- Verified ecosystem cross-references and bilingual consistency
+- Confirmed all SWD six-lesson reference docs linked in CN+EN
+- Enhanced cross-skill recipe examples with clearer comments
+
+
 ## v2.2.78 (2026-05-16)
 
 - Synced Python `__version__` with SKILL.md version
