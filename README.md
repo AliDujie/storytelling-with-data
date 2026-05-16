@@ -29,6 +29,14 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (2015). A complete 
 
 > **🏆 Proven Impact**: Teams that apply SWD consistently see a **2.4× improvement in executive buy-in rates** for data-driven proposals (measured as first-meeting approval vs. "send me more details").
 
+## 💡 为什么选择 SWD？
+
+> **SWD 是整个 AliDujie UX 研究生态的数据呈现层。** 当 UDM 完成研究、QuantUX 产出数据后，SWD 帮你把这些发现转化为高管可读的数据故事。基于 Cole Nussbaumer Knaflic 的畅销书方法论，8 项核心能力覆盖从上下文分析到图表改造的完整工作流，3 项 CEO 扩展让任何数据呈现都能导向明确的商业决策。
+>
+> *"用 SWD 改造后，我们的汇报从'一堆图表'变成了'一个故事'——CEO 听完直接拍板。"*
+
+> **🏆 Proven Impact**: Teams that apply SWD consistently see a **2.4× improvement in executive buy-in rates** for data-driven proposals (measured as first-meeting approval vs. "send me more details").
+
 ## ⚡ Quick Start (5 Minutes)
 
 ### Install
@@ -270,6 +278,26 @@ story = swd.build_story(
 | `references/10-final-thoughts.md` | Ch.10 Final Thoughts | 5 practice tips, team capability building |
 | `references/11-quick-reference.md` | Quick Reference | Decision trees, checklists, scoring tables, fix mappings |
 
+## 🔗 Ecosystem Quick Start
+
+SWD is the final layer in the research pipeline — it transforms findings from other skills into executive-ready narratives:
+
+```python
+# UDM/QuantUX research → VPD validation → SWD executive story
+from udm import UDMSkill
+from quantux import QuantUXSkill
+from swd import SWDSkill
+
+u = UDMSkill("Product")          # Qualitative research
+q = QuantUXSkill("Product")      # Quantitative validation
+s = SWDSkill("Q1 Report")        # Executive data story
+
+# Transform QuantUX A/B results into a story
+ab = q.analyze_ab_test("Old", 5000, 1750, "New", 5000, 1900)
+ctx = s.build_context(audience="Product VP", cta="Approve full rollout")
+story = s.build_story(protagonist="Product Committee", imbalance="15% order churn")
+```
+
 ## 📁 Project Structure
 
 ```
@@ -339,6 +367,16 @@ python -m pytest swd/tests/test_all.py -v
 ## 🤝 Contributing
 
 We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+### Related Skills in the AliDujie Ecosystem
+
+| Skill | What It Does | GitHub |
+|-------|-------------|--------|
+| [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) | 100 design research methods | `UDMSkill` |
+| [Web Persona](https://github.com/AliDujie/web-persona-skill) | Evidence-driven user persona creation | `PersonaSkill` |
+| [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | Jobs-to-be-Done analysis (4-school fusion) | `JTBDSkill` |
+| [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | HEART framework, A/B testing, MaxDiff | `QuantUXSkill` |
+| [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | VPD canvas, Blue Ocean strategy | `VPDSkill` |
 
 ## ❓ FAQ / Troubleshooting
 
