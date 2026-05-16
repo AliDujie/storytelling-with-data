@@ -199,20 +199,25 @@ from swd import SWDSkill
 
 # 1. Persona — identify target user segment
 persona = PersonaSkill("SaaS Product")
-persona.add_persona(name="power_user", archetype="Power User", priority="primary", goals=["Fast workflow"])
+persona.add_persona(name="power_user", archetype="Power User", priority="primary",
+    goals=["Fast workflow"], behaviors=["Daily collaboration tool use"],
+    bio="Power user who manages multiple teams")
 
 # 2. JTBD — uncover core job-to-be-done
 jtbd = JTBDSkill("SaaS Product")
 opportunity = jtbd.score_opportunity("Collaborate on documents efficiently",
     struggle=4, alternative=3, market=5, budget=4)
+forces = jtbd.analyze_forces("Users switching from email to collaboration tool")
 
 # 3. UDM — conduct research, generate findings
 udm = UDMSkill("SaaS Product")
 interview = udm.generate_interview("User Research", "contextual", context="Team collaboration")
+sus = udm.calculate_sus([4, 2, 5, 1, 4, 2, 5, 1, 4, 2])  # SUS: 85.0, Grade A
 
 # 4. QuantUX — run experiment on proposed solution
 quantux = QuantUXSkill("SaaS Product")
 ab_result = quantux.analyze_ab_test("control", 3000, 1350, "treatment", 3000, 1620)
+n = quantux.calculate_ab_sample_size(baseline=0.45, mde=0.05)
 
 # 5. VPD — validate value proposition canvas
 vpd = VPDSkill("SaaS Product", "Power Users")
