@@ -35,8 +35,6 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (2015). A complete 
 >
 > *"用 SWD 改造后，我们的汇报从'一堆图表'变成了'一个故事'——CEO 听完直接拍板。"*
 
-> **🏆 Proven Impact**: Teams that apply SWD consistently see a **2.4× improvement in executive buy-in rates** for data-driven proposals (measured as first-meeting approval vs. "send me more details").
-
 ## ⚡ Quick Start (5 Minutes)
 
 ### Install
@@ -44,6 +42,8 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (2015). A complete 
 ```bash
 cp -r storytelling-with-data /your/agent/skills/
 ```
+
+For detailed installation steps, configuration options, and agent integration guides, see [INSTALL.md](INSTALL.md).
 
 ### Use in Python
 
@@ -390,6 +390,13 @@ Yes — feed QuantUX A/B test results directly into SWD's `build_story()` to cre
 
 **Q: What if my audience says "show me more data"?**
 That's a storytelling problem, not a data problem. SWD's `build_context()` helps you define a clear Big Idea so your audience knows exactly what decision to make, reducing the "more data" loop.
+
+## 📚 Resources
+
+- [INSTALL.md](INSTALL.md) — Detailed installation guide and agent integration
+- [CONTRIBUTING.md](CONTRIBUTING.md) — How to contribute
+- [CHANGELOG.md](CHANGELOG.md) — Version history
+- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) — Community guidelines
 
 ## 📄 License
 
