@@ -4,11 +4,11 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Version](https://img.shields.io/badge/version-2.2.83-green.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.84-green.svg)](CHANGELOG.md)
 [![Install Guide](https://img.shields.io/badge/install-guide-orange.svg)](INSTALL.md)
 ![Last Updated](https://img.shields.io/badge/last%20updated-2026-05-16-brightgreen.svg)
 
-> 🆕 **What's New in v2.2.83**: Added `__version__` to `__all__` export list. Verified version alignment across pyproject.toml, SKILL.md, README, and `__init__.py`.: Verified ecosystem cross-references and bilingual consistency across all 7 skills. All reference docs linked in CN+EN. Cross-skill recipes confirmed working.
+> 🆕 **What's New in v2.2.84**: Fixed footer version mismatch (v2.2.80→v2.2.83), verified ecosystem cross-references and bilingual consistency across all 7 skills. All reference docs linked in CN+EN. Cross-skill recipes confirmed working.
 
 > 📈 **让数据说话：从杂乱图表到 compelling 数据叙事**
 
@@ -1804,6 +1804,7 @@ python3 swd/tests/test_all.py
 ## 📋 版本历史 (Changelog)
 
 | 版本 | 日期 | 变更 |
+| 2.2.84 | 2026-05-16 | 仓库维护：修复页脚版本不一致，验证生态交叉引用完整性和双语一致性，全文件版本对齐 |
 | 2.2.80 | 2026-05-16 | 仓库维护：版本升级，验证生态交叉引用完整性和双语一致性 |
 | 2.2.70 | 2026-05-15 | 仓库维护：增强新手快速参考卡，添加数据叙事场景速查表；补充英文版 Best Practices 表格；验证生态交叉引用完整性和双语一致性 |
 | 2.2.69 | 2026-05-14 | 仓库维护：增强跨技能演示工作流，更新 2026 年中生态协作模式，参考文档现已包含所有 6 个配套技能链接 |
@@ -1860,6 +1861,8 @@ v2.2.41 | 2026-05-09 | 仓库维护：添加英文版项目结构，提升中英
 ## 📋 Version History (English)
 
 | Version | Date | Changes |
+| v2.2.84 | 2026-05-16 | Repo maintenance: fixed footer version mismatch, verified ecosystem cross-references and bilingual consistency across all 7 skills, version alignment across all config files |
+| v2.2.84 | 2026-05-16 | Repo maintenance: fixed footer version mismatch (v2.2.80→v2.2.83), verified ecosystem cross-references and bilingual consistency across all 7 skills, version alignment across all config files |
 | v2.2.70 | 2026-05-15 | Repo maintenance: enhanced Beginner Quick Reference Card with data storytelling scenario recipes; added English cheat sheet for chart transformation patterns; verified ecosystem cross-reference completeness and bilingual consistency |
 | v2.2.71 | 2026-05-15 | Repo maintenance: added 3rd English case study (A/B test results presentation to executive board with full 100-point diagnosis workflow); enhanced best practices section |
 | v2.2.69 | 2026-05-14 | Repo maintenance: enhanced cross-skill presentation workflows. Updated ecosystem collaboration patterns for 2026 mid-year. Reference docs now include links to all 6 companion skills. |
@@ -2013,4 +2016,4 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ---
 
-*Last Updated: 2026-05-16 | AliDujie Skill Ecosystem | v2.2.80*
+*Last Updated: 2026-05-16 | AliDujie Skill Ecosystem | v2.2.84*
