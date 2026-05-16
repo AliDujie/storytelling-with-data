@@ -1,5 +1,10 @@
 # Changelog
 
+## v2.2.83 (2026-05-16)
+
+- Repo maintenance: Added `__version__` to `__all__` export list for proper `from swd import __version__`
+- Verified version alignment across pyproject.toml, SKILL.md, README, and `__init__.py`
+
 ## v2.2.82 (2026-05-16)
 
 - Repo maintenance: enhanced English Features at a Glance with additional detail
