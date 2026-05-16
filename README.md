@@ -6,6 +6,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
+![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
 
 ## 🇨🇳 中文概览
 
@@ -338,6 +339,23 @@ python -m pytest swd/tests/test_all.py -v
 ## 🤝 Contributing
 
 We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+## ❓ FAQ / Troubleshooting
+
+**Q: Do I need matplotlib or any charting library?**
+No. SWD is methodology-focused — it tells you *what* chart to use, *how* to design it, and *why* certain choices are better. You create the actual charts in your preferred tool (Excel, Tableau, Python, etc.).
+
+**Q: What score should I target in `full_diagnosis()`?**
+Aim for 90+ (🟢 Excellent) for stakeholder-facing presentations. 70-89 (🟡 Good) is fine for internal drafts. Below 50 means a redesign is needed.
+
+**Q: When should I use `compare_decisions()` vs just a regular chart?**
+Use `compare_decisions()` when presenting multiple options to leadership — it auto-generates a comparison table with cost/impact/risk columns and a clear recommendation row.
+
+**Q: Can SWD work with data from QuantUX?**
+Yes — feed QuantUX A/B test results directly into SWD's `build_story()` to create an executive-ready narrative with statistical backing. See the [ecosystem integration section](#-ecosystem-integration) for the full pipeline.
+
+**Q: What if my audience says "show me more data"?**
+That's a storytelling problem, not a data problem. SWD's `build_context()` helps you define a clear Big Idea so your audience knows exactly what decision to make, reducing the "more data" loop.
 
 ## 📄 License
 
