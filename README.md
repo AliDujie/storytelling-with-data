@@ -191,31 +191,34 @@ The full research-to-decision pipeline uses all 6 collaborating skills in sequen
 
 ```python
 from persona import PersonaSkill
-from jtbd import JTBDKnowledgeSkill
-from udm import UniversalDesignMethodsSkill
+from jtbd import JTBDSkill
+from udm import UDMSkill
 from quantux import QuantUXSkill
-from vpd import ValuePropositionDesignSkill
+from vpd import VPDSkill
 from swd import SWDSkill
 
 # 1. Persona — identify target user segment
 persona = PersonaSkill("SaaS Product")
-segment = persona.profile("power_users", n=500)
+persona.add_persona(name="power_user", archetype="Power User", priority="primary", goals=["Fast workflow"])
 
 # 2. JTBD — uncover core job-to-be-done
-jtbd = JTBDKnowledgeSkill("SaaS Product")
-jobs = jtbd.find_jobs(segment["primary_persona"])
+jtbd = JTBDSkill("SaaS Product")
+opportunity = jtbd.score_opportunity("Collaborate on documents efficiently",
+    struggle=4, alternative=3, market=5, budget=4)
 
 # 3. UDM — conduct research, generate findings
-udm = UniversalDesignMethodsSkill("SaaS Product")
-findings = udm.run_study(methods=["contextual_inquiry", "survey"], participants=40)
+udm = UDMSkill("SaaS Product")
+interview = udm.generate_interview("User Research", "contextual", context="Team collaboration")
 
 # 4. QuantUX — run experiment on proposed solution
 quantux = QuantUXSkill("SaaS Product")
-ab_result = quantux.analyze_ab_test("control", 3000, 450, "treatment", 3000, 540)
+ab_result = quantux.analyze_ab_test("control", 3000, 1350, "treatment", 3000, 1620)
 
 # 5. VPD — validate value proposition canvas
-vpd = ValuePropositionDesignSkill("SaaS Product")
-canvas = vpd.evaluate(fit_data=findings, value_metrics=ab_result)
+vpd = VPDSkill("SaaS Product", "Power Users")
+canvas = vpd.analyze_canvas(product_name="TeamFlow",
+    jobs=[{"description": "Collaborate efficiently", "importance": 5}],
+    pains=[{"description": "Information scattered", "severity": "high"}])
 
 # 6. SWD — build the executive story
 swd = SWDSkill("Product Strategy Review")
@@ -230,16 +233,9 @@ story = swd.build_story(
     evidence=[
         "Treatment group conversion: 18% vs control 15% (p<0.001)",
         "Power user segment represents 40% of addressable market",
-        "Value proposition fit score: 4.2/5 on validated canvas"
     ],
     call_to_action="Approve $5M Series B extension for product expansion"
 )
-# Add executive decision support
-options = swd.compare_decisions(options=[
-    {"name": "Full rollout", "cost": "$5M", "impact": "High", "risk": "Medium"},
-    {"name": "Phased rollout", "cost": "$2M", "impact": "Medium", "risk": "Low"},
-])
-risk = swd.visualize_risks(risks=options)
 ```
 
 Cross-skill example:
