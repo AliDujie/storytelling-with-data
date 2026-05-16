@@ -33,7 +33,7 @@
     makeover = skill.makeover(issues=["使用了饼图", "无标题"])
 """
 
-__version__ = "2.2.82"
+__version__ = "2.2.83"
 
 from .config import AnalysisConfig, CHART_TYPES, CHART_LABELS, KNOWLEDGE_FILES
 from .utils import load_knowledge, load_all_knowledge, search_knowledge
@@ -709,6 +709,7 @@ class SWDSkill:
 
 
 __all__ = [
+    "__version__",
     "SWDSkill",
     "AnalysisConfig", "CHART_TYPES", "CHART_LABELS", "KNOWLEDGE_FILES",
     "load_knowledge", "load_all_knowledge", "search_knowledge",
