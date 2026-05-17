@@ -393,7 +393,6 @@ python -m pytest swd/tests/test_all.py -v
 | [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | SWD market data → CMO brand & growth strategy |
 | [CTO Advisor](https://github.com/AliDujie/cto-advisor) | SWD tech metrics → CTO technology investment decisions |
 | [Plan CEO Review](https://github.com/AliDujie/plan-ceo-review) | SWD quarterly reports → CEO plan review cycle |
-| [Plan CEO Review](https://github.com/AliDujie/plan-ceo-review) | SWD quarterly reports → CEO plan review cycle |
 
 ## 🤝 Contributing
 
