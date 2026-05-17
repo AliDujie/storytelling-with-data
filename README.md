@@ -98,6 +98,13 @@ print(result)  # Expected: 🟡 Good (70-89 range)
 
 **Zero dependencies** — pure Python standard library. No `pip install` needed.
 
+> 💡 **Try it now / 立即尝试**:
+> ```python
+> from swd import SWDSkill
+> skill = SWDSkill("你的项目")
+> print(skill.recommend_chart(data_type="continuous", has_time=True))
+> ```
+
 ## 📋 Real-World Use Cases
 
 ### Quarterly Business Review
