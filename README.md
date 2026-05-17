@@ -422,6 +422,19 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 
 ## ❓ FAQ / Troubleshooting
 
+### ⏱️ 5 分钟快速开始检查清单
+
+- [ ] **安装** — `cp -r storytelling-with-data /your/agent/skills/`
+- [ ] **导入** — `from swd import SWDSkill`
+- [ ] **初始化** — `skill = SWDSkill("你的项目")`
+- [ ] **上下文分析** — `skill.build_context(audience="CEO", cta="批准预算")`
+- [ ] **图表推荐** — `skill.recommend_chart(data_type="continuous", has_time=True)`
+- [ ] **去杂乱诊断** — `skill.diagnose_clutter(has_gridlines=True)`
+- [ ] **构建故事** — `skill.build_story(protagonist="产品委员会", imbalance="用户流失", evidence=[...])`
+- [ ] **全面诊断** — `skill.full_diagnosis(scores={...})`（100 分制评分）
+
+## ❓ FAQ / Troubleshooting
+
 **Q: How do I convince stakeholders to embrace simpler charts?**
 Show them a before/after makeover using `chart_makeover()`. Start with their worst offender (e.g., a 3D pie chart with a legend), apply SWD's 6-step transformation, and present the side-by-side. Visual proof beats philosophical arguments.
 
