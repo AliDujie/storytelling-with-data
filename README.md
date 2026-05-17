@@ -380,6 +380,17 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 | [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | HEART framework, A/B testing, MaxDiff | `QuantUXSkill` |
 | [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | VPD canvas, Blue Ocean strategy | `VPDSkill` |
 
+### ⏱️ 5-Minute Quick-Start Checklist
+
+- [ ] **Install** — `cp -r storytelling-with-data /your/agent/skills/`
+- [ ] **Import** — `from swd import SWDSkill`
+- [ ] **Initialize** — `skill = SWDSkill("Your Report")`
+- [ ] **Context analysis** — `skill.build_context(audience="CEO", cta="Approve budget")`
+- [ ] **Chart recommendation** — `skill.recommend_chart(data_type="continuous", has_time=True)`
+- [ ] **Declutter diagnosis** — `skill.diagnose_clutter(has_gridlines=True)`
+- [ ] **Build story** — `skill.build_story(protagonist="...", imbalance="...", evidence=[...])`
+- [ ] **Full diagnosis** — `skill.full_diagnosis(scores={...})` (100-point scoring)
+
 ## ❓ FAQ / Troubleshooting
 
 **Q: Do I need matplotlib or any charting library?**
