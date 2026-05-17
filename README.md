@@ -440,6 +440,9 @@ Use `compare_decisions()` when presenting multiple options to leadership — it 
 **Q: Can SWD work with data from QuantUX?**
 Yes — feed QuantUX A/B test results directly into SWD's `build_story()` to create an executive-ready narrative with statistical backing. See the [ecosystem integration section](#-ecosystem-integration) for the full pipeline.
 
+**Q: How do I chain the full AliDujie research pipeline?**
+Start at the beginning: [Persona](https://github.com/AliDujie/web-persona-skill) defines *who* → [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) discovers *what they need* → [UDM](https://github.com/AliDujie/universal-design-methods) runs research → QuantUX validates → [VPD](https://github.com/AliDujie/value-proposition-design) maps value → SWD (this skill) presents results to stakeholders. See the [Complete Pipeline Example](#-complete-pipeline-example) above.
+
 **Q: What if my audience says "show me more data"?**
 That's a storytelling problem, not a data problem. SWD's `build_context()` helps you define a clear Big Idea so your audience knows exactly what decision to make, reducing the "more data" loop.
 
