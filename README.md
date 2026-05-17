@@ -163,6 +163,7 @@ What do you want to show?
     └── Dual Y-axis → Use: split or annotate directly
 ```
 
+> 💡 **Pro Tip**: When in doubt, default to a horizontal bar chart. It works for almost every categorical comparison and avoids the readability problems of column charts with long labels.
 ## 📈 5-Dimension Diagnosis Scoring
 
 | Dimension (20pts each) | Focus |
@@ -421,6 +422,12 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 
 ## ❓ FAQ / Troubleshooting
 
+**Q: How do I convince stakeholders to embrace simpler charts?**
+Show them a before/after makeover using `chart_makeover()`. Start with their worst offender (e.g., a 3D pie chart with a legend), apply SWD's 6-step transformation, and present the side-by-side. Visual proof beats philosophical arguments.
+
+**Q: My data has 20+ categories — how do I avoid clutter?**
+Group related categories, then use a horizontal bar chart sorted by value. Apply `diagnose_clutter()` to catch any remaining noise. If you must show all 20, consider a table instead — they're underrated for exact-value lookups.
+
 **Q: Do I need matplotlib or any charting library?**
 No. SWD is methodology-focused — it tells you *what* chart to use, *how* to design it, and *why* certain choices are better. You create the actual charts in your preferred tool (Excel, Tableau, Python, etc.).
 
@@ -446,3 +453,9 @@ That's a storytelling problem, not a data problem. SWD's `build_context()` helps
 ## 📄 License
 
 MIT License — see [LICENSE](LICENSE) for details.
+
+---
+
+**Built with ❤️ as part of the AliDujie UX Research Ecosystem**
+
+[UDM](https://github.com/AliDujie/universal-design-methods) · [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) · [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) · [VPD](https://github.com/AliDujie/value-proposition-design) · [Persona](https://github.com/AliDujie/web-persona-skill)
