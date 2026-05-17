@@ -168,6 +168,26 @@ What do you want to show?
 
 **Rating**: 90+ 🟢 Excellent | 70-89 🟡 Good | 50-69 🟠 Needs Improvement | <50 🔴 Redo
 
+## 🔗 生态快速开始
+
+SWD 是研究管道末端的数据呈现层：
+
+```python
+# UDM/QuantUX 研究 → VPD 验证 → SWD 数据故事
+from udm import UDMSkill
+from quantux import QuantUXSkill
+from swd import SWDSkill
+
+u = UDMSkill("产品")          # 定性研究
+q = QuantUXSkill("产品")      # 定量验证
+s = SWDSkill("Q1 报告")       # 高管数据故事
+
+# 将 QuantUX A/B 结果转化为数据故事
+ab = q.analyze_ab_test("旧", 5000, 1750, "新", 5000, 1900)
+ctx = s.build_context(audience="产品 VP", cta="批准全面推广")
+story = s.build_story(protagonist="产品委员会", imbalance="15% 订单流失")
+```
+
 ## 🌐 Ecosystem Integration
 
 SWD is the **data presentation layer** at the end of the research pipeline:
