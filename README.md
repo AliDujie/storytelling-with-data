@@ -404,6 +404,7 @@ python -m pytest swd/tests/test_all.py -v
 - **Understanding user Jobs-to-be-Done** → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill)
 - **Creating user personas** → [Web Persona](https://github.com/AliDujie/web-persona-skill)
 - **Value proposition canvas analysis** → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design)
+- **Structural business framework analysis** → [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model)
 
 ## 📚 References
 
@@ -497,6 +498,28 @@ Start at the beginning: [Persona](https://github.com/AliDujie/web-persona-skill)
 **Q: What if my audience says "show me more data"?**
 That's a storytelling problem, not a data problem. SWD's `build_context()` helps you define a clear Big Idea so your audience knows exactly what decision to make, reducing the "more data" loop.
 
+## 🏗️ Advanced: Custom Configuration
+
+SWD supports runtime configuration via the `AnalysisConfig` class:
+
+```python
+from swd import SWDSkill, AnalysisConfig
+
+config = AnalysisConfig()
+config.set_output_language("en")  # Switch output language
+config.set_chart_theme("dark")    # Use dark theme for chart recommendations
+
+skill = SWDSkill("My Report", config=config)
+```
+
+See [INSTALL.md](INSTALL.md) for full configuration options and agent integration guides.
+
+## 📊 Version History
+
+See [CHANGELOG.md](CHANGELOG.md) for full release notes.
+
+**Latest (v2.2.84)**: Merged duplicated English/Chinese quick-start checklists into single bilingual table, added cross-skill collaboration table and ecosystem integration guide.
+
 ## 📚 Resources
 
 - [INSTALL.md](INSTALL.md) — Detailed installation guide and agent integration
@@ -507,6 +530,12 @@ That's a storytelling problem, not a data problem. SWD's `build_context()` helps
 ## 📄 License
 
 MIT License — see [LICENSE](LICENSE) for details.
+
+---
+
+**Built with ❤️ as part of the AliDujie UX Research Ecosystem**
+
+[Persona](https://github.com/AliDujie/web-persona-skill) · [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) · [UDM](https://github.com/AliDujie/universal-design-methods) · [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) · [VPD](https://github.com/AliDujie/value-proposition-design) · **SWD** · [STM](https://github.com/AliDujie/Structured-Thinking-Model)
 
 ---
 
