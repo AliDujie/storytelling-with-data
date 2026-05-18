@@ -441,9 +441,7 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 - [ ] **Build story** — `skill.build_story(protagonist="...", imbalance="...", evidence=[...])`
 - [ ] **Full diagnosis** — `skill.full_diagnosis(scores={...})` (100-point scoring)
 
-## ❓ FAQ / Troubleshooting
-
-### ⏱️ 5 分钟快速开始检查清单
+### ⏱️ Chinese 5-Minute Quick-Start Checklist / 5 分钟快速开始检查清单
 
 - [ ] **安装** — `cp -r storytelling-with-data /your/agent/skills/`
 - [ ] **导入** — `from swd import SWDSkill`
@@ -453,6 +451,12 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 - [ ] **去杂乱诊断** — `skill.diagnose_clutter(has_gridlines=True)`
 - [ ] **构建故事** — `skill.build_story(protagonist="产品委员会", imbalance="用户流失", evidence=[...])`
 - [ ] **全面诊断** — `skill.full_diagnosis(scores={...})`（100 分制评分）
+
+### 💡 Pro Tips / 专业技巧
+- **Context is king**: Always run `build_context()` first — knowing your audience shapes every downstream decision
+- **Grey is your friend**: Start designs in grayscale, add color only where it drives attention to the decision
+- **Kill the legend**: If your chart has a separate legend, replace it with direct labels — it cuts cognitive load by ~30%
+- **Iterative diagnosis**: Run `full_diagnosis()` after each chart revision to track quality improvements quantitatively
 
 ## ❓ FAQ / Troubleshooting
 
