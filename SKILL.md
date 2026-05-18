@@ -925,3 +925,7 @@ SWD 数据叙事能力可与管理层技能结合，将数据洞察转化为高�
 | [CPO Advisor](https://github.com/AliDujie/cpo-advisor) | SWD 产品数据 → CPO 产品组合战略 |
 | [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | SWD 市场数据 → CMO 品牌与增长策略 |
 | [CTO Advisor](https://github.com/AliDujie/cto-advisor) | SWD 技术指标 → CTO 技术战略决策 |
+| [Plan CEO Review](https://github.com/AliDujie/plan-ceo-review) | SWD 季度报告 → CEO 计划审查与范围调整 |
+
+### 💡 Pro Tip / 专业技巧
+SWD 是 AliDujie 生态系统的**数据呈现层**，处于研究管道末端。推荐在 UDM/JTBD/QuantUX/VPD 完成研究后使用 SWD 做高管汇报。SWD 的六步工作流（上下文→选图→去杂乱→注意力→设计→叙事）可以系统性地改造任何数据呈现。搭配 [VPD](https://github.com/AliDujie/value-proposition-design) 画布数据和 [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) 洞察，SWD 能把研究结果转化为可行动的决策。
