@@ -35,6 +35,16 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (2015). A complete 
 >
 > *"用 SWD 改造后，我们的汇报从'一堆图表'变成了'一个故事'——CEO 听完直接拍板。"*
 
+### 🔗 Cross-Skill Collaboration / 跨技能协作
+
+| 上游产出 | 用 SWD 做... | 示例 |
+|----------|-------------|------|
+| [UDM](https://github.com/AliDujie/universal-design-methods) 研究报告 | 数据故事构建 | `swd.build_story(evidence=udm_report.findings)` |
+| [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) A/B 结果 | 图表改造 + 注意力引导 | `swd.makeover(issues=["图表太复杂"])` |
+| [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) 机会评分 | 上下文分析 + 故事板 | `swd.build_context(audience="产品VP")` |
+| [VPD](https://github.com/AliDujie/value-proposition-design) 画布数据 | 可视化关键数据 | `swd.recommend_chart(data_type="categorical")` |
+| [Persona](https://github.com/AliDujie/web-persona-skill) 角色数据 | 选图表 + 构建故事 | `swd.plan_attention(focus_elements=["首要角色", 5])` |
+
 ## ⚡ Quick Start (5 Minutes)
 
 ### Install
