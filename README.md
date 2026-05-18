@@ -428,7 +428,21 @@ python -m pytest swd/tests/test_all.py -v
 | Resonate | Nancy Duarte (2010) | Big Idea concept, presentation narrative structure |
 | Universal Principles of Design | Lidwell, Holden, Butler (2010) | Design principles, acceptance theory |
 
+### 🔗 扩展生态 (Extended Ecosystem)
+
+SWD 数据叙事可与管理技能结合，将分析结果转化为战略汇报：
+
+| 扩展技能 | 协作场景 |
+|---------|----------|
+| [CEO Advisor](https://github.com/AliDujie/ceo-advisor) | SWD 数据故事 → CEO 董事会演示 |
+| [CPO Advisor](https://github.com/AliDujie/cpo-advisor) | SWD 产品数据 → CPO 组合战略 |
+| [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | SWD 市场数据 → CMO 品牌与增长策略 |
+| [CTO Advisor](https://github.com/AliDujie/cto-advisor) | SWD 技术指标 → CTO 技术投资决策 |
+| [Plan CEO Review](https://github.com/AliDujie/plan-ceo-review) | SWD 季度报告 → CEO 计划审查周期 |
+
 ## 🔗 Extended Ecosystem
+
+SWD data storytelling can be combined with management skills to turn analysis into strategic presentations:
 
 | Extended Skill | Collaboration Scenario |
 |---------------|----------------------|
