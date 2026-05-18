@@ -388,6 +388,19 @@ storytelling-with-data/
 └── .github/              # CI/CD workflows & issue templates
 ```
 
+## ⚡ 30-Second Quick Start / 30秒快速开始
+
+```python
+from swd import SWDSkill
+
+# One-liner: get chart recommendation
+print(SWDSkill("Your Report").recommend_chart(data_type="continuous", has_time=True))
+
+# Two-liner: build a data story
+swd = SWDSkill("Your Report")
+story = swd.build_story(protagonist="Stakeholders", imbalance="Key metric is declining", evidence=["Data point 1"], call_to_action="Take action")
+```
+
 ## 🧪 Testing
 
 ```bash
@@ -461,6 +474,7 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 - **Iterative diagnosis**: Run `full_diagnosis()` after each chart revision to track quality improvements quantitatively
 - **One chart, one message**: If your slide needs three charts to make a point, it needs three slides — each with a single clear action title
 - **Title test**: Can someone understand your story by reading only the slide titles? If not, rewrite them as complete sentences with conclusions
+- **Chain with ecosystem**: UDM research → QuantUX validation → SWD data story → [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) opportunity context → [VPD](https://github.com/AliDujie/value-proposition-design) value mapping → [Persona](https://github.com/AliDujie/web-persona-skill) user context
 
 ## 🛡️ Common Pitfalls & How to Avoid Them
 
@@ -536,9 +550,3 @@ MIT License — see [LICENSE](LICENSE) for details.
 **Built with ❤️ as part of the AliDujie UX Research Ecosystem**
 
 [Persona](https://github.com/AliDujie/web-persona-skill) · [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) · [UDM](https://github.com/AliDujie/universal-design-methods) · [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) · [VPD](https://github.com/AliDujie/value-proposition-design) · **SWD** · [STM](https://github.com/AliDujie/Structured-Thinking-Model)
-
----
-
-**Built with ❤️ as part of the AliDujie UX Research Ecosystem**
-
-[UDM](https://github.com/AliDujie/universal-design-methods) · [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) · [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) · [VPD](https://github.com/AliDujie/value-proposition-design) · [Persona](https://github.com/AliDujie/web-persona-skill)
