@@ -440,27 +440,18 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 | [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | Business framework analysis | `STMSkill` |
 | [CTO Advisor](https://github.com/AliDujie/cto-advisor) | CTO-level tech strategy & architecture guidance | `CTOSkill` |
 
-### ⏱️ 5-Minute Quick-Start Checklist
+### ⏱️ 5-Minute Quick-Start Checklist / 5 分钟快速开始检查清单
 
-- [ ] **Install** — `cp -r storytelling-with-data /your/agent/skills/`
-- [ ] **Import** — `from swd import SWDSkill`
-- [ ] **Initialize** — `skill = SWDSkill("Your Report")`
-- [ ] **Context analysis** — `skill.build_context(audience="CEO", cta="Approve budget")`
-- [ ] **Chart recommendation** — `skill.recommend_chart(data_type="continuous", has_time=True)`
-- [ ] **Declutter diagnosis** — `skill.diagnose_clutter(has_gridlines=True)`
-- [ ] **Build story** — `skill.build_story(protagonist="...", imbalance="...", evidence=[...])`
-- [ ] **Full diagnosis** — `skill.full_diagnosis(scores={...})` (100-point scoring)
-
-### ⏱️ Chinese 5-Minute Quick-Start Checklist / 5 分钟快速开始检查清单
-
-- [ ] **安装** — `cp -r storytelling-with-data /your/agent/skills/`
-- [ ] **导入** — `from swd import SWDSkill`
-- [ ] **初始化** — `skill = SWDSkill("你的项目")`
-- [ ] **上下文分析** — `skill.build_context(audience="CEO", cta="批准预算")`
-- [ ] **图表推荐** — `skill.recommend_chart(data_type="continuous", has_time=True)`
-- [ ] **去杂乱诊断** — `skill.diagnose_clutter(has_gridlines=True)`
-- [ ] **构建故事** — `skill.build_story(protagonist="产品委员会", imbalance="用户流失", evidence=[...])`
-- [ ] **全面诊断** — `skill.full_diagnosis(scores={...})`（100 分制评分）
+| Step | EN | CN |
+|------|----|----|
+| 1 | **Install** — `cp -r storytelling-with-data /your/agent/skills/` | **安装** — 复制到 skills 目录 |
+| 2 | **Import** — `from swd import SWDSkill` | **导入** |
+| 3 | **Initialize** — `skill = SWDSkill("Your Report")` | **初始化** |
+| 4 | **Context** — `skill.build_context(audience="CEO", cta="Approve budget")` | **上下文分析** |
+| 5 | **Chart** — `skill.recommend_chart(data_type="continuous", has_time=True)` | **图表推荐** |
+| 6 | **Declutter** — `skill.diagnose_clutter(has_gridlines=True)` | **去杂乱诊断** |
+| 7 | **Story** — `skill.build_story(protagonist="...", imbalance="...")` | **构建故事** |
+| 8 | **Diagnose** — `skill.full_diagnosis(scores={...})` | **全面诊断（100 分制）** |
 
 ### 💡 Pro Tips / 专业技巧
 - **Context is king**: Always run `build_context()` first — knowing your audience shapes every downstream decision
