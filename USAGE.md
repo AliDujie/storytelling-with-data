@@ -2,6 +2,18 @@
 
 > 数据可视化与数据叙事 · 使用指南
 
+## 📐 Where SWD Fits in the Pipeline
+
+```
+Persona (Who) → JTBD (What) → UDM (Research) → QuantUX (Validate) → VPD (Value) → SWD (Present)
+                                                                                    ↑
+                                                                              SWD sits here
+```
+
+- **Last in the pipeline** — takes research findings and turns them into executive-ready stories
+- **Consumes** output from all upstream skills (UDM reports, QuantUX stats, VPD canvas, JTBD scores)
+- **Produces** three-act narratives, chart recommendations, and decision frameworks
+
 ## ⚡ 5-Minute Quick Start / 5分钟快速开始
 
 ```bash
