@@ -2,7 +2,7 @@
 
 > **Turn Data into Decisions. Turn Charts into Stories.**
 
-![Version](https://img.shields.io/badge/version-2.2.84-blue)
+![Version](https://img.shields.io/badge/version-2.2.85-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -546,7 +546,9 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.2.84)**: Merged duplicated English/Chinese quick-start checklists into single bilingual table, added cross-skill collaboration table and ecosystem integration guide.
+**Latest (v2.2.85)**: Added Chinese Extended Ecosystem section with CEO/CPO/CMO/CTO advisor links, improving bilingual parity.
+
+**Previous (v2.2.84)**: Merged duplicated English/Chinese quick-start checklists into single bilingual table, added cross-skill collaboration table and ecosystem integration guide.
 
 ## 📚 Resources
 
