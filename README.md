@@ -544,14 +544,6 @@ See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 - [SECURITY.md](SECURITY.md) — Security policy and responsible use
 - [references/](references/) — Chart reference guides and template files
 
-## ⚠️ When NOT to Use SWD
-
-- **Research method selection or interview guides** → [Universal Design Methods](https://github.com/AliDujie/universal-design-methods)
-- **Statistical analysis and experiment design** → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research)
-- **Creating user personas** → [Web Persona](https://github.com/AliDujie/web-persona-skill)
-- **JTBD analysis** → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill)
-- **Value proposition canvas** → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design)
-
 ## 📄 License
 
 MIT License — see [LICENSE](LICENSE) for details.
