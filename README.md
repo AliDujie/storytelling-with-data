@@ -119,6 +119,46 @@ You have interview transcripts and survey data from UDM. Run **Comprehensive Dia
 ### Board Fundraising Deck
 Investors need to see traction, not spreadsheets. Combine **Context Analysis** (define audience = investors, CTA = fund this round), **Story Construction** (imbalance → evidence → resolution arc), and **Execution Risk Visualization** to show you've thought through downside scenarios.
 
+## 🤖 AI Agent Integration
+
+SWD is designed as a **drop-in agent skill** for any Python-based LLM agent workflow. Its methodology-first approach means it produces *structured guidance* that agents can pass directly to charting tools or presentation generators:
+
+```python
+# Example: SWD as agent tools
+from swd import SWDSkill
+
+swd = SWDSkill("Q4 Report")
+
+@tool
+def recommend_chart_type(data_type: str, has_time: bool = False, series_count: int = 1):
+    """Recommend the best chart type for given data characteristics."""
+    return swd.recommend_chart(data_type=data_type, has_time=has_time, series_count=series_count)
+
+@tool
+def diagnose_visualization(has_gridlines: bool, has_legend: bool, has_border: bool):
+    """Diagnose clutter in a visualization and suggest improvements."""
+    return swd.diagnose_clutter(has_gridlines=has_gridlines, has_separate_legend=has_legend, has_border=has_border)
+
+@tool
+def build_data_story(protagonist: str, imbalance: str, evidence: list, cta: str):
+    """Build a three-act data narrative for executive presentation."""
+    return swd.build_story(protagonist, imbalance, evidence, cta)
+```
+
+### Agent Workflow Pattern
+```
+LLM receives data → Calls SWD.recommend_chart() → Generates chart spec
+     ↓
+LLM receives draft slide → Calls SWD.diagnose_clutter() → Returns cleanup suggestions
+     ↓
+LLM receives cleaned chart → Calls SWD.build_story() → Returns executive narrative
+```
+
+### Prompt Engineering Tips
+- **Pass the full context**: Use `build_context()` output as system context for data presentation tasks
+- **Iterative refinement**: Run `full_diagnosis()` after each chart iteration to track quality improvements
+- **Cross-skill chaining**: Feed QuantUX A/B results directly into SWD's `build_story()` for statistical narratives
+
 ## 🧩 8+3 Capabilities
 
 ### Core Capabilities (8)
@@ -307,26 +347,6 @@ story = swd.build_story(
 | `references/10-final-thoughts.md` | Ch.10 Final Thoughts | 5 practice tips, team capability building |
 | `references/11-quick-reference.md` | Quick Reference | Decision trees, checklists, scoring tables, fix mappings |
 
-## 🔗 Ecosystem Quick Start
-
-SWD is the final layer in the research pipeline — it transforms findings from other skills into executive-ready narratives:
-
-```python
-# UDM/QuantUX research → VPD validation → SWD executive story
-from udm import UDMSkill
-from quantux import QuantUXSkill
-from swd import SWDSkill
-
-u = UDMSkill("Product")          # Qualitative research
-q = QuantUXSkill("Product")      # Quantitative validation
-s = SWDSkill("Q1 Report")        # Executive data story
-
-# Transform QuantUX A/B results into a story
-ab = q.analyze_ab_test("Old", 5000, 1750, "New", 5000, 1900)
-ctx = s.build_context(audience="Product VP", cta="Approve full rollout")
-story = s.build_story(protagonist="Product Committee", imbalance="15% order churn")
-```
-
 ## 📁 Project Structure
 
 ```
@@ -408,6 +428,7 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 | [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | HEART framework, A/B testing, MaxDiff | `QuantUXSkill` |
 | [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | VPD canvas, Blue Ocean strategy | `VPDSkill` |
 | [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | Business framework analysis | `STMSkill` |
+| [CTO Advisor](https://github.com/AliDujie/cto-advisor) | CTO-level tech strategy & architecture guidance | `CTOSkill` |
 
 ### ⏱️ 5-Minute Quick-Start Checklist
 
