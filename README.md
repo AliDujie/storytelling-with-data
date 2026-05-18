@@ -457,6 +457,18 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 - **Grey is your friend**: Start designs in grayscale, add color only where it drives attention to the decision
 - **Kill the legend**: If your chart has a separate legend, replace it with direct labels — it cuts cognitive load by ~30%
 - **Iterative diagnosis**: Run `full_diagnosis()` after each chart revision to track quality improvements quantitatively
+- **One chart, one message**: If your slide needs three charts to make a point, it needs three slides — each with a single clear action title
+- **Title test**: Can someone understand your story by reading only the slide titles? If not, rewrite them as complete sentences with conclusions
+
+## 🛡️ Common Pitfalls & How to Avoid Them
+
+| Pitfall | How SWD Helps |
+|---------|---------------|
+| Rainbow-colored charts that say nothing | `plan_attention()` enforces grey + single strategic color |
+| Stakeholder asks for "more data" | `build_context()` defines a clear Big Idea so audience knows the decision |
+| Pie charts nobody can read | `recommend_chart()` auto-detects and flags pie/3D/dual-axis usage |
+| Subjective quality debates | `full_diagnosis()` provides objective 5-dimension scoring |
+| Endless iterations | `compare_decisions()` generates a clear recommendation table
 
 ## ❓ FAQ / Troubleshooting
 
