@@ -109,7 +109,7 @@ story = swd.build_story(protagonist="产品团队", imbalance="用户流失率�
 - [ ] **去杂乱诊断** — `skill.diagnose_clutter(...)`
 - [ ] **构建故事** — `skill.build_story(protagonist=..., imbalance=...)`
 
-[English](#english) | [中文](#中文说明)
+[English](README.md#quick-start-5-minutes) | [中文](#中文说明)
 
 ## 🌟 为什么选择 SWD？
 
