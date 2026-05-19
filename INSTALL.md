@@ -88,9 +88,23 @@ This skill is part of the AliDujie UX Research ecosystem:
 
 1. Read the [README.md](./README.md) for usage examples / 阅读 README.md 了解使用示例
 2. Explore the [SKILL.md](./SKILL.md) for API documentation / 查看 SKILL.md 了解 API 文档
-3. Check the [references/](./references/) directory for methodology guides / 查看 references/ 目录了解方法论指南
+3. Check the [USAGE.md](./USAGE.md) for detailed workflows / 查看 USAGE.md 了解详细工作流
+4. Check the [references/](./references/) directory for methodology guides / 查看 references/ 目录了解方法论指南
+5. Run the tests: `python swd/tests/test_all.py` / 运行测试
 
----
+## 🔗 Related Skills / 相关技能
 
-**Need help?** Open an issue on [GitHub](https://github.com/AliDujie/storytelling-with-data/issues)
-**需要帮助？** 在 [GitHub](https://github.com/AliDujie/storytelling-with-data/issues) 提交 issue
+This skill is part of the AliDujie UX Research ecosystem:
+本技能是 AliDujie UX 研究生态系统的一部分：
+
+| Skill | Role | Collaboration |
+|-------|------|---------------|
+| [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) | Research methods | UDM findings → SWD storytelling |
+| [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) | Statistical validation | A/B results → SWD makeover + narrative |
+| [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) | Needs discovery | JTBD scores → SWD context + report |
+| [Web Persona](https://github.com/AliDujie/web-persona-skill) | User personas | Persona data → SWD chart selection |
+| [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) | Value validation | VPD canvas → SWD visualization |
+| [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | Strategy framework | SWD output → STM analysis |
+| [CEO Advisor](https://github.com/AliDujie/ceo-advisor) | Board presentations | SWD story → CEO board deck |
+| [CPO Advisor](https://github.com/AliDujie/cpo-advisor) | Product strategy | SWD data → CPO portfolio strategy |
+| [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | Growth strategy | SWD metrics → CMO campaigns |

@@ -383,7 +383,7 @@ story = swd.build_story(
 )
 ```
 
-## 📖 Knowledge Base (11 Documents)
+## 📖 Knowledge Base (12 Documents)
 
 | File | Chapter | Core Content |
 |------|---------|-------------|
@@ -398,6 +398,7 @@ story = swd.build_story(
 | `references/09-case-studies.md` | Ch.9 Case Studies | Dark backgrounds, animation, sorting, spaghetti charts |
 | `references/10-final-thoughts.md` | Ch.10 Final Thoughts | 5 practice tips, team capability building |
 | `references/11-quick-reference.md` | Quick Reference | Decision trees, checklists, scoring tables, fix mappings |
+| `references/12-cross-skill-presentation.md` | Cross-Skill Guide | How to present findings from UDM, QuantUX, JTBD, VPD, Persona |
 
 ## 📁 Project Structure
 
@@ -470,19 +471,7 @@ python -m pytest swd/tests/test_all.py -v
 | Resonate | Nancy Duarte (2010) | Big Idea concept, presentation narrative structure |
 | Universal Principles of Design | Lidwell, Holden, Butler (2010) | Design principles, acceptance theory |
 
-### 🔗 扩展生态 (Extended Ecosystem)
-
-SWD 数据叙事可与管理技能结合，将分析结果转化为战略汇报：
-
-| 扩展技能 | 协作场景 |
-|---------|----------|
-| [CEO Advisor](https://github.com/AliDujie/ceo-advisor) | SWD 数据故事 → CEO 董事会演示 |
-| [CPO Advisor](https://github.com/AliDujie/cpo-advisor) | SWD 产品数据 → CPO 组合战略 |
-| [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | SWD 市场数据 → CMO 品牌与增长策略 |
-| [CTO Advisor](https://github.com/AliDujie/cto-advisor) | SWD 技术指标 → CTO 技术投资决策 |
-| [Plan CEO Review](https://github.com/AliDujie/plan-ceo-review) | SWD 季度报告 → CEO 计划审查周期 |
-
-## 🔗 Extended Ecosystem
+### 🔗 Extended Ecosystem / 扩展生态
 
 SWD data storytelling can be combined with management skills to turn analysis into strategic presentations:
 
@@ -493,6 +482,16 @@ SWD data storytelling can be combined with management skills to turn analysis in
 | [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | SWD market data → CMO brand & growth strategy |
 | [CTO Advisor](https://github.com/AliDujie/cto-advisor) | SWD tech metrics → CTO technology investment decisions |
 | [Plan CEO Review](https://github.com/AliDujie/plan-ceo-review) | SWD quarterly reports → CEO plan review cycle |
+
+SWD 数据叙事能力可与管理层技能结合，将数据洞察转化为高管决策：
+
+| 扩展技能 | 协作场景 |
+|---------|----------|
+| [CEO Advisor](https://github.com/AliDujie/ceo-advisor) | SWD 数据故事 → CEO 战略决策与董事会汇报 |
+| [CPO Advisor](https://github.com/AliDujie/cpo-advisor) | SWD 产品数据 → CPO 产品组合战略 |
+| [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | SWD 市场数据 → CMO 品牌与增长策略 |
+| [CTO Advisor](https://github.com/AliDujie/cto-advisor) | SWD 技术指标 → CTO 技术战略决策 |
+| [Plan CEO Review](https://github.com/AliDujie/plan-ceo-review) | SWD 季度报告 → CEO 计划审查与范围调整 |
 
 ## 🤝 Contributing
 
@@ -602,7 +601,9 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.2.88)**: Added "Which SWD Capability Should I Use?" decision guide table for quick capability selection.
+**Latest (v2.2.89)**: Repo maintenance — enhanced FAQ with troubleshooting, added cross-skill collaboration examples, fixed version alignment across all files.
+
+**Previous (v2.2.88)**: Added "Which SWD Capability Should I Use?" decision guide table for quick capability selection.
 
 **Previous (v2.2.87)**: Fixed method name references (`chart_makeover` → `makeover`, `compare_decisions` → `build_decision_comparison`), improved cross-skill collaboration table with executable API examples, added full_diagnosis() to agent workflow pattern.
 

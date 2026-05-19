@@ -3,7 +3,7 @@ name: storytelling-with-data
 version: "2.2.89"
 description: >
   数据可视化与数据叙事技能，基于 Cole Nussbaumer Knaflic《Storytelling with Data》
-  方法论。提供 8 项可执行能力和 11 篇知识库文档，覆盖上下文分析→图表选择→去杂乱→
+  方法论。提供 8 项可执行能力和 12 篇知识库文档，覆盖上下文分析→图表选择→去杂乱→
   注意力引导→设计评估→故事构建→综合诊断→图表改造完整工作流，以及 CEO 决策视角扩展。
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
 ---
@@ -208,7 +208,7 @@ story = swd.build_story(
 storytelling-with-data-skill/
 ├── SKILL.md                    # 本文件（顶层索引 + 工具包 + 最佳实践）
 ├── skills/swd/SKILL.md         # 主技能定义（8 大执行能力详细协议）
-├── knowledge/                  # 11 个知识库文档
+├── knowledge/                  # 12 个知识库文档
 │   ├── 01-context.md           # 上下文的重要性
 │   ├── 02-visual-display.md    # 选择有效的视觉展示
 │   ├── 03-clutter.md           # 杂乱是你的敌人
@@ -261,6 +261,7 @@ storytelling-with-data-skill/
 | `09-case-studies.md` | Ch.9 案例 | 深色背景、动画、排序、意面图、饼图替代 |
 | `10-final-thoughts.md` | Ch.10 最终思考 | 5 个实践建议、团队能力建设 |
 | `11-quick-reference.md` | 速查手册 | 决策树、检查清单、评分表、问题修复映射 |
+| `12-cross-skill-presentation.md` | 跨技能协作 | UDM/QuantUX/JTBD/VPD/Persona 研究发现的汇报指南 |
 
 ---
 
@@ -356,6 +357,9 @@ skill = SWDSkill("Q4 季度业绩汇报", config=config)
 | `full_diagnosis()` | 综合诊断 | scores 字典 | Markdown 报告 |
 | `makeover()` | 图表改造 | issues 列表 | Markdown 报告 |
 | `search_knowledge()` | 知识检索 | keyword | Dict[str, List[str]] |
+| `build_decision_comparison()` | 决策选项对比 | options | Markdown 报告 |
+| `visualize_execution_risks()` | 执行风险可视化 | 无 | Markdown 报告 |
+| `generate_decision_framework()` | 决策框架生成 | 无 | Markdown 报告 |
 
 ### 8.3 八大核心模块详解
 

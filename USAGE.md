@@ -103,22 +103,19 @@ result = swd.full_diagnosis(scores={
 
 ```python
 # Decision options comparison
-decisions = swd.compare_decisions(
-    options=["Optimize onboarding", "Launch referral program", "Improve ad targeting"],
-    criteria=["Cost", "Time to impact", "Risk", "Expected ROI"]
-)
+options = [
+    {"name": "Optimize onboarding", "投入": "200万", "预期回报": "350万/年",
+     "ROI": "75%", "风险": "中", "时间": "3个月", "可逆性": "可逆", "推荐度": "⭐⭐⭐⭐"},
+    {"name": "Launch referral program", "投入": "100万", "预期回报": "280万/年",
+     "ROI": "180%", "风险": "低", "时间": "2个月", "可逆性": "可逆", "推荐度": "⭐⭐⭐⭐⭐"},
+]
+decisions = swd.build_decision_comparison(options=options)
 
-# Risk visualization
-risks = swd.visualize_risks(
-    risks=[("Budget overrun", "high", "medium"), ("Low adoption", "medium", "high")],
-    mitigations=["Phased rollout", "A/B test first"]
-)
+# Risk visualization (returns template with placeholder analysis)
+risks = swd.visualize_execution_risks()
 
-# Decision framework
-framework = swd.generate_decision_framework(
-    decision="Approve UX optimization budget",
-    success_metrics=["Retention rate", "NPS", "Time-to-value"]
-)
+# Decision framework (returns checklist + flowchart template)
+framework = swd.generate_decision_framework()
 ```
 
 ## 📋 Common Scenarios / 常见场景
@@ -128,7 +125,7 @@ framework = swd.generate_decision_framework(
 | Quarterly business review | Context → Charts → Story | `build_context()` → `recommend_chart()` → `build_story()` |
 | A/B test results presentation | QuantUX data → Makeover → Story | `makeover()` → `plan_attention()` → `build_story()` |
 | Slide deck quality check | Draft slides → Diagnosis → Improvement | `full_diagnosis()` → `makeover()` |
-| Board fundraising | Context → Story → Risk → Decision framework | `build_context()` → `build_story()` → `visualize_risks()` |
+| Board fundraising | Context → Story → Risk → Decision framework | `build_context()` → `build_story()` → `visualize_execution_risks()` |
 
 ## 🔗 Ecosystem Integration / 生态协作
 
@@ -170,12 +167,24 @@ cd storytelling-with-data
 python swd/tests/test_all.py
 ```
 
+## 🔧 Troubleshooting / 故障排查
+
+| Problem / 问题 | Fix / 解决 |
+|---------------|----------|
+| `ModuleNotFoundError: No module named 'swd'` | Ensure the repo root is in `sys.path` or install via `pip install -e .` |
+| `TypeError` on `build_context()` | Make sure `audience` and `cta` are both provided (required parameters) |
+| Chart recommendation seems wrong | Double-check `data_type` — valid values: `categorical`, `continuous`, `relationship`, `single_number`, `part_of_whole` |
+| Diagnosis scores don't add up | Each dimension has 4 items × 5 points = 20 max; total = 100 |
+| CEO methods return generic text | `build_decision_comparison()`, `visualize_execution_risks()`, and `generate_decision_framework()` use template defaults — pass custom `options` for tailored output |
+
 ## 📚 Resources / 资源
 
 - [README.md](README.md) — Full documentation
 - [SKILL.md](SKILL.md) — Agent-facing skill definition
 - [INSTALL.md](INSTALL.md) — Installation guide
 - [CHANGELOG.md](CHANGELOG.md) — Version history
+- [references/](references/) — Chapter-by-chapter methodology guides
+- [knowledge/](knowledge/) — Bilingual knowledge base documents
 
 ## 🏆 Best Practices / 最佳实践
 
@@ -198,3 +207,23 @@ python swd/tests/test_all.py
 5. **Kill the Legend, Use Direct Labels / 干掉图例，用直接标注**
    - A separate legend adds cognitive overhead. Replace it with direct labels on the chart itself. This single change reduces cognitive load by ~30%.
    - 单独的图例会增加认知负担。改用直接在图表上标注的方式——仅此一项改动就能降低约 30% 的认知负荷。
+
+## 🔗 AliDujie Ecosystem Quick Reference / 生态技能速查
+
+The full research-to-presentation pipeline:
+
+```
+Persona (Who) → JTBD (What) → UDM (Research) → QuantUX (Validate) → VPD (Value) → SWD (Present) → STM (Strategy)
+```
+
+| Upstream Skill | SWD Capability | Example |
+|---------------|---------------|--------|
+| [Persona](https://github.com/AliDujie/web-persona-skill) | Chart selection + story building | Role data → `recommend_chart()` → `build_story()` |
+| [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) | Context analysis + report story | Opportunity scores → `build_context()` → `build_story()` |
+| [UDM](https://github.com/AliDujie/universal-design-methods) | Full data story pipeline | Research findings → all 8 capabilities |
+| [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) | Chart makeover + attention | A/B results → `makeover()` → `plan_attention()` |
+| [VPD](https://github.com/AliDujie/value-proposition-design) | Key data visualization | Canvas data → `recommend_chart()` + `build_story()` |
+| [STM](https://github.com/AliDujie/Structured-Thinking-Model) | Strategic decision support | SWD output → `build_decision_comparison()` → STM analysis |
+| [CEO Advisor](https://github.com/AliDujie/ceo-advisor) | Board-level presentation | SWD narrative → CEO board deck |
+
+> 💡 **Pro Tip**: Chain SWD at the end of any research pipeline. After QuantUX validates your hypothesis, feed results into `build_story()` for an executive-ready narrative.
