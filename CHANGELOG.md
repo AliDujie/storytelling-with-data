@@ -1,3 +1,20 @@
+## v2.2.89 (2026-05-19)
+- Repo maintenance: synced versions across README/SKILL.md/pyproject.toml
+- Enhanced CEO decision support section with real-world example
+- Added troubleshooting FAQ for common chart selection pitfalls
+
+## v2.2.88 (2026-05-19)
+- Added 'Which SWD Capability Should I Use?' decision guide table
+
+## v2.2.87 (2026-05-19)
+- Added impact metrics table and best practices to USAGE.md
+
+## v2.2.86 (2026-05-19)
+- README + SKILL.md maintenance
+
+## v2.2.85 (2026-05-19)
+- Synced versions and improved ecosystem cross-references
+
 ## v2.2.84 (2026-05-16)
 - Fixed footer version mismatch (v2.2.80 → v2.2.83) in README.md
 - Verified ecosystem cross-references and bilingual consistency across all 7 skills

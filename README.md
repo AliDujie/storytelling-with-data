@@ -2,11 +2,17 @@
 
 > **Turn Data into Decisions. Turn Charts into Stories.**
 
-![Version](https://img.shields.io/badge/version-2.2.85-blue)
+![Version](https://img.shields.io/badge/version-2.2.89-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
+
+## 🆕 What's New in v2.2.89
+
+- **Decision Guide**: New "Which SWD Capability Should I Use?" table maps data tasks to capabilities
+- **Impact Metrics**: Added measurable before/after statistics for executive buy-in and decision speed
+- **Best Practices**: Pro tips section with 5 concrete techniques for data-to-story transformation
 
 ## 🇨🇳 中文概览
 
