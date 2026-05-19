@@ -39,11 +39,11 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (2015). A complete 
 
 | 上游产出 | 用 SWD 做... | 示例 |
 |----------|-------------|------|
-| [UDM](https://github.com/AliDujie/universal-design-methods) 研究报告 | 数据故事构建 | `swd.build_story(evidence=udm_report.findings)` |
+| [UDM](https://github.com/AliDujie/universal-design-methods) 研究报告 | 数据故事构建 | `swd.build_story(protagonist="产品团队", imbalance="流失率高", evidence=[...])` |
 | [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) A/B 结果 | 图表改造 + 注意力引导 | `swd.makeover(issues=["图表太复杂"])` |
-| [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) 机会评分 | 上下文分析 + 故事板 | `swd.build_context(audience="产品VP")` |
+| [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) 机会评分 | 上下文分析 + 故事板 | `swd.build_context(audience="产品VP", cta="批准预算")` |
 | [VPD](https://github.com/AliDujie/value-proposition-design) 画布数据 | 可视化关键数据 | `swd.recommend_chart(data_type="categorical")` |
-| [Persona](https://github.com/AliDujie/web-persona-skill) 角色数据 | 选图表 + 构建故事 | `swd.plan_attention(focus_elements=["首要角色", 5])` |
+| [Persona](https://github.com/AliDujie/web-persona-skill) 角色数据 | 选图表 + 构建故事 | `swd.plan_attention(focus_elements=[("首要角色", 5)])` |
 
 ## ⚡ Quick Start (5 Minutes)
 
@@ -162,6 +162,8 @@ LLM receives data → Calls SWD.recommend_chart() → Generates chart spec
 LLM receives draft slide → Calls SWD.diagnose_clutter() → Returns cleanup suggestions
      ↓
 LLM receives cleaned chart → Calls SWD.build_story() → Returns executive narrative
+     ↓
+Narrative → Calls SWD.full_diagnosis() → Quality score & improvement suggestions
 ```
 
 ### Prompt Engineering Tips
@@ -498,12 +500,12 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 | Stakeholder asks for "more data" | `build_context()` defines a clear Big Idea so audience knows the decision |
 | Pie charts nobody can read | `recommend_chart()` auto-detects and flags pie/3D/dual-axis usage |
 | Subjective quality debates | `full_diagnosis()` provides objective 5-dimension scoring |
-| Endless iterations | `compare_decisions()` generates a clear recommendation table
+| Endless iterations | `build_decision_comparison()` generates a clear recommendation table
 
 ## ❓ FAQ / Troubleshooting
 
 **Q: How do I convince stakeholders to embrace simpler charts?**
-Show them a before/after makeover using `chart_makeover()`. Start with their worst offender (e.g., a 3D pie chart with a legend), apply SWD's 6-step transformation, and present the side-by-side. Visual proof beats philosophical arguments.
+Show them a before/after makeover using `makeover()`. Start with their worst offender (e.g., a 3D pie chart with a legend), apply SWD's 6-step transformation, and present the side-by-side. Visual proof beats philosophical arguments.
 
 **Q: My data has 20+ categories — how do I avoid clutter?**
 Group related categories, then use a horizontal bar chart sorted by value. Apply `diagnose_clutter()` to catch any remaining noise. If you must show all 20, consider a table instead — they're underrated for exact-value lookups.
@@ -515,7 +517,7 @@ No. SWD is methodology-focused — it tells you *what* chart to use, *how* to de
 Aim for 90+ (🟢 Excellent) for stakeholder-facing presentations. 70-89 (🟡 Good) is fine for internal drafts. Below 50 means a redesign is needed.
 
 **Q: When should I use `compare_decisions()` vs just a regular chart?**
-Use `compare_decisions()` when presenting multiple options to leadership — it auto-generates a comparison table with cost/impact/risk columns and a clear recommendation row.
+Use `build_decision_comparison()` when presenting multiple options to leadership — it auto-generates a comparison table with cost/impact/risk columns and a clear recommendation row.
 
 **Q: Can SWD work with data from QuantUX?**
 Yes — feed QuantUX A/B test results directly into SWD's `build_story()` to create an executive-ready narrative with statistical backing. See the [ecosystem integration section](#-ecosystem-integration) for the full pipeline.
@@ -546,7 +548,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.2.86)**: Added complete pipeline example showing all 6-skill end-to-end workflow, improved cross-skill collaboration table with concrete API examples.
+**Latest (v2.2.87)**: Fixed method name references (`chart_makeover` → `makeover`, `compare_decisions` → `build_decision_comparison`), improved cross-skill collaboration table with executable API examples, added full_diagnosis() to agent workflow pattern.
 
 **Previous (v2.2.85)**: Added Chinese Extended Ecosystem section with CEO/CPO/CMO/CTO advisor links, improving bilingual parity.
 
