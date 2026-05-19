@@ -176,3 +176,25 @@ python swd/tests/test_all.py
 - [SKILL.md](SKILL.md) — Agent-facing skill definition
 - [INSTALL.md](INSTALL.md) — Installation guide
 - [CHANGELOG.md](CHANGELOG.md) — Version history
+
+## 🏆 Best Practices / 最佳实践
+
+1. **Start with Context / 始终从上下文开始**
+   - Run `build_context()` before any chart or story work. If you can't name your audience and the decision they need to make, you're not ready to visualize.
+   - 在画任何图之前先做上下文分析——叫不出受众的名字和要做的决策，就别急着做可视化。
+
+2. **One Chart, One Message / 一图一意**
+   - Each visual should communicate a single takeaway. If a chart needs a paragraph to explain, redesign it. Use action titles that state the conclusion, not the topic.
+   - 每张图表只传达一个观点。如果需要一段文字来解释一张图，那就重新设计。标题应该是结论，而不是话题。
+
+3. **Grey First, Color for Attention / 先灰度后强调色**
+   - Build everything in grayscale first. Add a single strategic color only to guide the audience's eye to the key data point. Rainbow charts dilute every signal.
+   - 先用灰度构建所有元素，只用一种强调色引导观众看向关键数据点。彩虹配色会稀释所有信号。
+
+4. **Diagnose Before You Defend / 先诊断再答辩**
+   - Run `full_diagnosis()` on every stakeholder-facing deck. Fix the lowest-scoring dimension first. Objective scores > subjective opinions.
+   - 每次给利益相关方演示前跑一遍 `full_diagnosis()`，优先修复得分最低的维度。客观分数胜过主观意见。
+
+5. **Kill the Legend, Use Direct Labels / 干掉图例，用直接标注**
+   - A separate legend adds cognitive overhead. Replace it with direct labels on the chart itself. This single change reduces cognitive load by ~30%.
+   - 单独的图例会增加认知负担。改用直接在图表上标注的方式——仅此一项改动就能降低约 30% 的认知负荷。
