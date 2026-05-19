@@ -59,6 +59,32 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (2015). A complete 
 | [VPD](https://github.com/AliDujie/value-proposition-design) 画布数据 | 可视化关键数据 | `swd.recommend_chart(data_type="categorical")` |
 | [Persona](https://github.com/AliDujie/web-persona-skill) 角色数据 | 选图表 + 构建故事 | `swd.plan_attention(focus_elements=[("首要角色", 5)])` |
 
+## 🧭 Quick Decision: When to Use SWD?
+
+| Your Need | Recommended Skill |
+|-----------|------------------|
+| Turn data into stories, chart selection, decluttering | ✅ **SWD (this skill)** |
+| Choose research methods, design interviews | → [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) |
+| Understand user "Jobs", opportunity scoring | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) |
+| Quantitative A/B testing, HEART metrics | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) |
+| Create user personas, user segmentation | → [Web Persona](https://github.com/AliDujie/web-persona-skill) |
+| Value proposition canvas, PMF validation | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) |
+
+> 💡 SWD is the data presentation layer: after research is done, turn findings into executive-ready stories.
+
+## 🧭 快速决策：什么时候使用 SWD？
+
+| 你的需求 | 推荐技能 |
+|---------|---------|
+| 需要将研究结果转化为数据叙事、图表呈现 | ✅ **SWD（本技能）** |
+| 需要选择研究方法、设计访谈、执行可用性测试 | → [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) |
+| 需要理解用户"工作"、机会评分、竞争分析 | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) |
+| 需要定量验证假设、设计 A/B 测试、计算样本量 | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) |
+| 需要创建人物角色、用户细分 | → [Web Persona](https://github.com/AliDujie/web-persona-skill) |
+| 需要价值主张画布、实验验证 | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) |
+
+> 💡 SWD 是数据呈现层：研究完成后，将发现转化为高管可读的故事。
+
 ## ⚡ Quick Start (5 Minutes)
 
 ### Install
