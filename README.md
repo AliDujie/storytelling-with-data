@@ -508,7 +508,21 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 | Stakeholder asks for "more data" | `build_context()` defines a clear Big Idea so audience knows the decision |
 | Pie charts nobody can read | `recommend_chart()` auto-detects and flags pie/3D/dual-axis usage |
 | Subjective quality debates | `full_diagnosis()` provides objective 5-dimension scoring |
-| Endless iterations | `build_decision_comparison()` generates a clear recommendation table
+| Endless iterations | `build_decision_comparison()` generates a clear recommendation table |
+
+## 🧭 Which SWD Capability Should I Use?
+
+| Your Presentation Goal | Use This SWD Capability | Quick Call |
+|-----------------------|------------------------|------------|
+| "Who am I presenting to?" | **Context Analysis** | `build_context(audience, cta)` |
+| "What chart type?" | **Chart Selection** | `recommend_chart(data_type)` |
+| "My chart is too cluttered" | **Declutter Diagnosis** | `diagnose_clutter(has_gridlines=True, ...)` |
+| "How to draw attention?" | **Attention Guidance** | `plan_attention(focus_elements)` |
+| "Is my design professional?" | **Design Evaluation** | `evaluate_design(has_title=True, ...)` |
+| "How to structure the story?" | **Story Construction** | `build_story(protagonist, imbalance, cta)` |
+| "Score my whole presentation" | **Full Diagnosis** | `full_diagnosis(scores)` |
+| "Transform a bad chart" | **Chart Makeover** | `makeover(chart, target_type)` |
+| "Compare options for execs" | **Decision Comparison** | `build_decision_comparison(options)` |
 
 ## ❓ FAQ / Troubleshooting
 
@@ -556,7 +570,9 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.2.87)**: Fixed method name references (`chart_makeover` → `makeover`, `compare_decisions` → `build_decision_comparison`), improved cross-skill collaboration table with executable API examples, added full_diagnosis() to agent workflow pattern.
+**Latest (v2.2.88)**: Added "Which SWD Capability Should I Use?" decision guide table for quick capability selection.
+
+**Previous (v2.2.87)**: Fixed method name references (`chart_makeover` → `makeover`, `compare_decisions` → `build_decision_comparison`), improved cross-skill collaboration table with executable API examples, added full_diagnosis() to agent workflow pattern.
 
 **Previous (v2.2.85)**: Added Chinese Extended Ecosystem section with CEO/CPO/CMO/CTO advisor links, improving bilingual parity.
 
