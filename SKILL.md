@@ -929,3 +929,23 @@ SWD 数据叙事能力可与管理层技能结合，将数据洞察转化为高�
 
 ### 💡 Pro Tip / 专业技巧
 SWD 是 AliDujie 生态系统的**数据呈现层**，处于研究管道末端。推荐在 UDM/JTBD/QuantUX/VPD 完成研究后使用 SWD 做高管汇报。SWD 的六步工作流（上下文→选图→去杂乱→注意力→设计→叙事）可以系统性地改造任何数据呈现。搭配 [VPD](https://github.com/AliDujie/value-proposition-design) 画布数据和 [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) 洞察，SWD 能把研究结果转化为可行动的决策。
+
+## ❓ FAQ / 常见问题
+
+**Q: SWD 和其他技能有什么区别？**
+SWD 是数据呈现层——帮你**把数据变成故事和图表**，不生成数据。[UDM](https://github.com/AliDujie/universal-design-methods) 做研究收集数据，[QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) 做统计验证，[VPD](https://github.com/AliDujie/value-proposition-design) 做价值主张分析——SWD 把这些数据转化为高管可读的叙事。
+
+**Q: 什么时候应该用 SWD 而不是直接用 Excel/PowerBI？**
+当需要**叙事结构和受众分析**时。传统图表工具只解决"怎么画"，SWD 先解决"给谁看"和"要他做什么"，再解决"怎么画"。先有故事，再有图表。
+
+**Q: 综合诊断分数多少算好？**
+90+ 🟢 卓越 | 70-89 🟡 良好 | 50-69 🟠 需改进 | <50 🔴 需重做。核心维度：上下文(20) + 视觉选择(20) + 杂乱(20) + 注意力(20) + 设计叙事(20)。
+
+**Q: 柱状图为什么必须零基线？**
+非零基线会扭曲数据比例，让受众对差异产生错误认知。如果数据差异确实很小但你想强调，改用折线图或标注实际数值。
+
+**Q: SWD 能和 UDM/QuantUX 一起用吗？**
+可以且推荐——UDM 访谈发现 → SWD 选择图表类型并构建数据故事；QuantUX A/B 测试结果 → SWD 注意力引导和叙事结构。搭配 [UDM](https://github.com/AliDujie/universal-design-methods)、[QuantUX](https://github.com/AliDujie/Quantitative-UX-Research)、[JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) 形成完整研究闭环。
+
+**Q: 我的受众不是高管，还需要用 CEO 决策扩展吗？**
+不一定。如果受众是执行层或中层管理，核心 8 大能力已足够。CEO 扩展（决策对比/风险可视化/决策框架）适用于需要资源分配或 Go/No-Go 决策的场景。
