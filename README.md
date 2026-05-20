@@ -399,6 +399,50 @@ story = swd.build_story(
 )
 ```
 
+## 🎨 Chart Makeover Recipes / 图表改造食谱
+
+Real-world before/after patterns — apply SWD principles in 3 steps:
+
+### 📊 Recipe 1: "My bar chart is cluttered"
+```python
+from swd import SWDSkill
+swd = SWDSkill("Sales Report")
+
+# Before: gridlines, legend, 3D effects, rainbow colors
+clutter = swd.diagnose_clutter(has_gridlines=True, has_separate_legend=True, has_3d=True)
+# → Fix: Remove gridlines, use direct labels, flatten to 2D, grey + single accent color
+
+# After: clean horizontal bar with direct labels
+clean = swd.diagnose_clutter(has_gridlines=False, has_separate_legend=False, has_3d=False)
+```
+
+### 📈 Recipe 2: "My line chart has 8 lines"
+```python
+# SWD's rule: One chart, one message. Split into 8 single-line charts or highlight only the hero line.
+swd = SWDSkill("Trend Report")
+attn = swd.plan_attention(
+    focus_elements=[("Our product trend", 5)],  # Blue, bold
+    hierarchy=[(1, ["Our product"], "Bold + Blue"), (3, ["Competitors"], "Light grey")]
+)
+# → Hero line draws attention, competitors fade to context
+```
+
+### 📋 Recipe 3: "Executive slide has no story"
+```python
+story = swd.build_story(
+    protagonist="Leadership Team",
+    imbalance="Q3 churn increased 12% — our biggest risk",
+    evidence=["Retention dropped from 88% to 76%", "Competitor X gained 5% market share"],
+    call_to_action="Approate $2M retention budget for Q4"
+)
+```
+
+### 💡 Pro Tip / 专业技巧
+> **The Title Test**: If someone can understand your story by reading ONLY the slide titles, you've succeeded. Action titles like "Churn increased 12% since Q2" beat "Q3 Churn Analysis" every time.
+>
+> **标题测试**: 如果只看幻灯片标题就能理解故事，你就成功了。行动性标题"Q2 以来流失增长 12%"永远胜过"Q3 流失分析"。
+
+
 ## 📖 Knowledge Base (12 Documents)
 
 | File | Chapter | Core Content |
@@ -640,7 +684,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.2.92)**: Repo maintenance — converted "When NOT to Use SWD" to bilingual CN/EN table format, added Structured Thinking Model cross-reference, enhanced SEO-friendly headings.
+**Latest (v2.2.93)**: Repo maintenance — converted "When NOT to Use SWD" to bilingual CN/EN table format, added Structured Thinking Model cross-reference, enhanced SEO-friendly headings.
 
 **Previous (v2.2.91)**: Repo maintenance — synced version across all files, added FAQ/Troubleshooting to USAGE.md, added Best Practices and Limitations sections.
 
