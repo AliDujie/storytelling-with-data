@@ -550,6 +550,23 @@ python swd/tests/test_all.py
 python -m pytest swd/tests/test_all.py -v
 ```
 
+## 🧭 When to Use SWD / 什么时候使用 SWD
+
+Reach for SWD when:
+
+- **You have data but need to present it persuasively** — charts that drive decisions, not decorate slides
+- **You're building executive reports** and need narrative structure (three-act story, clear CTA)
+- **You want to choose the right chart** for your data type instead of guessing
+- **Your audience says "show me more data"** instead of "what should we do?"
+
+| 场景 | 使用 SWD | Use SWD When |
+|------|---------|-------------|
+| 选择图表类型 | ✅ 按数据类型推荐 | Chart selection |
+| 执行数据叙事 | ✅ 三幕结构 + CTA | Three-act narrative |
+| 色彩策略 | ✅ 灰色 + 强调色 | Grey + accent color |
+| 质量评分 | ✅ 5 维度百分制 | 5-dimension scoring |
+| 高管汇报 | ✅ 决策导向呈现 | Decision-driven slides |
+
 ## 📋 When NOT to Use SWD / 什么时候不该用 SWD
 
 | Your Need | Recommended Skill |
@@ -586,6 +603,7 @@ SWD data storytelling can be combined with management skills to turn analysis in
 | [CPO Advisor](https://github.com/AliDujie/cpo-advisor) | SWD product data → CPO portfolio strategy |
 | [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | SWD market data → CMO brand & growth strategy |
 | [CTO Advisor](https://github.com/AliDujie/cto-advisor) | SWD tech metrics → CTO technology investment decisions |
+| [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | STM frames analysis → SWD tells the story | STM analysis → SWD storytelling |
 | [Plan CEO Review](https://github.com/AliDujie/plan-ceo-review) | SWD quarterly reports → CEO plan review cycle |
 
 SWD 数据叙事能力可与管理层技能结合,将数据洞察转化为高管决策:
@@ -597,6 +615,7 @@ SWD 数据叙事能力可与管理层技能结合,将数据洞察转化为高管
 | [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | SWD 市场数据 → CMO 品牌与增长策略 |
 | [CTO Advisor](https://github.com/AliDujie/cto-advisor) | SWD 技术指标 → CTO 技术战略决策 |
 | [Plan CEO Review](https://github.com/AliDujie/plan-ceo-review) | SWD 季度报告 → CEO 计划审查与范围调整 |
+| [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) | STM 分析框架 → SWD 数据叙事呈现 |
 
 ## 🤝 Contributing
 
