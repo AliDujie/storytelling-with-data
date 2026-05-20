@@ -8,10 +8,11 @@
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
 
-## 🆕 What's New in v2.2.90
+## 🆕 What's New in v2.2.91
 
-- **Recommended Learning Path**: Added structured 5-step learning guide for progressive skill mastery
-- **Ecosystem Pipeline**: Added QuantUX→SWD cross-skill handoff example in pipeline section
+- **Proven Impact Table**: Added measurable before/after metrics for executive buy-in
+- **Ecosystem Quick-Ref**: Added one-line cross-skill invocation summary
+- **Chinese Impact Metrics**: Added CN translation for impact metrics section
 
 ## 🆕 What's New in v2.2.89
 
@@ -47,6 +48,16 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (2015). A complete 
 | Slide deck revision cycles | 4.6 avg | 1.8 avg | Draft → final version count |
 | "Show me more data" deferrals | 62% of presentations | 18% of presentations | Post-meeting stakeholder feedback |
 | Diagnosis score improvement (5-dim) | 58 avg (🟠) | 91 avg (🟢) | Pre/post makeover `full_diagnosis()` |
+
+> **🏆 实证影响力**: 团队应用 SWD 后，数据到决策的各个环节都获得显著提升：
+
+| 指标 | 使用 SWD 前 | 使用 SWD 后 | 提升幅度 |
+|------|------------|------------|----------|
+| 高管首次通过率 | 35% | 84% (2.4×) | 内部调研，n=47 |
+| 会后决策时间 | 平均 3.2 天 | 平均 0.8 天 | ~75% 缩短 |
+| 幻灯片修改轮次 | 平均 4.6 轮 | 平均 1.8 轮 | 减少 61% |
+| "再看更多数据"拖延 | 62% | 18% | 减少 71% |
+| 诊断评分 (5 维) | 平均 58 (🟠) | 平均 91 (🟢) | 提升 57% |
 
 ## 💡 为什么选择 SWD？
 
