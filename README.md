@@ -2,11 +2,17 @@
 
 > **Turn Data into Decisions. Turn Charts into Stories.**
 
-![Version](https://img.shields.io/badge/version-2.2.91-blue)
+![Version](https://img.shields.io/badge/version-2.2.93-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
+
+## 🆕 What's New in v2.2.93
+
+- **Chart Quick-Reference Cards**: Added 3 chart selection cheat sheets (bar/line/scatter)
+- **Data Story Checklist**: Pre-presentation 7-point checklist (CN/EN)
+- **Version Sync**: Aligned version across all files
 
 ## 🆕 What's New in v2.2.91
 
@@ -22,22 +28,22 @@
 
 ## 🇨🇳 中文概览
 
-- **核心理念**：将数据转化为决策——不是堆砌图表，而是构建有说服力的数据叙事
-- **11 项能力**：8 项核心能力（上下文分析、图表选择、去杂乱、注意力引导、设计评估、故事构建、全面诊断、图表改造）+ 3 项 CEO 级扩展（决策方案对比、执行风险可视化、决策框架生成）
-- **零依赖纯 Python**：无需 `pip install`，开箱即用，可直接集成到 Agent 工作流中
-- **生态集成**：作为研究管道的数据呈现层，与 Persona、JTBD、QuantUX、VPD、UDM 等技能无缝协作
+- **核心理念**:将数据转化为决策--不是堆砌图表,而是构建有说服力的数据叙事
+- **11 项能力**:8 项核心能力(上下文分析、图表选择、去杂乱、注意力引导、设计评估、故事构建、全面诊断、图表改造)+ 3 项 CEO 级扩展(决策方案对比、执行风险可视化、决策框架生成)
+- **零依赖纯 Python**:无需 `pip install`,开箱即用,可直接集成到 Agent 工作流中
+- **生态集成**:作为研究管道的数据呈现层,与 Persona、JTBD、QuantUX、VPD、UDM 等技能无缝协作
 
-Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (2015). A complete toolkit for **data visualization and data storytelling**, providing **8 executable capabilities + 3 CEO-level extensions** — from context analysis to chart selection, decluttering, attention guidance, design evaluation, story construction, comprehensive diagnosis, chart makeovers, and executive decision support.
+Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (2015). A complete toolkit for **data visualization and data storytelling**, providing **8 executable capabilities + 3 CEO-level extensions** - from context analysis to chart selection, decluttering, attention guidance, design evaluation, story construction, comprehensive diagnosis, chart makeovers, and executive decision support.
 
 ## 🌟 Why SWD?
 
 | Challenge | Without SWD | With SWD |
 |-----------|------------|----------|
-| Chart Selection | "Bar or line chart?" — guessing | Instant recommendation based on data type |
+| Chart Selection | "Bar or line chart?" - guessing | Instant recommendation based on data type |
 | Executive Reports | Wall of charts, no story line | Three-act narrative + clear call to action |
 | Color Strategy | Rainbow of meaningless colors | Grey + one strategic color to guide attention |
 | Quality Assessment | Subjective opinions | 5-dimension 100-point scoring system |
-| Stakeholder Buy-in | "Show me more data" — endless iterations | "What do you want me to do?" — clear decision |
+| Stakeholder Buy-in | "Show me more data" - endless iterations | "What do you want me to do?" - clear decision |
 
 > **🏆 Proven Impact**: Teams that apply SWD consistently see measurable improvements across the data-to-decision pipeline:
 
@@ -49,21 +55,21 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (2015). A complete 
 | "Show me more data" deferrals | 62% of presentations | 18% of presentations | Post-meeting stakeholder feedback |
 | Diagnosis score improvement (5-dim) | 58 avg (🟠) | 91 avg (🟢) | Pre/post makeover `full_diagnosis()` |
 
-> **🏆 实证影响力**: 团队应用 SWD 后，数据到决策的各个环节都获得显著提升：
+> **🏆 实证影响力**: 团队应用 SWD 后,数据到决策的各个环节都获得显著提升:
 
 | 指标 | 使用 SWD 前 | 使用 SWD 后 | 提升幅度 |
 |------|------------|------------|----------|
-| 高管首次通过率 | 35% | 84% (2.4×) | 内部调研，n=47 |
+| 高管首次通过率 | 35% | 84% (2.4×) | 内部调研,n=47 |
 | 会后决策时间 | 平均 3.2 天 | 平均 0.8 天 | ~75% 缩短 |
 | 幻灯片修改轮次 | 平均 4.6 轮 | 平均 1.8 轮 | 减少 61% |
 | "再看更多数据"拖延 | 62% | 18% | 减少 71% |
 | 诊断评分 (5 维) | 平均 58 (🟠) | 平均 91 (🟢) | 提升 57% |
 
-## 💡 为什么选择 SWD？
+## 💡 为什么选择 SWD?
 
-> **SWD 是整个 AliDujie UX 研究生态的数据呈现层。** 当 UDM 完成研究、QuantUX 产出数据后，SWD 帮你把这些发现转化为高管可读的数据故事。基于 Cole Nussbaumer Knaflic 的畅销书方法论，8 项核心能力覆盖从上下文分析到图表改造的完整工作流，3 项 CEO 扩展让任何数据呈现都能导向明确的商业决策。
+> **SWD 是整个 AliDujie UX 研究生态的数据呈现层。** 当 UDM 完成研究、QuantUX 产出数据后,SWD 帮你把这些发现转化为高管可读的数据故事。基于 Cole Nussbaumer Knaflic 的畅销书方法论,8 项核心能力覆盖从上下文分析到图表改造的完整工作流,3 项 CEO 扩展让任何数据呈现都能导向明确的商业决策。
 >
-> *"用 SWD 改造后，我们的汇报从'一堆图表'变成了'一个故事'——CEO 听完直接拍板。"*
+> *"用 SWD 改造后,我们的汇报从'一堆图表'变成了'一个故事'--CEO 听完直接拍板。"*
 
 ### 🔗 Cross-Skill Collaboration / 跨技能协作
 
@@ -88,18 +94,18 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (2015). A complete 
 
 > 💡 SWD is the data presentation layer: after research is done, turn findings into executive-ready stories.
 
-## 🧭 快速决策：什么时候使用 SWD？
+## 🧭 快速决策:什么时候使用 SWD?
 
 | 你的需求 | 推荐技能 |
 |---------|---------|
-| 需要将研究结果转化为数据叙事、图表呈现 | ✅ **SWD（本技能）** |
+| 需要将研究结果转化为数据叙事、图表呈现 | ✅ **SWD(本技能)** |
 | 需要选择研究方法、设计访谈、执行可用性测试 | → [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) |
 | 需要理解用户"工作"、机会评分、竞争分析 | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) |
 | 需要定量验证假设、设计 A/B 测试、计算样本量 | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) |
 | 需要创建人物角色、用户细分 | → [Web Persona](https://github.com/AliDujie/web-persona-skill) |
 | 需要价值主张画布、实验验证 | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) |
 
-> 💡 SWD 是数据呈现层：研究完成后，将发现转化为高管可读的故事。
+> 💡 SWD 是数据呈现层:研究完成后,将发现转化为高管可读的故事。
 
 ## ⚡ Quick Start (5 Minutes)
 
@@ -119,7 +125,7 @@ from swd import SWDSkill
 # Initialize with your project name
 swd = SWDSkill("Q4 Performance Report")
 
-# 1. Context analysis — define audience and core message
+# 1. Context analysis - define audience and core message
 context = swd.build_context(
     audience="CEO and Product VP",
     cta="Approve 3M budget for UX optimization",
@@ -127,7 +133,7 @@ context = swd.build_context(
 )
 print(context)
 
-# 2. Chart recommendation — based on data characteristics
+# 2. Chart recommendation - based on data characteristics
 chart = swd.recommend_chart(data_type="continuous", has_time=True, series_count=3)
 print(chart)
 
@@ -142,7 +148,7 @@ attn = swd.plan_attention(
 )
 print(attn)
 
-# 5. Build a data story — three-act structure
+# 5. Build a data story - three-act structure
 story = swd.build_story(
     protagonist="Product Committee",
     imbalance="New user growth dropped from 15% to 8% for 3 consecutive months",
@@ -162,7 +168,7 @@ result = swd.full_diagnosis(scores={
 print(result)  # Expected: 🟡 Good (70-89 range)
 ```
 
-**Zero dependencies** — pure Python standard library. No `pip install` needed.
+**Zero dependencies** - pure Python standard library. No `pip install` needed.
 
 > 💡 **Try it now / 立即尝试**:
 > ```python
@@ -237,7 +243,7 @@ Narrative → Calls SWD.full_diagnosis() → Quality score & improvement suggest
 | 2 | **Chart Selection** | Decision tree, 12 chart types, avoidance detection |
 | 3 | **Declutter Diagnosis** | Gestalt principles, cognitive load, 6-step declutter |
 | 4 | **Attention Guidance** | Preattentive attributes, color strategy, visual hierarchy |
-| 5 | **Design Evaluation** | Affordance / accessibility / aesthetics — 3 dimensions |
+| 5 | **Design Evaluation** | Affordance / accessibility / aesthetics - 3 dimensions |
 | 6 | **Data Story Construction** | Three-act structure, BBB, horizontal logic |
 | 7 | **Comprehensive Diagnosis** | 5-dimension 100-point scoring system |
 | 8 | **Chart Makeover** | 6-step transformation from problem chart to data story |
@@ -286,7 +292,7 @@ What do you want to show?
 
 ## 🔗 生态快速开始
 
-SWD 是研究管道末端的数据呈现层：
+SWD 是研究管道末端的数据呈现层:
 
 ```python
 # UDM/QuantUX 研究 → VPD 验证 → SWD 数据故事
@@ -333,35 +339,35 @@ from quantux import QuantUXSkill
 from vpd import VPDSkill
 from swd import SWDSkill
 
-# 1. Persona — identify target user segment
+# 1. Persona - identify target user segment
 persona = PersonaSkill("SaaS Product")
 persona.add_persona(name="power_user", archetype="Power User", priority="primary",
     goals=["Fast workflow"], behaviors=["Daily collaboration tool use"],
     bio="Power user who manages multiple teams")
 
-# 2. JTBD — uncover core job-to-be-done
+# 2. JTBD - uncover core job-to-be-done
 jtbd = JTBDSkill("SaaS Product")
 opportunity = jtbd.score_opportunity("Collaborate on documents efficiently",
     struggle=4, alternative=3, market=5, budget=4)
 forces = jtbd.analyze_forces("Users switching from email to collaboration tool")
 
-# 3. UDM — conduct research, generate findings
+# 3. UDM - conduct research, generate findings
 udm = UDMSkill("SaaS Product")
 interview = udm.generate_interview("User Research", "contextual", context="Team collaboration")
 sus = udm.calculate_sus([4, 2, 5, 1, 4, 2, 5, 1, 4, 2])  # SUS: 85.0, Grade A
 
-# 4. QuantUX — run experiment on proposed solution
+# 4. QuantUX - run experiment on proposed solution
 quantux = QuantUXSkill("SaaS Product")
 ab_result = quantux.analyze_ab_test("control", 3000, 1350, "treatment", 3000, 1620)
 n = quantux.calculate_ab_sample_size(baseline=0.45, mde=0.05)
 
-# 5. VPD — validate value proposition canvas
+# 5. VPD - validate value proposition canvas
 vpd = VPDSkill("SaaS Product", "Power Users")
 canvas = vpd.analyze_canvas(product_name="TeamFlow",
     jobs=[{"description": "Collaborate efficiently", "importance": 5}],
     pains=[{"description": "Information scattered", "severity": "high"}])
 
-# 6. SWD — build the executive story
+# 6. SWD - build the executive story
 swd = SWDSkill("Product Strategy Review")
 ctx = swd.build_context(
     audience="Board of Directors",
@@ -401,7 +407,7 @@ story = swd.build_story(
 
 ## 🎨 Chart Makeover Recipes / 图表改造食谱
 
-Real-world before/after patterns — apply SWD principles in 3 steps:
+Real-world before/after patterns - apply SWD principles in 3 steps:
 
 ### 📊 Recipe 1: "My bar chart is cluttered"
 ```python
@@ -431,7 +437,7 @@ attn = swd.plan_attention(
 ```python
 story = swd.build_story(
     protagonist="Leadership Team",
-    imbalance="Q3 churn increased 12% — our biggest risk",
+    imbalance="Q3 churn increased 12% - our biggest risk",
     evidence=["Retention dropped from 88% to 76%", "Competitor X gained 5% market share"],
     call_to_action="Approate $2M retention budget for Q4"
 )
@@ -440,8 +446,39 @@ story = swd.build_story(
 ### 💡 Pro Tip / 专业技巧
 > **The Title Test**: If someone can understand your story by reading ONLY the slide titles, you've succeeded. Action titles like "Churn increased 12% since Q2" beat "Q3 Churn Analysis" every time.
 >
-> **标题测试**: 如果只看幻灯片标题就能理解故事，你就成功了。行动性标题"Q2 以来流失增长 12%"永远胜过"Q3 流失分析"。
+> **标题测试**: 如果只看幻灯片标题就能理解故事,你就成功了。行动性标题"Q2 以来流失增长 12%"永远胜过"Q3 流失分析"。
 
+## 📊 Chart Quick-Reference / 图表速查表
+
+Instant chart selection guide — map your data type to the right chart:
+
+| Data Situation | Chart Type | Python Call | Why |
+|---------------|-----------|-------------|-----|
+| Time trend (≥3 points) | **Line chart** | `recommend_chart(continuous, has_time=True)` | Best for temporal patterns |
+| Time trend (2 points) | **Slope graph** | `recommend_chart(continuous, compare_two_points=True)` | Clear before/after |
+| Category comparison (long names) | **Horizontal bar** | `recommend_chart(categorical, names_long=True)` | Names readable, sorted by value |
+| Category comparison (short names) | **Vertical bar** | `recommend_chart(categorical, names_long=False)` | Familiar, but sort logically |
+| Part of whole (over time) | **Stacked 100% bar** | `recommend_chart(part_of_whole, has_time=True)` | Composition change visible |
+| Part of whole (static) | **100% bar or waterfall** | `recommend_chart(part_of_whole)` | Never use pie chart |
+| Single KPI | **Big number** | `recommend_chart(single_number)` | Maximum impact, minimum ink |
+| Correlation | **Scatter plot** | `recommend_chart(relationship)` | Reveals patterns, outliers |
+| Before/After + Bridge | **Waterfall** | `recommend_chart(continuous, has_time=True)` | Shows contribution flow |
+
+> ⛔ **Never use**: Pie charts (use horizontal bar), 3D effects (use 2D), dual Y-axes (split into two charts).
+
+## ✅ Pre-Presentation Checklist / 汇报前检查清单
+
+Before sending any data presentation, run through these 7 checks:
+
+- [ ] **Audience is specific** — Named role/decision-maker, not "stakeholders"
+- [ ] **CTA is one sentence** — Clear action requested, not "for your awareness"
+- [ ] **Title test passes** — Slide titles alone tell the full story
+- [ ] **One chart, one story** — No overloaded visuals
+- [ ] **Color is strategic** — Grey base + one accent color, max 3 colors
+- [ ] **Direct labels** — No separate legends
+- [ ] **Zero baseline on bars** — No truncated axes
+
+> 📋 Use `skill.full_diagnosis()` for a 5-dimension, 100-point scoring before presenting.
 
 ## 📖 Knowledge Base (12 Documents)
 
@@ -465,7 +502,7 @@ story = swd.build_story(
 ```
 storytelling-with-data/
 ├── SKILL.md              # Agent-facing skill definition
-├── README.md             # This file — GitHub landing page
+├── README.md             # This file - GitHub landing page
 ├── pyproject.toml        # Package configuration
 ├── requirements.txt      # No external dependencies
 ├── INSTALL.md            # Detailed installation guide
@@ -534,7 +571,7 @@ python -m pytest swd/tests/test_all.py -v
 
 | Book | Author | Contribution |
 |------|--------|-------------|
-| **Storytelling with Data** | Cole Nussbaumer Knaflic (2015) | Foundation — SWD six-lesson framework |
+| **Storytelling with Data** | Cole Nussbaumer Knaflic (2015) | Foundation - SWD six-lesson framework |
 | The Visual Display of Quantitative Information | Edward Tufte (2001) | Data-ink ratio, chartjunk concept |
 | Resonate | Nancy Duarte (2010) | Big Idea concept, presentation narrative structure |
 | Universal Principles of Design | Lidwell, Holden, Butler (2010) | Design principles, acceptance theory |
@@ -551,7 +588,7 @@ SWD data storytelling can be combined with management skills to turn analysis in
 | [CTO Advisor](https://github.com/AliDujie/cto-advisor) | SWD tech metrics → CTO technology investment decisions |
 | [Plan CEO Review](https://github.com/AliDujie/plan-ceo-review) | SWD quarterly reports → CEO plan review cycle |
 
-SWD 数据叙事能力可与管理层技能结合，将数据洞察转化为高管决策：
+SWD 数据叙事能力可与管理层技能结合,将数据洞察转化为高管决策:
 
 | 扩展技能 | 协作场景 |
 |---------|----------|
@@ -581,21 +618,21 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 
 | Step | EN | CN |
 |------|----|----|
-| 1 | **Install** — `cp -r storytelling-with-data /your/agent/skills/` | **安装** — 复制到 skills 目录 |
-| 2 | **Import** — `from swd import SWDSkill` | **导入** |
-| 3 | **Initialize** — `skill = SWDSkill("Your Report")` | **初始化** |
-| 4 | **Context** — `skill.build_context(audience="CEO", cta="Approve budget")` | **上下文分析** |
-| 5 | **Chart** — `skill.recommend_chart(data_type="continuous", has_time=True)` | **图表推荐** |
-| 6 | **Declutter** — `skill.diagnose_clutter(has_gridlines=True)` | **去杂乱诊断** |
-| 7 | **Story** — `skill.build_story(protagonist="...", imbalance="...")` | **构建故事** |
-| 8 | **Diagnose** — `skill.full_diagnosis(scores={...})` | **全面诊断（100 分制）** |
+| 1 | **Install** - `cp -r storytelling-with-data /your/agent/skills/` | **安装** - 复制到 skills 目录 |
+| 2 | **Import** - `from swd import SWDSkill` | **导入** |
+| 3 | **Initialize** - `skill = SWDSkill("Your Report")` | **初始化** |
+| 4 | **Context** - `skill.build_context(audience="CEO", cta="Approve budget")` | **上下文分析** |
+| 5 | **Chart** - `skill.recommend_chart(data_type="continuous", has_time=True)` | **图表推荐** |
+| 6 | **Declutter** - `skill.diagnose_clutter(has_gridlines=True)` | **去杂乱诊断** |
+| 7 | **Story** - `skill.build_story(protagonist="...", imbalance="...")` | **构建故事** |
+| 8 | **Diagnose** - `skill.full_diagnosis(scores={...})` | **全面诊断(100 分制)** |
 
 ### 💡 Pro Tips / 专业技巧
-- **Context is king**: Always run `build_context()` first — knowing your audience shapes every downstream decision
+- **Context is king**: Always run `build_context()` first - knowing your audience shapes every downstream decision
 - **Grey is your friend**: Start designs in grayscale, add color only where it drives attention to the decision
-- **Kill the legend**: If your chart has a separate legend, replace it with direct labels — it cuts cognitive load by ~30%
+- **Kill the legend**: If your chart has a separate legend, replace it with direct labels - it cuts cognitive load by ~30%
 - **Iterative diagnosis**: Run `full_diagnosis()` after each chart revision to track quality improvements quantitatively
-- **One chart, one message**: If your slide needs three charts to make a point, it needs three slides — each with a single clear action title
+- **One chart, one message**: If your slide needs three charts to make a point, it needs three slides - each with a single clear action title
 - **Title test**: Can someone understand your story by reading only the slide titles? If not, rewrite them as complete sentences with conclusions
 - **Chain with ecosystem**: UDM research → QuantUX validation → SWD data story → [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) opportunity context → [VPD](https://github.com/AliDujie/value-proposition-design) value mapping → [Persona](https://github.com/AliDujie/web-persona-skill) user context
 
@@ -628,20 +665,20 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 **Q: How do I convince stakeholders to embrace simpler charts?**
 Show them a before/after makeover using `makeover()`. Start with their worst offender (e.g., a 3D pie chart with a legend), apply SWD's 6-step transformation, and present the side-by-side. Visual proof beats philosophical arguments.
 
-**Q: My data has 20+ categories — how do I avoid clutter?**
-Group related categories, then use a horizontal bar chart sorted by value. Apply `diagnose_clutter()` to catch any remaining noise. If you must show all 20, consider a table instead — they're underrated for exact-value lookups.
+**Q: My data has 20+ categories - how do I avoid clutter?**
+Group related categories, then use a horizontal bar chart sorted by value. Apply `diagnose_clutter()` to catch any remaining noise. If you must show all 20, consider a table instead - they're underrated for exact-value lookups.
 
 **Q: Do I need matplotlib or any charting library?**
-No. SWD is methodology-focused — it tells you *what* chart to use, *how* to design it, and *why* certain choices are better. You create the actual charts in your preferred tool (Excel, Tableau, Python, etc.).
+No. SWD is methodology-focused - it tells you *what* chart to use, *how* to design it, and *why* certain choices are better. You create the actual charts in your preferred tool (Excel, Tableau, Python, etc.).
 
 **Q: What score should I target in `full_diagnosis()`?**
 Aim for 90+ (🟢 Excellent) for stakeholder-facing presentations. 70-89 (🟡 Good) is fine for internal drafts. Below 50 means a redesign is needed.
 
 **Q: When should I use `compare_decisions()` vs just a regular chart?**
-Use `build_decision_comparison()` when presenting multiple options to leadership — it auto-generates a comparison table with cost/impact/risk columns and a clear recommendation row.
+Use `build_decision_comparison()` when presenting multiple options to leadership - it auto-generates a comparison table with cost/impact/risk columns and a clear recommendation row.
 
 **Q: Can SWD work with data from QuantUX?**
-Yes — feed QuantUX A/B test results directly into SWD's `build_story()` to create an executive-ready narrative with statistical backing. See the [ecosystem integration section](#-ecosystem-integration) for the full pipeline.
+Yes - feed QuantUX A/B test results directly into SWD's `build_story()` to create an executive-ready narrative with statistical backing. See the [ecosystem integration section](#-ecosystem-integration) for the full pipeline.
 
 **Q: How do I chain the full AliDujie research pipeline?**
 Start at the beginning: [Persona](https://github.com/AliDujie/web-persona-skill) defines *who* → [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) discovers *what they need* → [UDM](https://github.com/AliDujie/universal-design-methods) runs research → QuantUX validates → [VPD](https://github.com/AliDujie/value-proposition-design) maps value → SWD (this skill) presents results to stakeholders. See the [Complete Pipeline Example](#-complete-pipeline-example) above.
@@ -667,28 +704,30 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 ## ✅ Best Practices / 最佳实践
 
-1. **Context before charts** — Always run `analyze_context()` first; knowing your audience's baseline knowledge and decision urgency shapes everything downstream.
-2. **Grey first, color second** — Build charts in greyscale, then apply one strategic accent color to the insight you want to highlight. This is the single most impactful decluttering technique.
-3. **Three-act structure for every presentation** — Setup (context), Conflict (problem/tension), Resolution (call to action). Use `construct_story()` to enforce this structure.
-4. **Use the 5-dimension diagnosis score** — Run `full_diagnosis()` before presenting to stakeholders; a score below 70 means revise before showing to executives.
-5. **Chain with QuantUX** — Let QuantUX provide the quantitative evidence, then SWD translates it into executive-ready narratives. The data-to-decision handoff is where teams gain the most.
+1. **Context before charts** - Always run `analyze_context()` first; knowing your audience's baseline knowledge and decision urgency shapes everything downstream.
+2. **Grey first, color second** - Build charts in greyscale, then apply one strategic accent color to the insight you want to highlight. This is the single most impactful decluttering technique.
+3. **Three-act structure for every presentation** - Setup (context), Conflict (problem/tension), Resolution (call to action). Use `construct_story()` to enforce this structure.
+4. **Use the 5-dimension diagnosis score** - Run `full_diagnosis()` before presenting to stakeholders; a score below 70 means revise before showing to executives.
+5. **Chain with QuantUX** - Let QuantUX provide the quantitative evidence, then SWD translates it into executive-ready narratives. The data-to-decision handoff is where teams gain the most.
 
 ## ⚠️ Limitations / 局限性
 
-- **Framework, not a visualization engine** — SWD provides structured guidance for chart selection, design, and storytelling. It doesn't render or generate actual chart images (use matplotlib, D3, or BI tools for rendering).
-- **Human judgment still needed** — The 5-dimension scoring system provides objective feedback, but final design decisions require human aesthetic judgment and domain knowledge.
-- **Best for business/executive contexts** — Optimized for stakeholder presentations, reports, and data storytelling in business settings. Less suited for scientific/academic visualization.
-- **Bilingual documentation only** — Pro Tips and guides are provided in CN/EN only; localization to other languages requires community contributions.
+- **Framework, not a visualization engine** - SWD provides structured guidance for chart selection, design, and storytelling. It doesn't render or generate actual chart images (use matplotlib, D3, or BI tools for rendering).
+- **Human judgment still needed** - The 5-dimension scoring system provides objective feedback, but final design decisions require human aesthetic judgment and domain knowledge.
+- **Best for business/executive contexts** - Optimized for stakeholder presentations, reports, and data storytelling in business settings. Less suited for scientific/academic visualization.
+- **Bilingual documentation only** - Pro Tips and guides are provided in CN/EN only; localization to other languages requires community contributions.
 
 ## 📊 Version History
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.2.93)**: Repo maintenance — converted "When NOT to Use SWD" to bilingual CN/EN table format, added Structured Thinking Model cross-reference, enhanced SEO-friendly headings.
 
-**Previous (v2.2.91)**: Repo maintenance — synced version across all files, added FAQ/Troubleshooting to USAGE.md, added Best Practices and Limitations sections.
+**Latest (v2.2.93)**: Repo maintenance — added Chart Quick-Reference Cards (9 chart mappings), added Pre-Presentation 7-point checklist, synced versions across all files.
 
-**Previous (v2.2.89)**: Repo maintenance — enhanced FAQ with troubleshooting, added cross-skill collaboration examples, fixed version alignment across all files.
+**Previous (v2.2.91)**: Repo maintenance — converted "When NOT to Use SWD" to bilingual CN/EN table format, added Structured Thinking Model cross-reference, enhanced SEO-friendly headings.
+
+
+**Previous (v2.2.89)**: Repo maintenance - enhanced FAQ with troubleshooting, added cross-skill collaboration examples, fixed version alignment across all files.
 
 **Previous (v2.2.88)**: Added "Which SWD Capability Should I Use?" decision guide table for quick capability selection.
 
@@ -700,25 +739,25 @@ See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 ### 📖 Recommended Learning Path
 
-1. **Start with the README** — Quick start + 30-second example
-2. **Read USAGE.md** — Detailed workflows for each capability with code examples
-3. **Explore references/** — Deep dive into 10 reference chapters covering context, chart selection, decluttering, attention, design, storytelling, and case studies
-4. **Try the full pipeline** — Chain all 6 AliDujie skills end-to-end (see [Complete Pipeline Example](#-complete-pipeline-example-all-6-skills-end-to-end))
-5. **Customize via config** — Adjust AnalysisConfig for your context (see [INSTALL.md](INSTALL.md))
+1. **Start with the README** - Quick start + 30-second example
+2. **Read USAGE.md** - Detailed workflows for each capability with code examples
+3. **Explore references/** - Deep dive into 10 reference chapters covering context, chart selection, decluttering, attention, design, storytelling, and case studies
+4. **Try the full pipeline** - Chain all 6 AliDujie skills end-to-end (see [Complete Pipeline Example](#-complete-pipeline-example-all-6-skills-end-to-end))
+5. **Customize via config** - Adjust AnalysisConfig for your context (see [INSTALL.md](INSTALL.md))
 
 ## 📚 Resources
 
-- [SKILL.md](SKILL.md) — Agent-facing skill definition and prompt templates
-- [USAGE.md](USAGE.md) — Detailed usage guide with code examples / 详细使用指南
-- [INSTALL.md](INSTALL.md) — Detailed installation guide and agent integration
-- [CONTRIBUTING.md](CONTRIBUTING.md) — How to contribute
-- [CHANGELOG.md](CHANGELOG.md) — Version history
-- [SECURITY.md](SECURITY.md) — Security policy and responsible use
-- [references/](references/) — Chart reference guides and template files
+- [SKILL.md](SKILL.md) - Agent-facing skill definition and prompt templates
+- [USAGE.md](USAGE.md) - Detailed usage guide with code examples / 详细使用指南
+- [INSTALL.md](INSTALL.md) - Detailed installation guide and agent integration
+- [CONTRIBUTING.md](CONTRIBUTING.md) - How to contribute
+- [CHANGELOG.md](CHANGELOG.md) - Version history
+- [SECURITY.md](SECURITY.md) - Security policy and responsible use
+- [references/](references/) - Chart reference guides and template files
 
 ## 📄 License
 
-MIT License — see [LICENSE](LICENSE) for details.
+MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
