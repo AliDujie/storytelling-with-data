@@ -227,3 +227,21 @@ Persona (Who) → JTBD (What) → UDM (Research) → QuantUX (Validate) → VPD 
 | [CEO Advisor](https://github.com/AliDujie/ceo-advisor) | Board-level presentation | SWD narrative → CEO board deck |
 
 > 💡 **Pro Tip**: Chain SWD at the end of any research pipeline. After QuantUX validates your hypothesis, feed results into `build_story()` for an executive-ready narrative.
+
+## ❓ FAQ / Troubleshooting
+
+**Q: Should I start with `build_context()` or `recommend_chart()`?**
+Always start with `build_context()`. Knowing your audience and core message shapes every downstream decision — chart type, color strategy, and story structure all flow from context.
+*永远从 `build_context()` 开始。了解受众和核心信息决定所有后续决策。*
+
+**Q: My slide has 10 charts — is that too many?**
+Yes. Rule of thumb: one chart = one message = one slide. If you need 10 charts to make a point, you need 10 slides, each with a clear action title. Or better yet, find the one chart that tells the story.
+*一个图表 = 一个信息 = 一页幻灯片。需要 10 个图表说明一个观点时，找到能讲清故事的那个。*
+
+**Q: Can SWD generate actual charts?**
+No — SWD is methodology-focused. It tells you what chart to use, how to design it, and why. You create the actual charts in Excel, Tableau, Python, etc.
+*SWD 不生成实际图表——它是方法论工具，告诉你用什么图表、怎么设计、为什么。*
+
+**Q: How does SWD chain with other skills?**
+SWD is the presentation layer: all upstream skills (UDM, QuantUX, JTBD, VPD, Persona) produce findings → SWD turns them into executive-ready data stories. See ecosystem pipeline in README.md.
+*SWD 是呈现层：所有上游技能的产出 → SWD 转化为高管可读的数据故事。*
