@@ -469,14 +469,22 @@ python swd/tests/test_all.py
 python -m pytest swd/tests/test_all.py -v
 ```
 
-## 📋 When NOT to Use SWD
+## 📋 When NOT to Use SWD / 什么时候不该用 SWD
 
-- **Choosing research methods or designing interviews** → [Universal Design Methods](https://github.com/AliDujie/universal-design-methods)
-- **Statistical analysis or A/B testing** → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research)
-- **Understanding user Jobs-to-be-Done** → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill)
-- **Creating user personas** → [Web Persona](https://github.com/AliDujie/web-persona-skill)
-- **Value proposition canvas analysis** → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design)
-- **Structural business framework analysis** → [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model)
+| Your Need | Recommended Skill |
+|-----------|------------------|
+| Choosing research methods or designing interviews | → [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) |
+| Statistical analysis or A/B testing | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) |
+| Understanding user Jobs-to-be-Done | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) |
+| Creating user personas / user segmentation | → [Web Persona](https://github.com/AliDujie/web-persona-skill) |
+| Value proposition canvas analysis | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) |
+| Business framework analysis (SWOT, PESTEL) | → [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) |
+| 选择研究方法、设计访谈 | → [Universal Design Methods](https://github.com/AliDujie/universal-design-methods) |
+| 定量统计分析、A/B 测试 | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) |
+| 理解用户 Jobs、机会评分 | → [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) |
+| 创建用户画像 | → [Web Persona](https://github.com/AliDujie/web-persona-skill) |
+| 价值主张画布分析 | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) |
+| 商业框架分析 | → [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) |
 
 ## 📚 References
 
@@ -632,7 +640,9 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.2.90)**: Repo maintenance — added Recommended Learning Path, added QuantUX→SWD cross-skill handoff example, unified ecosystem pipeline references.
+**Latest (v2.2.92)**: Repo maintenance — converted "When NOT to Use SWD" to bilingual CN/EN table format, added Structured Thinking Model cross-reference, enhanced SEO-friendly headings.
+
+**Previous (v2.2.91)**: Repo maintenance — synced version across all files, added FAQ/Troubleshooting to USAGE.md, added Best Practices and Limitations sections.
 
 **Previous (v2.2.89)**: Repo maintenance — enhanced FAQ with troubleshooting, added cross-skill collaboration examples, fixed version alignment across all files.
 
