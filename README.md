@@ -2,11 +2,16 @@
 
 > **Turn Data into Decisions. Turn Charts into Stories.**
 
-![Version](https://img.shields.io/badge/version-2.2.89-blue)
+![Version](https://img.shields.io/badge/version-2.2.90-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
+
+## 🆕 What's New in v2.2.90
+
+- **Recommended Learning Path**: Added structured 5-step learning guide for progressive skill mastery
+- **Ecosystem Pipeline**: Added QuantUX→SWD cross-skill handoff example in pipeline section
 
 ## 🆕 What's New in v2.2.89
 
@@ -601,7 +606,9 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
-**Latest (v2.2.89)**: Repo maintenance — enhanced FAQ with troubleshooting, added cross-skill collaboration examples, fixed version alignment across all files.
+**Latest (v2.2.90)**: Repo maintenance — added Recommended Learning Path, added QuantUX→SWD cross-skill handoff example, unified ecosystem pipeline references.
+
+**Previous (v2.2.89)**: Repo maintenance — enhanced FAQ with troubleshooting, added cross-skill collaboration examples, fixed version alignment across all files.
 
 **Previous (v2.2.88)**: Added "Which SWD Capability Should I Use?" decision guide table for quick capability selection.
 
@@ -610,6 +617,14 @@ See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 **Previous (v2.2.85)**: Added Chinese Extended Ecosystem section with CEO/CPO/CMO/CTO advisor links, improving bilingual parity.
 
 **Previous (v2.2.84)**: Merged duplicated English/Chinese quick-start checklists into single bilingual table, added cross-skill collaboration table and ecosystem integration guide.
+
+### 📖 Recommended Learning Path
+
+1. **Start with the README** — Quick start + 30-second example
+2. **Read USAGE.md** — Detailed workflows for each capability with code examples
+3. **Explore references/** — Deep dive into 10 reference chapters covering context, chart selection, decluttering, attention, design, storytelling, and case studies
+4. **Try the full pipeline** — Chain all 6 AliDujie skills end-to-end (see [Complete Pipeline Example](#-complete-pipeline-example-all-6-skills-end-to-end))
+5. **Customize via config** — Adjust AnalysisConfig for your context (see [INSTALL.md](INSTALL.md))
 
 ## 📚 Resources
 
