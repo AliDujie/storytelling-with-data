@@ -613,6 +613,21 @@ skill = SWDSkill("My Report", config=config)
 
 See [INSTALL.md](INSTALL.md) for full configuration options and agent integration guides.
 
+## ✅ Best Practices / 最佳实践
+
+1. **Context before charts** — Always run `analyze_context()` first; knowing your audience's baseline knowledge and decision urgency shapes everything downstream.
+2. **Grey first, color second** — Build charts in greyscale, then apply one strategic accent color to the insight you want to highlight. This is the single most impactful decluttering technique.
+3. **Three-act structure for every presentation** — Setup (context), Conflict (problem/tension), Resolution (call to action). Use `construct_story()` to enforce this structure.
+4. **Use the 5-dimension diagnosis score** — Run `full_diagnosis()` before presenting to stakeholders; a score below 70 means revise before showing to executives.
+5. **Chain with QuantUX** — Let QuantUX provide the quantitative evidence, then SWD translates it into executive-ready narratives. The data-to-decision handoff is where teams gain the most.
+
+## ⚠️ Limitations / 局限性
+
+- **Framework, not a visualization engine** — SWD provides structured guidance for chart selection, design, and storytelling. It doesn't render or generate actual chart images (use matplotlib, D3, or BI tools for rendering).
+- **Human judgment still needed** — The 5-dimension scoring system provides objective feedback, but final design decisions require human aesthetic judgment and domain knowledge.
+- **Best for business/executive contexts** — Optimized for stakeholder presentations, reports, and data storytelling in business settings. Less suited for scientific/academic visualization.
+- **Bilingual documentation only** — Pro Tips and guides are provided in CN/EN only; localization to other languages requires community contributions.
+
 ## 📊 Version History
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
