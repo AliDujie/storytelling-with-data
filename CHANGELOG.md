@@ -1,3 +1,9 @@
+## v2.2.97 (2026-05-22)
+- Repo maintenance: added 'Chart-to-Story Decision Tree' quick-reference guide
+- Enhanced ecosystem cross-skill quick-reference with 6 skills + code recipes
+- Added bilingual 'When NOT to use SWD' decision guardrails
+- Updated version across README/SKILL.md/pyproject.toml/__init__.py
+
 ## v2.2.94 (2026-05-21)
 - Fixed typo: "Approate" → "Approve" in Recipe 3 example
 - Enhanced ecosystem cross-references in README
