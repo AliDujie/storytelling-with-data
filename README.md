@@ -2,11 +2,17 @@
 
 > **Turn Data into Decisions. Turn Charts into Stories.**
 
-![Version](https://img.shields.io/badge/version-2.2.94-blue)
+![Version](https://img.shields.io/badge/version-2.2.95-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
+
+## 🆕 What's New in v2.2.95
+
+- **Try-It-Now Section**: Added one-line runnable examples under Quick Start for instant exploration
+- **Chart Decision Flow Enhancement**: Added explicit "avoid list" callout with alternatives in Pro Tips
+- **Version Sync**: Aligned version across README/SKILL.md/pyproject.toml/__init__.py
 
 ## 🆕 What's New in v2.2.94
 
@@ -112,6 +118,13 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (2015). A complete 
 | 需要价值主张画布、实验验证 | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) |
 
 > 💡 SWD 是数据呈现层:研究完成后,将发现转化为高管可读的故事。
+
+> 💡 **Try Before You Decide / 先试后决定**:
+> ```python
+> from swd import SWDSkill
+> # One line → instant chart recommendation
+> print(SWDSkill("Q4 Report").recommend_chart(data_type="continuous", has_time=True))
+> ```
 
 ## ⚡ Quick Start (5 Minutes)
 
@@ -221,6 +234,32 @@ def diagnose_visualization(has_gridlines: bool, has_legend: bool, has_border: bo
 def build_data_story(protagonist: str, imbalance: str, evidence: list, cta: str):
     """Build a three-act data narrative for executive presentation."""
     return swd.build_story(protagonist, imbalance, evidence, cta)
+```
+
+### 🧪 Instant Examples (Copy-Paste & Run)
+
+**Chart selection:**
+```python
+from swd import SWDSkill
+s = SWDSkill("Report")
+print(s.recommend_chart(data_type="categorical", category_count=5, category_names_long=True))
+# → Horizontal bar chart ⭐ preferred for long labels
+```
+
+**Declutter diagnosis:**
+```python
+print(SWDSkill("Slides").diagnose_clutter(has_gridlines=True, has_separate_legend=True, has_3d=True))
+# → 4 clutter items found → "Remove gridlines, merge legend, flatten 3D to 2D"
+```
+
+**Story construction:**
+```python
+story = SWDSkill("Q4").build_story(
+    protagonist="Product Committee",
+    imbalance="Growth dropped 15% → 8%",
+    evidence=["Retention fell from 45% to 32%"],
+    call_to_action="Approve 3M budget"
+)
 ```
 
 ### Agent Workflow Pattern
