@@ -1,3 +1,7 @@
+## v2.2.98 (2026-05-22)
+- Ecosystem badge consistency check across all 6 AliDujie skills
+- Version bump to 2.2.98 across README/SKILL.md/pyproject.toml/__init__.py
+
 ## v2.2.97 (2026-05-22)
 - SKILL.md frontmatter: synced version to 2.2.97, added `author` field, moved badge outside YAML boundary
 - Repo maintenance: added 'Chart-to-Story Decision Tree' quick-reference guide
