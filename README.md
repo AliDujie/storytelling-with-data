@@ -8,6 +8,12 @@
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
 
+## 🆕 What's New in v2.2.97
+
+- **SKILL.md Frontmatter Fix**: Synced version to 2.2.97, added `author` field, fixed badge placement
+- **SKILL.md Badge Leak Fix**: Moved markdown badge outside YAML frontmatter boundary (invalid YAML)
+- **Ecosystem Consistency**: Verified cross-references across all 6 AliDujie skills
+
 ## 🆕 What's New in v2.2.95
 
 - **Try-It-Now Section**: Added one-line runnable examples under Quick Start for instant exploration

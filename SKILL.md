@@ -1,12 +1,14 @@
 ---
 name: storytelling-with-data
-version: "2.2.94"
+version: "2.2.97"
 description: >
   数据可视化与数据叙事技能，基于 Cole Nussbaumer Knaflic《Storytelling with Data》
   方法论。提供 8 项可执行能力和 12 篇知识库文档，覆盖上下文分析→图表选择→去杂乱→
   注意力引导→设计评估→故事构建→综合诊断→图表改造完整工作流，以及 CEO 决策视角扩展。
-![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
+author: "渡劫"
 ---
+
+![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
 
 # SWD (Storytelling with Data) Skill
 

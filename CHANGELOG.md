@@ -1,4 +1,5 @@
 ## v2.2.97 (2026-05-22)
+- SKILL.md frontmatter: synced version to 2.2.97, added `author` field, moved badge outside YAML boundary
 - Repo maintenance: added 'Chart-to-Story Decision Tree' quick-reference guide
 - Enhanced ecosystem cross-skill quick-reference with 6 skills + code recipes
 - Added bilingual 'When NOT to use SWD' decision guardrails
