@@ -2,11 +2,17 @@
 
 > **Turn Data into Decisions. Turn Charts into Stories.**
 
-![Version](https://img.shields.io/badge/version-2.2.93-blue)
+![Version](https://img.shields.io/badge/version-2.2.94-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
+
+## 🆕 What's New in v2.2.94
+
+- **Typo Fix**: Corrected "Approate" → "Approve" in Recipe 3 example
+- **Ecosystem Pipeline Enhancement**: Added full 6-skill ASCII diagram to README
+- **Version Sync**: Aligned version across README/SKILL.md/pyproject.toml/__init__.py
 
 ## 🆕 What's New in v2.2.93
 
@@ -439,7 +445,7 @@ story = swd.build_story(
     protagonist="Leadership Team",
     imbalance="Q3 churn increased 12% - our biggest risk",
     evidence=["Retention dropped from 88% to 76%", "Competitor X gained 5% market share"],
-    call_to_action="Approate $2M retention budget for Q4"
+    call_to_action="Approve $2M retention budget for Q4"
 )
 ```
 
@@ -741,7 +747,9 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 
-**Latest (v2.2.93)**: Repo maintenance — added Chart Quick-Reference Cards (9 chart mappings), added Pre-Presentation 7-point checklist, synced versions across all files.
+**Latest (v2.2.94)**: Repo maintenance — fixed typo in Recipe 3 example, added full 6-skill ASCII pipeline diagram, synced versions.
+
+**Previous (v2.2.93)**: Repo maintenance — added Chart Quick-Reference Cards (9 chart mappings), added Pre-Presentation 7-point checklist, synced versions across all files.
 
 **Previous (v2.2.91)**: Repo maintenance — converted "When NOT to Use SWD" to bilingual CN/EN table format, added Structured Thinking Model cross-reference, enhanced SEO-friendly headings.
 

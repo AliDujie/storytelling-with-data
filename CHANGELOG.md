@@ -1,3 +1,13 @@
+## v2.2.94 (2026-05-21)
+- Fixed typo: "Approate" → "Approve" in Recipe 3 example
+- Enhanced ecosystem cross-references in README
+- Version sync across README/SKILL.md/pyproject.toml/__init__.py
+
+## v2.2.93 (2026-05-20)
+- Added Chart Quick-Reference Cards (9 chart mappings)
+- Added Pre-Presentation 7-point checklist
+- Version sync across all files
+
 ## v2.2.89 (2026-05-19)
 - Repo maintenance: synced versions across README/SKILL.md/pyproject.toml
 - Enhanced CEO decision support section with real-world example
