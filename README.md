@@ -372,7 +372,7 @@ Persona → JTBD/UDM → QuantUX → VPD → SWD → STM
 | VPD (canvas data) | SWD key data visualization | VPD canvas → SWD chart display |
 | Persona (role statistics) | SWD chart selection → story building | Persona data → SWD visual report |
 
-### 🔀 Complete Pipeline Example
+### 🔀 Complete Pipeline Example: All 6 Skills End-to-End
 
 The full research-to-decision pipeline uses all 6 collaborating skills in sequence:
 
