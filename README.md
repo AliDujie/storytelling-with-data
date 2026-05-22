@@ -917,7 +917,19 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 
-**Latest (v2.2.94)**: Repo maintenance — fixed typo in Recipe 3 example, added full 6-skill ASCII pipeline diagram, synced versions.
+**Latest (v2.2.102)**: Repo maintenance — fixed version sync mismatch (README/SKILL.md was 2.2.99 vs pyproject/__init__.py 2.2.100), ecosystem cross-reference verification across all 6 AliDujie skills.
+
+**Previous (v2.2.100)**: Added newcomer intro section ("Why Teams Choose SWD"), added 2 quick recipes (Q4 metrics story + chart declutter), synced versions.
+
+**Previous (v2.2.99)**: Added STM cross-reference, ecosystem pipeline enhancement with feedback loops, added references/ link to Resources.
+
+**Previous (v2.2.98)**: Ecosystem badge consistency check, version sync across all files.
+
+**Previous (v2.2.97)**: Added `author` field to SKILL.md, fixed badge placement, moved badge outside YAML frontmatter.
+
+**Previous (v2.2.95)**: Added one-line runnable examples under Quick Start, enhanced Chart Decision Flow with "avoid list" callout.
+
+**Previous (v2.2.94)**: Fixed typo in Recipe 3 example, added full 6-skill ASCII pipeline diagram, synced versions.
 
 **Previous (v2.2.93)**: Repo maintenance — added Chart Quick-Reference Cards (9 chart mappings), added Pre-Presentation 7-point checklist, synced versions across all files.
 
