@@ -2,11 +2,17 @@
 
 > **Turn Data into Decisions. Turn Charts into Stories.**
 
-![Version](https://img.shields.io/badge/version-2.2.98-blue)
+![Version](https://img.shields.io/badge/version-2.2.99-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
+
+## 🆕 What's New in v2.2.100
+
+- **Newcomer Intro Section**: Added "Why Teams Choose SWD" quick intro paragraph helping new users understand SWD's purpose in 2 sentences
+- **Quick Recipes**: Added 2 copy-paste-and-run recipes (Q4 metrics story in 10 min, chart declutter in 2 min)
+- **Version Bump**: Synced version to 2.2.100 across __init__.py and pyproject.toml
 
 ## 🆕 What's New in v2.2.99
 
@@ -64,6 +70,10 @@
 - **生态集成**:作为研究管道的数据呈现层,与 Persona、JTBD、QuantUX、VPD、UDM 等技能无缝协作
 
 Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (2015). A complete toolkit for **data visualization and data storytelling**, providing **8 executable capabilities + 3 CEO-level extensions** - from context analysis to chart selection, decluttering, attention guidance, design evaluation, story construction, comprehensive diagnosis, chart makeovers, and executive decision support.
+
+## 🎯 Why Teams Choose SWD
+
+*New here?* SWD turns your charts and data into **stories that drive decisions**. Instead of dumping numbers on slides, you'll learn to build a three-act narrative with clear calls to action. Based on Cole Nussbaumer Knaflic (2015).
 
 ## 🌟 Why SWD?
 
@@ -143,6 +153,31 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (2015). A complete 
 > # One line → instant chart recommendation
 > print(SWDSkill("Q4 Report").recommend_chart(data_type="continuous", has_time=True))
 > ```
+
+### 🍳 Quick Recipes
+
+**Recipe 1: Turn Q4 Metrics into an Executive Story (10 min)**
+```python
+from swd import SWDSkill
+swd = SWDSkill("Q4 Business Review")
+story = swd.build_story(
+    protagonist="Leadership Team",
+    imbalance="Revenue grew 8% but churn hit 12%",
+    evidence=["New user acquisition cost up 25%", "Top feature requests unchanged"],
+    call_to_action="Redirect $2M from acquisition to retention"
+)
+print(story)
+```
+
+**Recipe 2: Declutter a Messy Chart (2 min)**
+```python
+from swd import SWDSkill
+swd = SWDSkill("Monthly Dashboard")
+diagnosis = swd.diagnose_clutter(
+    has_gridlines=True, has_separate_legend=True, has_border=True
+)
+print(diagnosis)
+```
 
 ## ⚡ Quick Start (5 Minutes)
 
