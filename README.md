@@ -748,6 +748,48 @@ We welcome contributions! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gui
 - **Title test**: Can someone understand your story by reading only the slide titles? If not, rewrite them as complete sentences with conclusions
 - **Chain with ecosystem**: UDM research → QuantUX validation → SWD data story → [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) opportunity context → [VPD](https://github.com/AliDujie/value-proposition-design) value mapping → [Persona](https://github.com/AliDujie/web-persona-skill) user context
 
+## 🍽️ Quick Recipes / 快速食谱
+
+### Recipe: "Turn my A/B test results into a board-ready story" (30 min)
+```python
+from swd import SWDSkill
+from quantux import QuantUXSkill
+
+# Step 1: Get your quantitative results
+qx = QuantUXSkill("Checkout Redesign")
+ab = qx.analyze_ab_test("Old", 5000, 1750, "New", 5000, 1900)
+
+# Step 2: Build context
+swd = SWDSkill("Q1 Results")
+ctx = swd.build_context(
+    audience="Board of Directors",
+    cta="Approve full rollout of new checkout",
+    big_idea="New checkout converts 20% better — $2M annual revenue impact"
+)
+
+# Step 3: Build the three-act story
+story = swd.build_story(
+    protagonist="Board of Directors",
+    imbalance="Old checkout causes 15% order churn",
+    evidence=["New flow: 38% conversion vs 35% old (p<0.01)", "NPS improved 8 points"],
+    call_to_action="Approve full rollout of new checkout flow"
+)
+```
+
+### Recipe: "Make my cluttered chart presentable" (5 min)
+```python
+swd = SWDSkill("Sales Report")
+clutter = swd.diagnose_clutter(has_gridlines=True, has_separate_legend=True, has_3d=True)
+# → 4 issues found: Remove gridlines, merge legend to direct labels, flatten 3D to 2D
+
+# After cleanup:
+fix = swd.diagnose_clutter(has_gridlines=False, has_separate_legend=False, has_3d=False)
+# → Clean — ready to present
+```
+
+> 💡 **Pro Tip**: The [Title Test](#-pro-tip--专业技巧) is the fastest quality check — if someone can understand your presentation by reading ONLY the slide titles, you have a strong story.
+
+
 ## 🛡️ Common Pitfalls & How to Avoid Them
 
 | Pitfall | How SWD Helps |
