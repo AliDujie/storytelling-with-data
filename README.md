@@ -2,11 +2,17 @@
 
 > **Turn Data into Decisions. Turn Charts into Stories.**
 
-![Version](https://img.shields.io/badge/version-2.2.99-blue)
+![Version](https://img.shields.io/badge/version-2.2.102-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
+
+## 🆕 What's New in v2.2.102
+
+- **Repo Maintenance**: Fixed version sync across README badge, SKILL.md, pyproject.toml, and __init__.py (were mismatched: README/SKILL.md 2.2.99 vs pyproject/__init__.py 2.2.100)
+- **Ecosystem Cross-Reference Verification**: Verified all 6-skill pipeline links across AliDujie skills
+- **Version Bump**: Synced version to 2.2.102
 
 ## 🆕 What's New in v2.2.100
 
