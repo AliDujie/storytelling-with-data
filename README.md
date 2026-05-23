@@ -2,11 +2,17 @@
 
 > **Turn Data into Decisions. Turn Charts into Stories.**
 
-![Version](https://img.shields.io/badge/version-2.2.102-blue)
+![Version](https://img.shields.io/badge/version-2.2.103-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
+
+## 🆕 What's New in v2.2.103
+
+- **Ecosystem Pipeline Diagram**: Added ASCII visual showing full 6-skill flow with SWD as presentation layer
+- **Cross-Skill Quick-Start Enhancement**: Added explicit data handoff examples (QuantUX→SWD, UDM→SWD, JTBD→SWD)
+- **Version Bump**: Synced version to 2.2.103
 
 ## 🆕 What's New in v2.2.102
 
