@@ -2,7 +2,7 @@
 
 > **Turn Data into Decisions. Turn Charts into Stories.**
 
-![Version](https://img.shields.io/badge/version-2.2.103-blue)
+![Version](https://img.shields.io/badge/version-2.2.104-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -82,11 +82,13 @@
 
 Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (2015). A complete toolkit for **data visualization and data storytelling**, providing **8 executable capabilities + 3 CEO-level extensions** - from context analysis to chart selection, decluttering, attention guidance, design evaluation, story construction, comprehensive diagnosis, chart makeovers, and executive decision support.
 
-## 🎯 Why Teams Choose SWD
+## 🎯 Why Teams Choose SWD / 为什么选择 SWD
 
 *New here?* SWD turns your charts and data into **stories that drive decisions**. Instead of dumping numbers on slides, you'll learn to build a three-act narrative with clear calls to action. Based on Cole Nussbaumer Knaflic (2015).
 
-## 🌟 Why SWD?
+> **SWD 是整个 AliDujie UX 研究生态的数据呈现层。** 当 UDM 完成研究、QuantUX 产出数据后,SWD 帮你把这些发现转化为高管可读的数据故事。基于 Cole Nussbaumer Knaflic 的畅销书方法论,8 项核心能力覆盖从上下文分析到图表改造的完整工作流,3 项 CEO 扩展让任何数据呈现都能导向明确的商业决策。
+>
+> *"用 SWD 改造后,我们的汇报从'一堆图表'变成了'一个故事'--CEO 听完直接拍板。"*
 
 | Challenge | Without SWD | With SWD |
 |-----------|------------|----------|
@@ -115,12 +117,6 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (2015). A complete 
 | 幻灯片修改轮次 | 平均 4.6 轮 | 平均 1.8 轮 | 减少 61% |
 | "再看更多数据"拖延 | 62% | 18% | 减少 71% |
 | 诊断评分 (5 维) | 平均 58 (🟠) | 平均 91 (🟢) | 提升 57% |
-
-## 💡 为什么选择 SWD?
-
-> **SWD 是整个 AliDujie UX 研究生态的数据呈现层。** 当 UDM 完成研究、QuantUX 产出数据后,SWD 帮你把这些发现转化为高管可读的数据故事。基于 Cole Nussbaumer Knaflic 的畅销书方法论,8 项核心能力覆盖从上下文分析到图表改造的完整工作流,3 项 CEO 扩展让任何数据呈现都能导向明确的商业决策。
->
-> *"用 SWD 改造后,我们的汇报从'一堆图表'变成了'一个故事'--CEO 听完直接拍板。"*
 
 ### 🔗 Cross-Skill Collaboration / 跨技能协作
 
