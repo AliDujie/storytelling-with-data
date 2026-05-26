@@ -2,12 +2,17 @@
 
 > **Turn Data into Decisions. Turn Charts into Stories.**
 
-![Version](https://img.shields.io/badge/version-2.2.106-blue)
+![Version](https://img.shields.io/badge/version-2.2.107-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
 ![Examples](https://img.shields.io/badge/Examples-3%20runnable%20scripts-brightgreen)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
+
+## 🆕 What's New in v2.2.107
+
+- **Who This Skill Is For**: Added dedicated audience section targeting data analysts, PMs, UX researchers, executives, and AI agent developers
+- **Version Bump**: Synced to 2.2.107
 
 ## 🆕 What's New in v2.2.106
 
@@ -261,6 +266,14 @@ print(result)  # Expected: 🟡 Good (70-89 range)
 > skill = SWDSkill("你的项目")
 > print(skill.recommend_chart(data_type="continuous", has_time=True))
 > ```
+
+## 👥 Who This Skill Is For
+
+- **Data Analysts** — Transform raw metrics into stories that stakeholders actually act on
+- **Product Managers** — Turn A/B test results and UX research into board-ready presentations
+- **UX Researchers** — Present qualitative findings with the same clarity as quantitative dashboards
+- **Executives & Founders** — Build fundraising decks and quarterly reviews that end with clear decisions
+- **AI Agent Developers** — Drop into any Python agent, produce structured data stories automatically
 
 ## 📋 Real-World Use Cases
 
