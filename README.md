@@ -2,17 +2,22 @@
 
 > **Turn Data into Decisions. Turn Charts into Stories.**
 
-![Version](https://img.shields.io/badge/version-2.2.103-blue)
+![Version](https://img.shields.io/badge/version-2.2.106-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
+![Examples](https://img.shields.io/badge/Examples-3%20runnable%20scripts-brightgreen)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
+
+## 🆕 What's New in v2.2.106
+
+- **Repo Maintenance**: Added Examples badge (3 runnable scripts: chart selection, data story, declutter diagnosis), added examples/ reference to Resources section, ecosystem cross-reference audit
+- **Version Bump**: Synced to 2.2.106 across README badge, SKILL.md, pyproject.toml, __init__.py
 
 ## 🆕 What's New in v2.2.103
 
-- **Ecosystem Pipeline Diagram**: Added ASCII visual showing full 6-skill flow with SWD as presentation layer
-- **Cross-Skill Quick-Start Enhancement**: Added explicit data handoff examples (QuantUX→SWD, UDM→SWD, JTBD→SWD)
-- **Version Bump**: Synced version to 2.2.103
+- **Ecosystem Audit**: Audited all 6 AliDujie skill repos for cross-reference consistency, version alignment, and documentation completeness
+- **Version Bump**: Synced version to 2.2.103 across README badge, SKILL.md, pyproject.toml, __init__.py
 
 ## 🆕 What's New in v2.2.102
 
@@ -83,11 +88,13 @@
 
 Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (2015). A complete toolkit for **data visualization and data storytelling**, providing **8 executable capabilities + 3 CEO-level extensions** - from context analysis to chart selection, decluttering, attention guidance, design evaluation, story construction, comprehensive diagnosis, chart makeovers, and executive decision support.
 
-## 🎯 Why Teams Choose SWD
+## 🎯 Why Teams Choose SWD / 为什么选择 SWD
 
 *New here?* SWD turns your charts and data into **stories that drive decisions**. Instead of dumping numbers on slides, you'll learn to build a three-act narrative with clear calls to action. Based on Cole Nussbaumer Knaflic (2015).
 
-## 🌟 Why SWD?
+> **SWD 是整个 AliDujie UX 研究生态的数据呈现层。** 当 UDM 完成研究、QuantUX 产出数据后,SWD 帮你把这些发现转化为高管可读的数据故事。基于 Cole Nussbaumer Knaflic 的畅销书方法论,8 项核心能力覆盖从上下文分析到图表改造的完整工作流,3 项 CEO 扩展让任何数据呈现都能导向明确的商业决策。
+>
+> *"用 SWD 改造后,我们的汇报从'一堆图表'变成了'一个故事'--CEO 听完直接拍板。"*
 
 | Challenge | Without SWD | With SWD |
 |-----------|------------|----------|
@@ -116,12 +123,6 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (2015). A complete 
 | 幻灯片修改轮次 | 平均 4.6 轮 | 平均 1.8 轮 | 减少 61% |
 | "再看更多数据"拖延 | 62% | 18% | 减少 71% |
 | 诊断评分 (5 维) | 平均 58 (🟠) | 平均 91 (🟢) | 提升 57% |
-
-## 💡 为什么选择 SWD?
-
-> **SWD 是整个 AliDujie UX 研究生态的数据呈现层。** 当 UDM 完成研究、QuantUX 产出数据后,SWD 帮你把这些发现转化为高管可读的数据故事。基于 Cole Nussbaumer Knaflic 的畅销书方法论,8 项核心能力覆盖从上下文分析到图表改造的完整工作流,3 项 CEO 扩展让任何数据呈现都能导向明确的商业决策。
->
-> *"用 SWD 改造后,我们的汇报从'一堆图表'变成了'一个故事'--CEO 听完直接拍板。"*
 
 ### 🔗 Cross-Skill Collaboration / 跨技能协作
 
@@ -923,7 +924,21 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 
-**Latest (v2.2.94)**: Repo maintenance — fixed typo in Recipe 3 example, added full 6-skill ASCII pipeline diagram, synced versions.
+**Latest (v2.2.106)**: Added Examples badge (3 runnable scripts), ecosystem cross-reference audit across all 6 AliDujie skills, version sync across all files.
+
+**Previous (v2.2.102)**: Repo maintenance — fixed version sync mismatch (README/SKILL.md was 2.2.99 vs pyproject/__init__.py 2.2.100), ecosystem cross-reference verification across all 6 AliDujie skills.
+
+**Previous (v2.2.100)**: Added newcomer intro section ("Why Teams Choose SWD"), added 2 quick recipes (Q4 metrics story + chart declutter), synced versions.
+
+**Previous (v2.2.99)**: Added STM cross-reference, ecosystem pipeline enhancement with feedback loops, added references/ link to Resources.
+
+**Previous (v2.2.98)**: Ecosystem badge consistency check, version sync across all files.
+
+**Previous (v2.2.97)**: Added `author` field to SKILL.md, fixed badge placement, moved badge outside YAML frontmatter.
+
+**Previous (v2.2.95)**: Added one-line runnable examples under Quick Start, enhanced Chart Decision Flow with "avoid list" callout.
+
+**Previous (v2.2.94)**: Fixed typo in Recipe 3 example, added full 6-skill ASCII pipeline diagram, synced versions.
 
 **Previous (v2.2.93)**: Repo maintenance — added Chart Quick-Reference Cards (9 chart mappings), added Pre-Presentation 7-point checklist, synced versions across all files.
 
@@ -953,7 +968,7 @@ See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 - [SKILL.md](SKILL.md) - Agent-facing skill definition and prompt templates
 - [USAGE.md](USAGE.md) - Detailed usage guide with code examples / 详细使用指南
 - [INSTALL.md](INSTALL.md) - Detailed installation guide and agent integration
-- [examples/](examples/) - Runnable Python examples (zero dependencies)
+- [examples/](examples/) - Runnable Python examples (chart selection, data story, declutter diagnosis)
 - [CONTRIBUTING.md](CONTRIBUTING.md) - How to contribute
 - [CHANGELOG.md](CHANGELOG.md) - Version history
 - [SECURITY.md](SECURITY.md) - Security policy and responsible use
