@@ -9,6 +9,21 @@
 ![Examples](https://img.shields.io/badge/Examples-3%20runnable%20scripts-brightgreen)
 ![Part of AliDujie Skills](https://img.shields.io/badge/AliDujie-UX%20Research%20Ecosystem-purple)
 
+## 📑 Table of Contents
+
+- [What's New](#-whats-new-in-v22107)
+- [Why Teams Choose SWD](#-why-teams-choose-swd--为什么选择-swd)
+- [Quick Decision Guide](#-quick-decision-when-to-use-swd)
+- [Quick Start](#-quick-start-5-minutes)
+- [Core Capabilities](#️-core-capabilities--核心能力)
+- [Real-World Use Cases](#-real-world-use-cases)
+- [Ecosystem Integration](#-ecosystem-integration)
+- [AI Agent Integration](#-ai-agent-integration)
+- [When NOT to Use SWD](#-when-not-to-use-swd--什么时候不该用-swd)
+- [Resources](#-resources)
+
+---
+
 ## 🆕 What's New in v2.2.107
 
 - **Who This Skill Is For**: Added dedicated audience section targeting data analysts, PMs, UX researchers, executives, and AI agent developers
@@ -274,6 +289,18 @@ print(result)  # Expected: 🟡 Good (70-89 range)
 - **UX Researchers** — Present qualitative findings with the same clarity as quantitative dashboards
 - **Executives & Founders** — Build fundraising decks and quarterly reviews that end with clear decisions
 - **AI Agent Developers** — Drop into any Python agent, produce structured data stories automatically
+
+## 🚫 Common Mistakes / 常见错误
+
+| Mistake | What Happens | Fix |
+|---------|-------------|----- |
+| Defaulting to pie charts for everything | Hard to compare values, hides the story | Use `recommend_chart()` — let the data structure decide the visual |
+| Overloading slides with data | Audience reads numbers instead of hearing the message | Apply `declutter_diagnosis()` — remove gridlines, borders, redundant labels |
+| No clear action title | "Q4 Revenue Chart" tells the audience nothing | Every chart needs a declarative title: "Q4 revenue grew 12% but churn offset gains" |
+| Rainbow color palettes | Distracts from the key insight | Use SWD's color guidance — one highlight color for the story, grey for context |
+| Skipping the three-act structure | Data dump with no narrative arc | Use `build_story()` — Context → Conflict → Resolution |
+
+> **所有图表都用饼图？用 `recommend_chart()` 让数据结构决定可视化。一页堆满数据？用 `declutter_diagnosis()` 去掉网格线和冗余标签。没有行动标题？"Q4收入图"什么都没说——改成"Q4收入增长12%但流失抵消了收益"。彩虹配色？用SWD色彩指南——一个强调色讲关键洞察，灰色做背景。跳过三幕结构？用 `build_story()`。**
 
 ## 📋 Real-World Use Cases
 
