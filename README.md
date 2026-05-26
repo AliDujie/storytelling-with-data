@@ -924,7 +924,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 
-**Latest (v2.2.103)**: Ecosystem audit across all 6 AliDujie skill repos — cross-reference verification, version alignment, documentation completeness check.
+**Latest (v2.2.106)**: Added Examples badge (3 runnable scripts), ecosystem cross-reference audit across all 6 AliDujie skills, version sync across all files.
 
 **Previous (v2.2.102)**: Repo maintenance — fixed version sync mismatch (README/SKILL.md was 2.2.99 vs pyproject/__init__.py 2.2.100), ecosystem cross-reference verification across all 6 AliDujie skills.
 
