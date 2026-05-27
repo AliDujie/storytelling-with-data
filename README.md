@@ -11,7 +11,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v22109)
+- [What's New](#-whats-new-in-v22110)
 - [Why Teams Choose SWD](#-why-teams-choose-swd--为什么选择-swd)
 - [Quick Decision: When to Use SWD?](#-quick-decision-when-to-use-swd)
 - [Who This Skill Is For](#-who-this-skill-is-for)
@@ -987,7 +987,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 
-**Latest (v2.2.109)**: Fixed stale What's New TOC link (v22108 → v22109), updated Version History latest entry, TOC and ecosystem cross-reference audit across all 6 AliDujie skills.
+**Latest (v2.2.110)**: Fixed stale What's New TOC link (v2.2.109 → v2.2.110), updated Version History latest entry, ecosystem cross-reference audit across all 6 AliDujie skills.
 
 **Previous (v2.2.102)**: Repo maintenance — fixed version sync mismatch (README/SKILL.md was 2.2.99 vs pyproject/__init__.py 2.2.100), ecosystem cross-reference verification across all 6 AliDujie skills.
 
