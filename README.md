@@ -11,14 +11,22 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v22107)
+- [What's New](#-whats-new-in-v22108)
 - [Why Teams Choose SWD](#-why-teams-choose-swd--为什么选择-swd)
-- [Quick Decision Guide](#-quick-decision-when-to-use-swd)
+- [Quick Decision: When to Use SWD?](#-quick-decision-when-to-use-swd)
+- [Who This Skill Is For](#-who-this-skill-is-for)
+- [Common Mistakes](#-common-mistakes--常见错误)
 - [Quick Start](#-quick-start-5-minutes)
 - [Core Capabilities](#️-core-capabilities--核心能力)
-- [Real-World Use Cases](#-real-world-use-cases)
+- [Chart Selection Decision Tree](#-chart-selection-decision-tree)
+- [5-Dimension Diagnosis Scoring](#-5-dimension-diagnosis-scoring)
+- [Ecosystem Quick Start](#-ecosystem-quick-start)
 - [Ecosystem Integration](#-ecosystem-integration)
 - [AI Agent Integration](#-ai-agent-integration)
+- [Chart Makeover Recipes](#-chart-makeover-recipes--图表改造食谱)
+- [Quick Recipes](#-quick-recipes--快速食谱)
+- [FAQ / Troubleshooting](#-faq--troubleshooting)
+- [Version History](#-version-history)
 - [When NOT to Use SWD](#-when-not-to-use-swd--什么时候不该用-swd)
 - [Resources](#-resources)
 
