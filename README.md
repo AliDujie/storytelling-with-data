@@ -2,7 +2,7 @@
 
 > **Turn Data into Decisions. Turn Charts into Stories.**
 
-![Version](https://img.shields.io/badge/version-2.2.108-blue)
+![Version](https://img.shields.io/badge/version-2.2.109-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -31,6 +31,11 @@
 - [Resources](#-resources)
 
 ---
+
+## 🆕 What's New in v2.2.109
+
+- **Repo Maintenance**: TOC completeness audit, ecosystem cross-reference audit across all 6 AliDujie skills
+- **Version Bump**: Synced to 2.2.109
 
 ## 🆕 What's New in v2.2.108
 
@@ -977,7 +982,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 
-**Latest (v2.2.107)**: Added 'Who This Skill Is For' section targeting data analysts, PMs, UX researchers, executives, and AI agent developers, version sync across all files.
+**Latest (v2.2.108)**: Added 'Who This Skill Is For' section targeting data analysts, PMs, UX researchers, executives, and AI agent developers, version sync across all files.
 
 **Previous (v2.2.102)**: Repo maintenance — fixed version sync mismatch (README/SKILL.md was 2.2.99 vs pyproject/__init__.py 2.2.100), ecosystem cross-reference verification across all 6 AliDujie skills.
 
