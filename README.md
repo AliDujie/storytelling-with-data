@@ -2,7 +2,7 @@
 
 > **Turn Data into Decisions. Turn Charts into Stories.**
 
-![Version](https://img.shields.io/badge/version-2.2.112-blue)
+![Version](https://img.shields.io/badge/version-2.2.113-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -11,7 +11,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v22112)
+- [What's New](#-whats-new-in-v22113)
 - [Why Teams Choose SWD](#-why-teams-choose-swd--为什么选择-swd)
 - [Quick Decision: When to Use SWD?](#-quick-decision-when-to-use-swd)
 - [Who This Skill Is For](#-who-this-skill-is-for)
@@ -29,9 +29,13 @@
 - [Version History](#-version-history)
 - [When NOT to Use SWD](#-when-not-to-use-swd--什么时候不该用-swd)
 - [Resources](#-resources)
-- [When NOT to Use SWD](#-when-not-to-use-swd--什么时候不该用-swd)
 
 ---
+
+## 🆕 What's New in v2.2.113
+
+- **Repo Maintenance**: Version sync across SKILL.md/pyproject.toml/__init__.py (all → 2.2.113), README badge set to 2.2.113, ecosystem cross-reference audit across all 6 AliDujie skills
+- **Version Bump**: Synced to 2.2.113
 
 ## 🆕 What's New in v2.2.112
 
