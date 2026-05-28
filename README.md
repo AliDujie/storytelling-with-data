@@ -2,7 +2,7 @@
 
 > **Turn Data into Decisions. Turn Charts into Stories.**
 
-![Version](https://img.shields.io/badge/version-2.2.110-blue)
+![Version](https://img.shields.io/badge/version-2.2.111-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -29,6 +29,7 @@
 - [Version History](#-version-history)
 - [When NOT to Use SWD](#-when-not-to-use-swd--什么时候不该用-swd)
 - [Resources](#-resources)
+- [When NOT to Use SWD](#-when-not-to-use-swd--什么时候不该用-swd)
 
 ---
 
@@ -36,6 +37,11 @@
 
 - **Repo Maintenance**: Fixed stale What's New TOC link (v22108 → v22109), updated Version History "Latest" entry (v2.2.108 → v2.2.109), ecosystem cross-reference audit across all 6 AliDujie skills
 - **Version Bump**: Synced to 2.2.110
+
+## 🆕 What's New in v2.2.111
+
+- **TOC Audit**: Added missing "When NOT to Use SWD" TOC entry, ecosystem cross-reference audit across all 6 AliDujie skills
+- **Version Bump**: Synced to 2.2.111
 
 ## 🆕 What's New in v2.2.109
 
