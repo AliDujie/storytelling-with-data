@@ -2,7 +2,7 @@
 
 > **Turn Data into Decisions. Turn Charts into Stories.**
 
-![Version](https://img.shields.io/badge/version-2.2.111-blue)
+![Version](https://img.shields.io/badge/version-2.2.112-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -11,7 +11,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v22110)
+- [What's New](#-whats-new-in-v22112)
 - [Why Teams Choose SWD](#-why-teams-choose-swd--为什么选择-swd)
 - [Quick Decision: When to Use SWD?](#-quick-decision-when-to-use-swd)
 - [Who This Skill Is For](#-who-this-skill-is-for)
@@ -33,15 +33,20 @@
 
 ---
 
-## 🆕 What's New in v2.2.110
+## 🆕 What's New in v2.2.112
 
-- **Repo Maintenance**: Fixed stale What's New TOC link (v22108 → v22109), updated Version History "Latest" entry (v2.2.108 → v2.2.109), ecosystem cross-reference audit across all 6 AliDujie skills
-- **Version Bump**: Synced to 2.2.110
+- **Repo Maintenance**: Fixed version mismatch (README badge was 2.2.111 while SKILL.md/pyproject.toml/__init__.py were 2.2.110), bumped all internal versions to 2.2.111, updated Version History "Latest" entry, ecosystem cross-reference audit across all 6 AliDujie skills
+- **Version Bump**: Synced to 2.2.112
 
 ## 🆕 What's New in v2.2.111
 
 - **TOC Audit**: Added missing "When NOT to Use SWD" TOC entry, ecosystem cross-reference audit across all 6 AliDujie skills
 - **Version Bump**: Synced to 2.2.111
+
+## 🆕 What's New in v2.2.110
+
+- **Repo Maintenance**: Fixed stale What's New TOC link (v22108 → v22109), updated Version History "Latest" entry (v2.2.108 → v2.2.109), ecosystem cross-reference audit across all 6 AliDujie skills
+- **Version Bump**: Synced to 2.2.110
 
 ## 🆕 What's New in v2.2.109
 
@@ -993,7 +998,9 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 
-**Latest (v2.2.110)**: Fixed stale What's New TOC link (v2.2.109 → v2.2.110), updated Version History latest entry, ecosystem cross-reference audit across all 6 AliDujie skills.
+**Latest (v2.2.111)**: Bumped internal versions to 2.2.111, updated Version History latest entry, ecosystem cross-reference audit across all 6 AliDujie skills.
+
+**Previous (v2.2.110)**: Fixed stale What's New TOC link (v2.2.109 → v2.2.110), updated Version History latest entry, ecosystem cross-reference audit across all 6 AliDujie skills.
 
 **Previous (v2.2.102)**: Repo maintenance — fixed version sync mismatch (README/SKILL.md was 2.2.99 vs pyproject/__init__.py 2.2.100), ecosystem cross-reference verification across all 6 AliDujie skills.
 
