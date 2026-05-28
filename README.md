@@ -11,7 +11,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v22113)
+- [What's New](#-whats-new-in-v22114)
 - [Why Teams Choose SWD](#-why-teams-choose-swd--为什么选择-swd)
 - [Quick Decision: When to Use SWD?](#-quick-decision-when-to-use-swd)
 - [Who This Skill Is For](#-who-this-skill-is-for)
@@ -31,6 +31,11 @@
 - [Resources](#-resources)
 
 ---
+
+## 🆕 What's New in v2.2.114
+
+- **Version History Fix**: Corrected stale Version History "Latest" entry (was pointing to v2.2.111 while badge shows 2.2.113), ecosystem cross-reference audit across all 6 AliDujie skills
+- **Version Bump**: Synced to 2.2.114
 
 ## 🆕 What's New in v2.2.113
 
@@ -1002,7 +1007,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 
-**Latest (v2.2.111)**: Bumped internal versions to 2.2.111, updated Version History latest entry, ecosystem cross-reference audit across all 6 AliDujie skills.
+**Latest (v2.2.114)**: Version History "Latest" entry corrected (was stale v2.2.111 while badge showed 2.2.113), ecosystem cross-reference audit across all 6 AliDujie skills.
 
 **Previous (v2.2.110)**: Fixed stale What's New TOC link (v2.2.109 → v2.2.110), updated Version History latest entry, ecosystem cross-reference audit across all 6 AliDujie skills.
 
