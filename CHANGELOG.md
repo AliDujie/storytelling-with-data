@@ -1,3 +1,45 @@
+## v2.2.114 (2026-05-29)
+
+- Correct stale Version History "Latest" entry (was pointing to v2.2.111 while badge shows 2.2.113)
+- Ecosystem cross-reference audit across all 6 AliDujie skills
+
+## v2.2.113 (2026-05-29)
+
+- Sync versions to 2.2.113 across README/SKILL.md/pyproject.toml/__init__.py
+- Ecosystem cross-reference audit across all 6 AliDujie skills
+
+## v2.2.112 (2026-05-29)
+
+- Fix version mismatch (README badge was 2.2.111 while SKILL.md/pyproject.toml/__init__.py were 2.2.110)
+- Bump all internal versions to 2.2.111
+- Ecosystem cross-reference audit across all 6 AliDujie skills
+
+## v2.2.111 (2026-05-29)
+
+- Add missing "When NOT to Use SWD" TOC entry
+- Ecosystem cross-reference audit across all 6 AliDujie skills
+
+## v2.2.110 (2026-05-29)
+
+- Fix stale What's New TOC link (v22108 → v22109)
+- Update Version History "Latest" entry (v2.2.108 → v2.2.109)
+- Ecosystem cross-reference audit across all 6 AliDujie skills
+
+## v2.2.109 (2026-05-29)
+
+- TOC completeness audit
+- Ecosystem cross-reference audit across all 6 AliDujie skills
+
+## v2.2.108 (2026-05-29)
+
+- Fix Examples badge count (3 → 4 scripts to match actual `examples/*.py` files)
+- Correct Version History "Latest" entry (v2.2.106 → v2.2.107)
+- Ecosystem cross-reference audit across all 6 AliDujie skills
+
+## v2.2.107 (2026-05-29)
+
+- Add "Who This Skill Is For" section targeting data analysts, PMs, UX researchers, executives, and AI agent developers
+
 ## v2.2.106 (2026-05-26)
 
 - Repo maintenance: added Examples badge (3 runnable scripts), added examples/ reference to Resources section, ecosystem cross-reference audit
