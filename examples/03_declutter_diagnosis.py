@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 """Example: Declutter Diagnosis for a dashboard chart."""
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+
 from swd import SWDSkill
 
 swd = SWDSkill("Sales Dashboard")
@@ -8,13 +11,12 @@ print("=" * 60)
 print("Declutter Diagnosis: Monthly Revenue Chart")
 print("=" * 60)
 
-diagnosis = swd.declutter_diagnosis(
-    chart_type="line",
-    description="""
-    Multi-line chart showing monthly revenue for 5 product lines.
-    Has: gridlines on both axes, 3D effects on bars, legend on right,
-    data labels on every point, shadow effects, gradient fill.
-    """
+diagnosis = swd.diagnose_clutter(
+    has_gridlines=True,
+    has_3d=True,
+    has_separate_legend=True,
+    has_data_markers=True,
+    has_background_shading=True
 )
 print(diagnosis)
 
@@ -23,8 +25,7 @@ print("\n" + "=" * 60)
 print("Attention Guidance")
 print("=" * 60)
 
-attention = swd.guide_attention(
-    "Highlight that Cloud Services exceeded target while Enterprise declined",
-    pre_attentive=["color", "size", "position"]
+attention = swd.plan_attention(
+    focus_elements=[("Cloud Services performance", 5)]
 )
 print(attention)

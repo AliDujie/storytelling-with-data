@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 """Example: Chart Recommendation based on data characteristics."""
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+
 from swd import SWDSkill
 
 swd = SWDSkill("Quarterly Business Review")
@@ -10,10 +13,9 @@ print("Chart Recommendation: Compare 5 business units")
 print("=" * 60)
 
 recommendation = swd.recommend_chart(
-    "compare",
-    ["Cloud Services", "Enterprise Software", "Consumer Apps",
-     "Advertising", "Hardware"],
-    [12.5, 8.3, 5.1, 3.2, 2.8]
+    data_type="categorical",
+    series_count=5,
+    category_count=0
 )
 print(recommendation)
 
@@ -23,9 +25,9 @@ print("Chart Recommendation: Show quarterly trend")
 print("=" * 60)
 
 trend = swd.recommend_chart(
-    "trend",
-    ["Q1", "Q2", "Q3", "Q4"],
-    [45, 52, 48, 61]
+    data_type="continuous",
+    series_count=1,
+    has_time=True
 )
 print(trend)
 
@@ -35,8 +37,8 @@ print("Chart Recommendation: Part-to-whole breakdown")
 print("=" * 60)
 
 composition = swd.recommend_chart(
-    "proportion",
-    ["Product A", "Product B", "Product C", "Other"],
-    [35, 28, 22, 15]
+    data_type="categorical",
+    series_count=4,
+    show_part_of_whole=True
 )
 print(composition)
