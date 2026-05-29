@@ -34,12 +34,7 @@
 
 ## 🆕 What's New in v2.2.117
 
-- **CHANGELOG Maintenance**: Merged duplicate version entries (consolidated duplicate v2.2.114, v2.3.119, v2.3.109, v3.2.10 entries across ecosystem), ecosystem cross-reference audit across all 6 AliDujie skills
-- **Version Bump**: Synced to 2.2.117
-
-## 🆕 What's New in v2.2.117
-
-- **Repo Maintenance**: Version bump 2.2.116→2.2.117, Version History text cleanup, ecosystem cross-reference audit across all 6 AliDujie skills
+- **Repo Maintenance**: Version bump 2.2.116→2.2.117, CHANGELOG duplicate v2.2.114 merge consolidated, Version History text cleanup, ecosystem cross-reference audit across all 6 AliDujie skills
 - **Version Bump**: Synced to 2.2.117
 
 ## 🆕 What's New in v2.2.116
