@@ -33,7 +33,7 @@
     makeover = skill.makeover(issues=["使用了饼图", "无标题"])
 """
 
-__version__ = "2.2.117"
+__version__ = "2.2.118"
 
 from .config import AnalysisConfig, CHART_TYPES, CHART_LABELS, KNOWLEDGE_FILES
 from .utils import load_knowledge, load_all_knowledge, search_knowledge

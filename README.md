@@ -2,7 +2,7 @@
 
 > **Turn Data into Decisions. Turn Charts into Stories.**
 
-![Version](https://img.shields.io/badge/version-2.2.117-blue)
+![Version](https://img.shields.io/badge/version-2.2.118-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -11,7 +11,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v22117)
+- [What's New](#-whats-new-in-v22118)
 - [Why Teams Choose SWD](#-why-teams-choose-swd--为什么选择-swd)
 - [Quick Decision: When to Use SWD?](#-quick-decision-when-to-use-swd)
 - [Who This Skill Is For](#-who-this-skill-is-for)
@@ -32,6 +32,11 @@
 
 ---
 
+## 🆕 What's New in v2.2.118
+
+- **README Cleanup**: Consolidated 20 redundant What's New entries into a summary line with CHANGELOG link, reducing README by ~107 lines while preserving full history reference
+- **Version Bump**: Synced to 2.2.118
+
 ## 🆕 What's New in v2.2.117
 
 - **Repo Maintenance**: Version bump 2.2.116→2.2.117, CHANGELOG duplicate v2.2.114 merge consolidated, Version History text cleanup, ecosystem cross-reference audit across all 6 AliDujie skills
@@ -44,118 +49,10 @@
 
 ## 🆕 What's New in v2.2.115
 
-- **Repo Maintenance**: Merged duplicate v2.2.114 entries, updated Version History "Latest" entry to v2.2.115, ecosystem cross-reference audit across all 6 AliDujie skills
+- **Version History Fix**: Corrected stale Version History "Latest" entry (was v2.2.109 while badge shows 2.2.114), ecosystem cross-reference audit across all 6 AliDujie skills
 - **Version Bump**: Synced to 2.2.115
 
-## 🆕 What's New in v2.2.114
-
-- **Version Bump**: Bumped to 2.2.114 — aligned README badge, SKILL.md, pyproject.toml, __init__.py
-- **Repo Maintenance**: Documented all example scripts in examples/README.md (story building was missing), ecosystem cross-reference audit across all 6 AliDujie skills
-
-## 🆕 What's New in v2.2.113
-
-- **Version Consistency**: Fixed stale Version History "Latest" entry (v2.2.111 → 2.2.113), synced SKILL.md/pyproject.toml/__init__.py to 2.2.113, ecosystem cross-reference audit across all 6 AliDujie skills
-- **Version Bump**: Synced to 2.2.113
-
-## 🆕 What's New in v2.2.112
-
-- **Repo Maintenance**: Fixed version mismatch (README badge was 2.2.111 while SKILL.md/pyproject.toml/__init__.py were 2.2.110), bumped all internal versions to 2.2.111, updated Version History "Latest" entry, ecosystem cross-reference audit across all 6 AliDujie skills
-- **Version Bump**: Synced to 2.2.112
-
-## 🆕 What's New in v2.2.111
-
-- **TOC Audit**: Added missing "When NOT to Use SWD" TOC entry, ecosystem cross-reference audit across all 6 AliDujie skills
-- **Version Bump**: Synced to 2.2.111
-
-## 🆕 What's New in v2.2.110
-
-- **Repo Maintenance**: Fixed stale What's New TOC link (v22108 → v22109), updated Version History "Latest" entry (v2.2.108 → v2.2.109), ecosystem cross-reference audit across all 6 AliDujie skills
-- **Version Bump**: Synced to 2.2.110
-
-## 🆕 What's New in v2.2.109
-
-- **Repo Maintenance**: TOC completeness audit, ecosystem cross-reference audit across all 6 AliDujie skills
-- **Version Bump**: Synced to 2.2.109
-
-## 🆕 What's New in v2.2.108
-
-- **Repo Maintenance**: Fixed Examples badge count (3 → 4 scripts to match actual `examples/*.py` files), corrected Version History "Latest" entry (v2.2.106 → v2.2.107), ecosystem cross-reference audit across all 6 AliDujie skills
-- **Version Bump**: Synced to 2.2.108
-
-## 🆕 What's New in v2.2.107
-
-- **Who This Skill Is For**: Added dedicated audience section targeting data analysts, PMs, UX researchers, executives, and AI agent developers
-- **Version Bump**: Synced to 2.2.107
-
-## 🆕 What's New in v2.2.106
-
-- **Repo Maintenance**: Added Examples badge (3 runnable scripts: chart selection, data story, declutter diagnosis), added examples/ reference to Resources section, ecosystem cross-reference audit
-- **Version Bump**: Synced to 2.2.106 across README badge, SKILL.md, pyproject.toml, __init__.py
-
-## 🆕 What's New in v2.2.103
-
-- **Ecosystem Audit**: Audited all 6 AliDujie skill repos for cross-reference consistency, version alignment, and documentation completeness
-- **Version Bump**: Synced version to 2.2.103 across README badge, SKILL.md, pyproject.toml, __init__.py
-
-## 🆕 What's New in v2.2.102
-
-- **Repo Maintenance**: Fixed version sync across README badge, SKILL.md, pyproject.toml, and __init__.py (were mismatched: README/SKILL.md 2.2.99 vs pyproject/__init__.py 2.2.100)
-- **Ecosystem Cross-Reference Verification**: Verified all 6-skill pipeline links across AliDujie skills
-- **Version Bump**: Synced version to 2.2.102
-
-## 🆕 What's New in v2.2.100
-
-- **Newcomer Intro Section**: Added "Why Teams Choose SWD" quick intro paragraph helping new users understand SWD's purpose in 2 sentences
-- **Quick Recipes**: Added 2 copy-paste-and-run recipes (Q4 metrics story in 10 min, chart declutter in 2 min)
-- **Version Bump**: Synced version to 2.2.100 across __init__.py and pyproject.toml
-
-## 🆕 What's New in v2.2.99
-
-- **Structured Thinking Model Cross-Reference**: Added explicit STM skill link in ecosystem footer and pipeline diagram
-- **Ecosystem Pipeline Enhancement**: Added forward/backward reference arrows showing STM→SWD strategic feedback loop
-- **References Directory Enhancement**: Added explicit references/ link to Resources section for discoverability
-- **Version Bump**: Synced version to 2.2.99 across README/SKILL.md/pyproject.toml/__init__.py
-
-## 🆕 What's New in v2.2.98
-
-- **Ecosystem Badge Update**: Updated AliDujie ecosystem badge consistency check across all 6 skills
-- **Version Bump**: Synced version to 2.2.98 across README/SKILL.md/pyproject.toml/__init__.py
-
-## 🆕 What's New in v2.2.97
-
-- **SKILL.md Frontmatter Fix**: Synced version to 2.2.97, added `author` field, fixed badge placement
-- **SKILL.md Badge Leak Fix**: Moved markdown badge outside YAML frontmatter boundary (invalid YAML)
-- **Ecosystem Consistency**: Verified cross-references across all 6 AliDujie skills
-
-## 🆕 What's New in v2.2.95
-
-- **Try-It-Now Section**: Added one-line runnable examples under Quick Start for instant exploration
-- **Chart Decision Flow Enhancement**: Added explicit "avoid list" callout with alternatives in Pro Tips
-- **Version Sync**: Aligned version across README/SKILL.md/pyproject.toml/__init__.py
-
-## 🆕 What's New in v2.2.94
-
-- **Typo Fix**: Corrected "Approate" → "Approve" in Recipe 3 example
-- **Ecosystem Pipeline Enhancement**: Added full 6-skill ASCII diagram to README
-- **Version Sync**: Aligned version across README/SKILL.md/pyproject.toml/__init__.py
-
-## 🆕 What's New in v2.2.93
-
-- **Chart Quick-Reference Cards**: Added 3 chart selection cheat sheets (bar/line/scatter)
-- **Data Story Checklist**: Pre-presentation 7-point checklist (CN/EN)
-- **Version Sync**: Aligned version across all files
-
-## 🆕 What's New in v2.2.91
-
-- **Proven Impact Table**: Added measurable before/after metrics for executive buy-in
-- **Ecosystem Quick-Ref**: Added one-line cross-skill invocation summary
-- **Chinese Impact Metrics**: Added CN translation for impact metrics section
-
-## 🆕 What's New in v2.2.89
-
-- **Decision Guide**: New "Which SWD Capability Should I Use?" table maps data tasks to capabilities
-- **Impact Metrics**: Added measurable before/after statistics for executive buy-in and decision speed
-- **Best Practices**: Pro tips section with 5 concrete techniques for data-to-story transformation
+> **📦 Earlier versions (v2.2.114 → v2.2.90)**: Added chart makeover guide, data storytelling templates, ecosystem pipeline diagrams, before/after examples, executive presentation patterns, bilingual FAQ, cross-skill collaboration recipes. Full changelog in [CHANGELOG.md](CHANGELOG.md).
 
 ## 🇨🇳 中文概览
 
