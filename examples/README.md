@@ -7,8 +7,8 @@ Zero-dependency Python examples demonstrating SWD capabilities. Each script is s
 ```bash
 PYTHONPATH=. python examples/01_chart_selection.py
 PYTHONPATH=. python examples/02_data_story.py
-PYTHONPATH=. python examples/02_story_building.py
-PYTHONPATH=. python examples/03_declutter_diagnosis.py
+PYTHONPATH=. python examples/03_story_building.py
+PYTHONPATH=. python examples/04_declutter_diagnosis.py
 ```
 
 ## Examples
@@ -17,8 +17,8 @@ PYTHONPATH=. python examples/03_declutter_diagnosis.py
 |--------|--------------|
 | `01_chart_selection.py` | Intelligent chart type recommendation based on data characteristics |
 | `02_data_story.py` | Building a 3-act data narrative with evidence |
-| `02_story_building.py` | Story building for a data narrative with protagonist, imbalance, and call-to-action |
-| `03_declutter_diagnosis.py` | Automated clutter detection and cleanup recommendations |
+| `03_story_building.py` | Story building for a data narrative with protagonist, imbalance, and call-to-action |
+| `04_declutter_diagnosis.py` | Automated clutter detection and cleanup recommendations |
 
 ## Try Before You Decide
 
