@@ -1,5 +1,12 @@
 ## v2.2.114 (2026-05-29)
 
+- Document missing 02_story_building.py in examples/README.md
+- Update main README examples reference to include story building
+- Version sync across README/SKILL.md/pyproject.toml/__init__.py
+
+
+## v2.2.114 (2026-05-29)
+
 - Correct stale Version History "Latest" entry (was pointing to v2.2.111 while badge shows 2.2.113)
 - Ecosystem cross-reference audit across all 6 AliDujie skills
 
