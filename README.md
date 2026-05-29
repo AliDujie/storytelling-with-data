@@ -44,13 +44,7 @@
 
 ## 🆕 What's New in v2.2.113
 
-- **Version History Fix**: Corrected stale Version History "Latest" entry (was pointing to v2.2.111 while badge shows 2.2.113), ecosystem cross-reference audit across all 6 AliDujie skills
-- **Version Bump**: Synced to 2.2.113
-
-
-## 🆕 What's New in v2.2.113
-
-- **Repo Maintenance**: Version sync across SKILL.md/pyproject.toml/__init__.py (all → 2.2.113), README badge set to 2.2.113, ecosystem cross-reference audit across all 6 AliDujie skills
+- **Version Consistency**: Fixed stale Version History "Latest" entry (v2.2.111 → 2.2.113), synced SKILL.md/pyproject.toml/__init__.py to 2.2.113, ecosystem cross-reference audit across all 6 AliDujie skills
 - **Version Bump**: Synced to 2.2.113
 
 ## 🆕 What's New in v2.2.112
