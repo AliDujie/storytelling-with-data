@@ -2,7 +2,7 @@
 
 > **Turn Data into Decisions. Turn Charts into Stories.**
 
-![Version](https://img.shields.io/badge/version-2.2.113-blue)
+![Version](https://img.shields.io/badge/version-2.2.114-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -36,6 +36,12 @@
 
 - **Version History Fix**: Corrected stale Version History "Latest" entry (was pointing to v2.2.111 while badge shows 2.2.113), ecosystem cross-reference audit across all 6 AliDujie skills
 - **Version Bump**: Synced to 2.2.114
+
+## 🆕 What's New in v2.2.114
+
+- **Version Bump**: Bumped to 2.2.114 — aligned README badge, SKILL.md, pyproject.toml, __init__.py
+- **Repo Maintenance**: Documented all example scripts in examples/README.md (story building was missing), ecosystem cross-reference audit across all 6 AliDujie skills
+
 
 ## 🆕 What's New in v2.2.113
 
