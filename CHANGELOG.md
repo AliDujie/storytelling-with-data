@@ -1,3 +1,7 @@
+## v2.2.117 (2026-05-29)
+
+- Repo maintenance: version bump 2.2.116→2.2.117, Version History text cleanup, ecosystem cross-reference audit
+
 ## v2.2.116 (2026-05-29)
 
 - Repo maintenance: version bump 2.2.115→2.2.116, ecosystem cross-reference audit across all 6 AliDujie skills

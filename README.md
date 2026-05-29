@@ -2,7 +2,7 @@
 
 > **Turn Data into Decisions. Turn Charts into Stories.**
 
-![Version](https://img.shields.io/badge/version-2.2.116-blue)
+![Version](https://img.shields.io/badge/version-2.2.117-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -11,7 +11,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v22116)
+- [What's New](#-whats-new-in-v22117)
 - [Why Teams Choose SWD](#-why-teams-choose-swd--为什么选择-swd)
 - [Quick Decision: When to Use SWD?](#-quick-decision-when-to-use-swd)
 - [Who This Skill Is For](#-who-this-skill-is-for)
@@ -32,9 +32,19 @@
 
 ---
 
+## 🆕 What's New in v2.2.117
+
+- **CHANGELOG Maintenance**: Merged duplicate version entries (consolidated duplicate v2.2.114, v2.3.119, v2.3.109, v3.2.10 entries across ecosystem), ecosystem cross-reference audit across all 6 AliDujie skills
+- **Version Bump**: Synced to 2.2.117
+
+## 🆕 What's New in v2.2.117
+
+- **Repo Maintenance**: Version bump 2.2.116→2.2.117, Version History text cleanup, ecosystem cross-reference audit across all 6 AliDujie skills
+- **Version Bump**: Synced to 2.2.117
+
 ## 🆕 What's New in v2.2.116
 
-- **Repo Maintenance**: Version bump 2.2.115→2.2.116, CHANGELOG duplicate entry merge, ecosystem cross-reference audit across all 6 AliDujie skills
+- **Repo Maintenance**: Version bump 2.2.115→2.2.116, CHANGELOG duplicate v2.2.114 merge, ecosystem cross-reference audit across all 6 AliDujie skills
 - **Version Bump**: Synced to 2.2.116
 
 ## 🆕 What's New in v2.2.115
@@ -1017,7 +1027,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 
-**Latest (v2.2.116)**: Version History "Latest" entry corrected (was stale v2.2.114 while badge showed 2.2.115), merged duplicate What's New entries, ecosystem cross-reference audit across all 6 AliDujie skills.
+**Latest (v2.2.117)**: Version History text cleanup, ecosystem cross-reference audit across all 6 AliDujie skills.
 
 **Previous (v2.2.110)**: Fixed stale What's New TOC link (v2.2.109 → v2.2.110), updated Version History latest entry, ecosystem cross-reference audit across all 6 AliDujie skills.
 
