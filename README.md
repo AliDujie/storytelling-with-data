@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
-![Version](https://img.shields.io/badge/version-2.2.119-blue)
+![Version](https://img.shields.io/badge/version-2.2.120-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v22118)
+- [What's New](#-whats-new-in-v22120)
 - [Why Teams Choose SWD](#-why-teams-choose-swd--为什么选择-swd)
 - [Quick Decision: When to Use SWD?](#-quick-decision-when-to-use-swd)
 - [Who This Skill Is For](#-who-this-skill-is-for)
@@ -33,6 +33,11 @@
 - [Resources](#-resources)
 
 ---
+
+## 🆕 What's New in v2.2.120
+
+- **Repo Maintenance**: Enhanced Quick Start code examples, ecosystem cross-reference audit across all 6 AliDujie skills
+- **Version Bump**: Synced to 2.2.120
 
 ## 🆕 What's New in v2.2.118
 
@@ -921,7 +926,9 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 
-**Latest (v2.2.117)**: Version History text cleanup, ecosystem cross-reference audit across all 6 AliDujie skills.
+**Latest (v2.2.120)**: Enhanced Quick Start code examples, ecosystem cross-reference audit across all 6 AliDujie skills.
+
+**Previous (v2.2.117)**: Version History text cleanup, ecosystem cross-reference audit across all 6 AliDujie skills.
 
 **Previous (v2.2.110)**: Fixed stale What's New TOC link (v2.2.109 → v2.2.110), updated Version History latest entry, ecosystem cross-reference audit across all 6 AliDujie skills.
 
