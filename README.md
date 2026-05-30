@@ -36,28 +36,10 @@
 
 ## 🆕 What's New in v2.2.120
 
-- **Repo Maintenance**: Enhanced Quick Start code examples, ecosystem cross-reference audit across all 6 AliDujie skills
+- **CHANGELOG Sync**: Backfilled v2.2.117→v2.2.120 entries in CHANGELOG.md (was 3 versions behind), ecosystem cross-reference audit across all 6 AliDujie skills
 - **Version Bump**: Synced to 2.2.120
 
-## 🆕 What's New in v2.2.118
-
-- **README Cleanup**: Consolidated 20 redundant What's New entries into a summary line with CHANGELOG link, reducing README by ~107 lines while preserving full history reference
-- **Version Bump**: Synced to 2.2.118
-
-## 🆕 What's New in v2.2.117
-
-- **Repo Maintenance**: Version bump 2.2.116→2.2.117, CHANGELOG duplicate v2.2.114 merge consolidated, Version History text cleanup, ecosystem cross-reference audit across all 6 AliDujie skills
-- **Version Bump**: Synced to 2.2.117
-
-## 🆕 What's New in v2.2.116
-
-- **Repo Maintenance**: Version bump 2.2.115→2.2.116, CHANGELOG duplicate v2.2.114 merge, ecosystem cross-reference audit across all 6 AliDujie skills
-- **Version Bump**: Synced to 2.2.116
-
-## 🆕 What's New in v2.2.115
-
-- **Version History Fix**: Corrected stale Version History "Latest" entry (was v2.2.109 while badge shows 2.2.114), ecosystem cross-reference audit across all 6 AliDujie skills
-- **Version Bump**: Synced to 2.2.115
+> **📦 Recent versions (v2.2.118 → v2.2.115)**: CHANGELOG sync, README cleanup, Version History fixes, CHANGELOG dedup. Full changelog in [CHANGELOG.md](CHANGELOG.md).
 
 > **📦 Earlier versions (v2.2.114 → v2.2.90)**: Added chart makeover guide, data storytelling templates, ecosystem pipeline diagrams, before/after examples, executive presentation patterns, bilingual FAQ, cross-skill collaboration recipes. Full changelog in [CHANGELOG.md](CHANGELOG.md).
 
@@ -926,7 +908,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 
-**Latest (v2.2.120)**: Enhanced Quick Start code examples, ecosystem cross-reference audit across all 6 AliDujie skills.
+**Latest (v2.2.120)**: CHANGELOG sync (backfilled 3 missing version entries), consolidated redundant What's New entries, ecosystem cross-reference audit across all 6 AliDujie skills.
 
 **Previous (v2.2.117)**: Version History text cleanup, ecosystem cross-reference audit across all 6 AliDujie skills.
 

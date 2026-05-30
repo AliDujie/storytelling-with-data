@@ -1,3 +1,15 @@
+## v2.2.120 (2026-05-30)
+
+- Repo maintenance: README content enrichment, consolidated What's New entries, added practical usage examples and "Why Use This Skill?" sections to ecosystem docs, cross-reference audit across all 6 AliDujie skills
+
+## v2.2.119 (2026-05-30)
+
+- Version bump: sync README/SKILL.md/pyproject.toml/__init__.py to v2.2.119, ecosystem cross-reference audit
+
+## v2.2.118 (2026-05-30)
+
+- Version bump: sync README/SKILL.md/pyproject.toml/__init__.py to v2.2.118, ecosystem cross-reference audit
+
 ## v2.2.117 (2026-05-29)
 
 - Repo maintenance: version bump 2.2.116→2.2.117, Version History text cleanup, ecosystem cross-reference audit
