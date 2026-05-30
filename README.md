@@ -234,6 +234,14 @@ print(result)  # Expected: 🟡 Good (70-89 range)
 - **Executives & Founders** — Build fundraising decks and quarterly reviews that end with clear decisions
 - **AI Agent Developers** — Drop into any Python agent, produce structured data stories automatically
 
+### 👥 这个技能适合谁
+
+- **数据分析师** — 将原始指标转化为利益相关者真正会采取行动的故事
+- **产品经理** — 将 A/B 测试和 UX 研究结果转化为董事会就绪的汇报
+- **UX 研究员** — 以与定量仪表盘同等的清晰度呈现定性研究发现
+- **高管与创业者** — 构建以明确决策收尾的融资路演和季度回顾
+- **AI Agent 开发者** — 集成到任何 Python Agent，自动产出结构化数据故事
+
 ## 🚫 Common Mistakes / 常见错误
 
 | Mistake | What Happens | Fix |
