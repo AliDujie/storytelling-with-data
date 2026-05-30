@@ -1,3 +1,7 @@
+## v2.2.121 (2026-05-31)
+
+- Repo maintenance: fixed stale What's New TOC link (v22120→v22121), version sync audit, cross-reference check across all 6 AliDujie skills
+
 ## v2.2.120 (2026-05-30)
 
 - Repo maintenance: README content enrichment, consolidated What's New entries, added practical usage examples and "Why Use This Skill?" sections to ecosystem docs, cross-reference audit across all 6 AliDujie skills
