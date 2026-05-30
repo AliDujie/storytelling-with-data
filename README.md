@@ -30,6 +30,8 @@
 - [FAQ / Troubleshooting](#-faq--troubleshooting)
 - [Version History](#-version-history)
 - [When NOT to Use SWD](#-when-not-to-use-swd--什么时候不该用-swd)
+- [Best Practices](#-best-practices--最佳实践)
+- [Limitations](#-limitations--局限性)
 - [Resources](#-resources)
 
 ---
