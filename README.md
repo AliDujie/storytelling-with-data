@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
-![Version](https://img.shields.io/badge/version-2.2.120-blue)
+![Version](https://img.shields.io/badge/version-2.2.121-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -37,9 +37,9 @@
 
 ---
 
-## 🆕 What's New in v2.2.120
+## 🆕 What's New in v2.2.121
 
-- **CHANGELOG Sync**: Backfilled v2.2.117→v2.2.120 entries in CHANGELOG.md (was 3 versions behind), ecosystem cross-reference audit across all 6 AliDujie skills
+- **CHANGELOG Sync**: Backfilled v2.2.117→v2.2.121 entries in CHANGELOG.md (was 3 versions behind), ecosystem cross-reference audit across all 6 AliDujie skills
 - **Version Bump**: Synced to 2.2.120
 
 > **📦 Recent versions (v2.2.118 → v2.2.115)**: CHANGELOG sync, README cleanup, Version History fixes, CHANGELOG dedup. Full changelog in [CHANGELOG.md](CHANGELOG.md).
@@ -919,7 +919,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 
-**Latest (v2.2.120)**: CHANGELOG sync (backfilled 3 missing version entries), consolidated redundant What's New entries, ecosystem cross-reference audit across all 6 AliDujie skills.
+**Latest (v2.2.121)**: CHANGELOG sync (backfilled 3 missing version entries), consolidated redundant What's New entries, ecosystem cross-reference audit across all 6 AliDujie skills.
 
 **Previous (v2.2.117)**: Version History text cleanup, ecosystem cross-reference audit across all 6 AliDujie skills.
 
