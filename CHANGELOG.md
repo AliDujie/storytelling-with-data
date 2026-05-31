@@ -1,3 +1,7 @@
+## v2.2.122 (2026-05-31)
+
+- Repo maintenance: ecosystem cross-reference audit across all 6 AliDujie skills
+
 ## v2.2.121 (2026-05-31)
 
 - Repo maintenance: fixed stale What's New TOC link (v22120→v22121), version sync audit, cross-reference check across all 6 AliDujie skills
