@@ -1,3 +1,8 @@
+## v2.2.122 (2026-05-31)
+
+- README quality audit across all 6 AliDujie skill repos — verified structural completeness, TOC links, code examples, ecosystem cross-references, and bilingual coverage
+- Version sync across README badge, SKILL.md, pyproject.toml, and __init__.py
+
 ## v2.2.120 (2026-05-30)
 
 - Repo maintenance: README content enrichment, consolidated What's New entries, added practical usage examples and "Why Use This Skill?" sections to ecosystem docs, cross-reference audit across all 6 AliDujie skills
