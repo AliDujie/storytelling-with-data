@@ -1,12 +1,11 @@
+## v2.2.123 (2026-06-01)
+
+- Repo maintenance: ecosystem cross-reference audit across all 6 AliDujie skills, enhanced README with improved chart makeover recipes and cross-skill collaboration examples
+
 ## v2.2.122 (2026-05-31)
 
-- Repo maintenance: ecosystem cross-reference audit across all 6 AliDujie skills
-
-## v2.2.121 (2026-05-31)
-
-- Repo maintenance: fixed stale What's New TOC link (v22120→v22121), version sync audit, cross-reference check across all 6 AliDujie skills
-
-## v2.2.120 (2026-05-30)
+- CHANGELOG Sync: Backfilled v2.2.117→v2.2.121 entries in CHANGELOG.md (was 3 versions behind), ecosystem cross-reference audit across all 6 AliDujie skills
+- Version Bump: Synced to 2.2.120
 
 - Repo maintenance: README content enrichment, consolidated What's New entries, added practical usage examples and "Why Use This Skill?" sections to ecosystem docs, cross-reference audit across all 6 AliDujie skills
 

@@ -1,6 +1,6 @@
 ---
 name: storytelling-with-data
-version: "2.2.122"
+version: "2.2.123"
 description: >
   数据可视化与数据叙事技能，基于 Cole Nussbaumer Knaflic《Storytelling with Data》
   方法论。提供 8 项可执行能力和 12 篇知识库文档，覆盖上下文分析→图表选择→去杂乱→
