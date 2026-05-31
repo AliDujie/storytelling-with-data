@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v22121)
+- [What's New](#-whats-new-in-v22122)
 - [Why Teams Choose SWD](#-why-teams-choose-swd--为什么选择-swd)
 - [Quick Decision: When to Use SWD?](#-quick-decision-when-to-use-swd)
 - [Who This Skill Is For](#-who-this-skill-is-for)
@@ -37,7 +37,7 @@
 
 ---
 
-## 🆕 What's New in v2.2.121
+## 🆕 What's New in v2.2.122
 
 - **CHANGELOG Sync**: Backfilled v2.2.117→v2.2.121 entries in CHANGELOG.md (was 3 versions behind), ecosystem cross-reference audit across all 6 AliDujie skills
 - **Version Bump**: Synced to 2.2.120
@@ -961,6 +961,19 @@ See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 3. **Explore references/** - Deep dive into 10 reference chapters covering context, chart selection, decluttering, attention, design, storytelling, and case studies
 4. **Try the full pipeline** - Chain all 6 AliDujie skills end-to-end (see [Complete Pipeline Example](#-complete-pipeline-example-all-6-skills-end-to-end))
 5. **Customize via config** - Adjust AnalysisConfig for your context (see [INSTALL.md](INSTALL.md))
+
+## 🌐 Ecosystem FAQ / 生态常见问题
+
+**Q: SWD vs QuantUX — what's the difference?**
+A: QuantUX generates the data (A/B test results, HEART metrics, survey scores). SWD turns that data into a persuasive story for stakeholders. QuantUX = analysis, SWD = communication.
+
+**Q: Can SWD create actual charts/images?**
+A: SWD recommends chart types and provides makeover guidance. It doesn't render charts — it tells you *which* chart to use and *how* to declutter it. For rendering, use matplotlib, Excel, or your preferred tool.
+
+**Q: How do I chain SWD with upstream skills?**
+A: Feed outputs from QuantUX (experiment results), UDM (research findings), or VPD (canvas data) directly into SWD's context builder and story builder. See the [complete pipeline](#-complete-pipeline-example-all-6-skills-end-to-end) for the full chain.
+
+---
 
 ## 📚 Resources
 
