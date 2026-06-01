@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
-![Version](https://img.shields.io/badge/version-2.2.126-blue)
+![Version](https://img.shields.io/badge/version-2.2.127-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v22125)
+- [What's New](#-whats-new-in-v22126)
 - [Why Teams Choose SWD](#-why-teams-choose-swd--为什么选择-swd)
 - [Quick Decision: When to Use SWD?](#-quick-decision-when-to-use-swd)
 - [Who This Skill Is For](#-who-this-skill-is-for)
@@ -37,9 +37,9 @@
 
 ---
 
-## 🆕 What's New in v2.2.126
+## 🆕 What's New in v2.2.127
 
-- **Repo maintenance 2026-06-01**: Consolidated 2 What's New sections to 1 + archive, added with code (SWD+QuantUX, SWD+JTBD), added "Why Data Storytelling Matters" promotional section, enhanced Quick Recipes with 3 new practical examples, version bump to 2.2.125.
+- **Repo maintenance 2026-06-01**: Fixed stale What's New TOC anchor (v22125 → v22127), TOC anchor verification, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
 
 
 > **📦 Earlier versions (v2.2.124 → v2.2.90)**: Data Story Sprint Template (2-week plan), Data Storytelling Prompt Library (10 prompts), cross-skill collaboration examples (SWD+QuantUX, SWD+JTBD), "Why Data Storytelling Matters" promotional section, enhanced Quick Recipes, CHANGELOG sync, ecosystem cross-reference audits. Full changelog in [CHANGELOG.md](CHANGELOG.md).
