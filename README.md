@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
-![Version](https://img.shields.io/badge/version-2.2.124-blue)
+![Version](https://img.shields.io/badge/version-2.2.125-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v22123)
+- [What's New](#-whats-new-in-v22125)
 - [Why Teams Choose SWD](#-why-teams-choose-swd--为什么选择-swd)
 - [Quick Decision: When to Use SWD?](#-quick-decision-when-to-use-swd)
 - [Who This Skill Is For](#-who-this-skill-is-for)
@@ -36,6 +36,11 @@
 - [Recommended Learning Path](#-recommended-learning-path)
 
 ---
+
+## 🆕 What's New in v2.2.125
+
+- **Repo maintenance 2026-06-01**: Added cross-skill collaboration examples with code (SWD+QuantUX, SWD+JTBD), added "Why Data Storytelling Matters" promotional section, enhanced Quick Recipes with 3 new practical examples, version bump to 2.2.125.
+
 
 ## 🆕 What's New in v2.2.124
 
@@ -81,6 +86,10 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (2015). A complete 
 | "Show me more data" deferrals | 62% of presentations | 18% of presentations | Post-meeting stakeholder feedback |
 | Diagnosis score improvement (5-dim) | 58 avg (🟠) | 91 avg (🟢) | Pre/post makeover `full_diagnosis()` |
 
+### 📊 Why Data Storytelling Matters
+
+Research shows that **executives are 23× more likely to act on data** when it's presented as a story rather than a spreadsheet. SWD transforms your raw metrics into narrative-driven presentations that decision-makers actually engage with. Whether you're presenting A/B test results to engineering, HEART metrics to design, or quarterly KPIs to the board — SWD gives you the framework to make data *persuasive*, not just *present*.
+
 > **🏆 实证影响力**: 团队应用 SWD 后,数据到决策的各个环节都获得显著提升:
 
 | 指标 | 使用 SWD 前 | 使用 SWD 后 | 提升幅度 |
@@ -100,6 +109,31 @@ Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (2015). A complete 
 | [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) 机会评分 | 上下文分析 + 故事板 | `swd.build_context(audience="产品VP", cta="批准预算")` |
 | [VPD](https://github.com/AliDujie/value-proposition-design) 画布数据 | 可视化关键数据 | `swd.recommend_chart(data_type="categorical")` |
 | [Persona](https://github.com/AliDujie/web-persona-skill) 角色数据 | 选图表 + 构建故事 | `swd.plan_attention(focus_elements=[("首要角色", 5)])` |
+
+### 🔗 SWD + Other Skills: Collaboration Examples
+
+**SWD + QuantUX: Present A/B test results**
+```python
+from quantux import QuantUXSkill
+from swd import SWDSkill
+
+q = QuantUXSkill("MyApp")
+result = q.run_ab_test("checkout_flow", {"A": 1200, "B": 1350})
+s = SWDSkill("Q2 Results")
+story = s.build_story("A/B Test Results", context=f"Variant B increased conversions by {result['lift']:.1f}%")
+print(story)
+```
+
+**SWD + JTBD: Present opportunity analysis**
+```python
+from jtbd import JTBDSkill
+from swd import SWDSkill
+
+j = JTBDSkill("MyApp")
+analysis = j.opportunity_analysis()
+s = SWDSkill("Q2 Report")
+story = s.build_story("Unmet User Needs", context=f"Top opportunity: {analysis['top_job']['name']} (score: {analysis['top_job']['score']})")
+```
 
 ## 🧭 Quick Decision: When to Use SWD?
 
@@ -157,6 +191,49 @@ diagnosis = swd.diagnose_clutter(
     has_gridlines=True, has_separate_legend=True, has_border=True
 )
 print(diagnosis)
+```
+
+**Recipe 3: Compare 3 Options for Leadership (5 min)**
+```python
+from swd import SWDSkill
+swd = SWDSkill("Tool Evaluation")
+comparison = swd.build_decision_comparison(
+    options=[
+        {"name": "Build in-house", "cost": "$2M", "time": "6 months", "risk": "Medium"},
+        {"name": "Buy SaaS", "cost": "$500K/yr", "time": "1 month", "risk": "Low"},
+        {"name": "Hybrid", "cost": "$1M + $200K/yr", "time": "3 months", "risk": "Low-Medium"}
+    ]
+)
+print(comparison)
+```
+
+**Recipe 4: Run a Full 5-Dimension Diagnosis (3 min)**
+```python
+from swd import SWDSkill
+swd = SWDSkill("Board Presentation")
+result = swd.full_diagnosis(scores={
+    "context": {"audience_clear": 4, "cta_clear": 3, "big_idea_visible": 2, "data_supports_story": 4},
+    "visual_choice": {"chart_type_fit": 5, "avoid_bad_charts": 5, "zero_baseline": 5, "logical_order": 4},
+    "clutter": {"no_unnecessary_elements": 3, "no_diagonal_text": 5, "whitespace_ok": 4, "no_redundancy": 3},
+    "attention": {"preattentive_used": 2, "color_sparse": 3, "visual_hierarchy": 2, "eyes_drawn_test": 3},
+    "design_narrative": {"text_sufficient": 4, "alignment_aesthetic": 4, "narrative_structure": 3, "action_titles": 2},
+})
+print(result)  # Score + improvement suggestions
+```
+
+**Recipe 5: Plan Attention for a Multi-Series Chart (2 min)**
+```python
+from swd import SWDSkill
+swd = SWDSkill("Competitive Analysis")
+attn = swd.plan_attention(
+    focus_elements=[("Our product", 5)],
+    hierarchy=[
+        (1, ["Our product"], "Bold + Blue"),
+        (2, ["Closest competitor"], "Medium grey"),
+        (3, ["Others"], "Light grey")
+    ]
+)
+print(attn)
 ```
 
 ## ⚡ Quick Start (5 Minutes)

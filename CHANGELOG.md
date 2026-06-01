@@ -1,3 +1,7 @@
+## v2.2.125 (2026-06-01)
+
+- Repo maintenance: added cross-skill collaboration examples with code (SWD+QuantUX, SWD+JTBD), added "Why Data Storytelling Matters" promotional section, enhanced Quick Recipes with 3 new practical recipes (decision comparison, full diagnosis, attention planning)
+
 ## v2.2.123 (2026-06-01)
 
 - Repo maintenance: ecosystem cross-reference audit across all 6 AliDujie skills, enhanced README with improved chart makeover recipes and cross-skill collaboration examples
