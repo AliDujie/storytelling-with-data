@@ -13,27 +13,27 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v22123)
-- [Why Teams Choose SWD](#-why-teams-choose-swd--为什么选择-swd)
-- [Quick Decision: When to Use SWD?](#-quick-decision-when-to-use-swd)
-- [Who This Skill Is For](#-who-this-skill-is-for)
-- [Common Mistakes](#-common-mistakes--常见错误)
-- [Quick Start](#-quick-start-5-minutes)
-- [Core Capabilities](#️-core-capabilities--核心能力)
-- [Chart Selection Decision Tree](#-chart-selection-decision-tree)
-- [5-Dimension Diagnosis Scoring](#-5-dimension-diagnosis-scoring)
-- [Ecosystem Quick Start](#-ecosystem-quick-start)
-- [Ecosystem Integration](#-ecosystem-integration)
-- [AI Agent Integration](#-ai-agent-integration)
-- [Chart Makeover Recipes](#-chart-makeover-recipes--图表改造食谱)
-- [Quick Recipes](#-quick-recipes--快速食谱)
-- [FAQ / Troubleshooting](#-faq--troubleshooting)
-- [Version History](#-version-history)
-- [When NOT to Use SWD](#-when-not-to-use-swd--什么时候不该用-swd)
-- [Best Practices](#-best-practices--最佳实践)
-- [Limitations](#-limitations--局限性)
-- [Resources](#-resources)
-- [Recommended Learning Path](#-recommended-learning-path)
+- [What's New](#whats-new-in-v22123)
+- [Why Teams Choose SWD](#why-teams-choose-swd-swd)
+- [Quick Decision: When to Use SWD?](#quick-decision-when-to-use-swd)
+- [Who This Skill Is For](#who-this-skill-is-for)
+- [Common Mistakes](#common-mistakes)
+- [Quick Start](#quick-start-5-minutes)
+- [Core Capabilities](#core-capabilities-8)
+- [Chart Selection Decision Tree](#chart-selection-decision-tree)
+- [5-Dimension Diagnosis Scoring](#5-dimension-diagnosis-scoring)
+- [Ecosystem Quick Start](#ecosystem-quick-start)
+- [Ecosystem Integration](#ecosystem-integration)
+- [AI Agent Integration](#ai-agent-integration)
+- [Chart Makeover Recipes](#chart-makeover-recipes)
+- [Quick Recipes](#quick-recipes)
+- [FAQ / Troubleshooting](#faq-troubleshooting)
+- [Version History](#version-history)
+- [When NOT to Use SWD](#when-not-to-use-swd-swd)
+- [Best Practices](#best-practices)
+- [Limitations](#limitations)
+- [Resources](#resources)
+- [Recommended Learning Path](#recommended-learning-path)
 
 ---
 
@@ -495,6 +495,40 @@ ctx = s.build_context(audience="产品 VP", cta="批准全面推广")
 story = s.build_story(protagonist="产品委员会", imbalance="15% 订单流失")
 ```
 
+## 🔗 Ecosystem Quick Start
+
+SWD integrates seamlessly with all 5 other AliDujie skills. Quick start for each:
+
+**From Persona** → Feed persona data into SWD to create persona-specific dashboards:
+```python
+from swd import SWDSkill
+skill = SWDSkill()
+result = skill.build_story(context="Persona data for our primary segment", use_case="executive_dashboard")
+```
+
+**From JTBD** → Turn opportunity scores into compelling narratives:
+```python
+skill = SWDSkill()
+result = skill.build_story(context="JTBD opportunity analysis", use_case="stakeholder_presentation")
+```
+
+**From UDM** → Visualize qualitative research findings:
+```python
+result = skill.build_story(context="UDM research synthesis", use_case="research_report")
+```
+
+**From QuantUX** → Transform experiment results into stories:
+```python
+result = skill.build_story(context="A/B test results", use_case="data_story")
+```
+
+**From VPD** → Present canvas workshops to leadership:
+```python
+result = skill.build_story(context="VPD canvas analysis", use_case="executive_dashboard")
+```
+
+See [Ecosystem Integration](#ecosystem-integration) below for the full pipeline diagram.
+
 ## 🌐 Ecosystem Integration
 
 SWD is the **data presentation layer** at the end of the research pipeline:
@@ -909,7 +943,7 @@ fix = swd.diagnose_clutter(has_gridlines=False, has_separate_legend=False, has_3
 # → Clean — ready to present
 ```
 
-> 💡 **Pro Tip**: The [Title Test](#-pro-tip--专业技巧) is the fastest quality check — if someone can understand your presentation by reading ONLY the slide titles, you have a strong story.
+> 💡 **Pro Tip**: The [Title Test](#pro-tip) is the fastest quality check — if someone can understand your presentation by reading ONLY the slide titles, you have a strong story.
 
 
 ## 🛡️ Common Pitfalls & How to Avoid Them
@@ -954,10 +988,10 @@ Aim for 90+ (🟢 Excellent) for stakeholder-facing presentations. 70-89 (🟡 G
 Use `build_decision_comparison()` when presenting multiple options to leadership - it auto-generates a comparison table with cost/impact/risk columns and a clear recommendation row.
 
 **Q: Can SWD work with data from QuantUX?**
-Yes - feed QuantUX A/B test results directly into SWD's `build_story()` to create an executive-ready narrative with statistical backing. See the [ecosystem integration section](#-ecosystem-integration) for the full pipeline.
+Yes - feed QuantUX A/B test results directly into SWD's `build_story()` to create an executive-ready narrative with statistical backing. See the [ecosystem integration section](#ecosystem-integration) for the full pipeline.
 
 **Q: How do I chain the full AliDujie research pipeline?**
-Start at the beginning: [Persona](https://github.com/AliDujie/web-persona-skill) defines *who* → [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) discovers *what they need* → [UDM](https://github.com/AliDujie/universal-design-methods) runs research → QuantUX validates → [VPD](https://github.com/AliDujie/value-proposition-design) maps value → SWD (this skill) presents results to stakeholders. See the [Complete Pipeline Example](#-complete-pipeline-example) above.
+Start at the beginning: [Persona](https://github.com/AliDujie/web-persona-skill) defines *who* → [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) discovers *what they need* → [UDM](https://github.com/AliDujie/universal-design-methods) runs research → QuantUX validates → [VPD](https://github.com/AliDujie/value-proposition-design) maps value → SWD (this skill) presents results to stakeholders. See the [Complete Pipeline Example](#complete-pipeline-example-all-6-skills-end-to-end) above.
 
 **Q: What if my audience says "show me more data"?**
 That's a storytelling problem, not a data problem. SWD's `build_context()` helps you define a clear Big Idea so your audience knows exactly what decision to make, reducing the "more data" loop.
@@ -1078,7 +1112,7 @@ See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 1. **Start with the README** - Quick start + 30-second example
 2. **Read USAGE.md** - Detailed workflows for each capability with code examples
 3. **Explore references/** - Deep dive into 10 reference chapters covering context, chart selection, decluttering, attention, design, storytelling, and case studies
-4. **Try the full pipeline** - Chain all 6 AliDujie skills end-to-end (see [Complete Pipeline Example](#-complete-pipeline-example-all-6-skills-end-to-end))
+4. **Try the full pipeline** - Chain all 6 AliDujie skills end-to-end (see [Complete Pipeline Example](#complete-pipeline-example-all-6-skills-end-to-end))
 5. **Customize via config** - Adjust AnalysisConfig for your context (see [INSTALL.md](INSTALL.md))
 
 ## 🌐 Ecosystem FAQ / 生态常见问题
@@ -1090,7 +1124,7 @@ A: QuantUX generates the data (A/B test results, HEART metrics, survey scores). 
 A: SWD recommends chart types and provides makeover guidance. It doesn't render charts — it tells you *which* chart to use and *how* to declutter it. For rendering, use matplotlib, Excel, or your preferred tool.
 
 **Q: How do I chain SWD with upstream skills?**
-A: Feed outputs from QuantUX (experiment results), UDM (research findings), or VPD (canvas data) directly into SWD's context builder and story builder. See the [complete pipeline](#-complete-pipeline-example-all-6-skills-end-to-end) for the full chain.
+A: Feed outputs from QuantUX (experiment results), UDM (research findings), or VPD (canvas data) directly into SWD's context builder and story builder. See the [complete pipeline](#complete-pipeline-example-all-6-skills-end-to-end) for the full chain.
 
 ---
 
