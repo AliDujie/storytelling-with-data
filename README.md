@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
-![Version](https://img.shields.io/badge/version-2.2.123-blue)
+![Version](https://img.shields.io/badge/version-2.2.124-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -37,9 +37,9 @@
 
 ---
 
-## 🆕 What's New in v2.2.123
+## 🆕 What's New in v2.2.124
 
-- **Repo maintenance 2026-06-01**: TOC anchor version verification, Version History sync, ecosystem cross-reference audit across all 6 AliDujie skills
+- **Repo maintenance 2026-06-01**: Added Data Story Sprint Template (2-week plan), Data Storytelling Prompt Library (10 prompts), and ecosystem cross-reference audit across all 6 AliDujie skills.
 
 
 > **📦 Recent versions (v2.2.118 → v2.2.115)**: CHANGELOG sync, README cleanup, Version History fixes, CHANGELOG dedup. Full changelog in [CHANGELOG.md](CHANGELOG.md).
@@ -913,6 +913,42 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 - **Human judgment still needed** - The 5-dimension scoring system provides objective feedback, but final design decisions require human aesthetic judgment and domain knowledge.
 - **Best for business/executive contexts** - Optimized for stakeholder presentations, reports, and data storytelling in business settings. Less suited for scientific/academic visualization.
 - **Bilingual documentation only** - Pro Tips and guides are provided in CN/EN only; localization to other languages requires community contributions.
+
+## 🏃 Data Story Sprint Template (2 Weeks) / 数据故事冲刺模板
+
+| Day | Activity | SWD Capability | Deliverable |
+|-----|----------|---------------|-------------|
+| 1 | Audience analysis + context | `build_context(audience, cta)` | Context brief |
+| 2 | Data review + chart selection | `recommend_chart()` | Chart plan |
+| 3-4 | Chart creation + makeover | `makeover(chart_data)` | Clean charts |
+| 5 | Declutter diagnosis | `full_diagnosis()` | Diagnosis score |
+| 6-7 | Attention guidance | `guide_attention()` | Focal point design |
+| 8 | 3-act story structure | `build_story()` | Story outline |
+| 9 | Evidence integration | `add_evidence()` | Supported claims |
+| 10 | Design evaluation | `evaluate_design()` | Quality score |
+| 11 | Executive narrative draft | `generate_narrative()` | Draft presentation |
+| 12 | Revisions + polish | `makeover()` | Final version |
+| 13 | Stakeholder preview | `build_story()` | Feedback |
+| 14 | Final presentation | Complete deck | Decision-ready |
+
+**Minimum viable (3 days)**: Context → chart selection → 3-act story. Fast-track from raw data to decision.
+
+## 🎙️ Data Storytelling Prompt Library / 数据叙事提示库
+
+10 reusable prompts for crafting data narratives:
+
+| # | Prompt | Best For |
+|---|--------|----------|
+| 1 | "Here's what the data shows..." | Objective finding statement |
+| 2 | "The surprising thing is..." | Highlighting unexpected patterns |
+| 3 | "This matters because..." | Connecting data to business impact |
+| 4 | "If we do nothing, here's what happens..." | Urgency / risk framing |
+| 5 | "The recommendation is..." | Clear call to action |
+| 6 | "Let me show you why..." | Evidence-backed argument |
+| 7 | "Compare these two scenarios..." | Before/after contrast |
+| 8 | "The trend tells a story..." | Temporal narrative |
+| 9 | "What this means for you..." | Audience-specific relevance |
+| 10 | "Here's the bottom line..." | Executive summary |
 
 ## 📊 Version History
 
