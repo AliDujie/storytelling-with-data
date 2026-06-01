@@ -1,15 +1,9 @@
-## v2.2.126 (2026-06-01)
-
-- Repo maintenance: added cross-skill collaboration examples with code (SWD+QuantUX, SWD+JTBD), added "Why Data Storytelling Matters" promotional section, enhanced Quick Recipes with 3 new practical recipes (decision comparison, full diagnosis, attention planning)
-
-## v2.2.123 (2026-06-01)
-
-- Repo maintenance: ecosystem cross-reference audit across all 6 AliDujie skills, enhanced README with improved chart makeover recipes and cross-skill collaboration examples
-
 ## v2.2.122 (2026-05-31)
 
-- CHANGELOG Sync: Backfilled v2.2.117→v2.2.121 entries in CHANGELOG.md (was 3 versions behind), ecosystem cross-reference audit across all 6 AliDujie skills
-- Version Bump: Synced to 2.2.120
+- README quality audit across all 6 AliDujie skill repos — verified structural completeness, TOC links, code examples, ecosystem cross-references, and bilingual coverage
+- Version sync across README badge, SKILL.md, pyproject.toml, and __init__.py
+
+## v2.2.120 (2026-05-30)
 
 - Repo maintenance: README content enrichment, consolidated What's New entries, added practical usage examples and "Why Use This Skill?" sections to ecosystem docs, cross-reference audit across all 6 AliDujie skills
 
