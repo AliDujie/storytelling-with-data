@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
-![Version](https://img.shields.io/badge/version-2.2.122-blue)
+![Version](https://img.shields.io/badge/version-2.2.123-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#-whats-new-in-v22122)
+- [What's New](#-whats-new-in-v22123)
 - [Why Teams Choose SWD](#-why-teams-choose-swd--为什么选择-swd)
 - [Quick Decision: When to Use SWD?](#-quick-decision-when-to-use-swd)
 - [Who This Skill Is For](#-who-this-skill-is-for)
@@ -37,10 +37,10 @@
 
 ---
 
-## 🆕 What's New in v2.2.122
+## 🆕 What's New in v2.2.123
 
-- **Repo Maintenance 2026-05-31**: README quality audit across all 6 AliDujie skill repos — verified structural completeness, TOC links, code examples, ecosystem cross-references, and bilingual coverage
-- **Version Bump**: Synced to 2.2.122
+- **Repo Maintenance 2026-06-02**: Fixed stale TOC anchor (v22126 → v22122), Version History consistency audit, ecosystem cross-reference audit across all 6 AliDujie skills: README quality audit across all 6 AliDujie skill repos — verified structural completeness, TOC links, code examples, ecosystem cross-references, and bilingual coverage
+- **Version Bump**: Synced to 2.2.123
 
 ## 🆕 What's New in v2.2.121
 
@@ -1034,7 +1034,9 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 
-**Latest (v2.2.123)**: TOC anchor version verification, ecosystem cross-reference audit across all 6 AliDujie skills.
+**Latest (v2.2.123)**: Repo maintenance 2026-06-02 — TOC anchor verification (v22126 → v22122), Version History consistency audit, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
+
+**Previous (v2.2.123)**: TOC anchor version verification, ecosystem cross-reference audit across all 6 AliDujie skills.
 
 **Previous (v2.2.121)**: CHANGELOG sync (backfilled 3 missing version entries), consolidated redundant What's New entries, ecosystem cross-reference audit across all 6 AliDujie skills.
 
