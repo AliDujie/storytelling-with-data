@@ -1,4 +1,4 @@
-## v2.2.125 (2026-06-01)
+## v2.2.126 (2026-06-01)
 
 - Repo maintenance: added cross-skill collaboration examples with code (SWD+QuantUX, SWD+JTBD), added "Why Data Storytelling Matters" promotional section, enhanced Quick Recipes with 3 new practical recipes (decision comparison, full diagnosis, attention planning)
 

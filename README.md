@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
-![Version](https://img.shields.io/badge/version-2.2.125-blue)
+![Version](https://img.shields.io/badge/version-2.2.126-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -37,15 +37,12 @@
 
 ---
 
-## 🆕 What's New in v2.2.125
+## 🆕 What's New in v2.2.126
 
-- **Repo maintenance 2026-06-01**: Added cross-skill collaboration examples with code (SWD+QuantUX, SWD+JTBD), added "Why Data Storytelling Matters" promotional section, enhanced Quick Recipes with 3 new practical examples, version bump to 2.2.125.
+- **Repo maintenance 2026-06-01**: Consolidated 2 What's New sections to 1 + archive, added with code (SWD+QuantUX, SWD+JTBD), added "Why Data Storytelling Matters" promotional section, enhanced Quick Recipes with 3 new practical examples, version bump to 2.2.125.
 
 
-## 🆕 What's New in v2.2.124
-
-- **Repo maintenance 2026-06-01**: Added Data Story Sprint Template (2-week plan), Data Storytelling Prompt Library (10 prompts), and ecosystem cross-reference audit across all 6 AliDujie skills.
-
+> **📦 Earlier versions (v2.2.124 → v2.2.90)**: Data Story Sprint Template (2-week plan), Data Storytelling Prompt Library (10 prompts), cross-skill collaboration examples (SWD+QuantUX, SWD+JTBD), "Why Data Storytelling Matters" promotional section, enhanced Quick Recipes, CHANGELOG sync, ecosystem cross-reference audits. Full changelog in [CHANGELOG.md](CHANGELOG.md).
 
 > **📦 Recent versions (v2.2.118 → v2.2.115)**: CHANGELOG sync, README cleanup, Version History fixes, CHANGELOG dedup. Full changelog in [CHANGELOG.md](CHANGELOG.md).
 
