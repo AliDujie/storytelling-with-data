@@ -1,3 +1,7 @@
+## [2.2.127] - 2026-06-03
+
+- Repo maintenance: add ecosystem integration section to examples README, version bump.
+
 ## [2.2.126] - 2026-06-03
 
 - Version sync: align SKILL.md and CHANGELOG with pyproject.toml/README badge (2.2.126)
