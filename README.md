@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
-![Version](https://img.shields.io/badge/version-2.2.125-blue)
+![Version](https://img.shields.io/badge/version-2.2.126-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#whats-new-in-v22125)
+- [What's New](#whats-new-in-v22126)
 - [Why Teams Choose SWD](#why-teams-choose-swd-swd)
 - [Quick Decision: When to Use SWD?](#quick-decision-when-to-use-swd)
 - [Who This Skill Is For](#who-this-skill-is-for)
@@ -37,9 +37,13 @@
 
 ---
 
+## 🆕 What's New in v2.2.126
+
+- **Repo Maintenance 2026-06-03**: Added Beginner's First Tutorial (60-min end-to-end data story with 7 steps), version bump 2.2.125→2.2.126.
+
 ## 🆕 What's New in v2.2.125
 
-- **Repo Maintenance 2026-06-02**: Version bump to 2.2.124, ecosystem cross-reference audit across all 6 AliDujie skills.
+- **Repo Maintenance 2026-06-02**: Version bump to 2.2.125, ecosystem cross-reference audit across all 6 AliDujie skills.
 
 ## 🆕 What's New in v2.2.121
 
@@ -1137,6 +1141,135 @@ A: Feed outputs from QuantUX (experiment results), UDM (research findings), or V
 - [SECURITY.md](SECURITY.md) - Security policy and responsible use
 - [references/](references/) - Chart reference guides and template files
 - [swd/](swd/) - Core Python module source code
+
+## 🧪 Beginner's First Tutorial — 60-Minute Data Story / 新手入门教程
+
+> **Goal:** Turn raw data into a compelling, actionable presentation.
+> **目标：** 将原始数据转化为有说服力的演示。
+> **Time:** ~60 minutes | **Prerequisites:** Python 3.8+
+
+### Step 1: Initialize (1 min)
+
+```python
+from swd import SWDSkill
+swd = SWDSkill("Q1 Sales Report / 季度销售报告")
+```
+
+### Step 2: Analyze Your Context (5 min)
+
+Before choosing a chart, tell SWD your situation — it will recommend the right visualization:
+
+```python
+ctx = swd.build_context(
+    audience="VP of Sales / 销售副总裁",
+    goal="Show conversion rate improved after redesign",
+    data_type="categorical",
+    use_case="data_story"
+)
+print(ctx)
+```
+
+### Step 3: Get Chart Recommendations (3 min)
+
+Let SWD pick the best chart type for your data:
+
+```python
+rec = swd.recommend_chart(
+    data_type="categorical",
+    category_count=5,
+    audience="executive",
+    message="Category B outperforms the rest"
+)
+print(rec)
+# → Recommends bar chart with sorted categories, grey + one accent color
+```
+
+### Step 4: Diagnose Clutter in Your Existing Charts (10 min)
+
+Pass your current chart description and get decluttering advice:
+
+```python
+clutter = swd.diagnose_clutter(
+    chart_type="pie chart",
+    slices=12,
+    has_legend=True,
+    has_gridlines=True,
+    has_3d=True
+)
+print(clutter)
+# → "Remove 3D, convert to bar chart, remove gridlines, reduce to ≤6 slices"
+```
+
+### Step 5: Plan Attention Guidance (10 min)
+
+Learn how to direct the audience's eye to what matters:
+
+```python
+attention = swd.plan_attention(
+    chart_type="bar chart",
+    key_message="Revenue grew 23% in Q4",
+    highlight="Q4 bar",
+    audience_type="executive"
+)
+print(attention)
+# → "Use grey for Q1-Q3, brand color for Q4, add direct label '23% ↑', remove Y-axis"
+```
+
+### Step 6: Evaluate Your Design (10 min)
+
+Score your chart on 5 dimensions (0-100):
+
+```python
+score = swd.evaluate_design(
+    context_score=85,
+    clarity_score=72,
+    focus_score=68,
+    aesthetics_score=80,
+    actionability_score=90
+)
+print(f"Overall: {score['overall']} → {score['grade']}")
+# → Overall: 79 → 🟢 Good
+```
+
+### Step 7: Build the Data Story (10 min)
+
+Structure your three-act narrative with clear calls to action:
+
+```python
+story = swd.build_story(
+    context="A/B test results from Q1 redesign",
+    use_case="executive_presentation",
+    include_call_to_action=True
+)
+print(story)
+# → Act 1: The Problem → Act 2: The Evidence → Act 3: The Ask
+```
+
+### ✅ Tutorial Checklist
+
+- [ ] Initialized SWD with your project name
+- [ ] Built context analysis
+- [ ] Got chart recommendations
+- [ ] Diagnosed clutter in existing charts
+- [ ] Planned attention guidance
+- [ ] Scored your design (5-dimension diagnosis)
+- [ ] Built a three-act data story
+
+### 🔀 What's Next?
+
+Feed SWD findings from upstream AliDujie skills:
+
+```python
+# UDM research report → SWD executive presentation
+from swd import SWDSkill
+from udm import UDMSkill
+
+udm = UDMSkill("FreshMart")
+report = udm.generate_report("Cart Abandonment Research")
+
+swd = SWDSkill("Q1 Research Report")
+story = swd.build_story(context=report.findings, use_case="executive_presentation")
+```
 
 ## 📄 License
 
