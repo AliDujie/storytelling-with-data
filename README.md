@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
-![Version](https://img.shields.io/badge/version-2.2.124-blue)
+![Version](https://img.shields.io/badge/version-2.2.125-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#whats-new-in-v22124)
+- [What's New](#whats-new-in-v22125)
 - [Why Teams Choose SWD](#why-teams-choose-swd-swd)
 - [Quick Decision: When to Use SWD?](#quick-decision-when-to-use-swd)
 - [Who This Skill Is For](#who-this-skill-is-for)
@@ -37,7 +37,7 @@
 
 ---
 
-## 🆕 What's New in v2.2.124
+## 🆕 What's New in v2.2.125
 
 - **Repo Maintenance 2026-06-02**: Version bump to 2.2.124, ecosystem cross-reference audit across all 6 AliDujie skills.
 
