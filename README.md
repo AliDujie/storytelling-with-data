@@ -40,7 +40,6 @@
 ## 🆕 What's New in v2.2.124
 
 - **Repo Maintenance 2026-06-02**: Version bump to 2.2.124, ecosystem cross-reference audit across all 6 AliDujie skills.
-- **Version Bump**: Synced to 2.2.124
 
 ## 🆕 What's New in v2.2.121
 
@@ -1067,7 +1066,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 
-**Latest (v2.2.124)**: Repo maintenance 2026-06-02 — TOC anchor verification (v22126 → v22122), Version History consistency audit, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
+**Latest (v2.2.124)**: Repo maintenance 2026-06-02 — TOC anchor verification, Version History consistency audit, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
 
 **Previous (v2.2.123)**: TOC anchor version verification, ecosystem cross-reference audit across all 6 AliDujie skills.
 
