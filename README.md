@@ -1070,7 +1070,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 
-**Latest (v2.2.124)**: Repo maintenance 2026-06-02 — TOC anchor verification, Version History consistency audit, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
+**Latest (v2.2.126)**: Repo maintenance 2026-06-02 — TOC anchor verification, Version History consistency audit, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
 
 **Previous (v2.2.123)**: TOC anchor version verification, ecosystem cross-reference audit across all 6 AliDujie skills.
 
