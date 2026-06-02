@@ -30,3 +30,15 @@ chart = skill.recommend_chart('compare', ['Category A', 'Category B', 'Category 
 print(chart)
 "
 ```
+
+## 🔗 Ecosystem Integration / 生态集成
+
+SWD is the presentation layer of the AliDujie UX Research Ecosystem. Chain it with other skills:
+
+- **QuantUX → SWD**: [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) experiment data → SWD data stories
+- **UDM → SWD**: [UDM](https://github.com/AliDujie/universal-design-methods) research reports → SWD executive narratives
+- **VPD → SWD**: [VPD](https://github.com/AliDujie/value-proposition-design) canvas scores → SWD value stories
+- **JTBD → SWD**: [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) opportunity scores → SWD need stories
+- **Persona → SWD**: [Persona](https://github.com/AliDujie/web-persona-skill) economics → SWD user stories
+
+See the [full pipeline example](../README.md#complete-pipeline-example) in README.md for a 6-skill end-to-end workflow.
