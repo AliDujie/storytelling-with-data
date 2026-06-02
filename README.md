@@ -47,11 +47,10 @@
 - **Repo maintenance 2026-06-01**: Fixed stale What's New TOC anchor (v22125 → v22127), TOC anchor verification, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
 
 
-> **📦 Earlier versions (v2.2.124 → v2.2.90)**: Data Story Sprint Template (2-week plan), Data Storytelling Prompt Library (10 prompts), cross-skill collaboration examples (SWD+QuantUX, SWD+JTBD), "Why Data Storytelling Matters" promotional section, enhanced Quick Recipes, CHANGELOG sync, ecosystem cross-reference audits. Full changelog in [CHANGELOG.md](CHANGELOG.md).
+> **📦 Earlier versions (v2.2.120 → v2.2.90)**: Data Story Sprint Template (2-week plan), Data Storytelling Prompt Library (10 prompts), cross-skill collaboration examples (SWD+QuantUX, SWD+JTBD), "Why Data Storytelling Matters" promotional section, enhanced Quick Recipes, CHANGELOG sync, ecosystem cross-reference audits. Full changelog in [CHANGELOG.md](CHANGELOG.md).
 
 > **📦 Recent versions (v2.2.118 → v2.2.115)**: CHANGELOG sync, README cleanup, Version History fixes, CHANGELOG dedup. Full changelog in [CHANGELOG.md](CHANGELOG.md).
 
-> **📦 Earlier versions (v2.2.114 → v2.2.90)**: Added chart makeover guide, data storytelling templates, ecosystem pipeline diagrams, before/after examples, executive presentation patterns, bilingual FAQ, cross-skill collaboration recipes. Full changelog in [CHANGELOG.md](CHANGELOG.md).
 
 ## 🇨🇳 中文概览
 
