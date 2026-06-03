@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#whats-new-in-v22127)
+- [What's New](#whats-new-in-v22128)
 - [Why Teams Choose SWD](#why-teams-choose-swd-swd)
 - [Quick Decision: When to Use SWD?](#quick-decision-when-to-use-swd)
 - [Who This Skill Is For](#who-this-skill-is-for)
@@ -39,11 +39,7 @@
 
 ## 🆕 What's New in v2.2.128
 
-- **Repo Maintenance 2026-06-03**: Added SWD Quick Recipes section (A/B test results + chart declutter recipes), improved Quick Start examples with clearer output comments, version bump 2.2.127→2.2.128.
-
-## 🆕 What's New in v2.2.128
-
-- **Repo Maintenance 2026-06-03**: Enhanced Beginner's First Tutorial with clearer step-by-step output expectations, added chart makeover recipe for A/B test results presentation, version bump 2.2.127→2.2.128.
+- **Repo Maintenance 2026-06-03**: Enhanced Beginner's First Tutorial with clearer step-by-step output expectations, added chart makeover recipe for A/B test results presentation, added SWD Quick Recipes section, improved Quick Start examples with clearer output comments, version bump 2.2.127→2.2.128.
 
 ## 🆕 What's New in v2.2.127
 
@@ -1082,7 +1078,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 
-**Latest (v2.2.126)**: Repo maintenance 2026-06-02 — TOC anchor verification, Version History consistency audit, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
+**Latest (v2.2.128)**: Repo maintenance 2026-06-03 — Fixed duplicate What's New entry (v2.2.128 appeared twice), updated TOC anchor (v2.2.127 → v2.2.128), ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
 
 **Previous (v2.2.123)**: TOC anchor version verification, ecosystem cross-reference audit across all 6 AliDujie skills.
 
