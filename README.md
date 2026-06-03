@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
-![Version](https://img.shields.io/badge/version-2.2.127-blue)
+![Version](https://img.shields.io/badge/version-2.2.128-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -36,6 +36,14 @@
 - [Recommended Learning Path](#recommended-learning-path)
 
 ---
+
+## 🆕 What's New in v2.2.128
+
+- **Repo Maintenance 2026-06-03**: Added SWD Quick Recipes section (A/B test results + chart declutter recipes), improved Quick Start examples with clearer output comments, version bump 2.2.127→2.2.128.
+
+## 🆕 What's New in v2.2.128
+
+- **Repo Maintenance 2026-06-03**: Enhanced Beginner's First Tutorial with clearer step-by-step output expectations, added chart makeover recipe for A/B test results presentation, version bump 2.2.127→2.2.128.
 
 ## 🆕 What's New in v2.2.127
 
