@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
-![Version](https://img.shields.io/badge/version-2.2.129-blue)
+![Version](https://img.shields.io/badge/version-2.2.130-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -1082,7 +1082,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 
-**Latest (v2.2.128)**: Repo maintenance 2026-06-03 — Fixed duplicate What's New entry (v2.2.128 appeared twice), updated TOC anchor (v2.2.127 → v2.2.128), ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
+**Latest (v2.2.129)**: Repo maintenance 2026-06-03 — Fixed duplicate What's New entry (v2.2.128 appeared twice), updated TOC anchor (v2.2.127 → v2.2.128), ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
 
 **Previous (v2.2.123)**: TOC anchor version verification, ecosystem cross-reference audit across all 6 AliDujie skills.
 
