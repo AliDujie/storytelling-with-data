@@ -1,3 +1,7 @@
+## [2.2.133] - 2026-06-05 (PM)
+
+- Repo maintenance: Version bump 2.2.132→2.2.133, ecosystem cross-reference audit across all 6 AliDujie skills.
+
 ## [2.2.132] - 2026-06-04 (PM)
 
 - Repo maintenance: Verified version consistency across all files (README badge, SKILL.md, pyproject.toml, __init__.py), ecosystem cross-reference audit across all 6 AliDujie skills, confirmed TOC anchors intact, version bump 2.2.131→2.2.132.
