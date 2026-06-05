@@ -1,4 +1,11 @@
-## [2.2.130] - 2026-06-04
+## [2.2.132] - 2026-06-04 (PM)
+
+- Repo maintenance: Verified version consistency across all files (README badge, SKILL.md, pyproject.toml, __init__.py), ecosystem cross-reference audit across all 6 AliDujie skills, confirmed TOC anchors intact, version bump 2.2.131→2.2.132.
+
+## [2.2.131] - 2026-06-04 (PM)
+
+- Repo maintenance: Verified version consistency across all files (README badge, SKILL.md, pyproject.toml, __init__.py), ecosystem cross-reference audit across all 6 AliDujie skills, fixed stale TOC anchor (v22129 → v22131), version bump 2.2.130→2.2.131.
+
 
 - Repo maintenance: CHANGELOG backfill for v2.2.129 entry, updated Version History Latest entry to v2.2.129, version consistency audit across all files, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump 2.2.129→2.2.130.
 
