@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
-![Version](https://img.shields.io/badge/version-2.2.136-blue)
+![Version](https://img.shields.io/badge/version-2.2.137-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -35,6 +35,12 @@
 - [Resources](#resources)
 - [Recommended Learning Path](#recommended-learning-path)
 - [Beginner's First Tutorial](#beginners-first-tutorial--60-minute-data-story--新手入门教程)
+
+## 🆕 What's New in v2.2.137
+
+- **Repo Maintenance 2026-06-07 (Morning)**: Duplicate "What's New" entry cleanup across FAQ, Resources, and License sections. All stray duplicate What's New entries removed (found 2 instances after line 1100). Ecosystem cross-reference validation. Version bump 2.2.136→2.2.137.
+
+---
 
 ## 🆕 What's New in v2.2.136
 
@@ -1165,10 +1171,6 @@ A: SWD recommends chart types and provides makeover guidance. It doesn't render 
 **Q: How do I chain SWD with upstream skills?**
 A: Feed outputs from QuantUX (experiment results), UDM (research findings), or VPD (canvas data) directly into SWD's context builder and story builder. See the [complete pipeline](#complete-pipeline-example-all-6-skills-end-to-end) for the full chain.
 
-## 🆕 What's New in v2.2.136
-
-- **Repo Maintenance 2026-06-06 (Night)**: SKILL.md version sync (2.2.134→2.2.136 to match pyproject.toml/__init__.py/README badge), added missing Beginner's First Tutorial TOC entry. Version bump 2.2.135→2.2.136.
-
 ---
 
 ## 📚 Resources
@@ -1315,12 +1317,6 @@ story = swd.build_story(context=report.findings, use_case="executive_presentatio
 ## 📄 License
 
 MIT License - see [LICENSE](LICENSE) for details.
-
-## 🆕 What's New in v2.2.136
-
-- **Repo Maintenance 2026-06-06 (Night)**: SKILL.md version sync (2.2.134→2.2.136 to match pyproject.toml/__init__.py/README badge), added missing Beginner's First Tutorial TOC entry. Version bump 2.2.135→2.2.136.
-
----
 
 **Built with ❤️ as part of the AliDujie UX Research Ecosystem**
 

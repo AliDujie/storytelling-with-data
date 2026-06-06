@@ -1,3 +1,7 @@
+## [2.2.137] - 2026-06-07 (Morning)
+
+- Repo maintenance: Duplicate "What's New" entry cleanup across README.md (found entries leaked into FAQ, Resources, and License sections). All stray duplicate What's New entries removed. Version sync across README badge, SKILL.md, pyproject.toml, __init__.py. Ecosystem cross-reference validation.
+
 ## [2.2.134] - 2026-06-05 (Evening)
 
 - Added PR template and CODEOWNERS for better contribution workflow
