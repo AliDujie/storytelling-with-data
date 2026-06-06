@@ -37,11 +37,11 @@
 
 ---
 
-## 🆕 What's New in v22134
+## 🆕 What's New in v2.2.134
 
 - **Repo Maintenance 2026-06-05 (Evening)**: Added PR template and CODEOWNERS, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump 2.2.133→2.2.134.
 
-## 🆕 What's New in v22133
+## 🆕 What's New in v2.2.133
 
 - **Repo Maintenance 2026-06-05 (PM)**: Version bump 2.2.132→2.2.133, ecosystem cross-reference audit across all 6 AliDujie skills.
 
