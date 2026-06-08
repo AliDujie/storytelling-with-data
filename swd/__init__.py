@@ -34,9 +34,9 @@
 """
 
 <<<<<<< HEAD
-__version__ = "2.2.134"
+__version__ = "2.2.138"
 =======
-__version__ = "2.2.137"
+__version__ = "2.2.138"
 >>>>>>> f6c3d05031dcc3905386db522c51cce552cc1725
 
 from .config import AnalysisConfig, CHART_TYPES, CHART_LABELS, KNOWLEDGE_FILES

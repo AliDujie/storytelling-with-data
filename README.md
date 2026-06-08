@@ -5,9 +5,9 @@
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
 <<<<<<< HEAD
-![Version](https://img.shields.io/badge/version-2.2.134-blue)
+![Version](https://img.shields.io/badge/version-2.2.138-blue)
 =======
-[![Version](https://img.shields.io/badge/version-2.2.137-blue)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-2.2.138-blue)](CHANGELOG.md)
 >>>>>>> f6c3d05031dcc3905386db522c51cce552cc1725
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)

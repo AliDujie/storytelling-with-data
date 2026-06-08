@@ -171,6 +171,11 @@
 
 # Changelog
 
+## [2.2.138] - 2026-06-09
+
+- **Repo Maintenance**: Version sync (SKILL.md was ahead of pyproject.toml/__init__.py), ecosystem cross-reference audit, README badge consistency check.
+
+
 ## v2.2.83 (2026-05-16)
 
 - Repo maintenance: Added `__version__` to `__all__` export list for proper `from swd import __version__`
