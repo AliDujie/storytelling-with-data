@@ -4,7 +4,11 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
+<<<<<<< HEAD
 ![Version](https://img.shields.io/badge/version-2.2.134-blue)
+=======
+[![Version](https://img.shields.io/badge/version-2.2.137-blue)](CHANGELOG.md)
+>>>>>>> f6c3d05031dcc3905386db522c51cce552cc1725
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -13,7 +17,11 @@
 
 ## 📑 Table of Contents
 
+<<<<<<< HEAD
 - [What's New](#whats-new-in-v22133)
+=======
+- [What's New](#whats-new-in-v22136)
+>>>>>>> f6c3d05031dcc3905386db522c51cce552cc1725
 - [Why Teams Choose SWD](#why-teams-choose-swd-swd)
 - [Quick Decision: When to Use SWD?](#quick-decision-when-to-use-swd)
 - [Who This Skill Is For](#who-this-skill-is-for)
@@ -34,16 +42,39 @@
 - [Limitations](#limitations)
 - [Resources](#resources)
 - [Recommended Learning Path](#recommended-learning-path)
+- [Beginner's First Tutorial](#beginners-first-tutorial--60-minute-data-story--新手入门教程)
+
+## 🆕 What's New in v2.2.137
+
+- **Repo Maintenance 2026-06-07 (Morning)**: Duplicate "What's New" entry cleanup across FAQ, Resources, and License sections. All stray duplicate What's New entries removed (found 2 instances after line 1100). Ecosystem cross-reference validation. Version bump 2.2.136→2.2.137.
 
 ---
 
+<<<<<<< HEAD
 ## 🆕 What's New in v22133
 
 - **Repo Maintenance 2026-06-05**: Version consistency audit across all files (README badge, SKILL.md, pyproject.toml, __init__.py), ecosystem cross-reference audit across all 6 AliDujie skills, verified TOC anchors, cleaned up duplicate SECURITY.md entry in web-persona-skill Resources table. Version bump 2.2.132→2.2.133.
 
 ## 🆕 What's New in v22132
+=======
+## 🆕 What's New in v2.2.136
+>>>>>>> f6c3d05031dcc3905386db522c51cce552cc1725
 
-- **Repo Maintenance 2026-06-04 (PM)**: Verified version consistency across all files (README badge, SKILL.md, pyproject.toml, __init__.py), ecosystem cross-reference audit across all 6 AliDujie skills, fixed stale TOC anchor, version bump 2.2.131→2.2.132.
+- **Repo Maintenance 2026-06-06 (Night)**: SKILL.md version sync (2.2.134→2.2.136 to match pyproject.toml/__init__.py/README badge), added missing Beginner's First Tutorial TOC entry. Version bump 2.2.135→2.2.136.
+
+---
+
+## 🆕 What's New in v2.2.135
+
+- **Repo Maintenance 2026-06-06 (Evening)**: TOC anchor verification, version consistency audit, duplicate entry cleanup, ecosystem cross-reference validation across all 6 AliDujie skills. Version bump 2.2.134→2.2.135.
+
+## 🆕 What's New in v2.2.134
+
+- **Repo Maintenance 2026-06-05 (Evening)**: Added PR template and CODEOWNERS, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump 2.2.133→2.2.134.
+
+## 🆕 What's New in v2.2.133
+
+- **Repo Maintenance 2026-06-05 (PM)**: Version bump 2.2.132→2.2.133, ecosystem cross-reference audit across all 6 AliDujie skills.
 
 ## 🆕 What's New in v2.2.131
 
@@ -1306,8 +1337,6 @@ story = swd.build_story(context=report.findings, use_case="executive_presentatio
 ## 📄 License
 
 MIT License - see [LICENSE](LICENSE) for details.
-
----
 
 **Built with ❤️ as part of the AliDujie UX Research Ecosystem**
 
