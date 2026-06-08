@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
-![Version](https://img.shields.io/badge/version-2.2.133-blue)
+![Version](https://img.shields.io/badge/version-2.2.134-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -173,6 +173,7 @@ story = s.build_story("Unmet User Needs", context=f"Top opportunity: {analysis['
 | Quantitative A/B testing, HEART metrics | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) |
 | Create user personas, user segmentation | → [Web Persona](https://github.com/AliDujie/web-persona-skill) |
 | Value proposition canvas, PMF validation | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) |
+| Business framework analysis (SWOT, PESTEL, etc.) | → [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) |
 
 > 💡 SWD is the data presentation layer: after research is done, turn findings into executive-ready stories.
 
@@ -186,6 +187,7 @@ story = s.build_story("Unmet User Needs", context=f"Top opportunity: {analysis['
 | 需要定量验证假设、设计 A/B 测试、计算样本量 | → [Quantitative UX Research](https://github.com/AliDujie/Quantitative-UX-Research) |
 | 需要创建人物角色、用户细分 | → [Web Persona](https://github.com/AliDujie/web-persona-skill) |
 | 需要价值主张画布、实验验证 | → [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) |
+| 商业框架分析（SWOT、PESTEL 等） | → [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) |
 
 > 💡 SWD 是数据呈现层:研究完成后,将发现转化为高管可读的故事。
 
