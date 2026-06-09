@@ -37,47 +37,11 @@
 
 ---
 
-## 🆕 What's New in v22133
+## 🆕 What's New in v2.2.138
 
-- **Repo Maintenance 2026-06-05**: Version consistency audit across all files (README badge, SKILL.md, pyproject.toml, __init__.py), ecosystem cross-reference audit across all 6 AliDujie skills, verified TOC anchors, cleaned up duplicate SECURITY.md entry in web-persona-skill Resources table. Version bump 2.2.132→2.2.133.
+- **Repo Maintenance 2026-06-10**: Consolidated 9 What's New entries into 1, synced CHANGELOG to v2.2.138, ecosystem cross-reference audit across all 6 AliDujie skills
 
-## 🆕 What's New in v22132
-
-- **Repo Maintenance 2026-06-04 (PM)**: Verified version consistency across all files (README badge, SKILL.md, pyproject.toml, __init__.py), ecosystem cross-reference audit across all 6 AliDujie skills, fixed stale TOC anchor, version bump 2.2.131→2.2.132.
-
-## 🆕 What's New in v2.2.131
-
-- **Repo Maintenance 2026-06-04 (PM)**: Verified version consistency across all files (README badge, SKILL.md, pyproject.toml, __init__.py), ecosystem cross-reference audit across all 6 AliDujie skills, fixed stale TOC anchor (v22129 → v22131), version bump 2.2.130→2.2.131.
-
-## 🆕 What's New in v2.2.129
-
-- **Repo Maintenance 2026-06-04**: Audit completed, verified version consistency across all files, confirmed ecosystem cross-references are intact across all 6 AliDujie skills, version bump 2.2.128→2.2.129.
-
-## 🆕 What's New in v2.2.128
-
-- **Repo Maintenance 2026-06-03**: Enhanced Beginner's First Tutorial with clearer step-by-step output expectations, added chart makeover recipe for A/B test results presentation, added SWD Quick Recipes section, improved Quick Start examples with clearer output comments, version bump 2.2.127→2.2.128.
-
-## 🆕 What's New in v2.2.127
-
-- **Repo Maintenance 2026-06-03**: Version sync fix (`__version__` in `__init__.py` aligned with `pyproject.toml` 2.2.127), TOC anchor verification, ecosystem cross-reference audit across all 6 AliDujie skills.
-
-## 🆕 What's New in v2.2.126
-
-- **Repo Maintenance 2026-06-03**: Added Beginner's First Tutorial (60-min end-to-end data story with 7 steps), version bump 2.2.125→2.2.126.
-
-## 🆕 What's New in v2.2.125
-
-- **Repo Maintenance 2026-06-02**: Version bump to 2.2.125, ecosystem cross-reference audit across all 6 AliDujie skills.
-
-## 🆕 What's New in v2.2.121
-
-- **Repo maintenance 2026-06-01**: Fixed stale What's New TOC anchor (v22125 → v22127), TOC anchor verification, ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
-
-
-> **📦 Earlier versions (v2.2.120 → v2.2.90)**: Data Story Sprint Template (2-week plan), Data Storytelling Prompt Library (10 prompts), cross-skill collaboration examples (SWD+QuantUX, SWD+JTBD), "Why Data Storytelling Matters" promotional section, enhanced Quick Recipes, CHANGELOG sync, ecosystem cross-reference audits. Full changelog in [CHANGELOG.md](CHANGELOG.md).
-
-> **📦 Recent versions (v2.2.118 → v2.2.115)**: CHANGELOG sync, README cleanup, Version History fixes, CHANGELOG dedup. Full changelog in [CHANGELOG.md](CHANGELOG.md).
-
+> **📦 Full history**: See [CHANGELOG.md](CHANGELOG.md) for complete version details.
 
 ## 🇨🇳 中文概览
 
