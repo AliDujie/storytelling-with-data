@@ -228,6 +228,18 @@ Persona (Who) → JTBD (What) → UDM (Research) → QuantUX (Validate) → VPD 
 
 > 💡 **Pro Tip**: Chain SWD at the end of any research pipeline. After QuantUX validates your hypothesis, feed results into `build_story()` for an executive-ready narrative.
 
+## 🔗 Extended Ecosystem / 扩展生态
+
+SWD data storytelling can be combined with management skills to turn analysis into strategic presentations:
+
+| Extended Skill | Collaboration Scenario |
+|---------------|------------------------|
+| [CEO Advisor](https://github.com/AliDujie/ceo-advisor) | SWD data story → CEO board presentations / SWD 数据故事 → CEO 董事会汇报 |
+| [CPO Advisor](https://github.com/AliDujie/cpo-advisor) | SWD product data → CPO portfolio strategy / SWD 产品数据 → CPO 产品组合战略 |
+| [CMO Advisor](https://github.com/AliDujie/cmo-advisor) | SWD market data → CMO brand & growth strategy / SWD 市场数据 → CMO 品牌增长策略 |
+| [CTO Advisor](https://github.com/AliDujie/cto-advisor) | SWD tech metrics → CTO tech investment decisions / SWD 技术指标 → CTO 技术投资决策 |
+| [Plan CEO Review](https://github.com/AliDujie/plan-ceo-review) | SWD quarterly reports → CEO plan review cycle / SWD 季度报告 → CEO 计划审查 |
+
 ## ❓ FAQ / Troubleshooting
 
 **Q: Should I start with `build_context()` or `recommend_chart()`?**
