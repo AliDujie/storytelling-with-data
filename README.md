@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
-![Version](https://img.shields.io/badge/version-2.2.140-blue)
+![Version](https://img.shields.io/badge/version-2.2.141-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -37,8 +37,9 @@
 
 ---
 
-## 🆕 What's New in v2.2.140
+## 🆕 What's New in v2.2.141
 
+- **Repo Maintenance 2026-06-13**: Enhanced "What's Next" pipeline code example to include all 6 skills (was missing Persona, JTBD, VPD), ecosystem cross-reference validation
 - **Repo Maintenance 2026-06-12 PM**: Bilingual "What's Next / 下一步" cross-skill navigation tables added, Quick Start section enhanced with CN translations, ecosystem cross-reference validation
 - **Repo Maintenance 2026-06-12 AM**: Version sync audit (SKILL.md 2.2.139→2.2.140), CHANGELOG entries for 2.2.139-2.2.140, ecosystem cross-reference validation across all 6 AliDujie skills
 - **Repo Maintenance 2026-06-10**: Consolidated 9 What's New entries into 1, synced CHANGELOG to v2.2.138, ecosystem cross-reference audit across all 6 AliDujie skills
@@ -1281,15 +1282,27 @@ Feed SWD findings from upstream AliDujie skills:
 | 数据故事 → 战略决策 | [STM](https://github.com/AliDujie/Structured-Thinking-Model) | 数据叙事 → 战略框架 |
 
 ```python
-# UDM research report → SWD executive presentation
-from swd import SWDSkill
+# Persona → JTBD → UDM → QuantUX → VPD → SWD end-to-end
+from persona import PersonaSkill
+from jtbd import JTBDSkill
 from udm import UDMSkill
+from quantux import QuantUXSkill
+from vpd import VPDSkill
+from swd import SWDSkill
 
-udm = UDMSkill("FreshMart")
-report = udm.generate_report("Cart Abandonment Research")
-
-swd = SWDSkill("Q1 Research Report")
-story = swd.build_story(context=report.findings, use_case="executive_presentation")
+p = PersonaSkill("FreshMart")                          # 1. Define who
+p.add_persona("小明", "效率型用户", "primary", "快就是好",
+    goals=["快速完成购买"], behaviors=["高频使用 APP"])
+j = JTBDSkill("FreshMart")                             # 2. Discover what they need
+j.score_opportunity("快速购买生鲜", struggle=3, alternative=2, market=5, budget=4)
+u = UDMSkill("FreshMart")                              # 3. Plan and run research
+u.generate_interview("Shopping Flow", "contextual")
+qx = QuantUXSkill("FreshMart")                         # 4. Validate quantitatively
+qx.calculate_ab_sample_size(baseline=0.30, mde=0.05)
+v = VPDSkill("FreshMart", "Efficient Users")           # 5. Map value proposition
+v.analyze_canvas(jobs=[{"description": "Buy groceries fast"}])
+s = SWDSkill("Q1 Research Report")                     # 6. Present to stakeholders
+s.build_story(context="Cart Abandonment Research", use_case="executive_presentation")
 ```
 
 ## 📄 License
