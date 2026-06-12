@@ -20,7 +20,7 @@
 - [Common Mistakes](#common-mistakes-常见错误)
 - [Quick Start](#quick-start-5-minutes)
 - [Core Capabilities](#core-capabilities-8)
-- [Chart Selection Decision Tree](#chart-selection-decision-tree)
+- [Chart Selection Decision Tree / 图表选择决策树](#chart-selection-decision-tree--图表选择决策树)
 - [5-Dimension Diagnosis Scoring](#5-dimension-diagnosis-scoring)
 - [Ecosystem Quick Start](#ecosystem-quick-start)
 - [Ecosystem Integration](#ecosystem-integration)
@@ -33,7 +33,7 @@
 - [Best Practices](#best-practices-最佳实践)
 - [Limitations](#limitations-局限性)
 - [Resources](#resources)
-- [Recommended Learning Path](#recommended-learning-path)
+- [Recommended Learning Path / 推荐学习路径](#recommended-learning-path--推荐学习路径--中文)
 
 ---
 
@@ -434,28 +434,30 @@ Narrative → Calls SWD.full_diagnosis() → Quality score & improvement suggest
 | 10 | **Execution Risk Visualization** | Risk matrix + mitigation measures |
 | 11 | **Decision Framework Generation** | Quality checklist + post-decision tracking + flowchart |
 
-## 📊 Chart Selection Decision Tree
+## 📊 Chart Selection Decision Tree / 图表选择决策树
 
 ```
-What do you want to show?
-├── 1-2 numbers → Large text + supporting text
-├── Look up exact values → Table / heatmap
-├── Relationship between variables → Scatter plot
-├── Time trends
-│   ├── 2 time points → Slope graph
-│   └── Multiple time points → Line chart
-├── Categorical data
-│   ├── Long names / >5 categories → Horizontal bar chart ⭐ Preferred
-│   ├── Short names → Vertical column chart
-│   └── Start + change + end → Waterfall chart
-├── Part of whole → 100% stacked horizontal bar
-└── Always avoid
-    ├── Pie chart → Use: horizontal bar chart
-    ├── 3D effects → Use: 2D version
-    └── Dual Y-axis → Use: split or annotate directly
+What do you want to show? / 你想展示什么？
+├── 1-2 numbers → Large text + supporting text / 大号文字 + 说明文字
+├── Look up exact values → Table / heatmap / 查精确值 → 表格/热力图
+├── Relationship between variables → Scatter plot / 变量关系 → 散点图
+├── Time trends / 时间趋势
+│   ├── 2 time points → Slope graph / 2个时间点 → 坡度图
+│   └── Multiple time points → Line chart / 多个时间点 → 折线图
+├── Categorical data / 分类数据
+│   ├── Long names / >5 categories → Horizontal bar chart ⭐ Preferred / 长名称/>5类 → 水平柱状图⭐推荐
+│   ├── Short names → Vertical column chart / 短名称 → 垂直柱状图
+│   └── Start + change + end → Waterfall chart / 起点+变化+终点 → 瀑布图
+├── Part of whole → 100% stacked horizontal bar / 部分占整体 → 100%堆叠水平柱状图
+└── Always avoid / 始终避免
+    ├── Pie chart → Use: horizontal bar chart / 饼图 → 改用水平柱状图
+    ├── 3D effects → Use: 2D version / 3D效果 → 改用2D版本
+    └── Dual Y-axis → Use: split or annotate directly / 双Y轴 → 拆分或直接标注
 ```
 
 > 💡 **Pro Tip**: When in doubt, default to a horizontal bar chart. It works for almost every categorical comparison and avoids the readability problems of column charts with long labels.
+>
+> 💡 **专业技巧**: 不确定的时候，默认使用水平柱状图。它适用于几乎所有分类比较，避免了长标签柱状图的可读性问题。
 ## 📈 5-Dimension Diagnosis Scoring
 
 | Dimension (20pts each) | Focus |
@@ -1106,13 +1108,21 @@ See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 **Previous (v2.2.84)**: Merged duplicated English/Chinese quick-start checklists into single bilingual table, added cross-skill collaboration table and ecosystem integration guide.
 
-### 📖 Recommended Learning Path
+### 📖 Recommended Learning Path / 推荐学习路径
 
 1. **Start with the README** - Quick start + 30-second example
 2. **Read USAGE.md** - Detailed workflows for each capability with code examples
 3. **Explore references/** - Deep dive into 10 reference chapters covering context, chart selection, decluttering, attention, design, storytelling, and case studies
 4. **Try the full pipeline** - Chain all 6 AliDujie skills end-to-end (see [Complete Pipeline Example](#complete-pipeline-example-all-6-skills-end-to-end))
 5. **Customize via config** - Adjust AnalysisConfig for your context (see [INSTALL.md](INSTALL.md))
+
+### 📖 推荐学习路径（中文）
+
+1. **从 README 开始** — 快速开始 + 30秒示例
+2. **阅读 USAGE.md** — 每项能力的详细工作流和代码示例
+3. **探索 references/** — 深入阅读 10 个参考章节：上下文分析、图表选择、去杂乱、注意力引导、设计评估、故事构建和案例研究
+4. **尝试完整管道** — 串联所有 6 个 AliDujie 技能端到端（见[完整管道示例](#complete-pipeline-example-all-6-skills-end-to-end)）
+5. **通过 config 自定义** — 根据你的上下文调整 AnalysisConfig（见 [INSTALL.md](INSTALL.md)）
 
 ## 🌐 Ecosystem FAQ / 生态常见问题
 
