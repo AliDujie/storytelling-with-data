@@ -1278,6 +1278,7 @@ Feed SWD findings from upstream AliDujie skills:
 | JTBD 机会评分 | [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) | 优先级 → 故事板 |
 | VPD 画布数据 | [VPD](https://github.com/AliDujie/value-proposition-design) | 价值主张 → 关键数据可视化 |
 | Persona 角色数据 | [Persona](https://github.com/AliDujie/web-persona-skill) | 角色洞察 → 选择图表 |
+| 数据故事 → 战略决策 | [STM](https://github.com/AliDujie/Structured-Thinking-Model) | 数据叙事 → 战略框架 |
 
 ```python
 # UDM research report → SWD executive presentation
