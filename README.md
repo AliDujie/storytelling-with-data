@@ -14,10 +14,10 @@
 ## 📑 Table of Contents
 
 - [What's New](#whats-new-in-v22140)
-- [Why Teams Choose SWD](#why-teams-choose-swd-swd)
+- [Why Teams Choose SWD](#why-teams-choose-swd-为什么选择-swd)
 - [Quick Decision: When to Use SWD?](#quick-decision-when-to-use-swd)
 - [Who This Skill Is For](#who-this-skill-is-for)
-- [Common Mistakes](#common-mistakes)
+- [Common Mistakes](#common-mistakes-常见错误)
 - [Quick Start](#quick-start-5-minutes)
 - [Core Capabilities](#core-capabilities-8)
 - [Chart Selection Decision Tree](#chart-selection-decision-tree)
@@ -25,13 +25,13 @@
 - [Ecosystem Quick Start](#ecosystem-quick-start)
 - [Ecosystem Integration](#ecosystem-integration)
 - [AI Agent Integration](#ai-agent-integration)
-- [Chart Makeover Recipes](#chart-makeover-recipes)
-- [Quick Recipes](#quick-recipes)
+- [Chart Makeover Recipes](#chart-makeover-recipes-图表改造食谱)
+- [Quick Recipes](#quick-recipes-快速食谱)
 - [FAQ / Troubleshooting](#faq-troubleshooting)
 - [Version History](#version-history)
-- [When NOT to Use SWD](#when-not-to-use-swd-swd)
-- [Best Practices](#best-practices)
-- [Limitations](#limitations)
+- [When NOT to Use SWD](#when-not-to-use-swd-什么时候不该用-swd)
+- [Best Practices](#best-practices-最佳实践)
+- [Limitations](#limitations-局限性)
 - [Resources](#resources)
 - [Recommended Learning Path](#recommended-learning-path)
 
@@ -936,7 +936,7 @@ fix = swd.diagnose_clutter(has_gridlines=False, has_separate_legend=False, has_3
 # → Clean — ready to present
 ```
 
-> 💡 **Pro Tip**: The [Title Test](#pro-tip) is the fastest quality check — if someone can understand your presentation by reading ONLY the slide titles, you have a strong story.
+> 💡 **Pro Tip**: The [Title Test](#pro-tip-专业技巧) is the fastest quality check — if someone can understand your presentation by reading ONLY the slide titles, you have a strong story.
 
 
 ## 🛡️ Common Pitfalls & How to Avoid Them
