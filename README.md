@@ -39,7 +39,8 @@
 
 ## 🆕 What's New in v2.2.140
 
-- **Repo Maintenance 2026-06-12**: Version sync audit (SKILL.md 2.2.139→2.2.140), CHANGELOG entries for 2.2.139-2.2.140, ecosystem cross-reference validation across all 6 AliDujie skills
+- **Repo Maintenance 2026-06-12 PM**: Bilingual "What's Next / 下一步" cross-skill navigation tables added, Quick Start section enhanced with CN translations, ecosystem cross-reference validation
+- **Repo Maintenance 2026-06-12 AM**: Version sync audit (SKILL.md 2.2.139→2.2.140), CHANGELOG entries for 2.2.139-2.2.140, ecosystem cross-reference validation across all 6 AliDujie skills
 - **Repo Maintenance 2026-06-10**: Consolidated 9 What's New entries into 1, synced CHANGELOG to v2.2.138, ecosystem cross-reference audit across all 6 AliDujie skills
 
 > **📦 Full history**: See [CHANGELOG.md](CHANGELOG.md) for complete version details.
@@ -231,11 +232,13 @@ attn = swd.plan_attention(
 print(attn)
 ```
 
-## ⚡ Quick Start (5 Minutes)
+## ⚡ Quick Start (5 Minutes) / 快速开始（5 分钟）
 
-### Install
+### Install / 安装
 
 ```bash
+# Copy the skill to your agent's skills directory
+# 将技能复制到你 Agent 的技能目录
 cp -r storytelling-with-data /your/agent/skills/
 ```
 
@@ -1262,9 +1265,19 @@ print(story)
 - [ ] Scored your design (5-dimension diagnosis)
 - [ ] Built a three-act data story
 
-### 🔀 What's Next?
+### 🔀 What's Next? / 下一步？
 
 Feed SWD findings from upstream AliDujie skills:
+
+接收来自上游 AliDujie 技能的 SWD 数据：
+
+| 你的上游数据来源 | 推荐技能 | 输入到 SWD |
+|----------------|---------|----------|
+| UDM 研究报告 | [UDM](https://github.com/AliDujie/universal-design-methods) | 定性发现 → 数据故事 |
+| QuantUX A/B 结果 | [QuantUX](https://github.com/AliDujie/Quantitative-UX-Research) | 统计数据 → 图表改造 |
+| JTBD 机会评分 | [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) | 优先级 → 故事板 |
+| VPD 画布数据 | [VPD](https://github.com/AliDujie/value-proposition-design) | 价值主张 → 关键数据可视化 |
+| Persona 角色数据 | [Persona](https://github.com/AliDujie/web-persona-skill) | 角色洞察 → 选择图表 |
 
 ```python
 # UDM research report → SWD executive presentation
