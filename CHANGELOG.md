@@ -1,4 +1,7 @@
 ## [2.2.143] - 2026-06-13
+## v2.2.144 (2026-06-14)
+
+- Ecosystem cross-reference parity audit, consolidated maintenance entries, version sync across all artifacts
 
 - Enhanced "Why Teams Choose SWD" section with ecosystem pipeline diagram and cross-skill collaboration summary
 - Consolidated What's New entries for clarity

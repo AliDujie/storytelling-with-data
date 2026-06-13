@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
-![Version](https://img.shields.io/badge/version-2.2.143-blue)
+![Version](https://img.shields.io/badge/version-2.2.144-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -37,7 +37,9 @@
 
 ---
 
-## 🆕 What's New in v2.2.143
+## 🆕 What's New in v2.2.144
+
+- **Repo Maintenance 2026-06-14**: Ecosystem cross-reference parity audit, consolidated maintenance entries, version sync across all artifacts (2.2.143 → 2.2.144), README readability improvements
 
 - **Repo Maintenance 2026-06-13 PM**: Enhanced "Why Teams Choose SWD" section with ecosystem pipeline diagram and cross-skill collaboration summary at top, consolidated What's New entries
 
