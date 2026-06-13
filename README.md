@@ -1072,21 +1072,11 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 
-**Latest (2.2.140)**: Repo maintenance 2026-06-05 — Version consistency audit across all files, ecosystem cross-reference verification across all 6 AliDujie skills, TOC anchor confirmation, cleaned up duplicate SECURITY.md entry in web-persona-skill Resources table. Version bump.
+**Latest (v2.2.143)**: Repo maintenance 2026-06-13 PM — Enhanced "Why Teams Choose SWD" section with ecosystem pipeline diagram and cross-skill collaboration summary, consolidated What's New entries, version sync across all artifacts (README/pyproject.toml/SKILL.md/__init__.py: 2.2.142 → 2.2.143), ecosystem cross-reference validation across all 6 AliDujie skills.
 
-**Previous (v2.2.132)**: Repo maintenance 2026-06-04 PM — Version consistency audit across all files, ecosystem cross-reference verification across all 6 AliDujie skills, TOC anchor confirmation. Version bump.
+**Previous (v2.2.142)**: TOC anchor fix (#whats-new-in-v22140 → v22142), version sync across all artifacts (README/pyproject.toml/SKILL.md: 2.2.141 → 2.2.142), ecosystem cross-reference validation.
 
-**Previous (v2.2.131)**: Repo maintenance 2026-06-04 PM — Version consistency audit across all files, ecosystem cross-reference verification across all 6 AliDujie skills, TOC anchor fix. Version bump.
-
-**Previous (v2.2.129)**: Repo maintenance 2026-06-03 — Fixed duplicate What's New entry (v2.2.128 appeared twice), updated TOC anchor (v2.2.127 → v2.2.128), ecosystem cross-reference audit across all 6 AliDujie skills. Version bump.
-
-**Previous (v2.2.123)**: TOC anchor version verification, ecosystem cross-reference audit across all 6 AliDujie skills.
-
-**Previous (v2.2.121)**: CHANGELOG sync (backfilled 3 missing version entries), consolidated redundant What's New entries, ecosystem cross-reference audit across all 6 AliDujie skills.
-
-**Previous (v2.2.117)**: Version History text cleanup, ecosystem cross-reference audit across all 6 AliDujie skills.
-
-**Previous (v2.2.110)**: Fixed stale What's New TOC link (v2.2.109 → v2.2.110), updated Version History latest entry, ecosystem cross-reference audit across all 6 AliDujie skills.
+**Previous (v2.2.141)**: Enhanced "What's Next" pipeline code example to include all 6 skills (Persona → JTBD → UDM → QuantUX → VPD → SWD end-to-end), ecosystem cross-reference validation.
 
 **Previous (v2.2.102)**: Repo maintenance — fixed version sync mismatch (README/SKILL.md was 2.2.99 vs pyproject/__init__.py 2.2.100), ecosystem cross-reference verification across all 6 AliDujie skills.
 
