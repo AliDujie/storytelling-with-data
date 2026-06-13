@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
-![Version](https://img.shields.io/badge/version-2.2.141-blue)
+![Version](https://img.shields.io/badge/version-2.2.142-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#whats-new-in-v22140)
+- [What's New](#whats-new-in-v22142)
 - [Why Teams Choose SWD](#why-teams-choose-swd-为什么选择-swd)
 - [Quick Decision: When to Use SWD?](#quick-decision-when-to-use-swd)
 - [Who This Skill Is For](#who-this-skill-is-for)
@@ -37,7 +37,10 @@
 
 ---
 
-## 🆕 What's New in v2.2.141
+## 🆕 What's New in v2.2.142
+
+- **Repo Maintenance 2026-06-13 AM**: TOC anchor fix (v22140→v22142), version sync across all artifacts (README/pyproject.toml/SKILL.md), ecosystem cross-reference validation
+
 
 - **Repo Maintenance 2026-06-13**: Enhanced "What's Next" pipeline code example to include all 6 skills (was missing Persona, JTBD, VPD), ecosystem cross-reference validation
 - **Repo Maintenance 2026-06-12 PM**: Bilingual "What's Next / 下一步" cross-skill navigation tables added, Quick Start section enhanced with CN translations, ecosystem cross-reference validation
