@@ -1,3 +1,10 @@
+## [2.2.143] - 2026-06-13
+
+- Enhanced "Why Teams Choose SWD" section with ecosystem pipeline diagram and cross-skill collaboration summary
+- Consolidated What's New entries for clarity
+- Version sync across all artifacts (README/pyproject.toml/SKILL.md/__init__.py: 2.2.142 → 2.2.143)
+- Ecosystem cross-reference validation across all 6 AliDujie skills
+
 ## [2.2.142] - 2026-06-13
 
 - TOC anchor fix (#whats-new-in-v22140 → v22142), version sync across all artifacts (README/pyproject.toml/SKILL.md: 2.2.141 → 2.2.142)
