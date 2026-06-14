@@ -33,4 +33,4 @@
     makeover = skill.makeover(issues=["使用了饼图", "无标题"])
 """
 
-__version__ = "2.2.146"
+__version__ = "2.2.147"

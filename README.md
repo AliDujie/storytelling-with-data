@@ -1,10 +1,12 @@
+- **Repo Maintenance 2026-06-14 PM**: Version bump 2.2.146 → 2.2.147, consolidated daily maintenance entries, finalized ecosystem documentation across all 6 AliDujie skills
+
 # Storytelling with Data (SWD) Skill
 
 > **Turn Data into Decisions. Turn Charts into Stories.**
 
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
-![Version](https://img.shields.io/badge/version-2.2.146-blue)
+![Version](https://img.shields.io/badge/version-2.2.147-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -37,7 +39,7 @@
 
 ---
 
-## 🆕 What's New in v2.2.146
+## 🆕 What's New in v2.2.147
 
 - **Repo Maintenance 2026-06-14**: Version sync across all artifacts (2.2.145 → 2.2.146), added Structured Thinking Model (STM) cross-reference to examples/README.md ecosystem section, enhanced ecosystem documentation consistency
 
@@ -1078,7 +1080,9 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 
-**Latest (v2.2.145)**: Repo maintenance 2026-06-14 PM — Fixed stale What's New TOC anchor (v22144 → v22145), version sync across all artifacts (2.2.144 → 2.2.145), enhanced Python version badge parity check.
+**Latest (v2.2.147)**: Repo maintenance 2026-06-14 PM — Version bump 2.2.146 → 2.2.147, consolidated daily maintenance entries, finalized ecosystem documentation across all 6 AliDujie skills.
+
+**Previous (v2.2.146)**: Repo maintenance 2026-06-14 PM — Fixed stale What's New TOC anchor (v22143 → v22144), enhanced Python version badge parity check.: Repo maintenance 2026-06-14 PM — Fixed stale What's New TOC anchor (v22144 → v22145), version sync across all artifacts (2.2.144 → 2.2.145), enhanced Python version badge parity check.
 
 **Previous (v2.2.143)**: Repo maintenance 2026-06-13 PM — Enhanced "Why Teams Choose SWD" section with ecosystem pipeline diagram and cross-skill collaboration summary, consolidated What's New entries, version sync across all artifacts (README/pyproject.toml/SKILL.md/__init__.py: 2.2.142 → 2.2.143), ecosystem cross-reference validation across all 6 AliDujie skills.
 
