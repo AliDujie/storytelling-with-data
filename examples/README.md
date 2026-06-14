@@ -40,5 +40,6 @@ SWD is the presentation layer of the AliDujie UX Research Ecosystem. Chain it wi
 - **VPD → SWD**: [VPD](https://github.com/AliDujie/value-proposition-design) canvas scores → SWD value stories
 - **JTBD → SWD**: [JTBD](https://github.com/AliDujie/jtbd-knowledge-skill) opportunity scores → SWD need stories
 - **Persona → SWD**: [Persona](https://github.com/AliDujie/web-persona-skill) economics → SWD user stories
+- **SWD → STM**: SWD data stories → [STM](https://github.com/AliDujie/Structured-Thinking-Model) strategic frameworks
 
-See the [full pipeline example](../README.md#complete-pipeline-example) in README.md for a 6-skill end-to-end workflow.
+See the [full pipeline example](../README.md#complete-pipeline-example) in README.md for a 7-skill end-to-end workflow.

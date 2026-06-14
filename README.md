@@ -4,7 +4,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
-![Version](https://img.shields.io/badge/version-2.2.145-blue)
+![Version](https://img.shields.io/badge/version-2.2.146-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -13,7 +13,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#whats-new-in-v22145)
+- [What's New](#whats-new-in-v22146)
 - [Why Teams Choose SWD](#why-teams-choose-swd-为什么选择-swd)
 - [Quick Decision: When to Use SWD?](#quick-decision-when-to-use-swd)
 - [Who This Skill Is For](#who-this-skill-is-for)
@@ -37,7 +37,9 @@
 
 ---
 
-## 🆕 What's New in v2.2.145
+## 🆕 What's New in v2.2.146
+
+- **Repo Maintenance 2026-06-14**: Version sync across all artifacts (2.2.145 → 2.2.146), added Structured Thinking Model (STM) cross-reference to examples/README.md ecosystem section, enhanced ecosystem documentation consistency
 
 - **Repo Maintenance 2026-06-14 PM**: Fixed stale What's New TOC anchor (v22143 → v22144), enhanced Python version badge parity check
 

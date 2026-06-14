@@ -1,3 +1,11 @@
+## v2.2.146 (2026-06-14)
+
+- Version sync across all artifacts (2.2.145 → 2.2.146)
+- Added Structured Thinking Model (STM) cross-reference to examples/README.md ecosystem section
+- Enhanced ecosystem documentation consistency across 6-skill references
+
+## [2.2.145] - 2026-06-14
+
 ## [2.2.143] - 2026-06-13
 ## v2.2.144 (2026-06-14)
 
