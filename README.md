@@ -39,12 +39,10 @@
 
 ---
 
-## 🆕 What's New in v22150
+## 🆕 What's New in v22151
 
 - **Repo Maintenance 2026-06-15**: Version bump 2.2.150 → 2.2.151, consolidated older What's New entries, added chart makeover recipe with before/after code, cross-skill collaboration consistency check.
 
-
-- **Repo Maintenance 2026-06-15 PM**: Version bump 2.2.149 → 2.2.150, ecosystem documentation consistency audit, cross-skill collaboration table validation, incremental content review.
 
 ## 🆕 What's New in v2.2.149
 
