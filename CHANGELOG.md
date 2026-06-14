@@ -1,3 +1,7 @@
+## v2.2.151 (2026-06-15)
+
+- Repo Maintenance 2026-06-15: Version bump 2.2.150 → 2.2.151, ecosystem documentation consistency audit, cross-skill collaboration table validation.
+
 ## v2.2.150 (2026-06-15)
 
 - Repo Maintenance 2026-06-15 PM: Fixed SWD API bugs (build_context, full_diagnosis, makeover, decision_comparison), updated test suite to match current API (12→9 tests, all passing), version bump 2.2.149→2.2.150, What's New entry, ecosystem documentation consistency audit.
