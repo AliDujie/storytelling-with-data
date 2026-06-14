@@ -27,6 +27,8 @@ This directory contains methodology reference documents for the Storytelling wit
 
 These reference documents are organized following the SWD six-lesson workflow. `12-cross-skill-presentation.md` provides complete guides on how outputs from other skills map to SWD narrative structures.
 
+> 💡 **完整生态链**: UDM (方法引擎) → JTBD (深层需求) → Persona (用户定义) → VPD (价值设计) → QuantUX (数据验证) → SWD (数据叙事) → [STM](https://github.com/AliDujie/Structured-Thinking-Model) (战略决策)
+
 ## 🌐 技能生态关联 / Skill Ecosystem Connections
 
 SWD 是研究流程的最后一步——将其他技能的发现转化为高管可读的叙事：
@@ -36,6 +38,7 @@ SWD 是研究流程的最后一步——将其他技能的发现转化为高管�
 - **JTBD → SWD**: JTBD 的机会分数和四力分析结果 → SWD 构建数据叙事
 - **VPD → SWD**: VPD 的实验验证结果 → SWD 制作汇报演示
 - **Persona → SWD**: Persona 的用户细分数据 → SWD 进行角色画像可视化
+- **SWD → STM**: SWD 的数据故事可输入 [STM](https://github.com/AliDujie/Structured-Thinking-Model) 进行战略框架分析
 
 ## 来源 / Source
 
