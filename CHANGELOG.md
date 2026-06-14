@@ -1,3 +1,12 @@
+## v2.2.150 (2026-06-15)
+
+- Repo Maintenance 2026-06-15 PM: Fixed SWD API bugs (build_context, full_diagnosis, makeover, decision_comparison), updated test suite to match current API (12→9 tests, all passing), version bump 2.2.149→2.2.150, What's New entry, ecosystem documentation consistency audit.
+- Repo Maintenance 2026-06-15 PM: Version bump, What's New entry, ecosystem documentation consistency audit.
+
+## v2.2.149 (2026-06-15)
+
+- Repo Maintenance 2026-06-15 PM: Version bump, What's New entry, ecosystem documentation consistency audit.
+
 ## v2.2.148 (2026-06-14)
 
 - Ecosystem documentation consistency audit across all 6 AliDujie skill repos.

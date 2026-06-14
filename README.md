@@ -53,23 +53,17 @@
 
 - **Repo Maintenance 2026-06-14 Evening**: Ecosystem documentation consistency audit, incremental content review across all 6 AliDujie skill repos.
 
-## 🆕 What's New in v2.2.147
+## 📜 Version History (v2.2.146 and earlier)
 
-- **Repo Maintenance 2026-06-14**: Version sync across all artifacts (2.2.145 → 2.2.146), added Structured Thinking Model (STM) cross-reference to examples/README.md ecosystem section, enhanced ecosystem documentation consistency
-
-- **Repo Maintenance 2026-06-14 PM**: Fixed stale What's New TOC anchor (v22143 → v22144), enhanced Python version badge parity check
-
-- **Repo Maintenance 2026-06-14**: Ecosystem cross-reference parity audit, version sync across all artifacts (2.2.143 → 2.2.144), README readability improvements
-
-- **Repo Maintenance 2026-06-13 PM**: Enhanced "Why Teams Choose SWD" section with ecosystem pipeline diagram and cross-skill collaboration summary at top, consolidated What's New entries
-
-- **Repo Maintenance 2026-06-13 AM**: TOC anchor fix (v22140→v22142), version sync across all artifacts (README/pyproject.toml/SKILL.md), ecosystem cross-reference validation
-
-
-- **Repo Maintenance 2026-06-13**: Enhanced "What's Next" pipeline code example to include all 6 skills (was missing Persona, JTBD, VPD), ecosystem cross-reference validation
-- **Repo Maintenance 2026-06-12 PM**: Bilingual "What's Next / 下一步" cross-skill navigation tables added, Quick Start section enhanced with CN translations, ecosystem cross-reference validation
-- **Repo Maintenance 2026-06-12 AM**: Version sync audit (SKILL.md 2.2.139→2.2.140), CHANGELOG entries for 2.2.139-2.2.140, ecosystem cross-reference validation across all 6 AliDujie skills
-- **Repo Maintenance 2026-06-10**: Consolidated 9 What's New entries into 1, synced CHANGELOG to v2.2.138, ecosystem cross-reference audit across all 6 AliDujie skills
+- **v2.2.146**: Version sync across all artifacts, added Structured Thinking Model cross-reference
+- **v2.2.145**: Fixed stale TOC anchor, enhanced Python version badge parity
+- **v2.2.144**: Ecosystem cross-reference parity audit, README readability improvements
+- **v2.2.143**: Enhanced "Why Teams Choose SWD" with ecosystem pipeline, consolidated entries
+- **v2.2.142**: TOC anchor fix, version sync, ecosystem cross-reference validation
+- **v2.2.141**: Pipeline code example expanded to all 6 skills
+- **v2.2.140**: Bilingual cross-skill navigation tables, Quick Start CN translations
+- **v2.2.139**: Version sync audit, CHANGELOG entries added
+- **v2.2.138**: Consolidated What's New entries, ecosystem audit
 
 > **📦 Full history**: See [CHANGELOG.md](CHANGELOG.md) for complete version details.
 
@@ -1098,7 +1092,7 @@ See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 **Latest (v2.2.148)**: Repo maintenance 2026-06-14 PM — Version bump 2.2.147 → 2.2.148, consolidated daily maintenance entries, finalized ecosystem documentation across all 6 AliDujie skills.
 
-**Previous (v2.2.147)**: Repo maintenance 2026-06-14 PM — Version sync across all artifacts (2.2.146 → 2.2.147), ecosystem cross-reference validation.
+**Previous (v22150)**: Repo maintenance 2026-06-14 PM — Version sync across all artifacts (2.2.146 → 2.2.147), ecosystem cross-reference validation.
 
 **Previous (v2.2.146)**: Repo maintenance 2026-06-14 PM — Fixed stale What's New TOC anchor (v22143 → v22144), enhanced Python version badge parity check.: Repo maintenance 2026-06-14 PM — Fixed stale What's New TOC anchor (v22144 → v22145), version sync across all artifacts (2.2.144 → 2.2.145), enhanced Python version badge parity check.
 
