@@ -39,9 +39,9 @@
 
 ## 🆕 What's New in v2.2.145
 
-- **Repo Maintenance 2026-06-14 PM**: Fixed stale What's New TOC anchor (v22143 → v22144), enhanced Python version badge parity check, consolidated maintenance entries
+- **Repo Maintenance 2026-06-14 PM**: Fixed stale What's New TOC anchor (v22143 → v22144), enhanced Python version badge parity check
 
-- **Repo Maintenance 2026-06-14**: Ecosystem cross-reference parity audit, consolidated maintenance entries, version sync across all artifacts (2.2.143 → 2.2.144), README readability improvements
+- **Repo Maintenance 2026-06-14**: Ecosystem cross-reference parity audit, version sync across all artifacts (2.2.143 → 2.2.144), README readability improvements
 
 - **Repo Maintenance 2026-06-13 PM**: Enhanced "Why Teams Choose SWD" section with ecosystem pipeline diagram and cross-skill collaboration summary at top, consolidated What's New entries
 
@@ -1076,7 +1076,7 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 
-**Latest (v2.2.144)**: Repo maintenance 2026-06-14 PM — Fixed stale What's New TOC anchor (v22144 → v22145), consolidated maintenance entries, version sync across all artifacts (2.2.144 → 2.2.145), consolidated maintenance entries.
+**Latest (v2.2.145)**: Repo maintenance 2026-06-14 PM — Fixed stale What's New TOC anchor (v22144 → v22145), version sync across all artifacts (2.2.144 → 2.2.145), enhanced Python version badge parity check.
 
 **Previous (v2.2.143)**: Repo maintenance 2026-06-13 PM — Enhanced "Why Teams Choose SWD" section with ecosystem pipeline diagram and cross-skill collaboration summary, consolidated What's New entries, version sync across all artifacts (README/pyproject.toml/SKILL.md/__init__.py: 2.2.142 → 2.2.143), ecosystem cross-reference validation across all 6 AliDujie skills.
 
