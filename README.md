@@ -6,7 +6,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
-![Version](https://img.shields.io/badge/version-2.2.148-blue)
+![Version](https://img.shields.io/badge/version-2.2.149-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -15,7 +15,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#whats-new-in-v22148)
+- [What's New](#whats-new-in-v22149)
 - [Why Teams Choose SWD](#why-teams-choose-swd-为什么选择-swd)
 - [Quick Decision: When to Use SWD?](#quick-decision-when-to-use-swd)
 - [Who This Skill Is For](#who-this-skill-is-for)
@@ -38,6 +38,10 @@
 - [Recommended Learning Path / 推荐学习路径](#recommended-learning-path--推荐学习路径--中文)
 
 ---
+
+## 🆕 What's New in v22149
+
+- **Repo Maintenance 2026-06-15 AM**: Version bump 2.2.148 → 2.2.149, consolidated daily maintenance entries, ecosystem documentation consistency audit.
 
 ## 🆕 What's New in v2.2.148
 
@@ -1085,6 +1089,8 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
+
+**Latest (v2.2.149)**: Repo maintenance 2026-06-15 AM — Version bump 2.2.148 → 2.2.149, consolidated daily maintenance entries, ecosystem documentation consistency audit.
 
 **Latest (v2.2.148)**: Repo maintenance 2026-06-14 PM — Version bump 2.2.147 → 2.2.148, consolidated daily maintenance entries, finalized ecosystem documentation across all 6 AliDujie skills.
 

@@ -46,7 +46,7 @@ from swd.diagnosis import DiagnosisEngine
 from swd.makeover import MakeoverEngine
 from swd.designer import DesignEvaluator
 
-__version__ = "2.2.148"
+__version__ = "2.2.149"
 
 __all__ = ["SWDSkill", "__version__"]
 
