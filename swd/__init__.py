@@ -81,7 +81,7 @@ class SWDSkill:
         if cta:
             ctx.set_call_to_action(cta)
         if big_idea:
-            ctx.set_big_idea(big_idea)
+            ctx.set_big_idea(big_idea, stakes=big_idea, full_sentence=big_idea)
         if three_min_story:
             ctx.set_three_min_story(three_min_story)
         if mechanism:
@@ -234,7 +234,9 @@ class SWDSkill:
         """五维度 100 分制综合诊断。"""
         de = DiagnosisEngine()
         if scores:
-            de.score(scores)
+            for dimension, items in scores.items():
+                for item_key, score in items.items():
+                    de.score(dimension, item_key, score)
             de.auto_improvements()
         return DiagnosisEngine.render_markdown(de.build())
 
@@ -248,7 +250,9 @@ class SWDSkill:
         """基于问题列表生成图表改造步骤。"""
         me = MakeoverEngine()
         if issues:
-            me.auto_steps_from_issues(issues)
+            for issue in issues:
+                me.add_issue(issue)
+            me.auto_steps_from_issues()
         if design_spec:
             me.set_design_spec(design_spec)
         return MakeoverEngine.render_markdown(me.build())
@@ -264,8 +268,8 @@ class SWDSkill:
     ) -> str:
         """构建决策方案对比。"""
         sb = StoryBuilder(self.title)
-        sb.add_comparison(title, option_a, option_b)
+        sb.add_comparison(f"{title}: {option_a} vs {option_b}")
         if criteria:
             for c in criteria:
-                sb.add_option(c)
+                sb.add_comparison(c)
         return StoryBuilder.render_markdown(sb.build())
