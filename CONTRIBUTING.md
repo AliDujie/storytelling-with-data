@@ -55,6 +55,7 @@ When contributing, consider how this skill fits into the broader AliDujie UX Res
 - [JTBD Knowledge](https://github.com/AliDujie/jtbd-knowledge-skill) — Jobs to Be Done framework
 - [Value Proposition Design](https://github.com/AliDujie/value-proposition-design) — Canvas & experimentation
 - [Web Persona](https://github.com/AliDujie/web-persona-skill) — Evidence-driven personas
+- [Structured Thinking Model](https://github.com/AliDujie/Structured-Thinking-Model) — SWOT, PESTEL, strategic frameworks
 
 ---
 
