@@ -1,3 +1,7 @@
+## v2.2.152 (2026-06-15)
+
+- Version bump 2.2.151 → 2.2.152, fixed stale Version History Latest entry (v2.2.149→v2.2.152), ecosystem documentation consistency audit.
+
 ## v2.2.151 (2026-06-15)
 
 - Repo Maintenance 2026-06-15: Version bump 2.2.150 → 2.2.151, ecosystem documentation consistency audit, cross-skill collaboration table validation.

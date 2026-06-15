@@ -6,7 +6,7 @@
 
 📖 [GitHub Repository](https://github.com/AliDujie/storytelling-with-data)
 
-![Version](https://img.shields.io/badge/version-2.2.151-blue)
+![Version](https://img.shields.io/badge/version-2.2.152-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green)
 ![License](https://img.shields.io/badge/License-MIT-orange)
 ![Zero Dependencies](https://img.shields.io/badge/Dependencies-None-lightgrey)
@@ -15,7 +15,7 @@
 
 ## 📑 Table of Contents
 
-- [What's New](#whats-new-in-v22151)
+- [What's New](#whats-new-in-v22152)
 - [Why Teams Choose SWD](#why-teams-choose-swd-为什么选择-swd)
 - [Quick Decision: When to Use SWD?](#quick-decision-when-to-use-swd)
 - [Who This Skill Is For](#who-this-skill-is-for)
@@ -39,14 +39,14 @@
 
 ---
 
-## 🆕 What's New in v22151
+## 🆕 What's New in v22152
 
-- **Repo Maintenance 2026-06-15**: Version bump 2.2.150 → 2.2.151, consolidated older What's New entries, added chart makeover recipe with before/after code, cross-skill collaboration consistency check.
+- **Repo Maintenance 2026-06-15**: Version bump 2.2.151 → 2.2.152, consolidated older What's New entries, added chart makeover recipe with before/after code, cross-skill collaboration consistency check.
 
 
 ## 🆕 What's New in v2.2.149
 
-- **Repo Maintenance 2026-06-15 AM**: Version bump 2.2.148 → 2.2.149, consolidated daily maintenance entries, ecosystem documentation consistency audit.
+- **Repo Maintenance 2026-06-15 AM**: Version bump 2.2.151 → 2.2.152, consolidated daily maintenance entries, ecosystem documentation consistency audit.
 
 ## 🆕 What's New in v2.2.148
 
@@ -1097,11 +1097,11 @@ See [INSTALL.md](INSTALL.md) for full configuration options and agent integratio
 See [CHANGELOG.md](CHANGELOG.md) for full release notes.
 
 
-**Latest (v2.2.149)**: Repo maintenance 2026-06-15 AM — Version bump 2.2.148 → 2.2.149, consolidated daily maintenance entries, ecosystem documentation consistency audit.
+**Latest (v2.2.152)**: Repo maintenance 2026-06-15 AM — Version bump 2.2.151 → 2.2.152, consolidated daily maintenance entries, ecosystem documentation consistency audit.
 
-**Latest (v2.2.148)**: Repo maintenance 2026-06-14 PM — Version bump 2.2.147 → 2.2.148, consolidated daily maintenance entries, finalized ecosystem documentation across all 6 AliDujie skills.
+**Previous (v2.2.148)**: Repo maintenance 2026-06-14 PM — Version bump 2.2.147 → 2.2.148, consolidated daily maintenance entries, finalized ecosystem documentation across all 6 AliDujie skills.
 
-**Previous (v22150)**: Repo maintenance 2026-06-14 PM — Version sync across all artifacts (2.2.146 → 2.2.147), ecosystem cross-reference validation.
+**Previous (v2.2.150)**: Repo maintenance 2026-06-14 PM — Version sync across all artifacts (2.2.146 → 2.2.147), ecosystem cross-reference validation.
 
 **Previous (v2.2.146)**: Repo maintenance 2026-06-14 PM — Fixed stale What's New TOC anchor (v22143 → v22144), enhanced Python version badge parity check.: Repo maintenance 2026-06-14 PM — Fixed stale What's New TOC anchor (v22144 → v22145), version sync across all artifacts (2.2.144 → 2.2.145), enhanced Python version badge parity check.
 
