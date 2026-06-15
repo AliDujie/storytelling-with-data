@@ -20,6 +20,20 @@ PYTHONPATH=. python examples/04_declutter_diagnosis.py
 | `03_story_building.py` | Story building for a data narrative with protagonist, imbalance, and call-to-action |
 | `04_declutter_diagnosis.py` | Automated clutter detection and cleanup recommendations |
 
+### Expected Output
+
+```
+>>> Chart Recommendation: Compare categories
+>>> Data: [Category A: 35, Category B: 52, Category C: 28]
+>>>
+>>>  Recommended: Bar Chart (horizontal)
+>>>  Rationale: Clear comparison of discrete categories; horizontal bars
+>>>             allow easy label reading and value comparison.
+>>>  Design tip: Sort descending, use gray bars with one highlight color.
+```
+
+*Actual output varies based on input — run to see the full analysis.*
+
 ## Try Before You Decide
 
 ```bash
@@ -30,6 +44,13 @@ chart = skill.recommend_chart('compare', ['Category A', 'Category B', 'Category 
 print(chart)
 "
 ```
+
+## Tips / 提示
+
+- Set `PYTHONPATH=.` to run examples without installing
+- No `pip install` required — SWD uses only Python standard library
+- Combine with QuantUX examples: QuantUX generates data → SWD visualizes it
+- See [USAGE.md](../USAGE.md) for detailed API documentation
 
 ## 🔗 Ecosystem Integration / 生态集成
 

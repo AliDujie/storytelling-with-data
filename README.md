@@ -77,6 +77,14 @@
 
 Based on *Storytelling with Data* by Cole Nussbaumer Knaflic (2015). A complete toolkit for **data visualization and data storytelling**, providing **8 executable capabilities + 3 CEO-level extensions** - from context analysis to chart selection, decluttering, attention guidance, design evaluation, story construction, comprehensive diagnosis, chart makeovers, and executive decision support.
 
+**Try it in 3 lines / 三行代码开始使用:**
+
+```python
+from swd import SWDSkill
+skill = SWDSkill("Your Project")
+chart = skill.recommend_chart("compare", ["Q1", "Q2", "Q3"], [35, 52, 28])  # Chart recommendation
+```
+
 ## 🎯 Why Teams Choose SWD / 为什么选择 SWD
 
 *New here?* SWD turns your charts and data into **stories that drive decisions**. Instead of dumping numbers on slides, you'll learn to build a three-act narrative with clear calls to action. Based on Cole Nussbaumer Knaflic (2015).
